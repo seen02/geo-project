@@ -1,0 +1,21 @@
+{
+ "image": "C:\\Users\\admin\\Documents\\ChatGPT\\새로운 프로젝트 선정\\frame-location\\.local-data\\requests\\FR-20261103-3711BC\\runs\\1\\reference.jpg",
+ "size": [
+  2866,
+  5095
+ ],
+ "backend": "rapidocr",
+ "items": [
+  {
+   "text": "tpir",
+   "conf": 0.567,
+   "box": [
+    1395,
+    1769,
+    1457,
+    1787
+   ],
+   "pass": "tile"
+  }
+ ]
+}

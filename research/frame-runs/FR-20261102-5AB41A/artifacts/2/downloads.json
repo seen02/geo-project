@@ -1,0 +1,31 @@
+[
+  {
+    "file": "unsplash.html",
+    "url": "https://unsplash.com/photos/wooden-boat-on-lago-di-braies-O453M2Liufs",
+    "error": "HTTP Error 401: Unauthorized"
+  },
+  {
+    "file": "commons.html",
+    "url": "https://commons.wikimedia.org/wiki/File:Lago_di_Braies_on_boat.jpg",
+    "bytes": 80359,
+    "status": "downloaded"
+  },
+  {
+    "file": "operator.html",
+    "url": "https://www.la-palafitta.com/en",
+    "bytes": 61792,
+    "status": "downloaded"
+  },
+  {
+    "file": "official-landscape.jpg",
+    "url": "https://www.suedtirol.info/en/en/experiences-and-events/nature/lakes-and-natural-pools/pragser-wildsee-lake/_jcr_content/root/containerStatic/editorial_hightlight_1724631691/tab/item_1776932953456/image-bg.coreimg.jpeg/1776933607745/pragserwildsee.jpeg",
+    "bytes": 354698,
+    "status": "downloaded"
+  },
+  {
+    "file": "lake-coordinate.html",
+    "url": "https://en.wikipedia.org/wiki/Pragser_Wildsee",
+    "bytes": 139244,
+    "status": "downloaded"
+  }
+]

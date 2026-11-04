@@ -1,0 +1,47 @@
+{
+  "map": "doksan_detail.jpg",
+  "crop": [
+    250,
+    100,
+    1600,
+    1150
+  ],
+  "width": 1280,
+  "camera": [
+    37.1843,
+    127.0223
+  ],
+  "heading": 61,
+  "hfov": 67,
+  "range_m": 200,
+  "labels": [
+    {
+      "at": [
+        37.1843,
+        127.0223
+      ],
+      "text": "Estimated area (+/-150 m)",
+      "dx": -600,
+      "dy": -90
+    },
+    {
+      "at": [
+        37.18380065275964,
+        127.0194411277771
+      ],
+      "text": "Bojeoksa / Doksanseong",
+      "dx": -300,
+      "dy": 150
+    }
+  ],
+  "panels": [
+    {
+      "image": "photo_annotated.jpg",
+      "caption": "User photo: 1 towers | 2 golf net | 3 apartments | 4 small roof"
+    },
+    {
+      "image": "street_annotated.jpg",
+      "caption": "Google Street View nearby: same skyline and foreground roof"
+    }
+  ]
+}

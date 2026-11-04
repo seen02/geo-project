@@ -1,0 +1,72 @@
+[
+ {
+  "rank": 1,
+  "id": "1",
+  "file": "refs\\1.jpg",
+  "score_global": 0.5465,
+  "inliers": 0,
+  "matches": 11,
+  "refined": true,
+  "heading": null,
+  "wgs": null,
+  "road": "",
+  "date": "",
+  "label": ""
+ },
+ {
+  "rank": 2,
+  "id": "2",
+  "file": "refs\\2.jpg",
+  "score_global": 0.4972,
+  "inliers": 5,
+  "matches": 18,
+  "refined": true,
+  "heading": null,
+  "wgs": null,
+  "road": "",
+  "date": "",
+  "label": ""
+ },
+ {
+  "rank": 3,
+  "id": "0",
+  "file": "refs\\0.jpg",
+  "score_global": 0.4746,
+  "inliers": 0,
+  "matches": 19,
+  "refined": true,
+  "heading": null,
+  "wgs": null,
+  "road": "",
+  "date": "",
+  "label": ""
+ },
+ {
+  "rank": 4,
+  "id": "3",
+  "file": "refs\\3.jpg",
+  "score_global": 0.3805,
+  "inliers": 5,
+  "matches": 16,
+  "refined": true,
+  "heading": null,
+  "wgs": null,
+  "road": "",
+  "date": "",
+  "label": ""
+ },
+ {
+  "rank": 5,
+  "id": "4",
+  "file": "refs\\4.jpg",
+  "score_global": 0.3727,
+  "inliers": 6,
+  "matches": 16,
+  "refined": true,
+  "heading": null,
+  "wgs": null,
+  "road": "",
+  "date": "",
+  "label": ""
+ }
+]

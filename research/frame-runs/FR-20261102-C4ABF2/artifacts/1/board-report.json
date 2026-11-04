@@ -1,0 +1,93 @@
+{
+ "board": {
+  "candidate_levels": {
+   "city": [
+    {
+     "name": "강릉시",
+     "share": 1.0,
+     "evidence": 3,
+     "verified": 1,
+     "excluded": false
+    }
+   ],
+   "area": [
+    {
+     "name": "사근진 해중공원",
+     "share": 1.0,
+     "evidence": 3,
+     "verified": 1,
+     "excluded": false
+    }
+   ],
+   "road": [
+    {
+     "name": "전망대 북서쪽 곡선 석축",
+     "share": 0.955,
+     "evidence": 2,
+     "verified": 1,
+     "excluded": false
+    },
+    {
+     "name": "전망대 북쪽 해변",
+     "share": 0.032,
+     "evidence": 1,
+     "verified": 0,
+     "excluded": false
+    },
+    {
+     "name": "전망대 남쪽 해변",
+     "share": 0.013,
+     "evidence": 1,
+     "verified": 0,
+     "excluded": false
+    }
+   ],
+   "point": [
+    {
+     "name": "북서쪽 곡선 석축 촬영 추정점",
+     "share": 1.0,
+     "evidence": 2,
+     "verified": 1,
+     "excluded": false
+    }
+   ]
+  },
+  "main": {
+   "level": "road",
+   "name": "전망대 북서쪽 곡선 석축",
+   "share": 0.955,
+   "evidence": [
+    {
+     "clue": "Public daytime photos match the lookout side fins and paired top beams, pastel blocks, and arched shelters. The north-side basin is consistent with water on left and promenade on right.",
+     "status": "observed",
+     "lr": 5.0,
+     "why": "Northwest inner curve gives water left, lookout left of shelters and southward hotel skyline at right; open north beach is farther, south beach reverses the side.",
+     "file": "satellite-north.jpg"
+    },
+    {
+     "clue": "Google z19 mosaic confirms basin northwest of lookout; conditional frame geometry places Skybay to right for heading about 101-107 degrees. DEM at bank is 2 m; no original EXIF.",
+     "status": "computed",
+     "lr": 3.0,
+     "why": "Computed bearing and frame ordering are consistent; fixed candidate geometry is conditional and does not independently localize the camera.",
+     "file": "geometry-frame.json"
+    }
+   ]
+  },
+  "alternatives": [],
+  "excluded": [],
+  "unused_clues": [],
+  "downweighted_not_excluded": [
+   "전망대 남쪽 해변",
+   "전망대 북쪽 해변"
+  ],
+  "falsify": {
+   "사근진 해중공원": [
+    "Reject identification only if lookout side fins, curved top beams, arched shelters and protected curved shoreline fail comparison."
+   ]
+  },
+  "unexamined": [],
+  "level_gaps": []
+ },
+ "excluded": [],
+ "unused_clues": []
+}

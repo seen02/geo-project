@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "request_id": "FR-20261103-976876",
+  "title": "학교 캠퍼스 사진 위치 찾기",
+  "place_name": "",
+  "region": "",
+  "summary": "",
+  "lat": null,
+  "lon": null,
+  "radius_m": null,
+  "heading": null,
+  "hfov": null,
+  "radius_basis": "",
+  "heading_basis": "",
+  "confidence_levels": {
+    "city": {
+      "level": "unrated",
+      "reason": ""
+    },
+    "area": {
+      "level": "unrated",
+      "reason": ""
+    },
+    "road": {
+      "level": "unrated",
+      "reason": ""
+    },
+    "camera": {
+      "level": "unrated",
+      "reason": ""
+    }
+  },
+  "verification": {
+    "street_view": {
+      "status": "not_attempted",
+      "summary": "",
+      "files": []
+    },
+    "image_match": {
+      "status": "not_attempted",
+      "summary": "",
+      "files": []
+    },
+    "geometry": {
+      "status": "not_attempted",
+      "summary": "",
+      "files": []
+    }
+  },
+  "evidence_spec": "",
+  "coordinate_type": "unknown",
+  "confidence": "unrated",
+  "composition": "",
+  "best_time": "",
+  "access": "",
+  "lens": "",
+  "clues": [],
+  "evidence": [
+    {
+      "name": "조사 근거 이미지",
+      "file": "evidence.jpg",
+      "description": ""
+    }
+  ],
+  "alternatives": [],
+  "caveats": [],
+  "sources": []
+}

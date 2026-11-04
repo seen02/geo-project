@@ -1,0 +1,26 @@
+{
+  "user_supplied_actual": [
+    37.81438,
+    128.89691
+  ],
+  "previous_representative": [
+    37.81425,
+    128.8976
+  ],
+  "conditional_full_pose": [
+    37.8143935,
+    128.8968599
+  ],
+  "previous_error_m": 62.312457685340064,
+  "new_point_error_m": 4.64996442034095,
+  "bearing_only_point": [
+    37.81431368461291,
+    128.8969182254139
+  ],
+  "truth_usage": "Held-out evaluation after all fitting; same photo was already known from a prior conversation, so not a blind test.",
+  "height_sensitivity_cases": 81,
+  "height_sensitivity_min_rms": 2.649428203705128,
+  "max_position_shift_m": 25.280072043473915,
+  "height_ranges": "Roof 6.5..10.5m; stair foot 0.5..2.5m; hotel 65..85m; camera 3..6m, all assumed elevations, not surveys",
+  "direction_to_observatory_deg": 100.21037488602951
+}

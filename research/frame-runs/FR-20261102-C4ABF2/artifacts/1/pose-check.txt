@@ -1,0 +1,8 @@
+Self-check pitch=-7.3°: the true horizon (sea horizon / distant flat horizon) should fall on row 520 of the frame (810 rows, frame center 405). If the sea horizon in the photo is not near this row, pitch was filled in wrong: the target's depression angle ≠ the camera's pitch.
+  Sea horizon in the photo is on row 290 → pitch should be 7.3° (current -7.3°, off by 14.5°)
+  !! pitch contradicts the sea horizon by 14.5° > 2°: calibrate pitch from the sea horizon first, then project/solve
+Self-check camera height 3.6 (same datum as each point's h); the "expected row" in the table below must match the actual row of that feature in the photo:
+  Lookout top (height assumed) horizontal     71 m  height diff   -3.9 m  geometric depression  -3.2°  expected row    239  actual row 235, off by 4 px
+  Shelter 1 (height assumed) horizontal     65 m  height diff    0.1 m  geometric depression   0.1°  expected row    291  actual row 285, off by 6 px
+  Shelter 2 (height assumed) horizontal     63 m  height diff    0.1 m  geometric depression   0.1°  expected row    291  actual row 285, off by 6 px
+pose-project.jpg

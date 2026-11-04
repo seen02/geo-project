@@ -1,0 +1,53 @@
+{
+ "board": {
+  "candidate_levels": {
+   "country": [
+    {
+     "name": "South Korea",
+     "share": 1.0,
+     "evidence": 2,
+     "verified": 1,
+     "excluded": false
+    }
+   ]
+  },
+  "main": {
+   "level": "country",
+   "name": "South Korea",
+   "share": 1.0,
+   "evidence": [
+    {
+     "clue": "Korean-style passenger registration plate with Hangul, Kia Seltos and Korean-style power utility installation; no location text. Modern brown standing-seam roofs, dark timber cabin, landscaped pines, broadleaf fruit trees with white protective bags, gravel court between wooded slopes.",
+     "status": "observed",
+     "lr": 5.0,
+     "why": "Plate script and format together with surrounding infrastructure support Korea; plate is not a regional code.",
+     "file": "query.jpg"
+    },
+    {
+     "clue": "Visible registration text contains Hangul 어 between a three-digit and four-digit number group, consistent with a South Korean passenger plate. This is a reading of the plate, not a regional registration identifier.",
+     "status": "read",
+     "lr": 5.0,
+     "why": "Read Hangul character and digit grouping support South Korea only; no local region is encoded.",
+     "file": "intake/edges/query_corner_bl.jpg"
+    }
+   ]
+  },
+  "alternatives": [],
+  "excluded": [],
+  "unused_clues": [
+   "No GPS, capture date, camera or lens EXIF in supplied1440x1080 JPEG. OCR yields vehicle-number digits only; a wall address plate is largely occluded and the right-side strip is illegible.",
+   "Long leathery leaves and bagged fruit might be loquat; species is unverified and planting can occur outside its main crop regions. This clue cannot establish a province.",
+   "Eight keyword-discovered Korean exterior references were locally ranked by DINOv2/SIFT, then all eight visually checked. None reproduces the standing-seam roof geometry, dark facade, window/deck placement and sculpted multi-stem pine. No matching anchor. Earlier13 downloaded items were five mostly night-scene photos and eight site icons, not13 independent property candidates."
+  ],
+  "downweighted_not_excluded": [],
+  "falsify": {},
+  "unexamined": [],
+  "level_gaps": []
+ },
+ "excluded": [],
+ "unused_clues": [
+  "No GPS, capture date, camera or lens EXIF in supplied1440x1080 JPEG. OCR yields vehicle-number digits only; a wall address plate is largely occluded and the right-side strip is illegible.",
+  "Long leathery leaves and bagged fruit might be loquat; species is unverified and planting can occur outside its main crop regions. This clue cannot establish a province.",
+  "Eight keyword-discovered Korean exterior references were locally ranked by DINOv2/SIFT, then all eight visually checked. None reproduces the standing-seam roof geometry, dark facade, window/deck placement and sculpted multi-stem pine. No matching anchor. Earlier13 downloaded items were five mostly night-scene photos and eight site icons, not13 independent property candidates."
+ ]
+}

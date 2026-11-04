@@ -1,0 +1,21 @@
+{
+ "image": "C:\\Users\\admin\\img2place_project\\geo_work_20261102_coast\\query.jpg",
+ "size": [
+  1440,
+  810
+ ],
+ "backend": "rapidocr",
+ "items": [
+  {
+   "text": "mihl",
+   "conf": 0.578,
+   "box": [
+    449,
+    227,
+    555,
+    260
+   ],
+   "pass": "tile"
+  }
+ ]
+}

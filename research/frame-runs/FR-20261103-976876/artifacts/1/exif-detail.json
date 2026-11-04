@@ -1,0 +1,42 @@
+{
+  "Exif": {
+    "ExifVersion": "b'0220'",
+    "ShutterSpeedValue": "0.001712328",
+    "ApertureValue": "1.69",
+    "DateTimeOriginal": "2026:11:03 13:49:03",
+    "DateTimeDigitized": "2026:11:03 13:49:03",
+    "BrightnessValue": "7.87",
+    "ExposureBiasValue": "0.0",
+    "MaxApertureValue": "1.69",
+    "MeteringMode": "2",
+    "Flash": "0",
+    "FocalLength": "5.4",
+    "ColorSpace": "65535",
+    "ExifImageWidth": "4000",
+    "DigitalZoomRatio": "1.0",
+    "FocalLengthIn35mmFilm": "23",
+    "SceneCaptureType": "0",
+    "OffsetTime": "+09:00",
+    "OffsetTimeOriginal": "+09:00",
+    "SubsecTime": "109",
+    "SubsecTimeOriginal": "109",
+    "SubsecTimeDigitized": "109",
+    "ExifImageHeight": "2252",
+    "ExposureTime": "0.001712328",
+    "FNumber": "1.8",
+    "ImageUniqueID": "F50XLPE00SM",
+    "ExposureProgram": "2",
+    "ISOSpeedRatings": "25",
+    "ExposureMode": "0",
+    "FlashPixVersion": "b'0100'",
+    "WhiteBalance": "0"
+  },
+  "GPSInfo": {
+    "GPSLatitudeRef": "N",
+    "GPSLatitude": "(37.0, 11.0, 33.429839)",
+    "GPSLongitudeRef": "E",
+    "GPSLongitude": "(127.0, 1.0, 39.77796)",
+    "GPSAltitudeRef": "0",
+    "GPSAltitude": "78.0"
+  }
+}

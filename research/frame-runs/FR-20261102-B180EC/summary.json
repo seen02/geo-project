@@ -1,0 +1,16 @@
+{
+  "id": "FR-20261102-B180EC",
+  "title": "좋은 풍경 찍기",
+  "status": "review",
+  "job_state": "completed",
+  "stage": "complete",
+  "attempt": 1,
+  "started_at": "2026-11-02T01:54:20.671Z",
+  "finished_at": "2026-11-02T02:02:49.023Z",
+  "model": null,
+  "reasoning_effort": null,
+  "place_name": "경기도 오산시 독산성 일대(유력 후보·촬영점 미확정)",
+  "coordinate_type": "landmark",
+  "confidence": "medium",
+  "error": null
+}

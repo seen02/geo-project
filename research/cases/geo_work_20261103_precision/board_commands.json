@@ -1,0 +1,296 @@
+[
+  {
+    "command": [
+      "C:\\Users\\admin\\AppData\\Roaming\\Python\\Python312\\Scripts\\uv.exe",
+      "run",
+      "C:\\Users\\admin\\.codex\\skills\\geo-sleuth\\scripts\\board.py",
+      "country",
+      "kr"
+    ],
+    "returncode": 0,
+    "stdout": "Note: no region pack for 'kr' (installed: CA, CN, IL, JP, LK, MM, MX, NZ, TR, US); lookups that need a pack will answer unsupported, global tools still work.\nCountry context KR: `apply` restricts region-pack lookups to it; `next` uses its tips.\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "C:\\Users\\admin\\AppData\\Roaming\\Python\\Python312\\Scripts\\uv.exe",
+      "run",
+      "C:\\Users\\admin\\.codex\\skills\\geo-sleuth\\scripts\\board.py",
+      "add",
+      "--from",
+      "anchor_area.json",
+      "--level",
+      "area",
+      "--radius",
+      "250"
+    ],
+    "returncode": 0,
+    "stdout": "Added 1 area candidates from anchor_area.json (1 read; duplicate names skipped). Same names under another parent get the parent in the key. All on the board with a uniform prior: record evidence for every one you look at (record --against too when it doesn't match); check lists the ones not looked at.\n1 candidates\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "C:\\Users\\admin\\AppData\\Roaming\\Python\\Python312\\Scripts\\uv.exe",
+      "run",
+      "C:\\Users\\admin\\.codex\\skills\\geo-sleuth\\scripts\\board.py",
+      "add",
+      "Sageunjin shore segments",
+      "--level",
+      "road",
+      "--parent",
+      "Sageunjin coastal facility",
+      "--bbox",
+      "37.8138,128.8963,37.8148,128.8985"
+    ],
+    "returncode": 0,
+    "stdout": "2 candidates\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "C:\\Users\\admin\\AppData\\Roaming\\Python\\Python312\\Scripts\\uv.exe",
+      "run",
+      "C:\\Users\\admin\\.codex\\skills\\geo-sleuth\\scripts\\board.py",
+      "add",
+      "--from",
+      "camera_candidates.json",
+      "--level",
+      "point",
+      "--parent",
+      "Sageunjin shore segments",
+      "--radius",
+      "30"
+    ],
+    "returncode": 0,
+    "stdout": "Added 5 point candidates from camera_candidates.json (5 read; duplicate names skipped). Same names under another parent get the parent in the key. All on the board with a uniform prior: record evidence for every one you look at (record --against too when it doesn't match); check lists the ones not looked at.\n7 candidates\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "C:\\Users\\admin\\AppData\\Roaming\\Python\\Python312\\Scripts\\uv.exe",
+      "run",
+      "C:\\Users\\admin\\.codex\\skills\\geo-sleuth\\scripts\\board.py",
+      "clue",
+      "White curved observatory, stair arrangement and colored tetrapods match the public reference.",
+      "--kind",
+      "visual",
+      "--status",
+      "observed",
+      "--file",
+      "../geo_work_20261102_coast/refs/0.jpg"
+    ],
+    "returncode": 0,
+    "stdout": "K1 recorded. Status observed: likelihood ratio cap 5, can only rank, can't exclude\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "C:\\Users\\admin\\AppData\\Roaming\\Python\\Python312\\Scripts\\uv.exe",
+      "run",
+      "C:\\Users\\admin\\.codex\\skills\\geo-sleuth\\scripts\\board.py",
+      "clue",
+      "Upper structure control points are provisional; the far curved point C has no unique correspondence.",
+      "--kind",
+      "geometry",
+      "--status",
+      "inferred",
+      "--file",
+      "map_controls.png"
+    ],
+    "returncode": 0,
+    "stdout": "K2 recorded. Status inferred: likelihood ratio cap 3, can only rank, can't exclude\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "C:\\Users\\admin\\AppData\\Roaming\\Python\\Python312\\Scripts\\uv.exe",
+      "run",
+      "C:\\Users\\admin\\.codex\\skills\\geo-sleuth\\scripts\\board.py",
+      "clue",
+      "Reprojection solved with A/B/D/E and tentative distant hotel: RMS 7.15px; E is flagged by leave-one-out.",
+      "--kind",
+      "geometry",
+      "--status",
+      "computed",
+      "--file",
+      "full_pose.json",
+      "--resolves",
+      "K2"
+    ],
+    "returncode": 0,
+    "stdout": "K3 recorded. Status computed: likelihood ratio cap 50, usable for exclude (still needs a computed file)\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "C:\\Users\\admin\\AppData\\Roaming\\Python\\Python312\\Scripts\\uv.exe",
+      "run",
+      "C:\\Users\\admin\\.codex\\skills\\geo-sleuth\\scripts\\board.py",
+      "clue",
+      "Projected satellite water edge differs from photographed water edge; no same-date shore control.",
+      "--kind",
+      "geometry",
+      "--status",
+      "computed",
+      "--file",
+      "shore_comparison.jpg"
+    ],
+    "returncode": 0,
+    "stdout": "K4 recorded. Status computed: likelihood ratio cap 50, usable for exclude (still needs a computed file)\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "C:\\Users\\admin\\AppData\\Roaming\\Python\\Python312\\Scripts\\uv.exe",
+      "run",
+      "C:\\Users\\admin\\.codex\\skills\\geo-sleuth\\scripts\\board.py",
+      "clue",
+      "Camera candidates compared with all points and each point omitted; none exceeds robust delta-chi2 9.",
+      "--kind",
+      "geometry",
+      "--status",
+      "computed",
+      "--file",
+      "candidate_check.json"
+    ],
+    "returncode": 0,
+    "stdout": "K5 recorded. Status computed: likelihood ratio cap 50, usable for exclude (still needs a computed file)\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "C:\\Users\\admin\\AppData\\Roaming\\Python\\Python312\\Scripts\\uv.exe",
+      "run",
+      "C:\\Users\\admin\\.codex\\skills\\geo-sleuth\\scripts\\board.py",
+      "clue",
+      "The user supplied 37.81438,128.89691 previously for this byte-identical photo; withheld from fit and used for evaluation.",
+      "--kind",
+      "hint",
+      "--status",
+      "inferred",
+      "--file",
+      "coordinate_comparison.json"
+    ],
+    "returncode": 0,
+    "stdout": "K6 recorded. Status inferred: likelihood ratio cap 3, can only rank, can't exclude\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "C:\\Users\\admin\\AppData\\Roaming\\Python\\Python312\\Scripts\\uv.exe",
+      "run",
+      "C:\\Users\\admin\\.codex\\skills\\geo-sleuth\\scripts\\board.py",
+      "evidence",
+      "--clue",
+      "K1",
+      "--for",
+      "Sageunjin coastal facility:5",
+      "--why",
+      "The landmark identity matches three structural features.",
+      "--file",
+      "evidence.jpg"
+    ],
+    "returncode": 0,
+    "stdout": "Recorded.\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "C:\\Users\\admin\\AppData\\Roaming\\Python\\Python312\\Scripts\\uv.exe",
+      "run",
+      "C:\\Users\\admin\\.codex\\skills\\geo-sleuth\\scripts\\board.py",
+      "evidence",
+      "--clue",
+      "K1",
+      "--for",
+      "Sageunjin shore segments:5",
+      "--why",
+      "The same facility and coastal layout are observed.",
+      "--file",
+      "evidence.jpg"
+    ],
+    "returncode": 0,
+    "stdout": "Recorded.\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "C:\\Users\\admin\\AppData\\Roaming\\Python\\Python312\\Scripts\\uv.exe",
+      "run",
+      "C:\\Users\\admin\\.codex\\skills\\geo-sleuth\\scripts\\board.py",
+      "evidence",
+      "--clue",
+      "K3",
+      "--for",
+      "conditional_solution:3",
+      "--for",
+      "west_shore:2",
+      "--against",
+      "central_curve:0.5",
+      "--against",
+      "previous_representative:0.3",
+      "--against",
+      "south_promenade:0.5",
+      "--why",
+      "Provisional camera model favors the northwest shore; no candidate is definitively excluded.",
+      "--file",
+      "candidate_check.json"
+    ],
+    "returncode": 0,
+    "stdout": "Recorded.\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "C:\\Users\\admin\\AppData\\Roaming\\Python\\Python312\\Scripts\\uv.exe",
+      "run",
+      "C:\\Users\\admin\\.codex\\skills\\geo-sleuth\\scripts\\board.py",
+      "evidence",
+      "--clue",
+      "K5",
+      "--for",
+      "conditional_solution:1.5",
+      "--for",
+      "west_shore:1.1",
+      "--against",
+      "central_curve:0.8",
+      "--against",
+      "previous_representative:0.7",
+      "--against",
+      "south_promenade:0.8",
+      "--why",
+      "All-point residual favors the new position, but dropping the distant landmark prevents robust exclusions.",
+      "--file",
+      "candidate_check.json"
+    ],
+    "returncode": 0,
+    "stdout": "Recorded.\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "C:\\Users\\admin\\AppData\\Roaming\\Python\\Python312\\Scripts\\uv.exe",
+      "run",
+      "C:\\Users\\admin\\.codex\\skills\\geo-sleuth\\scripts\\board.py",
+      "check",
+      "--evidence",
+      "evidence.jpg"
+    ],
+    "returncode": 0,
+    "stdout": "Pre-conclusion check:\n  ok   main answer conditional_solution: 2 pieces of evidence, 2 verified\n  WARN alternatives with share \u226515% remain: west_shore \u2192 write them into alternatives with a discriminating test; no midpoint\n  ok   evidence image evidence.jpg\n  NOTE unused clues: K2, K4, K6 \u2192 write them into unused_clues\nResult: pass\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "C:\\Users\\admin\\AppData\\Roaming\\Python\\Python312\\Scripts\\uv.exe",
+      "run",
+      "C:\\Users\\admin\\.codex\\skills\\geo-sleuth\\scripts\\board.py",
+      "report",
+      "--merge",
+      "result.json"
+    ],
+    "returncode": 0,
+    "stdout": "Merged into result.json (board field + alternatives/excluded/unused_clues)\n{\n \"candidate_levels\": {\n  \"area\": [\n   {\n    \"name\": \"Sageunjin coastal facility\",\n    \"share\": 1.0,\n    \"evidence\": 3,\n    \"verified\": 2,\n    \"excluded\": false\n   }\n  ],\n  \"road\": [\n   {\n    \"name\": \"Sageunjin shore segments\",\n    \"share\": 1.0,\n    \"evidence\": 3,\n    \"verified\": 2,\n    \"excluded\": false\n   }\n  ],\n  \"point\": [\n   {\n    \"name\": \"conditional_solution\",\n    \"share\": 0.584,\n    \"evidence\": 2,\n    \"verified\": 2,\n    \"excluded\": false\n   },\n   {\n    \"name\": \"west_shore\",\n    \"share\": 0.285,\n    \"evidence\": 2,\n    \"verified\": 2,\n    \"excluded\": false\n   },\n   {\n    \"name\": \"central_curve\",\n    \"share\": 0.052,\n    \"evidence\": 2,\n    \"verified\": 2,\n    \"excluded\": false\n   },\n   {\n    \"name\": \"south_promenade\",\n    \"share\": 0.052,\n    \"evidence\": 2,\n    \"verified\": 2,\n    \"excluded\": false\n   },\n   {\n    \"name\": \"previous_representative\",\n    \"share\": 0.027,\n    \"evidence\": 2,\n    \"verified\": 2,\n    \"excluded\": false\n   }\n  ]\n },\n \"main\": {\n  \"level\": \"point\",\n  \"name\": \"conditional_solution\",\n  \"share\": 0.584,\n  \"evidence\": [\n   {\n    \"clue\": \"Reprojection solved with A/B/D/E and tentative distant hotel: RMS 7.15px; E is flagged by leave-one-out.\",\n    \"status\": \"computed\",\n    \"lr\": 3.0,\n    \"why\": \"Provisional camera model favors the northwest shore; no candidate is definitively excluded.\",\n    \"file\": \"candidate_check.json\"\n   },\n   {\n    \"clue\": \"Camera candidates compared with all points and each point omitted; none exceeds robust delta-chi2 9.\",\n    \"status\": \"computed\",\n    \"lr\": 1.5,\n    \"why\": \"All-point residual favors the new position, but dropping the distant landmark prevents robust exclusions.\",\n    \"file\": \"candidate_check.json\"\n   }\n  ]\n },\n \"alternatives\": [\n  {\n   \"name\": \"west_shore\",\n   \"share\": 0.285,\n   \"how_to_separate\": \"run one cheap test on both together (terrain/livery/municipal fixtures/water template), or scan the first 3 pages of each built-up area\"\n  },\n  {\n   \"name\": \"central_curve\",\n   \"share\": 0.052,\n   \"how_to_separate\": \"run one cheap test on both together (terrain/livery/municipal fixtures/water template), or scan the first 3 pages of each built-up area\"\n  },\n  {\n   \"name\": \"south_promenade\",\n   \"share\": 0.052,\n   \"how_to_separate\": \"run one cheap test on both together (terrain/livery/municipal fixtures/water template), or scan the first 3 pages of each built-up area\"\n  }\n ],\n \"excluded\": [],\n \"unused_clues\": [\n  \"Upper structure control points are provisional; the far curved point C has no unique correspondence.\",\n  \"Projected satellite water edge differs from photographed water edge; no same-date shore control.\",\n  \"The user supplied 37.81438,128.89691 previously for this byte-identical photo; withheld from fit and used for evaluation.\"\n ],\n \"downweighted_not_excluded\": [],\n \"falsify\": {},\n \"unexamined\": [],\n \"level_gaps\": []\n}\n\nReminder: main answer = first place, alternatives listed separately; no midpoint, no big circle.\n",
+    "stderr": ""
+  }
+]

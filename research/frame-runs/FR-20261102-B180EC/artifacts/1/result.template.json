@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "request_id": "FR-20261102-B180EC",
+  "title": "좋은 풍경 찍기",
+  "place_name": "",
+  "region": "",
+  "summary": "",
+  "lat": null,
+  "lon": null,
+  "radius_m": null,
+  "heading": null,
+  "coordinate_type": "unknown",
+  "confidence": "unrated",
+  "composition": "",
+  "best_time": "",
+  "access": "",
+  "lens": "",
+  "clues": [],
+  "evidence": [
+    {
+      "name": "조사 근거 이미지",
+      "file": "evidence.jpg",
+      "description": ""
+    }
+  ],
+  "alternatives": [],
+  "caveats": [],
+  "sources": []
+}

@@ -1,0 +1,413 @@
+{
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "type": "integer",
+      "enum": [
+        1
+      ]
+    },
+    "request_id": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "place_name": {
+      "type": "string"
+    },
+    "region": {
+      "type": "string"
+    },
+    "summary": {
+      "type": "string"
+    },
+    "lat": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "lon": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "radius_m": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "heading": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "coordinate_type": {
+      "type": "string",
+      "enum": [
+        "camera",
+        "camera_estimate",
+        "landmark",
+        "region",
+        "unknown"
+      ]
+    },
+    "hfov": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "radius_basis": {
+      "type": "string"
+    },
+    "heading_basis": {
+      "type": "string"
+    },
+    "confidence_levels": {
+      "type": "object",
+      "properties": {
+        "city": {
+          "type": "object",
+          "properties": {
+            "level": {
+              "type": "string",
+              "enum": [
+                "high",
+                "medium",
+                "low",
+                "unrated"
+              ]
+            },
+            "reason": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "level",
+            "reason"
+          ],
+          "additionalProperties": false
+        },
+        "area": {
+          "type": "object",
+          "properties": {
+            "level": {
+              "type": "string",
+              "enum": [
+                "high",
+                "medium",
+                "low",
+                "unrated"
+              ]
+            },
+            "reason": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "level",
+            "reason"
+          ],
+          "additionalProperties": false
+        },
+        "road": {
+          "type": "object",
+          "properties": {
+            "level": {
+              "type": "string",
+              "enum": [
+                "high",
+                "medium",
+                "low",
+                "unrated"
+              ]
+            },
+            "reason": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "level",
+            "reason"
+          ],
+          "additionalProperties": false
+        },
+        "camera": {
+          "type": "object",
+          "properties": {
+            "level": {
+              "type": "string",
+              "enum": [
+                "high",
+                "medium",
+                "low",
+                "unrated"
+              ]
+            },
+            "reason": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "level",
+            "reason"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "city",
+        "area",
+        "road",
+        "camera"
+      ],
+      "additionalProperties": false
+    },
+    "verification": {
+      "type": "object",
+      "properties": {
+        "street_view": {
+          "type": "object",
+          "properties": {
+            "status": {
+              "type": "string",
+              "enum": [
+                "verified",
+                "attempted",
+                "blocked",
+                "not_applicable",
+                "not_attempted"
+              ]
+            },
+            "summary": {
+              "type": "string"
+            },
+            "files": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "status",
+            "summary",
+            "files"
+          ],
+          "additionalProperties": false
+        },
+        "image_match": {
+          "type": "object",
+          "properties": {
+            "status": {
+              "type": "string",
+              "enum": [
+                "verified",
+                "attempted",
+                "blocked",
+                "not_applicable",
+                "not_attempted"
+              ]
+            },
+            "summary": {
+              "type": "string"
+            },
+            "files": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "status",
+            "summary",
+            "files"
+          ],
+          "additionalProperties": false
+        },
+        "geometry": {
+          "type": "object",
+          "properties": {
+            "status": {
+              "type": "string",
+              "enum": [
+                "verified",
+                "attempted",
+                "blocked",
+                "not_applicable",
+                "not_attempted"
+              ]
+            },
+            "summary": {
+              "type": "string"
+            },
+            "files": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "status",
+            "summary",
+            "files"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "street_view",
+        "image_match",
+        "geometry"
+      ],
+      "additionalProperties": false
+    },
+    "evidence_spec": {
+      "type": "string"
+    },
+    "confidence": {
+      "type": "string",
+      "enum": [
+        "high",
+        "medium",
+        "low",
+        "unrated"
+      ]
+    },
+    "composition": {
+      "type": "string"
+    },
+    "best_time": {
+      "type": "string"
+    },
+    "access": {
+      "type": "string"
+    },
+    "lens": {
+      "type": "string"
+    },
+    "clues": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "title",
+          "description"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "file": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "name",
+          "file",
+          "description"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "alternatives": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "reason": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "name",
+          "reason"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "caveats": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "title",
+          "url"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "schema_version",
+    "request_id",
+    "title",
+    "place_name",
+    "region",
+    "summary",
+    "lat",
+    "lon",
+    "radius_m",
+    "heading",
+    "coordinate_type",
+    "hfov",
+    "radius_basis",
+    "heading_basis",
+    "confidence_levels",
+    "verification",
+    "evidence_spec",
+    "confidence",
+    "composition",
+    "best_time",
+    "access",
+    "lens",
+    "clues",
+    "evidence",
+    "alternatives",
+    "caveats",
+    "sources"
+  ],
+  "additionalProperties": false
+}

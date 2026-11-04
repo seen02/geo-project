@@ -1,0 +1,93 @@
+{
+ "candidate_levels": {
+  "city": [
+   {
+    "name": "오산시",
+    "share": 0.973,
+    "evidence": 3,
+    "verified": 2,
+    "excluded": false
+   },
+   {
+    "name": "화성시",
+    "share": 0.019,
+    "evidence": 0,
+    "verified": 0,
+    "excluded": false
+   },
+   {
+    "name": "대구",
+    "share": 0.008,
+    "evidence": 2,
+    "verified": 1,
+    "excluded": false
+   }
+  ],
+  "area": [
+   {
+    "name": "독산성",
+    "share": 0.962,
+    "evidence": 3,
+    "verified": 2,
+    "excluded": false
+   },
+   {
+    "name": "융건릉",
+    "share": 0.019,
+    "evidence": 0,
+    "verified": 0,
+    "excluded": false
+   },
+   {
+    "name": "서봉산",
+    "share": 0.019,
+    "evidence": 0,
+    "verified": 0,
+    "excluded": false
+   }
+  ]
+ },
+ "main": {
+  "level": "area",
+  "name": "독산성",
+  "share": 0.962,
+  "evidence": [
+   {
+    "clue": "공개 독산성 사진의 메타폴리스 네 타워는 높은 두 외곽 동·낮은 두 안쪽 동, 가운데 넓은 간격, 원통형 옥상 구조와 녹색 골프장 그물이 참고 사진과 부합한다.",
+    "status": "observed",
+    "lr": 5.0,
+    "why": "공개 독산성 전망 사진과 고정 구조물의 형태 및 순서를 직접 대조함; 카메라점은 미확인",
+    "file": "duksan-2.jpg"
+   },
+   {
+    "clue": "공개 방문기는 보적사 가까운 동쪽 성곽에서 동탄이 조망됨을 명시한다. OSM 보적사 영역 좌표 37.1837772,127.0195036은 독산성 대표 좌표와 약 20m 이내이다.",
+    "status": "read",
+    "lr": 5.0,
+    "why": "동쪽 성곽의 동탄 조망 설명과 실제 장소 좌표 확인; 동일 벚나무는 미확인",
+    "file": "bojeoksa-verified.json"
+   },
+   {
+    "clue": "네 타워의 간격을 전체 폭으로 정규화하면 참고사진 0.292/0.415/0.292, 독산성 공개사진 0.279/0.438/0.284로 유사하다. 수작업 픽셀값에 기초한 형태 대조이며 촬영좌표 계산은 아니다.",
+    "status": "computed",
+    "lr": 2.0,
+    "why": "타워 간격 비율을 재확인한 보조검사로만 취급",
+    "file": "tower-comparison.json"
+   }
+  ]
+ },
+ "alternatives": [],
+ "excluded": [],
+ "unused_clues": [
+  "벚꽃과 붉은 새잎이 왼쪽 위를 덮고, 아래에는 낙엽성 수림과 소나무, 수평선에는 약 네 개의 짙은 고층 타워와 아파트가 있다. 읽을 수 있는 표지판·차량·문자는 없다.",
+  "의뢰 지역은 경기도 일대이며 위치 증거가 아닌 검색 범위 힌트이다."
+ ],
+ "downweighted_not_excluded": [
+  "대구"
+ ],
+ "falsify": {},
+ "unexamined": [
+  "융건릉",
+  "서봉산"
+ ],
+ "level_gaps": []
+}

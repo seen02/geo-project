@@ -1,0 +1,157 @@
+{
+ "place": "경기도 오산시 독산성·보적사 북동쪽 진입로 주변",
+ "lat": 37.1843,
+ "lon": 127.0223,
+ "datum": "WGS84",
+ "radius_m": 150,
+ "radius_interpretation": "Approximate search tolerance, not a statistical confidence interval; not an exact camera fix.",
+ "heading_deg": 61,
+ "confidence": {
+  "city": "high",
+  "area": "high",
+  "road": "medium",
+  "exact_point": "low"
+ },
+ "evidence": [
+  "evidence.jpg",
+  "road_matches.json",
+  "horizontal_scan.json",
+  "final_pose.json",
+  "pose_selfcheck.jpg"
+ ],
+ "search_coverage": "24 public reference photos; 20 nearby public Google panorama views; z18 satellite detail. No exhaustive street-by-street survey.",
+ "limitations": [
+  "No GPS EXIF or readable text.",
+  "Reverse image upload was blocked by automatic approval review; no image was uploaded.",
+  "Far towers are nearly collinear; unconstrained pose solution is degenerate and was not used.",
+  "Fixed-position reprojection passes, but is not independent proof of camera location.",
+  "Panorama metadata date was not verified separately for each neighbor; no capture date claimed.",
+  "Seasonal trees and older imagery prevent an exact tree/footstep match."
+ ],
+ "alternatives": [
+  "Nearby positions along the same east access road remain plausible within the stated area.",
+  "Yangsanbong is downweighted by tower/net alignment; not formally excluded. Other namesakes are not supported by the skyline and were not locally surveyed."
+ ],
+ "sources": [
+  "https://www.google.com/maps/@?api=1&map_action=pano&pano=JLn8Mh9EZ02Qha_FQYGYdg&heading=61&pitch=8&fov=67",
+  "https://taijung.tistory.com/159",
+  "https://ggc.ggcf.kr/p/654ad78777e5f81f54e4a703"
+ ],
+ "board": {
+  "candidate_levels": {
+   "city": [
+    {
+     "name": "Osan",
+     "share": 1.0,
+     "evidence": 4,
+     "verified": 2,
+     "excluded": false
+    }
+   ],
+   "area": [
+    {
+     "name": "01 독산성",
+     "share": 0.998,
+     "evidence": 4,
+     "verified": 2,
+     "excluded": false
+    },
+    {
+     "name": "02 독산성",
+     "share": 0.0,
+     "evidence": 1,
+     "verified": 0,
+     "excluded": false
+    },
+    {
+     "name": "01 양산봉",
+     "share": 0.0,
+     "evidence": 1,
+     "verified": 0,
+     "excluded": false
+    },
+    {
+     "name": "02 양산봉",
+     "share": 0.0,
+     "evidence": 2,
+     "verified": 1,
+     "excluded": false
+    },
+    {
+     "name": "03 양산봉",
+     "share": 0.0,
+     "evidence": 1,
+     "verified": 0,
+     "excluded": false
+    }
+   ],
+   "road": [
+    {
+     "name": "East overlook segment",
+     "share": 0.943,
+     "evidence": 2,
+     "verified": 1,
+     "excluded": false
+    },
+    {
+     "name": "North bend",
+     "share": 0.028,
+     "evidence": 1,
+     "verified": 0,
+     "excluded": false
+    },
+    {
+     "name": "Southeast approach",
+     "share": 0.028,
+     "evidence": 1,
+     "verified": 0,
+     "excluded": false
+    }
+   ]
+  },
+  "main": {
+   "level": "road",
+   "name": "East overlook segment",
+   "share": 0.943,
+   "evidence": [
+    {
+     "clue": "Public panorama ranking and visual comparison: Metapolis towers, golf net, apartment block and foreground small roof align at east access-road overlooks. Northern bend has poles and different occlusion; southern approach has different foreground.",
+     "status": "observed",
+     "lr": 5.0,
+     "why": "Four persistent structures have the matching left-to-right order, with the foreground roof corresponding. Top panoramas fall on the east overlook segment; exact tree location is unresolved.",
+     "file": "evidence.jpg"
+    },
+    {
+     "clue": "At fixed candidate 37.1843,127.0223, terrain ground elevation124m plus eye height1.6m; tower projection RMS0.81px with heading60.5 and HFOV66.7. Consistency test only; nearly collinear towers do not independently fix the camera.",
+     "status": "computed",
+     "lr": 2.0,
+     "why": "Fixed-location projection agrees with measured tower caps; modest weight because it is a consistency check, not independent localization.",
+     "file": "pose_selfcheck.jpg"
+    }
+   ]
+  },
+  "alternatives": [],
+  "excluded": [],
+  "unused_clues": [
+   "Four narrow towers with projecting roof caps; outer towers taller; center-right forest and green net enclosure"
+  ],
+  "downweighted_not_excluded": [
+   "01 양산봉",
+   "02 독산성",
+   "03 양산봉",
+   "North bend",
+   "Southeast approach"
+  ],
+  "falsify": {
+   "01 독산성": [
+    "Reject the proposed northeast road segment if Metapolis, golf net, and right apartment cluster cannot share the measured alignment or if foreground ridge blocks the view."
+   ]
+  },
+  "unexamined": [],
+  "level_gaps": []
+ },
+ "excluded": [],
+ "unused_clues": [
+  "Four narrow towers with projecting roof caps; outer towers taller; center-right forest and green net enclosure"
+ ]
+}

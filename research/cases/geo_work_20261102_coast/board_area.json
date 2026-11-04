@@ -1,0 +1,98 @@
+{
+  "case": "geo_work_20261102_coast",
+  "photo": "query.jpg",
+  "created": "2026-11-02T10:45:37",
+  "country": "KR",
+  "candidates": {
+    "Gangneung": {
+      "level": "city",
+      "parent": null,
+      "bbox": null,
+      "scan_bbox": null,
+      "prior": 1.0,
+      "status": "open",
+      "note": ""
+    },
+    "Sageunjin observatory coast": {
+      "level": "area",
+      "parent": "Gangneung",
+      "bbox": [
+        37.8136,
+        128.8968,
+        37.8148,
+        128.8991
+      ],
+      "scan_bbox": null,
+      "prior": 1.0,
+      "status": "open",
+      "note": ""
+    }
+  },
+  "clues": {
+    "K1": {
+      "text": "White wing/boat-shaped observatory with sloping supports, horizontal slatted shell and stair assembly beside pastel pink/yellow/blue tetrapods; curved waterline and paved sloping foreground. No EXIF; OCR noise not useful.",
+      "kind": "anchor",
+      "status": "observed",
+      "file": "anchor_crop.jpg",
+      "source": "",
+      "used": false
+    },
+    "K2": {
+      "text": "Keyword-discovered references from KTO and other public sites were locally ranked by DINOv2/SIFT. Inspecting allfive confirms the same sloping white side supports, layered slats and top rails, staircase and matching pastel tetrapod grouping. z19 map confirms the observatory at37.81419,128.89829 beside a curved northern inlet.",
+      "kind": "anchor",
+      "status": "computed",
+      "file": "C:\\Users\\admin\\img2place_project\\geo_work_20261102_coast\\match.json",
+      "source": "https://korean.visitkorea.or.kr/detail/ms_detail.do?cotid=18985b56-92b8-41db-ac6d-c71b62449f99",
+      "used": true,
+      "resolves": [
+        "K1"
+      ]
+    },
+    "K3": {
+      "text": "The observatory is left of frame center with long colored block line extending to its left, water in the foreground-left and coastal promenade right. This suggests the curved northwest side of the observatory, but camera pose and riprap details remain unresolved.",
+      "kind": "geometry",
+      "status": "inferred",
+      "file": "map.jpg",
+      "source": "",
+      "used": true
+    }
+  },
+  "evidence": [
+    {
+      "id": "E1",
+      "clue": "K2",
+      "candidate": "Gangneung",
+      "lr": 20.0,
+      "why": "Unique structure verified visually in independent public photos and georeferenced satellite imagery. SIFT scores alone are not a location proof.",
+      "file": "evidence.jpg",
+      "cmd": ""
+    },
+    {
+      "id": "E2",
+      "clue": "K2",
+      "candidate": "Sageunjin observatory coast",
+      "lr": 20.0,
+      "why": "Unique structure verified visually in independent public photos and georeferenced satellite imagery. SIFT scores alone are not a location proof.",
+      "file": "evidence.jpg",
+      "cmd": ""
+    }
+  ],
+  "falsify": {
+    "Sageunjin observatory coast": [
+      "Observatory slats, upper rails, support shape and colored blocks must all correspond; exact riprap slope not claimed without a close ground image."
+    ]
+  },
+  "log": [
+    "10:45 add Gangneung (city)",
+    "10:45 add Sageunjin observatory coast (area)",
+    "10:45 add --from segments.json \u2192 +2 road",
+    "10:45 clue K1 [anchor/observed] White wing/boat-shaped observatory with sloping supports, horizontal slatted shell and stair assembly beside pastel pink/yellow/blue tetrapods; curved waterline and paved sloping foreground. No EXIF; OCR noise not useful.",
+    "10:45 clue K2 [anchor/computed] Keyword-discovered references from KTO and other public sites were locally ranked by DINOv2/SIFT. Inspecting allfive confirms the same sloping white side supports, layered slats and top rails, staircase and matching pastel tetrapod grouping. z19 map confirms the observatory at37.81419,128.89829 beside a curved northern inlet.; resolves K1",
+    "10:45 evidence K2 \u2192 Gangneung:20, Sageunjin observatory coast:20",
+    "10:45 clue K3 [geometry/inferred] The observatory is left of frame center with long colored block line extending to its left, water in the foreground-left and coastal promenade right. This suggests the curved northwest side of the observatory, but camera pose and riprap details remain unresolved.",
+    "10:45 evidence K3 \u2192 Northwest curved shoreline:3, South beach approach:0.333333",
+    "10:45 falsify Sageunjin observatory coast: Observatory slats, upper rails, support shape and colored blocks must all correspond; exact riprap slope not claimed without a close ground image."
+  ],
+  "updated": "2026-11-02T10:45:39",
+  "note": "Supported-area reporting view; unresolved finer shoreline hypotheses are retained in full board.json."
+}

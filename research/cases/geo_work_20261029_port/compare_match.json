@@ -1,0 +1,597 @@
+[
+ {
+  "rank": 1,
+  "id": "pF7HrkuzjyT-9AFj38mYiA",
+  "file": null,
+  "score_global": 0.5912,
+  "inliers": 6,
+  "matches": 28,
+  "refined": true,
+  "heading": 220,
+  "wgs": [
+   35.63627699447153,
+   139.75940957867232
+  ],
+  "road": "",
+  "date": "",
+  "label": "Tokyo"
+ },
+ {
+  "rank": 2,
+  "id": "ryQ7uGrmOyHkHRt7Tm2z_g",
+  "file": null,
+  "score_global": 0.5724,
+  "inliers": 0,
+  "matches": 29,
+  "refined": true,
+  "heading": 220,
+  "wgs": [
+   35.63623903877109,
+   139.75944131970223
+  ],
+  "road": "",
+  "date": "",
+  "label": "Tokyo"
+ },
+ {
+  "rank": 3,
+  "id": "yzhWPAin2Nyofm4_ZnQWxw",
+  "file": null,
+  "score_global": 0.5623,
+  "inliers": 0,
+  "matches": 31,
+  "refined": true,
+  "heading": 325,
+  "wgs": [
+   34.61912399175358,
+   135.43474800202506
+  ],
+  "road": "",
+  "date": "",
+  "label": "Osaka"
+ },
+ {
+  "rank": 4,
+  "id": "GZWU3YsriwviUq7YTonRMQ",
+  "file": null,
+  "score_global": 0.554,
+  "inliers": 5,
+  "matches": 17,
+  "refined": true,
+  "heading": 220,
+  "wgs": [
+   35.63633678950766,
+   139.7595355290507
+  ],
+  "road": "",
+  "date": "",
+  "label": "Tokyo"
+ },
+ {
+  "rank": 5,
+  "id": "fvpPZWSD1o0xWzKzAzFvsw",
+  "file": null,
+  "score_global": 0.551,
+  "inliers": 0,
+  "matches": 30,
+  "refined": true,
+  "heading": 220,
+  "wgs": [
+   35.63629007567918,
+   139.75999090233879
+  ],
+  "road": "",
+  "date": "",
+  "label": "Tokyo"
+ },
+ {
+  "rank": 6,
+  "id": "inKcCesft2DdBCC_2-YkdQ",
+  "file": null,
+  "score_global": 0.5472,
+  "inliers": 0,
+  "matches": 21,
+  "refined": true,
+  "heading": 220,
+  "wgs": [
+   35.636334871297414,
+   139.7596117233103
+  ],
+  "road": "",
+  "date": "",
+  "label": "Tokyo"
+ },
+ {
+  "rank": 7,
+  "id": "lalC3XOdt5v7XtShjBqbLw",
+  "file": null,
+  "score_global": 0.5452,
+  "inliers": 6,
+  "matches": 24,
+  "refined": true,
+  "heading": 220,
+  "wgs": [
+   35.63623346030018,
+   139.7598723598895
+  ],
+  "road": "",
+  "date": "",
+  "label": "Tokyo"
+ },
+ {
+  "rank": 8,
+  "id": "tcYdqV1JDGwuZXC-8aNIMw",
+  "file": null,
+  "score_global": 0.5449,
+  "inliers": 6,
+  "matches": 20,
+  "refined": true,
+  "heading": 220,
+  "wgs": [
+   35.636301724829224,
+   139.75989333876623
+  ],
+  "road": "",
+  "date": "",
+  "label": "Tokyo"
+ },
+ {
+  "rank": 9,
+  "id": "RnTgJfeMSBEbMDOOLjctSA",
+  "file": null,
+  "score_global": 0.5383,
+  "inliers": 6,
+  "matches": 23,
+  "refined": true,
+  "heading": 220,
+  "wgs": [
+   35.63630733251524,
+   139.75973120109742
+  ],
+  "road": "",
+  "date": "",
+  "label": "Tokyo"
+ },
+ {
+  "rank": 10,
+  "id": "NaJK1EBuX3A801Q22TC6qg",
+  "file": null,
+  "score_global": 0.531,
+  "inliers": 0,
+  "matches": 22,
+  "refined": true,
+  "heading": 220,
+  "wgs": [
+   35.63623352280491,
+   139.75987251586625
+  ],
+  "road": "",
+  "date": "",
+  "label": "Tokyo"
+ },
+ {
+  "rank": 11,
+  "id": "oA8xtb75ijsvizNfDe57SA",
+  "file": null,
+  "score_global": 0.5309,
+  "inliers": 7,
+  "matches": 22,
+  "refined": true,
+  "heading": 220,
+  "wgs": [
+   35.63629672398552,
+   139.76005524291202
+  ],
+  "road": "",
+  "date": "",
+  "label": "Tokyo"
+ },
+ {
+  "rank": 12,
+  "id": "IraALpDKSrPqTEIOQX8GFw",
+  "file": null,
+  "score_global": 0.5157,
+  "inliers": 0,
+  "matches": 18,
+  "refined": true,
+  "heading": 325,
+  "wgs": [
+   34.619042462632585,
+   135.43476811117156
+  ],
+  "road": "",
+  "date": "",
+  "label": "Osaka"
+ },
+ {
+  "rank": 13,
+  "id": "mMSQ__VLdPba1kHXp5wKAA",
+  "file": null,
+  "score_global": 0.4993,
+  "inliers": 0,
+  "matches": 20,
+  "refined": true,
+  "heading": 325,
+  "wgs": [
+   34.61896193068359,
+   135.43478994396895
+  ],
+  "road": "",
+  "date": "",
+  "label": "Osaka"
+ },
+ {
+  "rank": 14,
+  "id": "4XA7XUvC79zFHotqvrJskw",
+  "file": null,
+  "score_global": 0.4916,
+  "inliers": 6,
+  "matches": 36,
+  "refined": true,
+  "heading": 325,
+  "wgs": [
+   34.68059815530198,
+   135.20209390677323
+  ],
+  "road": "",
+  "date": "",
+  "label": "Kobe"
+ },
+ {
+  "rank": 15,
+  "id": "HAh_rFNwJfT_C9AmCc0AUQ",
+  "file": null,
+  "score_global": 0.4851,
+  "inliers": 0,
+  "matches": 23,
+  "refined": true,
+  "heading": 220,
+  "wgs": [
+   35.63626957770582,
+   139.75979195392867
+  ],
+  "road": "",
+  "date": "",
+  "label": "Tokyo"
+ },
+ {
+  "rank": 16,
+  "id": "OWr3Klai7Q64S_3gOr_S_A",
+  "file": null,
+  "score_global": 0.484,
+  "inliers": 8,
+  "matches": 23,
+  "refined": true,
+  "heading": 325,
+  "wgs": [
+   34.67987733361886,
+   135.20241047821938
+  ],
+  "road": "",
+  "date": "",
+  "label": "Kobe"
+ },
+ {
+  "rank": 17,
+  "id": "nrb65ZIU_eJRfOi7i51Ykg",
+  "file": null,
+  "score_global": 0.4719,
+  "inliers": 6,
+  "matches": 30,
+  "refined": true,
+  "heading": 325,
+  "wgs": [
+   34.68050773647141,
+   135.20211927528564
+  ],
+  "road": "",
+  "date": "",
+  "label": "Kobe"
+ },
+ {
+  "rank": 18,
+  "id": "XjRCprnfA8TiOyVb_ds2sQ",
+  "file": null,
+  "score_global": 0.4559,
+  "inliers": 0,
+  "matches": 18,
+  "refined": true,
+  "heading": 325,
+  "wgs": [
+   34.67970546216815,
+   135.2025463259076
+  ],
+  "road": "",
+  "date": "",
+  "label": "Kobe"
+ },
+ {
+  "rank": 19,
+  "id": "6VVhBLLcqcHXocW1gJtf1g",
+  "file": null,
+  "score_global": 0.4426,
+  "inliers": 0,
+  "matches": 34,
+  "refined": true,
+  "heading": 325,
+  "wgs": [
+   34.68023518133428,
+   135.20222417959164
+  ],
+  "road": "",
+  "date": "",
+  "label": "Kobe"
+ },
+ {
+  "rank": 20,
+  "id": "NiPOVL5VjFWRubpPqmGl9Q",
+  "file": null,
+  "score_global": 0.4365,
+  "inliers": 4,
+  "matches": 12,
+  "refined": true,
+  "heading": 325,
+  "wgs": [
+   34.68033682225775,
+   135.20223475578825
+  ],
+  "road": "",
+  "date": "",
+  "label": "Kobe"
+ },
+ {
+  "rank": 21,
+  "id": "slpTUfrrFuecHyBb9tSClA",
+  "file": null,
+  "score_global": 0.4337,
+  "inliers": 0,
+  "matches": 27,
+  "refined": true,
+  "heading": 325,
+  "wgs": [
+   34.67979986171659,
+   135.20251059528292
+  ],
+  "road": "",
+  "date": "",
+  "label": "Kobe"
+ },
+ {
+  "rank": 22,
+  "id": "QTMDeVKoSbDiSZD1JNA6Ow",
+  "file": null,
+  "score_global": 0.4314,
+  "inliers": 7,
+  "matches": 25,
+  "refined": true,
+  "heading": 325,
+  "wgs": [
+   34.6801449550762,
+   135.2022702003567
+  ],
+  "road": "",
+  "date": "",
+  "label": "Kobe"
+ },
+ {
+  "rank": 23,
+  "id": "Qixe9hZhFNWbdrj5pTqurA",
+  "file": null,
+  "score_global": 0.4216,
+  "inliers": 0,
+  "matches": 18,
+  "refined": true,
+  "heading": 325,
+  "wgs": [
+   34.67996853725781,
+   135.20238053604186
+  ],
+  "road": "",
+  "date": "",
+  "label": "Kobe"
+ },
+ {
+  "rank": 24,
+  "id": "Ofv3voBM58cxQU3NaHlphQ",
+  "file": null,
+  "score_global": 0.4208,
+  "inliers": 8,
+  "matches": 28,
+  "refined": true,
+  "heading": 325,
+  "wgs": [
+   34.680416904029784,
+   135.20214943167628
+  ],
+  "road": "",
+  "date": "",
+  "label": "Kobe"
+ },
+ {
+  "rank": 25,
+  "id": "2kL4eCakOJIb5WfKgY3eKw",
+  "file": null,
+  "score_global": 0.4189,
+  "inliers": 0,
+  "matches": 21,
+  "refined": true,
+  "heading": 325,
+  "wgs": [
+   34.67963378706447,
+   135.20264873003066
+  ],
+  "road": "",
+  "date": "",
+  "label": "Kobe"
+ },
+ {
+  "rank": 26,
+  "id": "QXT_SddUw-TE-bcXHn6j9A",
+  "file": null,
+  "score_global": 0.409,
+  "inliers": 0,
+  "matches": 20,
+  "refined": true,
+  "heading": 325,
+  "wgs": [
+   34.68005572445002,
+   135.20232229534628
+  ],
+  "road": "",
+  "date": "",
+  "label": "Kobe"
+ },
+ {
+  "rank": 27,
+  "id": "BiLDhLCK837dDvyf5iLMEg",
+  "file": null,
+  "score_global": 0.3892,
+  "inliers": 7,
+  "matches": 28,
+  "refined": true,
+  "heading": 325,
+  "wgs": [
+   34.6194322617444,
+   135.43497803681242
+  ],
+  "road": "",
+  "date": "",
+  "label": "Osaka"
+ },
+ {
+  "rank": 28,
+  "id": "i8FmhxYlYbBR-de4Fmrnnw",
+  "file": null,
+  "score_global": 0.372,
+  "inliers": 0,
+  "matches": 34,
+  "refined": true,
+  "heading": 325,
+  "wgs": [
+   34.619644131169466,
+   135.4348958762717
+  ],
+  "road": "",
+  "date": "",
+  "label": "Osaka"
+ },
+ {
+  "rank": 29,
+  "id": "4GIEEVttD5aa49uo0L6oLw",
+  "file": null,
+  "score_global": 0.3717,
+  "inliers": 0,
+  "matches": 24,
+  "refined": true,
+  "heading": 325,
+  "wgs": [
+   34.61918422960307,
+   135.43527048354227
+  ],
+  "road": "",
+  "date": "",
+  "label": "Osaka"
+ },
+ {
+  "rank": 30,
+  "id": "r103KXAIEcZqmiHhNkzWkw",
+  "file": null,
+  "score_global": 0.367,
+  "inliers": 0,
+  "matches": 21,
+  "refined": true,
+  "heading": 325,
+  "wgs": [
+   34.61953816007737,
+   135.43493717198
+  ],
+  "road": "",
+  "date": "",
+  "label": "Osaka"
+ },
+ {
+  "rank": 31,
+  "id": "nRB8Cy3tH88Rk1QwEvKMVQ",
+  "file": null,
+  "score_global": 0.3541,
+  "inliers": null,
+  "matches": null,
+  "refined": false,
+  "heading": 325,
+  "wgs": [
+   34.6193370249606,
+   135.43521180732068
+  ],
+  "road": "",
+  "date": "",
+  "label": "Osaka"
+ },
+ {
+  "rank": 32,
+  "id": "QuaVJKnummmN6RgcZhN6Pg",
+  "file": null,
+  "score_global": 0.3495,
+  "inliers": null,
+  "matches": null,
+  "refined": false,
+  "heading": 325,
+  "wgs": [
+   34.61894849191325,
+   135.4353624121644
+  ],
+  "road": "",
+  "date": "",
+  "label": "Osaka"
+ },
+ {
+  "rank": 33,
+  "id": "iJJeGGBCQfcrlIbcwAbMZg",
+  "file": null,
+  "score_global": 0.3238,
+  "inliers": null,
+  "matches": null,
+  "refined": false,
+  "heading": 325,
+  "wgs": [
+   34.61910709332081,
+   135.43530057578232
+  ],
+  "road": "",
+  "date": "",
+  "label": "Osaka"
+ },
+ {
+  "rank": 34,
+  "id": "FqwyUr83kZ8awqV-JEO8wg",
+  "file": null,
+  "score_global": 0.3085,
+  "inliers": null,
+  "matches": null,
+  "refined": false,
+  "heading": 325,
+  "wgs": [
+   34.61926050987888,
+   135.43524103769363
+  ],
+  "road": "",
+  "date": "",
+  "label": "Osaka"
+ },
+ {
+  "rank": 35,
+  "id": "qvPujXOHjeTipJ8McixjIw",
+  "file": null,
+  "score_global": 0.2969,
+  "inliers": null,
+  "matches": null,
+  "refined": false,
+  "heading": 325,
+  "wgs": [
+   34.61902825369756,
+   135.43533124259577
+  ],
+  "road": "",
+  "date": "",
+  "label": "Osaka"
+ }
+]

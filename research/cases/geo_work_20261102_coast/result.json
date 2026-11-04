@@ -1,0 +1,82 @@
+{
+ "place": "Sageunjin Marine Park Observatory coast, Gangneung, South Korea",
+ "representative_wgs84": [
+  37.81425,
+  128.8976
+ ],
+ "radius_m": 150,
+ "extent_type": "Conservative area extent; not statistical error or solved camera position",
+ "direction_approx": "East to east-southeast",
+ "city_confidence": "high",
+ "area_confidence": "high",
+ "shore_segment_confidence": "medium",
+ "exact_camera_confidence": "low",
+ "reverse_image_search": false,
+ "sources": [
+  "https://korean.visitkorea.or.kr/detail/ms_detail.do?cotid=18985b56-92b8-41db-ac6d-c71b62449f99",
+  "https://tong.visitkorea.or.kr/cms/resource/41/2921941_image2_1.jpg"
+ ],
+ "limits": [
+  "Camera pose not solved",
+  "No identifiable true sea horizon in night photograph",
+  "Foreground stone slope not independently matched in ground-level reference; satellite shows sand cover",
+  "Google Streetview had no panorama within100m",
+  "No EXIF location or capture time"
+ ],
+ "board": {
+  "candidate_levels": {
+   "city": [
+    {
+     "name": "Gangneung",
+     "share": 1.0,
+     "evidence": 1,
+     "verified": 1,
+     "excluded": false
+    }
+   ],
+   "area": [
+    {
+     "name": "Sageunjin observatory coast",
+     "share": 1.0,
+     "evidence": 1,
+     "verified": 1,
+     "excluded": false
+    }
+   ]
+  },
+  "main": {
+   "level": "area",
+   "name": "Sageunjin observatory coast",
+   "share": 1.0,
+   "evidence": [
+    {
+     "clue": "Keyword-discovered references from KTO and other public sites were locally ranked by DINOv2/SIFT. Inspecting allfive confirms the same sloping white side supports, layered slats and top rails, staircase and matching pastel tetrapod grouping. z19 map confirms the observatory at37.81419,128.89829 beside a curved northern inlet.",
+     "status": "computed",
+     "lr": 20.0,
+     "why": "Unique structure verified visually in independent public photos and georeferenced satellite imagery. SIFT scores alone are not a location proof.",
+     "file": "evidence.jpg"
+    }
+   ]
+  },
+  "alternatives": [],
+  "excluded": [],
+  "unused_clues": [
+   "White wing/boat-shaped observatory with sloping supports, horizontal slatted shell and stair assembly beside pastel pink/yellow/blue tetrapods; curved waterline and paved sloping foreground. No EXIF; OCR noise not useful."
+  ],
+  "downweighted_not_excluded": [],
+  "falsify": {
+   "Sageunjin observatory coast": [
+    "Observatory slats, upper rails, support shape and colored blocks must all correspond; exact riprap slope not claimed without a close ground image."
+   ]
+  },
+  "unexamined": [],
+  "level_gaps": []
+ },
+ "alternatives": [
+  "South beach approach (share 10%): run one cheap test on both together (terrain/livery/municipal fixtures/water template), or scan the first 3 pages of each built-up area"
+ ],
+ "excluded": [],
+ "unused_clues": [
+  "White wing/boat-shaped observatory with sloping supports, horizontal slatted shell and stair assembly beside pastel pink/yellow/blue tetrapods; curved waterline and paved sloping foreground. No EXIF; OCR noise not useful."
+ ]
+}

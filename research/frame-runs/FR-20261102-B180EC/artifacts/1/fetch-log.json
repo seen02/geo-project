@@ -1,0 +1,27 @@
+[
+  {
+    "file": "getty.html",
+    "url": "https://www.gettyimages.com/detail/photo/view-of-tree-with-buildings-in-background-royalty-free-image/1189502368",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "getty.jpg",
+    "url": "https://media.gettyimages.com/photos/view-of-tree-with-buildings-in-background-picture-id1189502368?s=612x612",
+    "error": "HTTP Error 400: Bad Request"
+  },
+  {
+    "file": "duksan-blog.html",
+    "url": "https://blackforest.tistory.com/421",
+    "bytes": 146133
+  },
+  {
+    "file": "tripsavvy.html",
+    "url": "https://www.tripsavvy.com/one-week-in-korea-4802523",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "nominatim-duksan.json",
+    "url": "https://nominatim.openstreetmap.org/search?q=Doksanseong&format=json",
+    "bytes": 4703
+  }
+]

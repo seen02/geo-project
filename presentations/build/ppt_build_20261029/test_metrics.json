@@ -1,0 +1,15 @@
+{
+  "truth": [
+    37.18428,
+    127.02244
+  ],
+  "representative": [
+    37.1843,
+    127.0223
+  ],
+  "distance_m": 12.600218103179277,
+  "street_top_distance_m": 10.681677876823155,
+  "reported_radius_m": 150,
+  "road_count": 20,
+  "reference_count": 24
+}

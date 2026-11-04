@@ -1,0 +1,55 @@
+{
+  "map": "satellite-north.jpg",
+  "width": 1440,
+  "camera": [
+    37.814194,
+    128.897465
+  ],
+  "labels": [
+    {
+      "at": [
+        37.814194,
+        128.897465
+      ],
+      "text": "Camera; radius ~50 m",
+      "color": "#ffff00",
+      "dx": -180,
+      "dy": -120
+    },
+    {
+      "at": [
+        37.814183,
+        128.89827
+      ],
+      "text": "Lookout",
+      "color": "#00ffff",
+      "dx": 60,
+      "dy": 110
+    }
+  ],
+  "lines": [
+    {
+      "from": [
+        37.814194,
+        128.897465
+      ],
+      "bearing": 103,
+      "length_m": 100,
+      "color": "#ffdd00"
+    }
+  ],
+  "panels": [
+    {
+      "image": "reference-annotated.jpg",
+      "caption": "Reference: 1 lookout, 2 pastel blocks, 3 arched shelters"
+    },
+    {
+      "image": "comparison/public3-annotated.jpg",
+      "caption": "North-side public photo: same fixed structures; Ardent News / source photo"
+    },
+    {
+      "image": "comparison/municipal1-annotated.jpg",
+      "caption": "Opposite-side comparison: Gangneung City photo / JoongAng, 2021-07-02"
+    }
+  ]
+}

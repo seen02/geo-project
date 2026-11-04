@@ -1,0 +1,6 @@
+{
+ "error": "Page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://graph.baidu.com/pcpage/index?tpl_from=pc\", waiting until \"domcontentloaded\"\n",
+ "image": "intake\\variants\\full_flip.jpg",
+ "engine": "baidu",
+ "screenshot": "intake\\rev\\full_flip_baidu.png"
+}

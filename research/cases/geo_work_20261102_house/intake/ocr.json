@@ -1,0 +1,32 @@
+{
+ "image": "C:\\Users\\admin\\img2place_project\\geo_work_20261102_house\\query.jpg",
+ "size": [
+  1440,
+  1080
+ ],
+ "backend": "rapidocr",
+ "items": [
+  {
+   "text": "14909569",
+   "conf": 0.977,
+   "box": [
+    1,
+    813,
+    137,
+    855
+   ],
+   "pass": "full"
+  },
+  {
+   "text": "公",
+   "conf": 0.57,
+   "box": [
+    25,
+    751,
+    111,
+    790
+   ],
+   "pass": "tile"
+  }
+ ]
+}

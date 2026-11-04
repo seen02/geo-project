@@ -1,0 +1,682 @@
+{
+ "photo": "C:\\Users\\admin\\Documents\\ChatGPT\\새로운 프로젝트 선정\\frame-location\\.local-data\\requests\\FR-20261103-976876\\runs\\1\\reference.jpg",
+ "input": {
+  "original": "C:\\Users\\admin\\Documents\\ChatGPT\\새로운 프로젝트 선정\\frame-location\\.local-data\\requests\\FR-20261103-976876\\runs\\1\\reference.jpg",
+  "working": "intake\\work\\reference.png",
+  "reason": "EXIF orientation 6 applied",
+  "format": "JPEG",
+  "original_size": [
+   4000,
+   2252
+  ],
+  "working_size": [
+   2252,
+   4000
+  ]
+ },
+ "result": "ok",
+ "exif": {
+  "file": "C:\\Users\\admin\\Documents\\ChatGPT\\새로운 프로젝트 선정\\frame-location\\.local-data\\requests\\FR-20261103-976876\\runs\\1\\reference.jpg",
+  "size": [
+   4000,
+   2252
+  ],
+  "orientation": 6,
+  "upright_size": [
+   2252,
+   4000
+  ],
+  "make": "samsung",
+  "model": "Galaxy S24",
+  "software": "S921NKSSECZCH",
+  "DateTimeOriginal": "2026:11:03 13:49:03",
+  "OffsetTimeOriginal": "+09:00",
+  "focal_35mm": 23,
+  "fov_4x3_long_short": [
+   73.9,
+   58.9
+  ],
+  "gps_wgs84": [
+   37.1926194,
+   127.0277161
+  ],
+  "gps_gcj02": [
+   37.1935235,
+   127.0329618
+  ],
+  "altitude_m": 78.0
+ },
+ "ocr": [
+  {
+   "text": "34931413",
+   "conf": 0.911,
+   "box": [
+    1945,
+    1892,
+    2006,
+    1911
+   ],
+   "pass": "tile"
+  },
+  {
+   "text": "17598634",
+   "conf": 0.892,
+   "box": [
+    1100,
+    1886,
+    1150,
+    1904
+   ],
+   "pass": "tile"
+  },
+  {
+   "text": "IHZAH",
+   "conf": 0.836,
+   "box": [
+    888,
+    2527,
+    1082,
+    2556
+   ],
+   "pass": "tile"
+  },
+  {
+   "text": "MAH",
+   "conf": 0.803,
+   "box": [
+    1013,
+    2527,
+    1081,
+    2558
+   ],
+   "pass": "tile"
+  },
+  {
+   "text": "AUMI",
+   "conf": 0.76,
+   "box": [
+    1015,
+    2386,
+    1048,
+    2402
+   ],
+   "pass": "tile"
+  },
+  {
+   "text": "WIH2WAH",
+   "conf": 0.753,
+   "box": [
+    713,
+    2520,
+    872,
+    2576
+   ],
+   "pass": "full"
+  },
+  {
+   "text": "Z90BD95",
+   "conf": 0.642,
+   "box": [
+    1340,
+    1897,
+    1403,
+    1916
+   ],
+   "pass": "tile"
+  },
+  {
+   "text": "二口",
+   "conf": 0.635,
+   "box": [
+    617,
+    1842,
+    690,
+    1866
+   ],
+   "pass": "tile"
+  }
+ ],
+ "rev": [
+  {
+   "variant": "full_flip",
+   "engine": "baidu",
+   "guess": [
+    "图中可能是校园停车场"
+   ],
+   "links": [],
+   "error": null,
+   "refused": false,
+   "shot": "full_flip_baidu.png",
+   "json": "full_flip_baidu.json",
+   "similar_n": 90,
+   "similar_sites": [
+    [
+     "douyin.com",
+     12
+    ],
+    [
+     "xiaohongshu.com",
+     9
+    ],
+    [
+     "club.autohome.com.cn",
+     6
+    ],
+    [
+     "baijiahao.baidu.com",
+     5
+    ],
+    [
+     "meipian.cn",
+     4
+    ],
+    [
+     "weibo.com",
+     4
+    ],
+    [
+     "dianping.com",
+     3
+    ],
+    [
+     "bilibili.com",
+     3
+    ],
+    [
+     "163.com",
+     3
+    ],
+    [
+     "huaban.com",
+     3
+    ],
+    [
+     "19lou.com",
+     2
+    ],
+    [
+     "h5.weishi.qq.com",
+     2
+    ],
+    [
+     "haokan.baidu.com",
+     2
+    ],
+    [
+     "mbd.baidu.com",
+     2
+    ],
+    [
+     "su.zu.anjuke.com",
+     2
+    ],
+    [
+     "zhihu.com",
+     1
+    ],
+    [
+     "travel.qunar.com",
+     1
+    ],
+    [
+     "quanmin.baidu.com",
+     1
+    ],
+    [
+     "douban.com",
+     1
+    ],
+    [
+     "video.weibo.com",
+     1
+    ],
+    [
+     "nipic.com",
+     1
+    ],
+    [
+     "edupkw.com",
+     1
+    ],
+    [
+     "hbwhjg.cn",
+     1
+    ],
+    [
+     "sohu.com",
+     1
+    ],
+    [
+     "bbs.co188.com",
+     1
+    ],
+    [
+     "landwg.com",
+     1
+    ],
+    [
+     "dy.163.com",
+     1
+    ],
+    [
+     "new.qq.com",
+     1
+    ],
+    [
+     "so.photophoto.cn",
+     1
+    ],
+    [
+     "xiangxiang.anjuke.com",
+     1
+    ],
+    [
+     "duitang.com",
+     1
+    ],
+    [
+     "j.landwg.com",
+     1
+    ],
+    [
+     "news.jlu.edu.cn",
+     1
+    ],
+    [
+     "rizhao.anjuke.com",
+     1
+    ],
+    [
+     "qdh100.com",
+     1
+    ],
+    [
+     "zcool.com.cn",
+     1
+    ],
+    [
+     "kr.syqet.com",
+     1
+    ],
+    [
+     "liaocheng.anjuke.com",
+     1
+    ],
+    [
+     "taocan.ctrip.com",
+     1
+    ],
+    [
+     "tongling.anjuke.com",
+     1
+    ],
+    [
+     "yoojia.com",
+     1
+    ],
+    [
+     "youku.com",
+     1
+    ],
+    [
+     "k.sina.com.cn",
+     1
+    ]
+   ],
+   "similar_sheet": "full_flip_baidu_similar.jpg",
+   "similar_note": null
+  },
+  {
+   "variant": "full_flip",
+   "engine": "yandex",
+   "guess": [
+    "Image appears to contain: seoul national university / seoul south korea / seoul korea / capital of south korea / город / Similar images / Show more similar images"
+   ],
+   "links": [
+    {
+     "title": "5312×2988",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/%EB%8C%80%EC%A0%84_ETRI_-_panoramio_%284%29.jpg",
+     "site": "upload.wikimedia.org"
+    },
+    {
+     "title": "File:대전 ETRI - panoramio (4).jpg - Wikimedia Commons",
+     "url": "https://commons.wikimedia.org/wiki/File:%EB%8C%80%EC%A0%84_ETRI_-_panoramio_(4).jpg?utm_medium=organic&utm_source=yandexsmartcamera",
+     "site": "commons.wikimedia.org"
+    },
+    {
+     "title": "1000×562",
+     "url": "https://lh3.googleusercontent.com/p/AF1QipMBsYfoHBvuDdBXJSUCqf8lrNM2L0D1WA3Ww91W=s1600-w1000",
+     "site": "lh3.googleusercontent.com"
+    },
+    {
+     "title": "조선온천호텔, +82 54-748-5858, Південна Корея Північна провінція Кьонсан Кьонджу 보덕동 보문로 407",
+     "url": "https://readymap.kr/uk/106020/3960?utm_medium=organic&utm_source=yandexsmartcamera",
+     "site": "readymap.kr"
+    },
+    {
+     "title": "조선온천호텔, South Korea Gyeongsangbuk-do Gyeongju-si 보덕동 보문로 407",
+     "url": "https://2pos.kr/en/53010/1980?utm_medium=organic&utm_source=yandexsmartcamera",
+     "site": "2pos.kr"
+    },
+    {
+     "title": "조선온천호텔, Südkorea Gyeongsangbuk-do Gyeongju 보덕동 보문로 407",
+     "url": "https://2pos.kr/de/53010/1980?utm_medium=organic&utm_source=yandexsmartcamera",
+     "site": "2pos.kr"
+    }
+   ],
+   "error": null,
+   "refused": false,
+   "shot": "full_flip_yandex.png",
+   "json": "full_flip_yandex.json",
+   "similar_n": 0,
+   "similar_sites": [],
+   "similar_sheet": null,
+   "similar_note": null
+  },
+  {
+   "variant": "reference",
+   "engine": "baidu",
+   "guess": [
+    "图中可能是校园停车场"
+   ],
+   "links": [],
+   "error": null,
+   "refused": false,
+   "shot": "reference_baidu.png",
+   "json": "reference_baidu.json",
+   "similar_n": 90,
+   "similar_sites": [
+    [
+     "douyin.com",
+     10
+    ],
+    [
+     "meipian.cn",
+     6
+    ],
+    [
+     "xiaohongshu.com",
+     5
+    ],
+    [
+     "baijiahao.baidu.com",
+     5
+    ],
+    [
+     "club.autohome.com.cn",
+     5
+    ],
+    [
+     "weibo.com",
+     4
+    ],
+    [
+     "dianping.com",
+     4
+    ],
+    [
+     "quanmin.baidu.com",
+     3
+    ],
+    [
+     "iqiyi.com",
+     2
+    ],
+    [
+     "163.com",
+     2
+    ],
+    [
+     "h5.weishi.qq.com",
+     2
+    ],
+    [
+     "duitang.com",
+     2
+    ],
+    [
+     "bbs.co188.com",
+     2
+    ],
+    [
+     "zhuanlan.zhihu.com",
+     2
+    ],
+    [
+     "travel.qunar.com",
+     2
+    ],
+    [
+     "mbd.baidu.com",
+     1
+    ],
+    [
+     "edupkw.com",
+     1
+    ],
+    [
+     "rizhao.anjuke.com",
+     1
+    ],
+    [
+     "yoojia.com",
+     1
+    ],
+    [
+     "map.baidu.com",
+     1
+    ],
+    [
+     "shanghai.anjuke.com",
+     1
+    ],
+    [
+     "haokan.baidu.com",
+     1
+    ],
+    [
+     "slide.sports.sina.com.cn",
+     1
+    ],
+    [
+     "sohu.com",
+     1
+    ],
+    [
+     "bj.58.com",
+     1
+    ],
+    [
+     "liaocheng.anjuke.com",
+     1
+    ],
+    [
+     "hbwhjg.cn",
+     1
+    ],
+    [
+     "video.weibo.com",
+     1
+    ],
+    [
+     "19lou.com",
+     1
+    ],
+    [
+     "zhihu.com",
+     1
+    ],
+    [
+     "zhangshu.anjuke.com",
+     1
+    ],
+    [
+     "nipic.com",
+     1
+    ],
+    [
+     "bilibili.com",
+     1
+    ],
+    [
+     "j.landwg.com",
+     1
+    ],
+    [
+     "so.photophoto.cn",
+     1
+    ],
+    [
+     "xiangxiang.anjuke.com",
+     1
+    ],
+    [
+     "news.jlu.edu.cn",
+     1
+    ],
+    [
+     "jishou.anjuke.com",
+     1
+    ],
+    [
+     "dy.163.com",
+     1
+    ],
+    [
+     "thepaper.cn",
+     1
+    ],
+    [
+     "youku.com",
+     1
+    ],
+    [
+     "douban.com",
+     1
+    ],
+    [
+     "liangshan.anjuke.com",
+     1
+    ],
+    [
+     "k.sina.com.cn",
+     1
+    ],
+    [
+     "ii77.com",
+     1
+    ],
+    [
+     "new.qq.com",
+     1
+    ],
+    [
+     "su.zu.anjuke.com",
+     1
+    ],
+    [
+     "tq.qz828.com",
+     1
+    ],
+    [
+     "dict.58.com",
+     1
+    ]
+   ],
+   "similar_sheet": "reference_baidu_similar.jpg",
+   "similar_note": null
+  },
+  {
+   "variant": "reference",
+   "engine": "yandex",
+   "guess": [
+    "Image appears to contain: seoul national university / seoul south korea / seoul korea / capital of south korea / Similar images / Show more similar images / Sites"
+   ],
+   "links": [
+    {
+     "title": "5312×2988",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/%EB%8C%80%EC%A0%84_ETRI_-_panoramio_%284%29.jpg",
+     "site": "upload.wikimedia.org"
+    },
+    {
+     "title": "File:대전 ETRI - panoramio (4).jpg - Wikimedia Commons",
+     "url": "https://commons.wikimedia.org/wiki/File:%EB%8C%80%EC%A0%84_ETRI_-_panoramio_(4).jpg?utm_medium=organic&utm_source=yandexsmartcamera",
+     "site": "commons.wikimedia.org"
+    },
+    {
+     "title": "5312×2988",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/KT_%EA%B3%A0%EC%96%91_%EC%A7%80%EC%82%AC_%EC%A3%BC%EC%B0%A8%EC%9E%A5_-_panoramio.jpg",
+     "site": "upload.wikimedia.org"
+    },
+    {
+     "title": "File:KT 고양 지사 주차장 - panoramio.jpg - Wikimedia Commons",
+     "url": "https://commons.wikimedia.org/wiki/File:KT_%EA%B3%A0%EC%96%91_%EC%A7%80%EC%82%AC_%EC%A3%BC%EC%B0%A8%EC%9E%A5_-_panoramio.jpg?utm_medium=organic&utm_source=yandexsmartcamera",
+     "site": "commons.wikimedia.org"
+    },
+    {
+     "title": "4128×3096",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Ji-gwan_dorm.jpg",
+     "site": "upload.wikimedia.org"
+    },
+    {
+     "title": "File:Ji-gwan dorm.jpg - Wikimedia Commons",
+     "url": "https://commons.wikimedia.org/wiki/File:Ji-gwan_dorm.jpg?utm_medium=organic&utm_source=yandexsmartcamera",
+     "site": "commons.wikimedia.org"
+    },
+    {
+     "title": "120×90",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Ji-gwan_dorm.jpg/120px-Ji-gwan_dorm.jpg",
+     "site": "upload.wikimedia.org"
+    },
+    {
+     "title": "Category:Sungkyunkwan University - Wikimedia Commons",
+     "url": "https://commons.wikimedia.org/wiki/Category:Sungkyunkwan_University?oldformat=true&utm_medium=organic&utm_source=yandexsmartcamera",
+     "site": "commons.wikimedia.org"
+    }
+   ],
+   "error": null,
+   "refused": false,
+   "shot": "reference_yandex.png",
+   "json": "reference_yandex.json",
+   "similar_n": 0,
+   "similar_sites": [],
+   "similar_sheet": null,
+   "similar_note": null
+  }
+ ],
+ "votes": {
+  "city": {
+   "seoul national university": [
+    "yandex"
+   ],
+   "seoul south korea": [
+    "yandex"
+   ],
+   "seoul korea": [
+    "yandex"
+   ]
+  },
+  "place": {
+   "校园停车场": [
+    "baidu/full_flip",
+    "baidu/reference"
+   ]
+  }
+ },
+ "status": {
+  "exif": "ok",
+  "variants": "ok",
+  "edges": "ok",
+  "ocr": "ok",
+  "rev-yandex": "ok",
+  "rev-baidu": "ok"
+ },
+ "timings": {
+  "exif": 0.3,
+  "variants": 0.7,
+  "edges": 1.2,
+  "ocr": 11.5,
+  "rev-yandex": 28.8,
+  "rev-baidu": 35.2
+ }
+}

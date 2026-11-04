@@ -1,0 +1,21 @@
+{
+  "_frame": {
+    "frame": "upright",
+    "image_size": [
+      1081,
+      1440
+    ],
+    "lat0": 35.6366,
+    "lon0": 139.7574
+  },
+  "_params": [
+    0,
+    0,
+    30,
+    185,
+    -7.016150799195072,
+    0,
+    771.913997644113
+  ],
+  "note": "Illustrative self-check only. Camera altitude 30m and HFOV70 are assumptions, not solved measurements. Distant flat-water/sky row625 is approximate. Does not fix position along the loop."
+}

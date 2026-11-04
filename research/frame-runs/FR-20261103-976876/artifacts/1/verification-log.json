@@ -1,0 +1,20 @@
+{
+  "street_view": {
+    "google": "gsv.py near 37.19355,127.0240 --radius 150 returned normal no-panorama response; this does not establish absence of Korean Roadview",
+    "kakao": "cua.createBrowserTab iab https://map.kakao.com/link/roadview/37.1926194,127.0277161 failed: Local browser use disabled in Work settings"
+  },
+  "network": "Python HTTPS satellite fetch succeeded; all three mosaics failed_tiles=0",
+  "custom_script": "download-official.py initially failed missing PIL; corrected via configured uv cache with pillow, successful downloads decoded",
+  "geometry": {
+    "terrain_camera_m": 54,
+    "terrain_road_m": 49,
+    "pose_fit": "RMS 122 px; unstable 80 m camera height and -58 deg pitch rejected; point heights/identifications insufficient",
+    "height_comparison": "GPS fixed, 5 heights tested; high residual and confounded pitch prevent a floor claim",
+    "heading": "T marking bearing + reference x gives 41.2-42.0 deg conditional on GPS and approximate tie point",
+    "hfov": "23mm equivalent plus 4000x2252 portrait crop -> approx 45.8 deg; no calibration",
+    "radius": "35 m practical uncertainty covers GPS-to-frontage offset and southeast wing window candidates, not a statistical interval",
+    "rejection_reason": "At hfov 45.8, portrait vfov is about 73.7 deg. Fitted pitch -58.1 deg points even top ray below horizontal, conflicting with extensive sky in reference. Do not use fitted height or radius.",
+    "pose_sanity_note": "Tool sanity horizon sign formula differs from its projection convention; rejection uses actual optical axis/top-ray geometry, not its printed horizon row."
+  },
+  "plan_download": "g2b PDF fetched 200 and rendered pages 33-34; no correspondence establishes a floor"
+}

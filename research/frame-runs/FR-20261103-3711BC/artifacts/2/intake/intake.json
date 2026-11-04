@@ -1,0 +1,750 @@
+{
+ "photo": "C:\\Users\\admin\\Documents\\ChatGPT\\새로운 프로젝트 선정\\frame-location\\.local-data\\requests\\FR-20261103-3711BC\\runs\\1\\reference.jpg",
+ "input": null,
+ "result": "ok",
+ "exif": {
+  "file": "C:\\Users\\admin\\Documents\\ChatGPT\\새로운 프로젝트 선정\\frame-location\\.local-data\\requests\\FR-20261103-3711BC\\runs\\1\\reference.jpg",
+  "size": [
+   2866,
+   5095
+  ]
+ },
+ "ocr": [
+  {
+   "text": "tpir",
+   "conf": 0.567,
+   "box": [
+    1395,
+    1769,
+    1457,
+    1787
+   ],
+   "pass": "tile"
+  }
+ ],
+ "rev": [
+  {
+   "variant": "full_flip",
+   "engine": "baidu",
+   "guess": [
+    "图中可能是韩国传统街巷"
+   ],
+   "links": [
+    {
+     "title": "#首尔##citywalk##釜山##江陵##庆州##韩国# 微博",
+     "url": "http://weibo.com/3787942764/NgN7EE40j",
+     "site": "weibo.com"
+    },
+    {
+     "title": "快乐重启！在9月初秋的首尔来一场Citywalk！花式逛吃嗨玩购物天花板！必须喊上闺蜜组局来炫！_出口_钟路_历史 搜狐旅游",
+     "url": "http://travel.sohu.com/a/714901413_121117478",
+     "site": "travel.sohu.com"
+    }
+   ],
+   "error": null,
+   "refused": false,
+   "shot": "full_flip_baidu.png",
+   "json": "full_flip_baidu.json",
+   "similar_n": 90,
+   "similar_sites": [
+    [
+     "mbd.baidu.com",
+     10
+    ],
+    [
+     "mafengwo.cn",
+     9
+    ],
+    [
+     "weibo.com",
+     7
+    ],
+    [
+     "veer.com",
+     7
+    ],
+    [
+     "xiaohongshu.com",
+     4
+    ],
+    [
+     "douyin.com",
+     4
+    ],
+    [
+     "zhuanlan.zhihu.com",
+     3
+    ],
+    [
+     "huaban.com",
+     3
+    ],
+    [
+     "hellorf.com",
+     3
+    ],
+    [
+     "touch.travel.qunar.com",
+     3
+    ],
+    [
+     "xsj.699pic.com",
+     3
+    ],
+    [
+     "163.com",
+     3
+    ],
+    [
+     "travel.qunar.com",
+     3
+    ],
+    [
+     "baijiahao.baidu.com",
+     3
+    ],
+    [
+     "sohu.com",
+     2
+    ],
+    [
+     "linggantu.3d66.com",
+     2
+    ],
+    [
+     "hanchao.com",
+     2
+    ],
+    [
+     "travel.sohu.com",
+     2
+    ],
+    [
+     "dianping.com",
+     2
+    ],
+    [
+     "mt.sohu.com",
+     2
+    ],
+    [
+     "plus.ibaotu.com",
+     1
+    ],
+    [
+     "k.sina.com.cn",
+     1
+    ],
+    [
+     "vcg.com",
+     1
+    ],
+    [
+     "pyhtrip.com",
+     1
+    ],
+    [
+     "touch.go.qunar.com",
+     1
+    ],
+    [
+     "3d66.com",
+     1
+    ],
+    [
+     "club.m.autohome.com.cn",
+     1
+    ],
+    [
+     "duitang.com",
+     1
+    ],
+    [
+     "37770.xue63.com",
+     1
+    ],
+    [
+     "zhihu.com",
+     1
+    ],
+    [
+     "new.qq.com",
+     1
+    ],
+    [
+     "ask.qyer.com",
+     1
+    ],
+    [
+     "pro.58pic.com",
+     1
+    ]
+   ],
+   "similar_sheet": "full_flip_baidu_similar.jpg",
+   "similar_note": null
+  },
+  {
+   "variant": "full_flip",
+   "engine": "yandex",
+   "guess": [
+    "Image appears to contain: seoul south korea / seoul korea / южная корея город / улицы южной кореи / capital of south korea / Similar images / Show more similar images"
+   ],
+   "links": [
+    {
+     "title": "ru.wikipedia.org",
+     "url": "https://ru.wikipedia.org/wiki/%D0%A1%D0%B5%D1%83%D0%BB?utm_medium=organic&utm_source=yandexsmartcamera",
+     "site": "ru.wikipedia.org"
+    },
+    {
+     "title": "640×854",
+     "url": "https://ak-d.tripcdn.com/images/1mi4a424x98fzxg3r379C_W_640_0_R5_Q80.jpg?proc=source/trip",
+     "site": "ak-d.tripcdn.com"
+    },
+    {
+     "title": "Сеульские ночные виды с башни N Seoul Tower Trip.com - Южная Корея",
+     "url": "https://ru.trip.com/moments/detail/south-korea-100042-142242074?utm_medium=organic&utm_source=yandexsmartcamera",
+     "site": "ru.trip.com"
+    },
+    {
+     "title": "1920×3413",
+     "url": "https://assets.wonderplan.ai/bukchon.webp",
+     "site": "assets.wonderplan.ai"
+    },
+    {
+     "title": "Top 10 Must-See Attractions in Seoul for First-Time Visitors Wonderplan",
+     "url": "https://wonderplan.ai/blog/top-10-must-see-attractions-seoul-first-time-visitors?utm_medium=organic&utm_source=yandexsmartcamera",
+     "site": "wonderplan.ai"
+    },
+    {
+     "title": "1200×1198",
+     "url": "https://images.template.net/328603/3-Day-Seoul-Itinerary-Template-edit-online-5.jpg",
+     "site": "images.template.net"
+    },
+    {
+     "title": "Free 3 Day Seoul Itinerary Template to Edit Online",
+     "url": "https://www.template.net/edit-online/328603/3-day-seoul-itinerary?utm_medium=organic&utm_source=yandexsmartcamera",
+     "site": "www.template.net"
+    },
+    {
+     "title": "1000×1333",
+     "url": "https://judyer.com/wp-content/uploads/20230823184056_76.jpg",
+     "site": "judyer.com"
+    }
+   ],
+   "error": null,
+   "refused": false,
+   "shot": "full_flip_yandex.png",
+   "json": "full_flip_yandex.json",
+   "similar_n": 0,
+   "similar_sites": [],
+   "similar_sheet": null,
+   "similar_note": null
+  },
+  {
+   "variant": "full_gray",
+   "engine": "baidu",
+   "guess": [
+    "图中可能是临夏八坊十三巷"
+   ],
+   "links": [],
+   "error": null,
+   "refused": false,
+   "shot": "full_gray_baidu.png",
+   "json": "full_gray_baidu.json",
+   "similar_n": 90,
+   "similar_sites": [
+    [
+     "meipian.cn",
+     14
+    ],
+    [
+     "nipic.com",
+     7
+    ],
+    [
+     "sohu.com",
+     6
+    ],
+    [
+     "163.com",
+     4
+    ],
+    [
+     "weibo.com",
+     4
+    ],
+    [
+     "xiaohongshu.com",
+     3
+    ],
+    [
+     "ls.mala.cn",
+     3
+    ],
+    [
+     "douban.com",
+     3
+    ],
+    [
+     "tuchong.com",
+     3
+    ],
+    [
+     "bbs.fengniao.com",
+     3
+    ],
+    [
+     "mafengwo.cn",
+     2
+    ],
+    [
+     "mt.sohu.com",
+     2
+    ],
+    [
+     "huaban.com",
+     2
+    ],
+    [
+     "zhuanlan.zhihu.com",
+     2
+    ],
+    [
+     "baijiahao.baidu.com",
+     2
+    ],
+    [
+     "dcbbs.zol.com.cn",
+     2
+    ],
+    [
+     "douyin.com",
+     2
+    ],
+    [
+     "mbd.baidu.com",
+     2
+    ],
+    [
+     "news.sohu.com",
+     2
+    ],
+    [
+     "duitang.com",
+     2
+    ],
+    [
+     "photo.poco.cn",
+     1
+    ],
+    [
+     "tianpq.lofter.com",
+     1
+    ],
+    [
+     "photofans.cn",
+     1
+    ],
+    [
+     "xpfengshui.com",
+     1
+    ],
+    [
+     "ceh.com.cn",
+     1
+    ],
+    [
+     "xueqiu.com",
+     1
+    ],
+    [
+     "travel.sina.com.cn",
+     1
+    ],
+    [
+     "fengniao.com",
+     1
+    ],
+    [
+     "zhihu.com",
+     1
+    ],
+    [
+     "artsoapi4.artron.net",
+     1
+    ],
+    [
+     "zcool.com.cn",
+     1
+    ],
+    [
+     "xsj.699pic.com",
+     1
+    ],
+    [
+     "jianshu.com",
+     1
+    ],
+    [
+     "cj.sina.com.cn",
+     1
+    ],
+    [
+     "you.ctrip.com",
+     1
+    ],
+    [
+     "isenlin.cn",
+     1
+    ],
+    [
+     "k.sina.cn",
+     1
+    ],
+    [
+     "touch.go.qunar.com",
+     1
+    ],
+    [
+     "yjyj314314.tuchong.com",
+     1
+    ],
+    [
+     "poco.cn",
+     1
+    ]
+   ],
+   "similar_sheet": "full_gray_baidu_similar.jpg",
+   "similar_note": null
+  },
+  {
+   "variant": "full_gray",
+   "engine": "yandex",
+   "guess": [
+    "Image appears to contain: seoul south korea / южная корея сеул / улицы южной кореи / сеул город / capital of south korea / In other sizes / 2880×5120"
+   ],
+   "links": [
+    {
+     "title": "ru.wikipedia.org",
+     "url": "https://ru.wikipedia.org/wiki/%D0%A1%D0%B5%D1%83%D0%BB?utm_medium=organic&utm_source=yandexsmartcamera",
+     "site": "ru.wikipedia.org"
+    },
+    {
+     "title": "2880×5120",
+     "url": "https://images.unsplash.com/photo-1630135199928-55a43e87350d?auto=format&fit=crop&w=2880",
+     "site": "images.unsplash.com"
+    },
+    {
+     "title": "1920×3413",
+     "url": "https://assets.wonderplan.ai/bukchon.webp",
+     "site": "assets.wonderplan.ai"
+    },
+    {
+     "title": "1358×2414",
+     "url": "https://miro.medium.com/v2/resize:fit:1358/1*IYak22bHgd5tTm4mZVOr8Q.jpeg",
+     "site": "miro.medium.com"
+    },
+    {
+     "title": "1238×2200",
+     "url": "https://humbo.s3.eu-north-1.amazonaws.com/place-photo/65b7c64659acd03706b280ac/dwn-QhFsEd.jpeg",
+     "site": "humbo.s3.eu-north-1.amazonaws.com"
+    },
+    {
+     "title": "1080×1920",
+     "url": "https://images.unsplash.com/photo-1630135199928-55a43e87350d?auto=format&fit=crop&w=1080",
+     "site": "images.unsplash.com"
+    },
+    {
+     "title": "1100×1465",
+     "url": "https://lbposter.ru/image/cache/catalog/i/of/bf/2f74acba029479ff7a402f0ec7d8f41a-1100x0.jpg",
+     "site": "lbposter.ru"
+    },
+    {
+     "title": "1200×758",
+     "url": "https://tripeditor.com/wp-content/uploads/2025/07/09192646/clement-ozwuhSnFaiM-unsplash-1200x758.jpg",
+     "site": "tripeditor.com"
+    }
+   ],
+   "error": null,
+   "refused": false,
+   "shot": "full_gray_yandex.png",
+   "json": "full_gray_yandex.json",
+   "similar_n": 0,
+   "similar_sites": [],
+   "similar_sheet": null,
+   "similar_note": null
+  },
+  {
+   "variant": "reference",
+   "engine": "baidu",
+   "guess": [
+    "图中可能是韩国首尔传统街巷"
+   ],
+   "links": [
+    {
+     "title": "#首尔##citywalk##釜山##江陵##庆州##韩国# 微博",
+     "url": "http://weibo.com/3787942764/NgN7EE40j",
+     "site": "weibo.com"
+    },
+    {
+     "title": "快乐重启！在9月初秋的首尔来一场Citywalk！花式逛吃嗨玩购物天花板！必须喊上闺蜜组局来炫！_出口_钟路_历史 搜狐旅游",
+     "url": "http://travel.sohu.com/a/714901413_121117478",
+     "site": "travel.sohu.com"
+    },
+    {
+     "title": "#分享异国风情 春节后的第一场旅行，一起去韩国吧！ - 抖音",
+     "url": "http://www.douyin.com/note/7329391038190161189",
+     "site": "www.douyin.com"
+    }
+   ],
+   "error": null,
+   "refused": false,
+   "shot": "reference_baidu.png",
+   "json": "reference_baidu.json",
+   "similar_n": 90,
+   "similar_sites": [
+    [
+     "mbd.baidu.com",
+     11
+    ],
+    [
+     "weibo.com",
+     7
+    ],
+    [
+     "xiaohongshu.com",
+     6
+    ],
+    [
+     "veer.com",
+     6
+    ],
+    [
+     "xsj.699pic.com",
+     6
+    ],
+    [
+     "mafengwo.cn",
+     5
+    ],
+    [
+     "baijiahao.baidu.com",
+     4
+    ],
+    [
+     "sohu.com",
+     3
+    ],
+    [
+     "huaban.com",
+     3
+    ],
+    [
+     "douyin.com",
+     3
+    ],
+    [
+     "travel.qunar.com",
+     3
+    ],
+    [
+     "dianping.com",
+     3
+    ],
+    [
+     "linggantu.3d66.com",
+     2
+    ],
+    [
+     "hellorf.com",
+     2
+    ],
+    [
+     "hanchao.com",
+     2
+    ],
+    [
+     "travel.sohu.com",
+     2
+    ],
+    [
+     "douban.com",
+     2
+    ],
+    [
+     "zhuanlan.zhihu.com",
+     1
+    ],
+    [
+     "plus.ibaotu.com",
+     1
+    ],
+    [
+     "pro.58pic.com",
+     1
+    ],
+    [
+     "vcg.com",
+     1
+    ],
+    [
+     "pyhtrip.com",
+     1
+    ],
+    [
+     "touch.go.qunar.com",
+     1
+    ],
+    [
+     "club.m.autohome.com.cn",
+     1
+    ],
+    [
+     "duitang.com",
+     1
+    ],
+    [
+     "6renyou.com",
+     1
+    ],
+    [
+     "cn-kr.net",
+     1
+    ],
+    [
+     "new.qq.com",
+     1
+    ],
+    [
+     "k.sina.com.cn",
+     1
+    ],
+    [
+     "meipian.cn",
+     1
+    ],
+    [
+     "588ku.com",
+     1
+    ],
+    [
+     "3d66.com",
+     1
+    ],
+    [
+     "37770.xue63.com",
+     1
+    ],
+    [
+     "baike.baidu.hk",
+     1
+    ],
+    [
+     "699pic.com",
+     1
+    ],
+    [
+     "163.com",
+     1
+    ],
+    [
+     "item.btime.com",
+     1
+    ]
+   ],
+   "similar_sheet": "reference_baidu_similar.jpg",
+   "similar_note": null
+  },
+  {
+   "variant": "reference",
+   "engine": "yandex",
+   "guess": [
+    "Image appears to contain: улицы южной кореи / seoul south korea / сеул город / южная корея сеул / южная корея город / In other sizes / 2880×5120"
+   ],
+   "links": [
+    {
+     "title": "ru.wikipedia.org",
+     "url": "https://ru.wikipedia.org/wiki/%D0%A1%D0%B5%D1%83%D0%BB?utm_medium=organic&utm_source=yandexsmartcamera",
+     "site": "ru.wikipedia.org"
+    },
+    {
+     "title": "2880×5120",
+     "url": "https://images.unsplash.com/photo-1630135199928-55a43e87350d?auto=format&fit=crop&w=2880",
+     "site": "images.unsplash.com"
+    },
+    {
+     "title": "1920×3413",
+     "url": "https://assets.wonderplan.ai/bukchon.webp",
+     "site": "assets.wonderplan.ai"
+    },
+    {
+     "title": "1358×2414",
+     "url": "https://miro.medium.com/v2/resize:fit:1358/1*IYak22bHgd5tTm4mZVOr8Q.jpeg",
+     "site": "miro.medium.com"
+    },
+    {
+     "title": "1238×2200",
+     "url": "https://humbo.s3.eu-north-1.amazonaws.com/place-photo/65b7c64659acd03706b280ac/dwn-QhFsEd.jpeg",
+     "site": "humbo.s3.eu-north-1.amazonaws.com"
+    },
+    {
+     "title": "1080×1920",
+     "url": "https://images.unsplash.com/photo-1630135199928-55a43e87350d?auto=format&fit=crop&w=1080",
+     "site": "images.unsplash.com"
+    },
+    {
+     "title": "1100×1465",
+     "url": "https://lbposter.ru/image/cache/catalog/i/of/bf/2f74acba029479ff7a402f0ec7d8f41a-1100x0.jpg",
+     "site": "lbposter.ru"
+    },
+    {
+     "title": "1200×758",
+     "url": "https://tripeditor.com/wp-content/uploads/2025/07/09192646/clement-ozwuhSnFaiM-unsplash-1200x758.jpg",
+     "site": "tripeditor.com"
+    }
+   ],
+   "error": null,
+   "refused": false,
+   "shot": "reference_yandex.png",
+   "json": "reference_yandex.json",
+   "similar_n": 0,
+   "similar_sites": [],
+   "similar_sheet": null,
+   "similar_note": null
+  }
+ ],
+ "votes": {
+  "city": {
+   "seoul south korea": [
+    "yandex"
+   ],
+   "seoul korea": [
+    "yandex"
+   ],
+   "韩国首尔传统街巷": [
+    "baidu"
+   ]
+  },
+  "place": {
+   "韩国传统街巷": [
+    "baidu/full_flip"
+   ]
+  }
+ },
+ "status": {
+  "exif": "ok",
+  "variants": "ok",
+  "edges": "ok",
+  "ocr": "ok",
+  "rev-yandex": "ok",
+  "rev-baidu": "ok"
+ },
+ "timings": {
+  "exif": 0.4,
+  "variants": 1.1,
+  "edges": 1.6,
+  "ocr": 12.6,
+  "rev-yandex": 40.1,
+  "rev-baidu": 46.8
+ }
+}

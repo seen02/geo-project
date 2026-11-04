@@ -1,0 +1,78 @@
+{
+  "_frame": {
+    "lat0": 37.1843,
+    "lon0": 127.0223,
+    "image_size": [
+      1440,
+      810
+    ],
+    "frame": "upright"
+  },
+  "_params": [
+    0.0,
+    0.0,
+    125.6,
+    60.51532261163082,
+    8.12267132276719,
+    0.3474502364496834,
+    1093.9091135252881
+  ],
+  "location": [
+    37.1843,
+    127.0223
+  ],
+  "height": 125.6,
+  "heading": 60.51532261163082,
+  "pitch": 8.12267132276719,
+  "roll": 0.3474502364496834,
+  "hfov": 66.70502255697245,
+  "rms_px": 0.8109919888763419,
+  "caution": "Camera position fixed from street-view candidate; fit is only a consistency test, not independent localization. Tower caps, footprints and elevations have uncertainty. No sea horizon is visible. pose.sanity horizon formula has opposite sign to pose.project; actual projection is used.",
+  "features": [
+    {
+      "name": "D",
+      "observed": [
+        781.0,
+        514.5
+      ],
+      "projected": [
+        781.1273708985333,
+        515.3358808258088
+      ]
+    },
+    {
+      "name": "B",
+      "observed": [
+        734.5,
+        522.0
+      ],
+      "projected": [
+        733.9475026124278,
+        521.8987371464989
+      ]
+    },
+    {
+      "name": "C",
+      "observed": [
+        762.0,
+        527.0
+      ],
+      "projected": [
+        762.2918079014389,
+        525.8495074081313
+      ]
+    },
+    {
+      "name": "A",
+      "observed": [
+        716.5,
+        516.5
+      ],
+      "projected": [
+        716.6330460456483,
+        516.9170348774571
+      ]
+    }
+  ],
+  "horizon_row_from_projection": 561.127962167096
+}

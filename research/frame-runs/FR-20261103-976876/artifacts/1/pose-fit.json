@@ -1,0 +1,101 @@
+{
+ "camera_ll": [
+  37.1926664,
+  127.0278119
+ ],
+ "height": 80.0,
+ "heading": 25.26,
+ "pitch": -58.1,
+ "roll": 0.0,
+ "hfov": 45.8,
+ "rms_px": 122.13,
+ "points": 5,
+ "unknowns": 5,
+ "dof": 5,
+ "residuals_px": {
+  "T-centerline": [
+   39.4,
+   39.0
+  ],
+  "T-curb": [
+   -147.9,
+   24.7
+  ],
+  "Crosswalk-NW": [
+   47.2,
+   -1.0
+  ],
+  "Lamp-base": [
+   -122.8,
+   -39.5
+  ],
+  "Planter-near": [
+   172.9,
+   -16.9
+  ]
+ },
+ "sigma": {
+  "east_m": 7.1,
+  "north_m": 13.6,
+  "height_m": 11.8,
+  "heading_deg": 5.89
+ },
+ "radius_px_only_m": 46.1,
+ "_params": [
+  1.5118012387099122,
+  1.6794473305936597,
+  79.99695599624154,
+  25.2648567931724,
+  -58.10237176947331,
+  0.0,
+  2665.615329751012
+ ],
+ "_frame": {
+  "lat0": 37.1926512490419,
+  "lon0": 127.02779486775398,
+  "image_size": [
+   2252,
+   4000
+  ],
+  "frame": "upright"
+ },
+ "radius_m": 32.4,
+ "radius_note": "95% radius, Monte Carlo 60 trials: control-point coordinates perturbed by ±2 m (--pt-sigma), pixels by ±122.1 px. Median offset 9.6 m. The old pixel-noise-only measure is in radius_px_only_m; it doesn't cover the ground truth.",
+ "pt_sigma_m": 2.0,
+ "leave_one_out": {
+  "points": {
+   "T-centerline": {
+    "pred_err_px": 76.8,
+    "rest_rms_px": 132.6,
+    "shift_m": 0.4
+   },
+   "T-curb": {
+    "pred_err_px": 225.5,
+    "rest_rms_px": 100.2,
+    "shift_m": 9.0
+   },
+   "Crosswalk-NW": {
+    "pred_err_px": 129.9,
+    "rest_rms_px": 131.0,
+    "shift_m": 3.0
+   },
+   "Lamp-base": {
+    "pred_err_px": 566.0,
+    "rest_rms_px": 68.0,
+    "shift_m": 5.5
+   },
+   "Planter-near": {
+    "pred_err_px": 411.4,
+    "rest_rms_px": 41.1,
+    "shift_m": 6.3
+   }
+  },
+  "suspect": [],
+  "most_improved": {
+   "name": "Planter-near",
+   "rest_rms_px": 41.1,
+   "median_rest_rms_px": 100.2
+  },
+  "rule": "flag only one: dropping it gives the lowest remaining rms (< 0.4× the median of the other drops) and its prediction error > 3× the remaining rms; unreliable for level shots and few points; nothing flagged doesn't mean there is no misidentified point; most_improved is listed whether or not it passes the threshold, check it first"
+ }
+}

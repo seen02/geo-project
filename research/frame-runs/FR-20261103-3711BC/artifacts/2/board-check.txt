@@ -1,0 +1,7 @@
+Pre-conclusion check:
+  ok   main answer CameraUpper: 2 pieces of evidence, 1 verified
+  NOTE candidates down-weighted by inference but not excluded: CameraLower, CameraMid, CameraNorth → when no candidate matches, look back at these first
+  ok   evidence image evidence.jpg
+  ok   Bukchon falsification condition: Reject the road hypothesis if consecutive left gables, right eaves and skyline cannot coexist in any local ground-level view
+Result: pass
+FRAME_TOOL_RESULT {"tool": "board.py", "args": ["check"], "ok": true, "exit_code": 0, "started_at": 1793682018.8932333, "finished_at": 1793682019.0850387}

@@ -1,0 +1,207 @@
+{
+  "schema_version": 1,
+  "title": "학교 캠퍼스 사진 위치 찾기",
+  "place_name": "한신대학교 경기캠퍼스 장준하통일관(18번 건물) 전면 창가 추정",
+  "region": "경기도 오산시 양산동, 한신대길 137",
+  "summary": "장준하통일관 중앙 출입구에서 남동쪽으로 이어지는 전면 창가가 유력합니다. 북동쪽 약 42도를 바라본 구도입니다. 정확한 창과 촬영 층수는 확인되지 않았습니다.",
+  "lat": 37.1926194,
+  "lon": 127.0277161,
+  "radius_m": 35,
+  "heading": 42,
+  "coordinate_type": "camera_estimate",
+  "hfov": 46,
+  "radius_basis": "원본 GPS를 곡선 화단·횡단보도·도로 표시 배치와 대조했습니다. GPS와 외벽의 차이 및 남동쪽 전면의 여러 창 후보를 포함하는 실용적 추정 반경 35m입니다. 통계적 신뢰구간은 아닙니다.",
+  "heading_basis": "GPS 위치에서 흰색 도로 표시까지의 방위각을 사진 내 가로 위치로 보정하면 약 41~42도입니다. 기준점 판독과 실제 창 위치에 따라 약 10도 차이가 가능하며 정밀 측량값은 아닙니다.",
+  "confidence_levels": {
+    "city": {
+      "level": "high",
+      "reason": "원본 GPS, HANSHIN 배너, 공식 경기캠퍼스 주소가 오산시로 일치합니다."
+    },
+    "area": {
+      "level": "high",
+      "reason": "공식 건물 사진과 위성영상에서 장준하통일관 및 출입구 주변 배치를 확인했습니다."
+    },
+    "road": {
+      "level": "medium",
+      "reason": "전면 도로의 곡선 화단·횡단보도·도로 표시가 대응합니다. 동일 방향 로드뷰는 확보하지 못했습니다."
+    },
+    "camera": {
+      "level": "medium",
+      "reason": "GPS와 전면 배치는 남동쪽 창가 범위를 지지하지만 정확한 창·층·높이는 미확정입니다."
+    }
+  },
+  "verification": {
+    "street_view": {
+      "status": "blocked",
+      "summary": "Google 조회는 정상 응답에 파노라마가 없었습니다. 카카오 로드뷰는 브라우저 사용이 비활성화되어 열지 못했습니다. 한국 거리영상 전체가 없다는 뜻은 아닙니다.",
+      "files": [
+        "verification-log.json"
+      ]
+    },
+    "image_match": {
+      "status": "attempted",
+      "summary": "공식 외관 사진 17장을 DINOv2와 SIFT로 비교했습니다. 장준하통일관이 전역 유사도 1위였으나 특징점 일치는 성립하지 않았습니다. 상위 사진의 외관과 전면 배치를 수동 대조했습니다.",
+      "files": [
+        "official-match2.json",
+        "official-match2.jpg",
+        "comparison-layout.jpg",
+        "comparison-building.jpg"
+      ]
+    },
+    "geometry": {
+      "status": "attempted",
+      "summary": "방위각 계산, 5개 기준점의 자세 추정·재투영, GPS 고정 높이 후보 비교를 수행했습니다. 재투영 오차 122px와 하늘 구도에 맞지 않는 자세 때문에 높이 해를 기각했습니다. 지형 고도와 공개 평면도만으로는 층수를 판정할 수 없었습니다.",
+      "files": [
+        "bearing-check.json",
+        "pose-controls.json",
+        "pose-fit.json",
+        "pose-project.jpg",
+        "height-check.json",
+        "verification-log.json"
+      ]
+    }
+  },
+  "evidence_spec": "evidence-spec.json",
+  "map_image": {
+    "file": "evidence/camera-satellite.jpg",
+    "zoom": 19,
+    "origin_tile": [
+      447139,
+      203714
+    ],
+    "size": [
+      1280,
+      1280
+    ]
+  },
+  "quality": {
+    "checks": {
+      "street_view": {
+        "status": "blocked",
+        "summary": "Google 조회는 정상 응답에 파노라마가 없었습니다. 카카오 로드뷰는 브라우저 사용이 비활성화되어 열지 못했습니다. 한국 거리영상 전체가 없다는 뜻은 아닙니다.",
+        "files": [
+          "verification-log.json"
+        ],
+        "validated": false
+      },
+      "image_match": {
+        "status": "attempted",
+        "summary": "공식 외관 사진 17장을 DINOv2와 SIFT로 비교했습니다. 장준하통일관이 전역 유사도 1위였으나 특징점 일치는 성립하지 않았습니다. 상위 사진의 외관과 전면 배치를 수동 대조했습니다.",
+        "files": [
+          "official-match2.json",
+          "official-match2.jpg",
+          "comparison-layout.jpg",
+          "comparison-building.jpg"
+        ],
+        "validated": false
+      },
+      "geometry": {
+        "status": "attempted",
+        "summary": "방위각 계산, 5개 기준점의 자세 추정·재투영, GPS 고정 높이 후보 비교를 수행했습니다. 재투영 오차 122px와 하늘 구도에 맞지 않는 자세 때문에 높이 해를 기각했습니다. 지형 고도와 공개 평면도만으로는 층수를 판정할 수 없었습니다.",
+        "files": [
+          "bearing-check.json",
+          "pose-controls.json",
+          "pose-fit.json",
+          "pose-project.jpg",
+          "height-check.json",
+          "verification-log.json"
+        ],
+        "validated": false
+      }
+    },
+    "warnings": [
+      "거리사진 대조의 실행·산출물 확인이 완료되지 않았습니다. Google 조회는 정상 응답에 파노라마가 없었습니다. 카카오 로드뷰는 브라우저 사용이 비활성화되어 열지 못했습니다. 한국 거리영상 전체가 없다는 뜻은 아닙니다.",
+      "후보 이미지 순위화의 실행·산출물 확인이 완료되지 않았습니다. 공식 외관 사진 17장을 DINOv2와 SIFT로 비교했습니다. 장준하통일관이 전역 유사도 1위였으나 특징점 일치는 성립하지 않았습니다. 상위 사진의 외관과 전면 배치를 수동 대조했습니다.",
+      "촬영 위치·방향 기하 검증의 실행·산출물 확인이 완료되지 않았습니다. 방위각 계산, 5개 기준점의 자세 추정·재투영, GPS 고정 높이 후보 비교를 수행했습니다. 재투영 오차 122px와 하늘 구도에 맞지 않는 자세 때문에 높이 해를 기각했습니다. 지형 고도와 공개 평면도만으로는 층수를 판정할 수 없었습니다."
+    ],
+    "map": {
+      "file": "camera-satellite.jpg",
+      "zoom": 19,
+      "origin_tile": [
+        447139,
+        203714
+      ],
+      "size": [
+        1280,
+        1280
+      ]
+    },
+    "ready": false
+  },
+  "confidence": "medium",
+  "composition": "장준하통일관 중앙 출입구의 남동쪽 전면 창가를 확인하세요. 곡선 석재 화단과 배너 두 장이 달린 가로등을 아래 중앙에, 횡단보도를 오른쪽에 두고 북동쪽을 향하면 비슷한 구도가 됩니다. 동일 창과 층은 현장 대조가 필요합니다.",
+  "best_time": "원본 EXIF는 2026년 11월 3일 13:49(KST)입니다. 비슷한 단풍과 빛을 원하면 11월 초 맑은 날 13~14시가 참고 조건입니다.",
+  "access": "캠퍼스 주소는 한신대길 137입니다. 장준하통일관 실내와 해당 창가의 외부인 출입·촬영 가능 여부 및 개방 시간은 확인되지 않았습니다.",
+  "lens": "원본은 Galaxy S24, 환산 23mm, 디지털 줌 1배입니다. 세로 9:16 구도이며 가로 화각 약 46도는 메타데이터와 화면 비율에 따른 추정값입니다.",
+  "clues": [
+    {
+      "title": "학교 표식과 원본 GPS",
+      "description": "배너 뒷면에 HANSHIN UNIVERSITY가 보이며 원본 GPS는 장준하통일관 안쪽을 가리킵니다. 주변 배치와 대조하여 확인했습니다.",
+      "kind": "근거"
+    },
+    {
+      "title": "전면 배치의 대응",
+      "description": "중앙 출입구 양옆의 곡선 화단, 전면 주차열, 남동쪽 횡단보도, 흰색 도로 표시의 관계가 사진과 일치합니다.",
+      "kind": "근거"
+    },
+    {
+      "title": "층수는 미확정",
+      "description": "공개 1·2층 평면도와 외관을 확인했지만 촬영 창과 연결되는 표식이 없습니다. EXIF 고도 78m와 불안정한 자세 계산으로 층수를 환산하지 않았습니다.",
+      "kind": "근거"
+    }
+  ],
+  "caveats": [
+    "정확한 촬영 층수와 호실은 확인되지 않았습니다. 근거가 부족해 임의의 층수를 제시하지 않습니다.",
+    "좌표는 건물 POI가 아닌 원본 GPS 기반 촬영 위치 추정입니다. 실내 GPS 오차와 창가 이동을 고려해야 합니다.",
+    "자세 계산의 높이·반경 결과는 기각했으며 최종 위치의 정밀도 근거로 사용하지 않았습니다.",
+    "위성영상과 외부 사진의 촬영 시기가 원본과 달라 수목·주차 상태가 다릅니다.",
+    "거리사진 대조의 실행·산출물 확인이 완료되지 않았습니다. Google 조회는 정상 응답에 파노라마가 없었습니다. 카카오 로드뷰는 브라우저 사용이 비활성화되어 열지 못했습니다. 한국 거리영상 전체가 없다는 뜻은 아닙니다.",
+    "후보 이미지 순위화의 실행·산출물 확인이 완료되지 않았습니다. 공식 외관 사진 17장을 DINOv2와 SIFT로 비교했습니다. 장준하통일관이 전역 유사도 1위였으나 특징점 일치는 성립하지 않았습니다. 상위 사진의 외관과 전면 배치를 수동 대조했습니다.",
+    "촬영 위치·방향 기하 검증의 실행·산출물 확인이 완료되지 않았습니다. 방위각 계산, 5개 기준점의 자세 추정·재투영, GPS 고정 높이 후보 비교를 수행했습니다. 재투영 오차 122px와 하늘 구도에 맞지 않는 자세 때문에 높이 해를 기각했습니다. 지형 고도와 공개 평면도만으로는 층수를 판정할 수 없었습니다.",
+    "Codex가 자동 생성한 조사 결과입니다. 촬영지 방문·허가·최신 현장 상태는 별도로 확인해 주세요."
+  ],
+  "alternatives": [
+    {
+      "name": "장준하통일관 중앙 출입구 축의 창",
+      "reason": "같은 건물의 대안입니다. 창에서 가로등과 횡단보도의 상대 위치를 확인해야 구별됩니다. GPS와 화단 배치는 남동쪽 전면을 더 지지합니다."
+    },
+    {
+      "name": "장준하통일관 북서쪽 전면 창",
+      "reason": "다른 곡선 화단 후보로 검토했으나 횡단보도가 오른쪽에 놓이는 배치와 GPS가 덜 맞습니다. 동일 방향 실내 사진은 확보하지 못했습니다."
+    }
+  ],
+  "sources": [
+    {
+      "title": "한신대학교 공식 캠퍼스투어",
+      "url": "https://www.hs.ac.kr/kor/4891/subview.do"
+    },
+    {
+      "title": "한신대학교 공식 장준하통일관 외관 사진",
+      "url": "https://www.hs.ac.kr/sites/kor/atchmnfl/imgMap/102/temp_1504856738294100.tmp"
+    },
+    {
+      "title": "한신대학교 SW중심대학사업단 건물 사진",
+      "url": "https://swuniv.hs.ac.kr/images/sub/01/sub01_05_img01.jpg"
+    },
+    {
+      "title": "Google 위성영상 — 모자이크 내 실제 타일 출처",
+      "url": "https://mt1.google.com/vt/lyrs=s&x=447141&y=203716&z=19"
+    },
+    {
+      "title": "나라장터 공개 교내 평면도 — 33·34쪽",
+      "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R25BK01229961&bidPbancOrd=000&fileSeq=6&fileType=&prcmBsneSeCd=07"
+    }
+  ],
+  "evidence": [
+    {
+      "name": "위치 및 비교 근거",
+      "description": "추정 촬영 위치·시야와 원본/위성영상, 원본/공식 외관의 두 비교 패널입니다.",
+      "file": "evidence/evidence.jpg"
+    },
+    {
+      "name": "원본 위성 모자이크",
+      "description": "Google 북쪽이 위인 WGS84 z19 영상입니다. camera-satellite.json에 원점 타일·크기가 보존되어 있으며 실패 타일은 0개입니다.",
+      "file": "evidence/camera-satellite.jpg"
+    }
+  ]
+}

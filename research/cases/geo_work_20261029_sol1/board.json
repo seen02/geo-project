@@ -1,0 +1,345 @@
+{
+ "case": "geo_work_20261029_sol1",
+ "photo": "C:\\Users\\admin\\img2place_project\\geo_slueth_test\\terrain_test_images\\test_sol_1_.jpg",
+ "created": "2026-10-29T11:44:40",
+ "country": "KR",
+ "candidates": {
+  "Seogwipo": {
+   "level": "city",
+   "parent": null,
+   "bbox": null,
+   "scan_bbox": null,
+   "prior": 1.0,
+   "status": "open",
+   "note": ""
+  },
+  "01 Sagye-ri": {
+   "level": "area",
+   "parent": null,
+   "bbox": [
+    35.557938,
+    127.411509,
+    35.566982,
+    127.422551
+   ],
+   "scan_bbox": null,
+   "center": [
+    35.56246,
+    127.41703
+   ],
+   "prior": 1.0,
+   "status": "open",
+   "note": "",
+   "from": "sagyeri.json"
+  },
+  "02 Sagye-ri": {
+   "level": "area",
+   "parent": "Seogwipo",
+   "bbox": [
+    33.227188,
+    126.3012,
+    33.236232,
+    126.31194
+   ],
+   "scan_bbox": [
+    33.224,
+    126.303,
+    33.229,
+    126.309
+   ],
+   "center": [
+    33.23171,
+    126.30657
+   ],
+   "prior": 1.0,
+   "status": "open",
+   "note": "",
+   "from": "sagyeri.json"
+  },
+  "03 Sagye-ri": {
+   "level": "area",
+   "parent": null,
+   "bbox": [
+    37.051778,
+    129.328112,
+    37.060822,
+    129.339368
+   ],
+   "scan_bbox": null,
+   "center": [
+    37.0563,
+    129.33374
+   ],
+   "prior": 1.0,
+   "status": "open",
+   "note": "",
+   "from": "sagyeri.json"
+  },
+  "01 광치기해변": {
+   "level": "area",
+   "parent": "Seogwipo",
+   "bbox": [
+    33.449244,
+    126.92014,
+    33.458288,
+    126.930906
+   ],
+   "scan_bbox": null,
+   "center": [
+    33.453766,
+    126.925523
+   ],
+   "prior": 1.0,
+   "status": "open",
+   "note": "",
+   "from": "gwang_pois.json"
+  },
+  "02 광치기해변": {
+   "level": "area",
+   "parent": "Seogwipo",
+   "bbox": [
+    33.446903,
+    126.917984,
+    33.455947,
+    126.92875
+   ],
+   "scan_bbox": null,
+   "center": [
+    33.451425,
+    126.923367
+   ],
+   "prior": 1.0,
+   "status": "open",
+   "note": "",
+   "from": "gwang_pois.json"
+  },
+  "East layered-rock shoreline": {
+   "level": "road",
+   "parent": "02 Sagye-ri",
+   "bbox": [
+    33.225763,
+    126.301174,
+    33.228837,
+    126.304826
+   ],
+   "scan_bbox": null,
+   "center": [
+    33.2273,
+    126.303
+   ],
+   "prior": 1.0,
+   "status": "open",
+   "note": "",
+   "from": "coast_segments.json"
+  },
+  "Central sandy shoreline": {
+   "level": "road",
+   "parent": "02 Sagye-ri",
+   "bbox": [
+    33.224263,
+    126.297974,
+    33.227337,
+    126.301626
+   ],
+   "scan_bbox": null,
+   "center": [
+    33.2258,
+    126.2998
+   ],
+   "prior": 1.0,
+   "status": "open",
+   "note": "",
+   "from": "coast_segments.json"
+  },
+  "Harbor frontage": {
+   "level": "road",
+   "parent": "02 Sagye-ri",
+   "bbox": [
+    33.226263,
+    126.303174,
+    33.229337,
+    126.306826
+   ],
+   "scan_bbox": null,
+   "center": [
+    33.2278,
+    126.305
+   ],
+   "prior": 1.0,
+   "status": "open",
+   "note": "",
+   "from": "coast_segments.json"
+  }
+ },
+ "clues": {
+  "K1": {
+   "text": "Black rough intertidal rocks and green algae; broad pale layered rock/sand platform on right; low broad headland beyond curving coast; sea left and land right; no readable signs or GPS.",
+   "kind": "coast",
+   "status": "observed",
+   "file": "edges.jpg",
+   "source": "",
+   "used": false
+  },
+  "K2": {
+   "text": "Public Sagye coastal views show the same broad Songaksan silhouette with steep left tip and low extension right; pale layered platform with dark basalt and curving beach. Seopjikoji reference has different high cliffs.",
+   "kind": "anchor",
+   "status": "observed",
+   "file": "refs_match.jpg",
+   "source": "",
+   "used": true
+  },
+  "K3": {
+   "text": "DEM view from representative Sagye shoreline 33.2273,126.303 looking220deg with75degHFOV broadly matches Songaksan summit and low extension; cliff onset differs due to approximate camera/FOV and smoothed DEM. z18 coast shows layered platform east of curved beach.",
+   "kind": "geometry",
+   "status": "computed",
+   "file": "C:\\Users\\admin\\img2place_project\\geo_work_20261029_sol1\\terrain_view_overlay.jpg",
+   "source": "",
+   "used": true,
+   "resolves": [
+    "K1"
+   ]
+  },
+  "K4": {
+   "text": "East layered coast provides pale platform on landward right, dark intertidal rocks foreground and curving beach toward southwest Songaksan. Central shoreline is mainly sandy and harbor frontage has seawalls; road panorama is offset from the shoreline camera.",
+   "kind": "ground-match",
+   "status": "observed",
+   "file": "evidence.jpg",
+   "source": "",
+   "used": true
+  }
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "clue": "K2",
+   "candidate": "02 Sagye-ri",
+   "lr": 5.0,
+   "why": "Public coastal photographs match the Songaksan profile and layered coast in Sagye; namesakes inland do not fit the documented coastal scene.",
+   "file": "refs_match.jpg",
+   "cmd": ""
+  },
+  {
+   "id": "E2",
+   "clue": "K2",
+   "candidate": "01 광치기해변",
+   "lr": 0.2,
+   "why": "Public coastal photographs match the Songaksan profile and layered coast in Sagye; namesakes inland do not fit the documented coastal scene.",
+   "file": "refs_match.jpg",
+   "cmd": ""
+  },
+  {
+   "id": "E3",
+   "clue": "K2",
+   "candidate": "02 광치기해변",
+   "lr": 0.2,
+   "why": "Public coastal photographs match the Songaksan profile and layered coast in Sagye; namesakes inland do not fit the documented coastal scene.",
+   "file": "refs_match.jpg",
+   "cmd": ""
+  },
+  {
+   "id": "E4",
+   "clue": "K2",
+   "candidate": "01 Sagye-ri",
+   "lr": 0.2,
+   "why": "Public coastal photographs match the Songaksan profile and layered coast in Sagye; namesakes inland do not fit the documented coastal scene.",
+   "file": "refs_match.jpg",
+   "cmd": ""
+  },
+  {
+   "id": "E5",
+   "clue": "K2",
+   "candidate": "03 Sagye-ri",
+   "lr": 0.2,
+   "why": "Public coastal photographs match the Songaksan profile and layered coast in Sagye; namesakes inland do not fit the documented coastal scene.",
+   "file": "refs_match.jpg",
+   "cmd": ""
+  },
+  {
+   "id": "E6",
+   "clue": "K3",
+   "candidate": "02 Sagye-ri",
+   "lr": 3.0,
+   "why": "Terrain profile and coast orientation consistent with Sagye/Songaksan. Broad corroboration only, not exact camera localization.",
+   "file": "terrain_view_overlay.jpg",
+   "cmd": ""
+  },
+  {
+   "id": "E7",
+   "clue": "K3",
+   "candidate": "01 광치기해변",
+   "lr": 0.4,
+   "why": "Terrain profile and coast orientation consistent with Sagye/Songaksan. Broad corroboration only, not exact camera localization.",
+   "file": "terrain_view_overlay.jpg",
+   "cmd": ""
+  },
+  {
+   "id": "E8",
+   "clue": "K3",
+   "candidate": "02 광치기해변",
+   "lr": 0.4,
+   "why": "Terrain profile and coast orientation consistent with Sagye/Songaksan. Broad corroboration only, not exact camera localization.",
+   "file": "terrain_view_overlay.jpg",
+   "cmd": ""
+  },
+  {
+   "id": "E9",
+   "clue": "K4",
+   "candidate": "East layered-rock shoreline",
+   "lr": 5.0,
+   "why": "Layered platform and beach order best fit east rock shoreline; no exact individual rock match and shore-panorama offset remains.",
+   "file": "evidence.jpg",
+   "cmd": ""
+  },
+  {
+   "id": "E10",
+   "clue": "K4",
+   "candidate": "Central sandy shoreline",
+   "lr": 0.3,
+   "why": "Layered platform and beach order best fit east rock shoreline; no exact individual rock match and shore-panorama offset remains.",
+   "file": "evidence.jpg",
+   "cmd": ""
+  },
+  {
+   "id": "E11",
+   "clue": "K4",
+   "candidate": "Harbor frontage",
+   "lr": 0.3,
+   "why": "Layered platform and beach order best fit east rock shoreline; no exact individual rock match and shore-panorama offset remains.",
+   "file": "evidence.jpg",
+   "cmd": ""
+  },
+  {
+   "id": "E12",
+   "clue": "K3",
+   "candidate": "East layered-rock shoreline",
+   "lr": 2.0,
+   "why": "Representative eastern shoreline position has consistent southwest terrain geometry; weak support only.",
+   "file": "terrain_view_overlay.jpg",
+   "cmd": ""
+  }
+ ],
+ "falsify": {
+  "02 Sagye-ri": [
+   "The camera must have sea to left, a low Songaksan headland to southwest and broad pale layered platforms landward. Reject a shoreline segment if these directions or coast curvature disagree."
+  ]
+ },
+ "log": [
+  "11:45 clue K1 [coast/observed] Black rough intertidal rocks and green algae; broad pale layered rock/sand platform on right; low broad headland beyond curving coast; sea left and land right; no readable signs or GPS.",
+  "11:47 country KR",
+  "11:47 add Seogwipo (city)",
+  "11:47 add --from sagyeri.json → +3 area",
+  "11:47 move 02 Sagye-ri: None → Seogwipo",
+  "11:47 add --from gwang_pois.json → +2 area",
+  "11:47 clue K2 [anchor/observed] Public Sagye coastal views show the same broad Songaksan silhouette with steep left tip and low extension right; pale layered platform with dark basalt and curving beach. Seopjikoji reference has different high cliffs.",
+  "11:47 evidence K2 → 02 Sagye-ri:5, 01 광치기해변:0.2, 02 광치기해변:0.2, 01 Sagye-ri:0.2, 03 Sagye-ri:0.2",
+  "11:47 scan-bbox 02 Sagye-ri 33.224,126.303,33.229,126.309",
+  "11:47 falsify 02 Sagye-ri: The camera must have sea to left, a low Songaksan headland to southwest and broad pale layered platforms landward. Reject a shoreline segment if these directions or coast curvature disagree.",
+  "11:51 clue K3 [geometry/computed] DEM view from representative Sagye shoreline 33.2273,126.303 looking220deg with75degHFOV broadly matches Songaksan summit and low extension; cliff onset differs due to approximate camera/FOV and smoothed DEM. z18 coast shows layered platform east of curved beach.; resolves K1",
+  "11:51 evidence K3 → 02 Sagye-ri:3, 01 광치기해변:0.4, 02 광치기해변:0.4",
+  "11:51 add --from coast_segments.json → +3 road",
+  "11:51 clue K4 [ground-match/observed] East layered coast provides pale platform on landward right, dark intertidal rocks foreground and curving beach toward southwest Songaksan. Central shoreline is mainly sandy and harbor frontage has seawalls; road panorama is offset from the shoreline camera.",
+  "11:51 evidence K4 → East layered-rock shoreline:5, Central sandy shoreline:0.3, Harbor frontage:0.3",
+  "11:51 evidence K3 → East layered-rock shoreline:2"
+ ],
+ "updated": "2026-10-29T11:51:29"
+}

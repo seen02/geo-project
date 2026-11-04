@@ -1,0 +1,6 @@
+Pre-conclusion check:
+  ok   main answer 전망대 북서쪽 곡선 석축: 2 pieces of evidence, 1 verified
+  NOTE candidates down-weighted by inference but not excluded: 전망대 남쪽 해변, 전망대 북쪽 해변 → when no candidate matches, look back at these first
+  ok   evidence image evidence.jpg
+  ok   사근진 해중공원 falsification condition: Reject identification only if lookout side fins, curved top beams, arched shelters and protected curved shoreline fail comparison.
+Result: pass

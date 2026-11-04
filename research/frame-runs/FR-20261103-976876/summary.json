@@ -1,0 +1,16 @@
+{
+  "id": "FR-20261103-976876",
+  "title": "학교 캠퍼스 사진 위치 찾기",
+  "status": "review",
+  "job_state": "completed",
+  "stage": "complete",
+  "attempt": 1,
+  "started_at": "2026-11-03T05:06:18.002Z",
+  "finished_at": "2026-11-03T05:20:55.127Z",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "high",
+  "place_name": "한신대학교 경기캠퍼스 장준하통일관(18번 건물) 전면 창가 추정",
+  "coordinate_type": "camera_estimate",
+  "confidence": "medium",
+  "error": null
+}

@@ -1,0 +1,162 @@
+{
+ "conditional_solution": {
+  "rms_px": 7.1,
+  "heading": 110.7,
+  "pitch": -6.7,
+  "roll": -1.3,
+  "hfov": 63.3,
+  "residuals_px": {
+   "A_NW_beam_open_end": [
+    0.2,
+    4.7
+   ],
+   "B_NW_bow": [
+    -3.7,
+    2.6
+   ],
+   "D_SE_beam_open_end": [
+    -3.3,
+    3.1
+   ],
+   "E_stair_foot": [
+    6.7,
+    -12.0
+   ],
+   "F_distant_hotel_north_roof": [
+    0.2,
+    1.6
+   ]
+  },
+  "delta_chi2": 0.0,
+  "robust_delta_chi2": 0.0,
+  "robust_by": "all_points"
+ },
+ "west_shore": {
+  "rms_px": 9.1,
+  "heading": 111.4,
+  "pitch": -6.4,
+  "roll": -1.1,
+  "hfov": 61.0,
+  "residuals_px": {
+   "A_NW_beam_open_end": [
+    2.4,
+    6.4
+   ],
+   "B_NW_bow": [
+    3.5,
+    3.6
+   ],
+   "D_SE_beam_open_end": [
+    -7.4,
+    4.5
+   ],
+   "E_stair_foot": [
+    -0.8,
+    -16.0
+   ],
+   "F_distant_hotel_north_roof": [
+    1.6,
+    1.4
+   ]
+  },
+  "delta_chi2": 3.0,
+  "robust_delta_chi2": 0.1,
+  "robust_by": "drop F_distant_hotel_north_roof"
+ },
+ "central_curve": {
+  "rms_px": 24.1,
+  "heading": 107.5,
+  "pitch": -7.6,
+  "roll": -2.3,
+  "hfov": 72.7,
+  "residuals_px": {
+   "A_NW_beam_open_end": [
+    -9.5,
+    -2.4
+   ],
+   "B_NW_bow": [
+    -30.2,
+    -0.6
+   ],
+   "D_SE_beam_open_end": [
+    15.8,
+    -3.0
+   ],
+   "E_stair_foot": [
+    39.5,
+    3.8
+   ],
+   "F_distant_hotel_north_roof": [
+    -8.4,
+    2.1
+   ]
+  },
+  "delta_chi2": 52.0,
+  "robust_delta_chi2": 0.7,
+  "robust_by": "drop F_distant_hotel_north_roof"
+ },
+ "previous_representative": {
+  "rms_px": 49.2,
+  "heading": 109.0,
+  "pitch": -7.0,
+  "roll": -3.0,
+  "hfov": 71.9,
+  "residuals_px": {
+   "A_NW_beam_open_end": [
+    -11.1,
+    -10.5
+   ],
+   "B_NW_bow": [
+    -59.3,
+    -3.9
+   ],
+   "D_SE_beam_open_end": [
+    35.3,
+    -9.0
+   ],
+   "E_stair_foot": [
+    77.2,
+    20.9
+   ],
+   "F_distant_hotel_north_roof": [
+    -24.1,
+    2.5
+   ]
+  },
+  "delta_chi2": 231.3,
+  "robust_delta_chi2": 2.8,
+  "robust_by": "drop F_distant_hotel_north_roof"
+ },
+ "south_promenade": {
+  "rms_px": 35.6,
+  "heading": 73.6,
+  "pitch": -34.5,
+  "roll": -3.4,
+  "hfov": 149.9,
+  "residuals_px": {
+   "A_NW_beam_open_end": [
+    -57.5,
+    -0.9
+   ],
+   "B_NW_bow": [
+    50.9,
+    8.7
+   ],
+   "D_SE_beam_open_end": [
+    14.8,
+    -1.5
+   ],
+   "E_stair_foot": [
+    11.4,
+    2.9
+   ],
+   "F_distant_hotel_north_roof": [
+    0.5,
+    -0.1
+   ]
+  },
+  "delta_chi2": 118.8,
+  "robust_delta_chi2": 5.1,
+  "robust_by": "drop A_NW_beam_open_end"
+ }
+}

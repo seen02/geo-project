@@ -1,0 +1,187 @@
+{
+ "case": "1",
+ "photo": "reference.jpg",
+ "created": "2026-11-02T10:55:00",
+ "country": "KR",
+ "candidates": {
+  "독산성": {
+   "level": "area",
+   "parent": "오산시",
+   "bbox": null,
+   "scan_bbox": null,
+   "prior": 1.0,
+   "status": "open",
+   "note": "메타폴리스 가설을 시험할 조망 후보이며 아직 확인되지 않음"
+  },
+  "융건릉": {
+   "level": "area",
+   "parent": "화성시",
+   "bbox": null,
+   "scan_bbox": null,
+   "prior": 1.0,
+   "status": "open",
+   "note": "메타폴리스 가설을 시험할 조망 후보이며 아직 확인되지 않음"
+  },
+  "서봉산": {
+   "level": "area",
+   "parent": "화성시",
+   "bbox": null,
+   "scan_bbox": null,
+   "prior": 1.0,
+   "status": "open",
+   "note": "메타폴리스 가설을 시험할 조망 후보이며 아직 확인되지 않음"
+  },
+  "대구": {
+   "level": "city",
+   "parent": null,
+   "bbox": null,
+   "scan_bbox": null,
+   "prior": 1.0,
+   "status": "open",
+   "note": "역이미지 결과에서 동일 장면의 캡션이 대구라고 표기됨"
+  },
+  "오산시": {
+   "level": "city",
+   "parent": null,
+   "bbox": null,
+   "scan_bbox": null,
+   "prior": 1.0,
+   "status": "open",
+   "note": ""
+  },
+  "화성시": {
+   "level": "city",
+   "parent": null,
+   "bbox": null,
+   "scan_bbox": null,
+   "prior": 1.0,
+   "status": "open",
+   "note": ""
+  }
+ },
+ "clues": {
+  "K1": {
+   "text": "벚꽃과 붉은 새잎이 왼쪽 위를 덮고, 아래에는 낙엽성 수림과 소나무, 수평선에는 약 네 개의 짙은 고층 타워와 아파트가 있다. 읽을 수 있는 표지판·차량·문자는 없다.",
+   "kind": "appearance",
+   "status": "observed",
+   "file": "reference.jpg",
+   "source": "",
+   "used": false
+  },
+  "K2": {
+   "text": "의뢰 지역은 경기도 일대이며 위치 증거가 아닌 검색 범위 힌트이다.",
+   "kind": "hint",
+   "status": "inferred",
+   "file": "request.json",
+   "source": "",
+   "used": false
+  },
+  "K3": {
+   "text": "Yandex 원본 검색은 같은 장면의 Getty 이미지 1189502368 및 대구를 설명으로 쓴 여행문서 이미지를 반환했다. 검색의 서울 자동 라벨은 위치 확정 증거가 아니다.",
+   "kind": "reverse-search",
+   "status": "read",
+   "file": "intake\\rev\\reference_yandex.json",
+   "source": "",
+   "used": true
+  },
+  "K4": {
+   "text": "공개 독산성 사진의 메타폴리스 네 타워는 높은 두 외곽 동·낮은 두 안쪽 동, 가운데 넓은 간격, 원통형 옥상 구조와 녹색 골프장 그물이 참고 사진과 부합한다.",
+   "kind": "landmark",
+   "status": "observed",
+   "file": "duksan-2.jpg",
+   "source": "https://blackforest.tistory.com/421",
+   "used": true
+  },
+  "K5": {
+   "text": "공개 방문기는 보적사 가까운 동쪽 성곽에서 동탄이 조망됨을 명시한다. OSM 보적사 영역 좌표 37.1837772,127.0195036은 독산성 대표 좌표와 약 20m 이내이다.",
+   "kind": "text",
+   "status": "read",
+   "file": "bojeoksa-verified.json",
+   "source": "https://only-flower.tistory.com/90",
+   "used": true
+  },
+  "K6": {
+   "text": "네 타워의 간격을 전체 폭으로 정규화하면 참고사진 0.292/0.415/0.292, 독산성 공개사진 0.279/0.438/0.284로 유사하다. 수작업 픽셀값에 기초한 형태 대조이며 촬영좌표 계산은 아니다.",
+   "kind": "geometry",
+   "status": "computed",
+   "file": "C:\\Users\\admin\\Documents\\ChatGPT\\새로운 프로젝트 선정\\frame-location\\.local-data\\requests\\FR-20261102-B180EC\\runs\\1\\tower-comparison.json",
+   "source": "",
+   "used": true,
+   "resolves": [
+    "K4"
+   ]
+  }
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "clue": "K4",
+   "candidate": "독산성",
+   "lr": 5.0,
+   "why": "공개 독산성 전망 사진과 고정 구조물의 형태 및 순서를 직접 대조함; 카메라점은 미확인",
+   "file": "duksan-2.jpg",
+   "cmd": ""
+  },
+  {
+   "id": "E2",
+   "clue": "K5",
+   "candidate": "독산성",
+   "lr": 5.0,
+   "why": "동쪽 성곽의 동탄 조망 설명과 실제 장소 좌표 확인; 동일 벚나무는 미확인",
+   "file": "bojeoksa-verified.json",
+   "cmd": ""
+  },
+  {
+   "id": "E3",
+   "clue": "K3",
+   "candidate": "대구",
+   "lr": 2.0,
+   "why": "여행 기사의 대구 이미지 캡션은 있으나 건물 대조와 충돌할 수 있어 약한 출처 증거로만 취급",
+   "file": "intake\\rev\\reference_yandex.json",
+   "cmd": ""
+  },
+  {
+   "id": "E4",
+   "clue": "K4",
+   "candidate": "대구",
+   "lr": 0.2,
+   "why": "여행문서의 도시 캡션보다 공개 독산성 사진에서 확인한 메타폴리스 외형 대조가 강함. 대구 배제 확정 아님",
+   "file": "duksan-2.jpg",
+   "cmd": ""
+  },
+  {
+   "id": "E5",
+   "clue": "K6",
+   "candidate": "독산성",
+   "lr": 2.0,
+   "why": "타워 간격 비율을 재확인한 보조검사로만 취급",
+   "file": "tower-comparison.json",
+   "cmd": ""
+  }
+ ],
+ "falsify": {},
+ "log": [
+  "10:55 clue K1 [appearance/observed] 벚꽃과 붉은 새잎이 왼쪽 위를 덮고, 아래에는 낙엽성 수림과 소나무, 수평선에는 약 네 개의 짙은 고층 타워와 아파트가 있다. 읽을 수 있는 표지판·차량·문자는 없다.",
+  "10:55 clue K2 [hint/inferred] 의뢰 지역은 경기도 일대이며 위치 증거가 아닌 검색 범위 힌트이다.",
+  "10:55 add 독산성 (area)",
+  "10:55 add 융건릉 (area)",
+  "10:55 add 서봉산 (area)",
+  "10:55 country KR",
+  "10:56 clue K3 [reverse-search/read] Yandex 원본 검색은 같은 장면의 Getty 이미지 1189502368 및 대구를 설명으로 쓴 여행문서 이미지를 반환했다. 검색의 서울 자동 라벨은 위치 확정 증거가 아니다.",
+  "10:56 add 대구 (city)",
+  "11:00 clue K4 [landmark/observed] 공개 독산성 사진의 메타폴리스 네 타워는 높은 두 외곽 동·낮은 두 안쪽 동, 가운데 넓은 간격, 원통형 옥상 구조와 녹색 골프장 그물이 참고 사진과 부합한다.",
+  "11:00 evidence K4 → 독산성:5",
+  "11:00 clue K5 [text/read] 공개 방문기는 보적사 가까운 동쪽 성곽에서 동탄이 조망됨을 명시한다. OSM 보적사 영역 좌표 37.1837772,127.0195036은 독산성 대표 좌표와 약 20m 이내이다.",
+  "11:00 evidence K5 → 독산성:5",
+  "11:00 evidence K3 → 대구:2",
+  "11:01 add 오산시 (city)",
+  "11:01 add 화성시 (city)",
+  "11:01 move 독산성: None → 오산시",
+  "11:01 move 융건릉: None → 화성시",
+  "11:01 move 서봉산: None → 화성시",
+  "11:01 evidence K4 → 대구:0.2",
+  "11:01 clue K6 [geometry/computed] 네 타워의 간격을 전체 폭으로 정규화하면 참고사진 0.292/0.415/0.292, 독산성 공개사진 0.279/0.438/0.284로 유사하다. 수작업 픽셀값에 기초한 형태 대조이며 촬영좌표 계산은 아니다.; resolves K4",
+  "11:01 evidence K6 → 독산성:2"
+ ],
+ "updated": "2026-11-02T11:01:02"
+}

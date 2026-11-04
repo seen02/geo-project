@@ -1,0 +1,10 @@
+{
+  "camera": [
+    37.814194,
+    128.897465
+  ],
+  "heading": 103.49201021453815,
+  "hfov": 77.19286785739179,
+  "focal_px": 902.0435635211095,
+  "note": "Conditional fit to lookout x520 and assumed Skybay roof x1403, NOT independent camera localization. Heights and sea horizon uncertain."
+}

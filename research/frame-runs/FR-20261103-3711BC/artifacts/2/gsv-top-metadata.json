@@ -1,0 +1,2 @@
+no Google Street View panorama within 5 m (increase --radius or check coverage)
+FRAME_TOOL_RESULT {"tool": "gsv.py", "args": ["near", "37.5833263545,126.9833964452", "--radius", "5"], "ok": false, "exit_code": 65, "started_at": 1793681567.0703912, "finished_at": 1793681567.6802437, "error": "NO_DATA: normal panorama response contains no panorama"}

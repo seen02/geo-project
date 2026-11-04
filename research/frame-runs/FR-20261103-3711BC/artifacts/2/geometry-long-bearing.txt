@@ -1,0 +1,2 @@
+bearing=164.1deg distance=73.1m
+FRAME_TOOL_RESULT {"tool": "geo.py", "args": ["bearing", "37.5833263545,126.9833964452", "37.5826940678,126.9836239702"], "ok": true, "exit_code": 0, "started_at": 1793681687.6019745, "finished_at": 1793681687.7975733}

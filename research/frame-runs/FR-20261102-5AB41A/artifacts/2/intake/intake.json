@@ -1,0 +1,30 @@
+{
+ "photo": "C:\\Users\\admin\\Documents\\ChatGPT\\새로운 프로젝트 선정\\frame-location\\.local-data\\requests\\FR-20261102-5AB41A\\runs\\2\\reference.jpg",
+ "input": null,
+ "result": "ok",
+ "exif": {
+  "file": "C:\\Users\\admin\\Documents\\ChatGPT\\새로운 프로젝트 선정\\frame-location\\.local-data\\requests\\FR-20261102-5AB41A\\runs\\2\\reference.jpg",
+  "size": [
+   2000,
+   1333
+  ]
+ },
+ "ocr": [],
+ "rev": [],
+ "votes": {
+  "city": {},
+  "place": {}
+ },
+ "status": {
+  "exif": "ok",
+  "variants": "ok",
+  "edges": "ok",
+  "ocr": "ok"
+ },
+ "timings": {
+  "exif": 1.0,
+  "variants": 2.7,
+  "edges": 3.2,
+  "ocr": 13.4
+ }
+}

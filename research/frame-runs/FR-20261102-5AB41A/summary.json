@@ -1,0 +1,16 @@
+{
+  "id": "FR-20261102-5AB41A",
+  "title": "로컬 실행 검증 · 호수 사진",
+  "status": "review",
+  "job_state": "completed",
+  "stage": "complete",
+  "attempt": 2,
+  "started_at": "2026-11-02T01:16:50.957Z",
+  "finished_at": "2026-11-02T01:21:42.553Z",
+  "model": null,
+  "reasoning_effort": null,
+  "place_name": "브라이에스 호수",
+  "coordinate_type": "landmark",
+  "confidence": "high",
+  "error": null
+}

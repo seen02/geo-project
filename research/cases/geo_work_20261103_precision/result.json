@@ -1,0 +1,192 @@
+{
+ "place": "Sageunjin underwater park observatory, northwest curved shore, Gangneung",
+ "camera": [
+  37.8143935,
+  128.8968599
+ ],
+ "heading": 110.74,
+ "coordinate_status": "Conditional estimate only; no independently established small error radius",
+ "verified_user_coordinate": [
+  37.81438,
+  128.89691
+ ],
+ "supplied_coordinate_status": "Provided previously by user, not newly inferred",
+ "radius_m": null,
+ "radius_note": "No validated camera-position radius; horizontal control perturbation has 146m p95 spread and the unconstrained pose Monte Carlo is unstable. Do not report 5m accuracy.",
+ "confidence": {
+  "city": "high",
+  "facility": "high",
+  "northwest shore sector": "medium",
+  "exact camera point from image alone": "low"
+ },
+ "comparison": {
+  "user_supplied_actual": [
+   37.81438,
+   128.89691
+  ],
+  "previous_representative": [
+   37.81425,
+   128.8976
+  ],
+  "conditional_full_pose": [
+   37.8143935,
+   128.8968599
+  ],
+  "previous_error_m": 62.312457685340064,
+  "new_point_error_m": 4.64996442034095,
+  "bearing_only_point": [
+   37.81431368461291,
+   128.8969182254139
+  ],
+  "truth_usage": "Held-out evaluation after all fitting; same photo was already known from a prior conversation, so not a blind test.",
+  "height_sensitivity_cases": 81,
+  "height_sensitivity_min_rms": 2.649428203705128,
+  "max_position_shift_m": 25.280072043473915,
+  "height_ranges": "Roof 6.5..10.5m; stair foot 0.5..2.5m; hotel 65..85m; camera 3..6m, all assumed elevations, not surveys",
+  "direction_to_observatory_deg": 100.21037488602951
+ },
+ "limitations": [
+  "Same image and actual coordinate were known before this run; not a blind test.",
+  "Upper structure point identities and elevations are approximate, not surveyed.",
+  "Distant building identification as Skybay north tower is tentative.",
+  "No GPS, camera calibration or visible sea horizon.",
+  "Stair-foot point is flagged by leave-one-out check.",
+  "Satellite and photo waterlines disagree; causes are unresolved."
+ ],
+ "sources": [
+  "https://korean.visitkorea.or.kr/detail/ms_detail.do?cotid=18985b56-92b8-41db-ac6d-c71b62449f99",
+  "https://naver.me/GsjTdXnj",
+  "https://www.skybay.co.kr/find_us",
+  "https://www.skybay.co.kr/about_hotel",
+  "https://cdn.ardentnews.co.kr/news/photo/202505/6215_29265_1831.jpg"
+ ],
+ "artifacts": [
+  "intake/intake.md",
+  "observed_points.json",
+  "full_spec.json",
+  "full_pose.json",
+  "candidate_check.json",
+  "bearing_sensitivity.json",
+  "height_sensitivity.json",
+  "shore_comparison.jpg",
+  "evidence.jpg"
+ ],
+ "board": {
+  "candidate_levels": {
+   "area": [
+    {
+     "name": "Sageunjin coastal facility",
+     "share": 1.0,
+     "evidence": 3,
+     "verified": 2,
+     "excluded": false
+    }
+   ],
+   "road": [
+    {
+     "name": "Sageunjin shore segments",
+     "share": 1.0,
+     "evidence": 3,
+     "verified": 2,
+     "excluded": false
+    }
+   ],
+   "point": [
+    {
+     "name": "conditional_solution",
+     "share": 0.584,
+     "evidence": 2,
+     "verified": 2,
+     "excluded": false
+    },
+    {
+     "name": "west_shore",
+     "share": 0.285,
+     "evidence": 2,
+     "verified": 2,
+     "excluded": false
+    },
+    {
+     "name": "central_curve",
+     "share": 0.052,
+     "evidence": 2,
+     "verified": 2,
+     "excluded": false
+    },
+    {
+     "name": "south_promenade",
+     "share": 0.052,
+     "evidence": 2,
+     "verified": 2,
+     "excluded": false
+    },
+    {
+     "name": "previous_representative",
+     "share": 0.027,
+     "evidence": 2,
+     "verified": 2,
+     "excluded": false
+    }
+   ]
+  },
+  "main": {
+   "level": "point",
+   "name": "conditional_solution",
+   "share": 0.584,
+   "evidence": [
+    {
+     "clue": "Reprojection solved with A/B/D/E and tentative distant hotel: RMS 7.15px; E is flagged by leave-one-out.",
+     "status": "computed",
+     "lr": 3.0,
+     "why": "Provisional camera model favors the northwest shore; no candidate is definitively excluded.",
+     "file": "candidate_check.json"
+    },
+    {
+     "clue": "Camera candidates compared with all points and each point omitted; none exceeds robust delta-chi2 9.",
+     "status": "computed",
+     "lr": 1.5,
+     "why": "All-point residual favors the new position, but dropping the distant landmark prevents robust exclusions.",
+     "file": "candidate_check.json"
+    }
+   ]
+  },
+  "alternatives": [
+   {
+    "name": "west_shore",
+    "share": 0.285,
+    "how_to_separate": "run one cheap test on both together (terrain/livery/municipal fixtures/water template), or scan the first 3 pages of each built-up area"
+   },
+   {
+    "name": "central_curve",
+    "share": 0.052,
+    "how_to_separate": "run one cheap test on both together (terrain/livery/municipal fixtures/water template), or scan the first 3 pages of each built-up area"
+   },
+   {
+    "name": "south_promenade",
+    "share": 0.052,
+    "how_to_separate": "run one cheap test on both together (terrain/livery/municipal fixtures/water template), or scan the first 3 pages of each built-up area"
+   }
+  ],
+  "excluded": [],
+  "unused_clues": [
+   "Upper structure control points are provisional; the far curved point C has no unique correspondence.",
+   "Projected satellite water edge differs from photographed water edge; no same-date shore control.",
+   "The user supplied 37.81438,128.89691 previously for this byte-identical photo; withheld from fit and used for evaluation."
+  ],
+  "downweighted_not_excluded": [],
+  "falsify": {},
+  "unexamined": [],
+  "level_gaps": []
+ },
+ "alternatives": [
+  "west_shore (share 28%): run one cheap test on both together (terrain/livery/municipal fixtures/water template), or scan the first 3 pages of each built-up area",
+  "central_curve (share 5%): run one cheap test on both together (terrain/livery/municipal fixtures/water template), or scan the first 3 pages of each built-up area",
+  "south_promenade (share 5%): run one cheap test on both together (terrain/livery/municipal fixtures/water template), or scan the first 3 pages of each built-up area"
+ ],
+ "excluded": [],
+ "unused_clues": [
+  "Upper structure control points are provisional; the far curved point C has no unique correspondence.",
+  "Projected satellite water edge differs from photographed water edge; no same-date shore control.",
+  "The user supplied 37.81438,128.89691 previously for this byte-identical photo; withheld from fit and used for evaluation."
+ ]
+}

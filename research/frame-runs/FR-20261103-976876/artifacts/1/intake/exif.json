@@ -1,0 +1,31 @@
+{
+ "file": "C:\\Users\\admin\\Documents\\ChatGPT\\새로운 프로젝트 선정\\frame-location\\.local-data\\requests\\FR-20261103-976876\\runs\\1\\reference.jpg",
+ "size": [
+  4000,
+  2252
+ ],
+ "orientation": 6,
+ "upright_size": [
+  2252,
+  4000
+ ],
+ "make": "samsung",
+ "model": "Galaxy S24",
+ "software": "S921NKSSECZCH",
+ "DateTimeOriginal": "2026:11:03 13:49:03",
+ "OffsetTimeOriginal": "+09:00",
+ "focal_35mm": 23,
+ "fov_4x3_long_short": [
+  73.9,
+  58.9
+ ],
+ "gps_wgs84": [
+  37.1926194,
+  127.0277161
+ ],
+ "gps_gcj02": [
+  37.1935235,
+  127.0329618
+ ],
+ "altitude_m": 78.0
+}

@@ -1,0 +1,60 @@
+import json
+from pathlib import Path
+
+r=json.loads(Path('result.template.json').read_text(encoding='utf-8-sig'))
+r.update({
+ 'schema_version':1,'request_id':'FR-20261103-3711BC','title':'한옥마을 사진 찍기',
+ 'place_name':'북촌한옥마을 북촌로11가길 상단 내리막 골목',
+ 'region':'서울특별시 종로구 가회동',
+ 'summary':'북촌로11가길 상단에서 남남동쪽으로 내려다본 장면입니다. 촬영점은 아래 좌표 주변 약 25m로 추정하며, 원본과 똑같은 발 위치까지 확정되지는 않았습니다. 요청일 2026년 11월 15일은 일요일로, 공식 지도상 골목길 쉬는 날입니다.',
+ 'lat':37.583326,'lon':126.983396,'radius_m':25,'heading':155,'hfov':None,
+ 'coordinate_type':'camera_estimate','confidence':'medium',
+ 'radius_basis':'비교한 상단 파노라마를 기준점으로 사용했습니다. 남쪽 인접 파노라마까지 14.8m이며 북쪽 역사 파노라마도 약 10m 이내입니다. 박공지붕 목구조, 연속 기와선, 붉은 담장 무늬와 골목 끝 대문의 대응으로 상단 구간을 지지합니다. 보행 위치·파노라마 좌표 오차를 포함한 약 25m의 현장 탐색 범위이며 통계적 신뢰구간은 아닙니다.',
+ 'heading_basis':'150~165도 방향의 파노라마 렌더와 원본 구도를 비교해 약 155도로 추정했습니다. 골목 중심선 방위는 geo.py 계산상 164.1~166.2도이며, 원본은 중심선보다 왼쪽을 담는 구도입니다. 광축 방위 오차는 대략 10도 수준으로 보며 정확한 화각은 미확정입니다.',
+ 'confidence_levels':{
+  'city':{'level':'high','reason':'역이미지 검색의 동일 사진과 서울 북촌 공식 자료, 실제 좌표가 있는 거리 파노라마가 일치합니다.'},
+  'area':{'level':'high','reason':'북촌의 한옥 밀집 배치가 정상 수신한 z19 위성 지도 및 거리 사진과 대응합니다.'},
+  'road':{'level':'high','reason':'북촌로11가길에서 박공지붕 목구조·계단식 기와선·담장 띠무늬·골목 끝 대문의 배열을 대조했습니다.'},
+  'camera':{'level':'medium','reason':'상단의 짧은 촬영 구간은 지지되지만 보도 쪽 이동과 렌즈 차이를 분리하지 못했습니다. 좌표는 실제 파노라마 위치를 이용한 추정 기준점입니다.'}
+ },
+ 'verification':{
+  'street_view':{'status':'verified','summary':'Google 거리 파노라마 80곳에서 남향 화면 160개를 생성하고 상위 10개를 열어 고정 구조를 비교했습니다. 상단 기준점의 2015-01 메타데이터와 역방향 화면도 확인했습니다. 5m 반경 조회의 NO_DATA는 25m 조회와 실제 렌더 성공으로 보완했습니다.','files':['gsv-upper25.json','panorama-candidates.json','match-initial.jpg','sv-top.jpg','sv-south.jpg','sv-reverse.jpg','comparison-panel-roofs.jpg','comparison-panel-depth.jpg']},
+  'image_match':{'status':'attempted','summary':'캐시된 DINOv2로 160개 화면을 순위화하고 SIFT로 상위 15개를 정밀 비교했습니다. 이후 원본의 건축 부분을 잘라 32개 방향·화각 조합을 재검사했습니다. 상단·인접 후보가 상위에 올랐지만 SIFT 15점 이상인 결과가 없어 자동 기하 일치 확정으로 취급하지 않았습니다.','files':['match-initial.json','match-initial.jpg','match-fine.json','match-fine.jpg']},
+  'geometry':{'status':'attempted','summary':'geo.py에서 골목 방위 164.1~166.2도와 거리 14.8m·73.1m를 계산했습니다. terrain.py 고도는 상단 71m, 중간 70m, 하단 64m입니다. pose.py 고정 위치 투영도 실행했으나 신뢰할 수 있는 수평선·측량 기준점이 없어 피치·화각과 정확한 카메라 위치를 독립적으로 확정하지 못했습니다.','files':['geometry-road-bearing.txt','geometry-long-bearing.txt','terrain-camera.txt','terrain-mid.txt','terrain-lower.txt','pose-consistency.json','projection-points.json','pose-projection.txt','pose-projection.jpg']}
+ },
+ 'evidence_spec':'evidence-spec.json',
+ 'composition':'추정점 주변에서 내리막을 향해 오른쪽 담장 가까이 서되 통행을 확보하세요. 왼쪽 박공지붕과 이어지는 기와선, 오른쪽 처마를 세로 프레임에 넣고 현장에서 몇 걸음씩 이동해 맞추면 됩니다.',
+ 'best_time':'다른 월~토요일 15:00~16:30을 촬영 시작 시간으로 권합니다. 이는 재촬영 제안이며 원본 촬영 시각은 아닙니다. 공식 지도는 방문 허용시간 10:00~17:00, 일요일 골목길 쉬는 날로 안내합니다.',
+ 'access':'공개 보행 골목이지만 주민 생활 공간입니다. 요청일 2026-11-15는 일요일이므로 해당 골목 촬영은 다른 요일로 변경하는 것이 좋습니다. 담장·대문 앞을 막지 말고 현장 방문시간 안내를 따르세요.',
+ 'lens':'세로 구도로 표준 줌에서 망원 쪽까지 조절해 보세요. EXIF가 없어 원본 초점거리·화각은 확인되지 않았습니다.',
+ 'clues':[
+  {'title':'같은 골목의 전경 구조','description':'왼쪽 박공지붕과 목재 가새, 연속적으로 낮아지는 기와지붕, 붉은색·흰색 담장 띠무늬가 거리 사진에서 대응합니다.'},
+  {'title':'내리막과 배경의 관계','description':'남남동 방향의 좁은 골목 끝 대문과 그 너머 도심 건물 배치가 비교 자료와 일관됩니다.'},
+  {'title':'메타데이터 한계','description':'원본에는 촬영 좌표·초점거리 정보가 없습니다. 작은 주소판의 전체 문구와 번호도 확정 근거로 사용하지 않았습니다.'}
+ ],
+ 'evidence':[
+  {'name':'지도와 거리 사진 비교','file':'evidence.jpg','description':'정상 수신한 북쪽 위 WGS84 위성 지도, 약 25m 추정 범위 표기, 두 개의 실제 거리 사진 비교 패널입니다. 분홍 선은 추정 촬영 방향이며 화각 부채꼴은 표시하지 않았습니다.'},
+  {'name':'원본 위성 모자이크','file':'satellite.jpg','description':'Google 위성 z19, 1280×1280, failed_tiles=0. 위치 변환용 satellite.json을 함께 보존했습니다.'},
+  {'name':'검증 기록','file':'verification-notes.json','description':'촬영점·오차 범위·방향 추정의 근거, 복구 파일 점검 및 검증 한계와 출처를 기록했습니다.'}
+ ],
+ 'alternatives':[
+  {'name':'같은 골목에서 약 15m 남쪽 지점','reason':'건축 부분 재비교에서 높은 유사도를 보였습니다. 첫 박공지붕이 프레임에 들어오는 정도가 달라 주 후보보다 낮게 평가했습니다. 현장에서 렌즈와 보행 위치를 함께 바꿔 구분할 수 있습니다.'},
+  {'name':'약 10m 북쪽 교차 골목 부근','reason':'역사 파노라마에 비슷한 지붕 배열이 보입니다. 추가 전경 지붕과 담장 비율이 달라 낮게 평가했지만 완전히 배제하지 않았습니다.'},
+  {'name':'북촌로11다길 및 북촌로11길 접근 구간','reason':'주변 도로 후보로 비교했으나 굽은 길과 전경 배열이 달라 낮게 평가했습니다. 전 구간을 측량하여 제외한 것은 아닙니다.'}
+ ],
+ 'caveats':[
+  '정확한 발 위치는 미확정입니다. 지도 좌표는 촬영 구간을 찾기 위한 camera_estimate입니다.',
+  '거리 자료는 주로 2015년이며 담장·설비·포장 상태가 달라졌을 수 있습니다.',
+  '하늘 색과 채도는 위치·촬영 시각의 검증 근거로 사용하지 않았습니다.',
+  '기존 위성 파일은 25개 타일 실패로 무효 처리했습니다. 최종 지도는 새로 받은 정상 파일입니다.'
+ ],
+ 'sources':[
+  {'title':'Google 거리 파노라마 — 상단 기준점','url':'https://www.google.com/maps/@?api=1&map_action=pano&pano=iji2OHIKbyYu1lSo0NIzdA&heading=155'},
+  {'title':'Google 거리 파노라마 — 남쪽 인접 지점','url':'https://www.google.com/maps/@?api=1&map_action=pano&pano=LRbVXEQiWAQQhqXko-1Svw&heading=165'},
+  {'title':'Google 위성 지도 — 조사 구간','url':'https://www.google.com/maps/@37.583326,126.983396,19z/data=!3m1!1e3'},
+  {'title':'서울시 공식 북촌 산책 지도 — 골목 위치·방문 안내','url':'https://english.seoul.go.kr/wp-content/themes/seoul-e/assets/images/hanok/img/hanok-map-2.pdf'},
+  {'title':'한국관광공사 — 북촌로11가길 포토존 안내','url':'https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=224643'}
+ ]
+})
+Path('final.json').write_text(json.dumps(r,ensure_ascii=False,indent=2),encoding='utf-8')
+print('final.json written')

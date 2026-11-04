@@ -1,0 +1,50 @@
+{
+  "map": "camera-satellite.jpg",
+  "width": 1280,
+  "camera": [
+    37.1926194,
+    127.0277161
+  ],
+  "heading": 42,
+  "hfov": 46,
+  "range_m": 100,
+  "labels": [
+    {
+      "at": [
+        37.1926194,
+        127.0277161
+      ],
+      "text": "Estimate: radius 35 m",
+      "dx": -150,
+      "dy": 110
+    },
+    {
+      "at": [
+        37.1927387,
+        127.0273697
+      ],
+      "text": "Jangjunha Hall (18)",
+      "dx": -330,
+      "dy": -120
+    },
+    {
+      "at": [
+        37.1927944,
+        127.0280188
+      ],
+      "text": "Crossing",
+      "dx": 90,
+      "dy": -45
+    }
+  ],
+  "panels": [
+    {
+      "image": "comparison-layout.jpg",
+      "caption": "Original / satellite layout (Google, z19)"
+    },
+    {
+      "image": "comparison-building.jpg",
+      "caption": "Original / official exterior (Hanshin University)"
+    }
+  ]
+}

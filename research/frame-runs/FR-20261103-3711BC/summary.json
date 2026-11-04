@@ -1,0 +1,16 @@
+{
+  "id": "FR-20261103-3711BC",
+  "title": "한옥마을 사진 찍기",
+  "status": "review",
+  "job_state": "completed",
+  "stage": "complete",
+  "attempt": 2,
+  "started_at": "2026-11-03T04:46:35.473Z",
+  "finished_at": "2026-11-03T05:00:57.520Z",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "high",
+  "place_name": "북촌한옥마을 북촌로11가길 상단 내리막 골목",
+  "coordinate_type": "camera_estimate",
+  "confidence": "medium",
+  "error": null
+}

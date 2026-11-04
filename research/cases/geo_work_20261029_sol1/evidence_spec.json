@@ -1,0 +1,45 @@
+{
+  "map": "coast_detail.jpg",
+  "width": 1200,
+  "camera": [
+    33.2273,
+    126.303
+  ],
+  "heading": 220,
+  "hfov": 75,
+  "range_m": 170,
+  "labels": [
+    {
+      "at": [
+        33.2273,
+        126.303
+      ],
+      "text": "Estimated shore area: radius ~200 m",
+      "dx": -500,
+      "dy": -85
+    },
+    {
+      "at": [
+        33.2281,
+        126.3042
+      ],
+      "text": "Sagye coastal road",
+      "dx": -400,
+      "dy": -70
+    }
+  ],
+  "panels": [
+    {
+      "image": "query_annotated.jpg",
+      "caption": "User photo: 1 Songaksan profile | 2 pale layered platform"
+    },
+    {
+      "image": "reference_annotated.jpg",
+      "caption": "Public Sagye coast photograph: Jeju Ilbo, 2024-08-28"
+    },
+    {
+      "image": "terrain_view_overlay.jpg",
+      "caption": "DEM prediction (red): broad agreement; cliff edge is not exact"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "evidence-spec.json": {
+    "ok": true
+  },
+  "evidence.jpg": {
+    "ok": true,
+    "width": 1280,
+    "height": 1796
+  },
+  "camera-satellite.jpg": {
+    "ok": true,
+    "width": 1280,
+    "height": 1280
+  },
+  "verification-log.json": {
+    "ok": true
+  },
+  "official-match2.json": {
+    "ok": true
+  },
+  "official-match2.jpg": {
+    "ok": true,
+    "width": 1440,
+    "height": 1440
+  },
+  "comparison-layout.jpg": {
+    "ok": true,
+    "width": 1400,
+    "height": 760
+  },
+  "comparison-building.jpg": {
+    "ok": true,
+    "width": 1400,
+    "height": 760
+  },
+  "bearing-check.json": {
+    "ok": true
+  },
+  "pose-controls.json": {
+    "ok": true
+  },
+  "pose-fit.json": {
+    "ok": true
+  },
+  "pose-project.jpg": {
+    "ok": true,
+    "width": 2252,
+    "height": 4000
+  },
+  "height-check.json": {
+    "ok": true
+  },
+  "camera-satellite.json": {
+    "ok": true
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "map": "map.jpg",
+  "crop": [
+    0,
+    500,
+    2304,
+    2304
+  ],
+  "width": 1280,
+  "camera": [
+    35.628,
+    139.7711
+  ],
+  "heading": 330,
+  "hfov": 69,
+  "range_m": 700,
+  "labels": [
+    {
+      "at": [
+        35.628,
+        139.7711
+      ],
+      "text": "Approx. camera / 150m radius",
+      "dx": -600,
+      "dy": 30,
+      "color": "#ffdd55"
+    },
+    {
+      "at": [
+        35.6312,
+        139.7694
+      ],
+      "text": "Old breakwater",
+      "dx": -350,
+      "dy": 20
+    },
+    {
+      "at": [
+        35.6332,
+        139.7669
+      ],
+      "text": "No.6 Daiba",
+      "dx": 0,
+      "dy": 0
+    },
+    {
+      "at": [
+        35.634,
+        139.772
+      ],
+      "text": "Daiba Park / No.3",
+      "dx": 100,
+      "dy": 80
+    }
+  ],
+  "panels": [
+    {
+      "image": "pose_overlay.jpg",
+      "caption": "User photo: four manually identified control points"
+    },
+    {
+      "image": "comparison_clear.jpg",
+      "caption": "Nearby street view, about35m south of estimate"
+    }
+  ]
+}

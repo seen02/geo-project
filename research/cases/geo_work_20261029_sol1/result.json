@@ -1,0 +1,151 @@
+{
+ "place": "제주 서귀포시 안덕면 사계리 사계해안, 사계항 서쪽 암반 지대",
+ "lat": 33.2273,
+ "lon": 126.303,
+ "datum": "WGS84",
+ "radius_m": 200,
+ "heading_deg": 220,
+ "confidence": {
+  "city": "high",
+  "area": "high",
+  "shore_segment": "medium",
+  "exact_point": "low"
+ },
+ "uncertainty": "Radius is a practical approximate search range, not statistical confidence. Sea-level tide and camera height are uncertain; no exact rock match.",
+ "reverse_image_search": "Not performed; intake --no-rev. Only text and keyword-image searches plus local comparison.",
+ "coverage": "9 keyword-sourced public reference photos;22 harbor panoramas and73 coast panoramas, with possible overlap across batches. Not an exhaustive all-Jeju survey.",
+ "methods": [
+  "DINOv2 local ranking; no strong SIFT confirmation",
+  "z18 satellite shore and road layout",
+  "Google road panoramas looking southwest",
+  "DEM profile view at representative shoreline position",
+  "pose projection using sea horizon408px"
+ ],
+ "alternatives": [
+  "Nearby positions along the same pale layered shore remain plausible.",
+  "Gwangchigi and inland Sagye namesakes are downweighted, not formally excluded."
+ ],
+ "sources": [
+  "https://www.jejunews.com/news/articleView.html?idxno=2213152",
+  "https://m.visitjeju.net/en/detail/view?contentsid=CONT_000000000500275"
+ ],
+ "evidence": "evidence.jpg",
+ "board": {
+  "candidate_levels": {
+   "city": [
+    {
+     "name": "Seogwipo",
+     "share": 1.0,
+     "evidence": 3,
+     "verified": 1,
+     "excluded": false
+    }
+   ],
+   "area": [
+    {
+     "name": "02 Sagye-ri",
+     "share": 0.993,
+     "evidence": 3,
+     "verified": 1,
+     "excluded": false
+    },
+    {
+     "name": "01 Sagye-ri",
+     "share": 0.003,
+     "evidence": 1,
+     "verified": 0,
+     "excluded": false
+    },
+    {
+     "name": "03 Sagye-ri",
+     "share": 0.003,
+     "evidence": 1,
+     "verified": 0,
+     "excluded": false
+    },
+    {
+     "name": "01 광치기해변",
+     "share": 0.001,
+     "evidence": 2,
+     "verified": 1,
+     "excluded": false
+    },
+    {
+     "name": "02 광치기해변",
+     "share": 0.001,
+     "evidence": 2,
+     "verified": 1,
+     "excluded": false
+    }
+   ],
+   "road": [
+    {
+     "name": "East layered-rock shoreline",
+     "share": 0.943,
+     "evidence": 2,
+     "verified": 1,
+     "excluded": false
+    },
+    {
+     "name": "Central sandy shoreline",
+     "share": 0.028,
+     "evidence": 1,
+     "verified": 0,
+     "excluded": false
+    },
+    {
+     "name": "Harbor frontage",
+     "share": 0.028,
+     "evidence": 1,
+     "verified": 0,
+     "excluded": false
+    }
+   ]
+  },
+  "main": {
+   "level": "road",
+   "name": "East layered-rock shoreline",
+   "share": 0.943,
+   "evidence": [
+    {
+     "clue": "East layered coast provides pale platform on landward right, dark intertidal rocks foreground and curving beach toward southwest Songaksan. Central shoreline is mainly sandy and harbor frontage has seawalls; road panorama is offset from the shoreline camera.",
+     "status": "observed",
+     "lr": 5.0,
+     "why": "Layered platform and beach order best fit east rock shoreline; no exact individual rock match and shore-panorama offset remains.",
+     "file": "evidence.jpg"
+    },
+    {
+     "clue": "DEM view from representative Sagye shoreline 33.2273,126.303 looking220deg with75degHFOV broadly matches Songaksan summit and low extension; cliff onset differs due to approximate camera/FOV and smoothed DEM. z18 coast shows layered platform east of curved beach.",
+     "status": "computed",
+     "lr": 2.0,
+     "why": "Representative eastern shoreline position has consistent southwest terrain geometry; weak support only.",
+     "file": "terrain_view_overlay.jpg"
+    }
+   ]
+  },
+  "alternatives": [],
+  "excluded": [],
+  "unused_clues": [
+   "Black rough intertidal rocks and green algae; broad pale layered rock/sand platform on right; low broad headland beyond curving coast; sea left and land right; no readable signs or GPS."
+  ],
+  "downweighted_not_excluded": [
+   "01 Sagye-ri",
+   "01 광치기해변",
+   "02 광치기해변",
+   "03 Sagye-ri",
+   "Central sandy shoreline",
+   "Harbor frontage"
+  ],
+  "falsify": {
+   "02 Sagye-ri": [
+    "The camera must have sea to left, a low Songaksan headland to southwest and broad pale layered platforms landward. Reject a shoreline segment if these directions or coast curvature disagree."
+   ]
+  },
+  "unexamined": [],
+  "level_gaps": []
+ },
+ "excluded": [],
+ "unused_clues": [
+  "Black rough intertidal rocks and green algae; broad pale layered rock/sand platform on right; low broad headland beyond curving coast; sea left and land right; no readable signs or GPS."
+ ]
+}

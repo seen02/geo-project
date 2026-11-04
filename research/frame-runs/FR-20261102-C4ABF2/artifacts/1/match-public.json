@@ -1,0 +1,58 @@
+[
+ {
+  "rank": 1,
+  "id": "public3",
+  "file": "comparison\\public3.jpg",
+  "score_global": 0.5739,
+  "inliers": 0,
+  "matches": 3,
+  "refined": true,
+  "heading": null,
+  "wgs": null,
+  "road": "",
+  "date": "",
+  "label": ""
+ },
+ {
+  "rank": 2,
+  "id": "public2",
+  "file": "comparison\\public2.jpg",
+  "score_global": 0.4778,
+  "inliers": 0,
+  "matches": 7,
+  "refined": true,
+  "heading": null,
+  "wgs": null,
+  "road": "",
+  "date": "",
+  "label": ""
+ },
+ {
+  "rank": 3,
+  "id": "public0",
+  "file": "comparison\\public0.jpg",
+  "score_global": 0.4432,
+  "inliers": 0,
+  "matches": 5,
+  "refined": true,
+  "heading": null,
+  "wgs": null,
+  "road": "",
+  "date": "",
+  "label": ""
+ },
+ {
+  "rank": 4,
+  "id": "public1",
+  "file": "comparison\\public1.jpg",
+  "score_global": 0.2818,
+  "inliers": 0,
+  "matches": 0,
+  "refined": true,
+  "heading": null,
+  "wgs": null,
+  "road": "",
+  "date": "",
+  "label": ""
+ }
+]

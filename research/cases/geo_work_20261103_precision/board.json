@@ -1,0 +1,317 @@
+{
+ "case": "geo_work_20261103_precision",
+ "photo": "..\\geo_slueth_test\\terrain_test_images\\test_sol_3.jpg",
+ "created": "2026-11-03T17:52:20",
+ "country": "KR",
+ "candidates": {
+  "Sageunjin coastal facility": {
+   "level": "area",
+   "parent": null,
+   "bbox": [
+    37.811939,
+    128.895257,
+    37.816461,
+    128.900943
+   ],
+   "scan_bbox": null,
+   "center": [
+    37.8142,
+    128.8981
+   ],
+   "prior": 1.0,
+   "status": "open",
+   "note": "",
+   "from": "anchor_area.json"
+  },
+  "Sageunjin shore segments": {
+   "level": "road",
+   "parent": "Sageunjin coastal facility",
+   "bbox": [
+    37.8138,
+    128.8963,
+    37.8148,
+    128.8985
+   ],
+   "scan_bbox": null,
+   "prior": 1.0,
+   "status": "open",
+   "note": ""
+  },
+  "conditional_solution": {
+   "level": "point",
+   "parent": "Sageunjin shore segments",
+   "bbox": [
+    37.814122,
+    128.896519,
+    37.814665,
+    128.897201
+   ],
+   "scan_bbox": null,
+   "center": [
+    37.8143935,
+    128.8968599
+   ],
+   "prior": 1.0,
+   "status": "open",
+   "note": "",
+   "from": "camera_candidates.json"
+  },
+  "previous_representative": {
+   "level": "point",
+   "parent": "Sageunjin shore segments",
+   "bbox": [
+    37.813979,
+    128.897259,
+    37.814521,
+    128.897941
+   ],
+   "scan_bbox": null,
+   "center": [
+    37.81425,
+    128.8976
+   ],
+   "prior": 1.0,
+   "status": "open",
+   "note": "",
+   "from": "camera_candidates.json"
+  },
+  "west_shore": {
+   "level": "point",
+   "parent": "Sageunjin shore segments",
+   "bbox": [
+    37.814179,
+    128.896309,
+    37.814721,
+    128.896991
+   ],
+   "scan_bbox": null,
+   "center": [
+    37.81445,
+    128.89665
+   ],
+   "prior": 1.0,
+   "status": "open",
+   "note": "",
+   "from": "camera_candidates.json"
+  },
+  "central_curve": {
+   "level": "point",
+   "parent": "Sageunjin shore segments",
+   "bbox": [
+    37.813979,
+    128.897059,
+    37.814521,
+    128.897741
+   ],
+   "scan_bbox": null,
+   "center": [
+    37.81425,
+    128.8974
+   ],
+   "prior": 1.0,
+   "status": "open",
+   "note": "",
+   "from": "camera_candidates.json"
+  },
+  "south_promenade": {
+   "level": "point",
+   "parent": "Sageunjin shore segments",
+   "bbox": [
+    37.813679,
+    128.897709,
+    37.814221,
+    128.898391
+   ],
+   "scan_bbox": null,
+   "center": [
+    37.81395,
+    128.89805
+   ],
+   "prior": 1.0,
+   "status": "open",
+   "note": "",
+   "from": "camera_candidates.json"
+  }
+ },
+ "clues": {
+  "K1": {
+   "text": "White curved observatory, stair arrangement and colored tetrapods match the public reference.",
+   "kind": "visual",
+   "status": "observed",
+   "file": "../geo_work_20261102_coast/refs/0.jpg",
+   "source": "",
+   "used": true
+  },
+  "K2": {
+   "text": "Upper structure control points are provisional; the far curved point C has no unique correspondence.",
+   "kind": "geometry",
+   "status": "inferred",
+   "file": "map_controls.png",
+   "source": "",
+   "used": false
+  },
+  "K3": {
+   "text": "Reprojection solved with A/B/D/E and tentative distant hotel: RMS 7.15px; E is flagged by leave-one-out.",
+   "kind": "geometry",
+   "status": "computed",
+   "file": "C:\\Users\\admin\\img2place_project\\geo_work_20261103_precision\\full_pose.json",
+   "source": "",
+   "used": true,
+   "resolves": [
+    "K2"
+   ]
+  },
+  "K4": {
+   "text": "Projected satellite water edge differs from photographed water edge; no same-date shore control.",
+   "kind": "geometry",
+   "status": "computed",
+   "file": "shore_comparison.jpg",
+   "source": "",
+   "used": false
+  },
+  "K5": {
+   "text": "Camera candidates compared with all points and each point omitted; none exceeds robust delta-chi2 9.",
+   "kind": "geometry",
+   "status": "computed",
+   "file": "candidate_check.json",
+   "source": "",
+   "used": true
+  },
+  "K6": {
+   "text": "The user supplied 37.81438,128.89691 previously for this byte-identical photo; withheld from fit and used for evaluation.",
+   "kind": "hint",
+   "status": "inferred",
+   "file": "coordinate_comparison.json",
+   "source": "",
+   "used": false
+  }
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "clue": "K1",
+   "candidate": "Sageunjin coastal facility",
+   "lr": 5.0,
+   "why": "The landmark identity matches three structural features.",
+   "file": "evidence.jpg",
+   "cmd": ""
+  },
+  {
+   "id": "E2",
+   "clue": "K1",
+   "candidate": "Sageunjin shore segments",
+   "lr": 5.0,
+   "why": "The same facility and coastal layout are observed.",
+   "file": "evidence.jpg",
+   "cmd": ""
+  },
+  {
+   "id": "E3",
+   "clue": "K3",
+   "candidate": "conditional_solution",
+   "lr": 3.0,
+   "why": "Provisional camera model favors the northwest shore; no candidate is definitively excluded.",
+   "file": "candidate_check.json",
+   "cmd": ""
+  },
+  {
+   "id": "E4",
+   "clue": "K3",
+   "candidate": "west_shore",
+   "lr": 2.0,
+   "why": "Provisional camera model favors the northwest shore; no candidate is definitively excluded.",
+   "file": "candidate_check.json",
+   "cmd": ""
+  },
+  {
+   "id": "E5",
+   "clue": "K3",
+   "candidate": "central_curve",
+   "lr": 0.5,
+   "why": "Provisional camera model favors the northwest shore; no candidate is definitively excluded.",
+   "file": "candidate_check.json",
+   "cmd": ""
+  },
+  {
+   "id": "E6",
+   "clue": "K3",
+   "candidate": "previous_representative",
+   "lr": 0.3,
+   "why": "Provisional camera model favors the northwest shore; no candidate is definitively excluded.",
+   "file": "candidate_check.json",
+   "cmd": ""
+  },
+  {
+   "id": "E7",
+   "clue": "K3",
+   "candidate": "south_promenade",
+   "lr": 0.5,
+   "why": "Provisional camera model favors the northwest shore; no candidate is definitively excluded.",
+   "file": "candidate_check.json",
+   "cmd": ""
+  },
+  {
+   "id": "E8",
+   "clue": "K5",
+   "candidate": "conditional_solution",
+   "lr": 1.5,
+   "why": "All-point residual favors the new position, but dropping the distant landmark prevents robust exclusions.",
+   "file": "candidate_check.json",
+   "cmd": ""
+  },
+  {
+   "id": "E9",
+   "clue": "K5",
+   "candidate": "west_shore",
+   "lr": 1.1,
+   "why": "All-point residual favors the new position, but dropping the distant landmark prevents robust exclusions.",
+   "file": "candidate_check.json",
+   "cmd": ""
+  },
+  {
+   "id": "E10",
+   "clue": "K5",
+   "candidate": "central_curve",
+   "lr": 0.8,
+   "why": "All-point residual favors the new position, but dropping the distant landmark prevents robust exclusions.",
+   "file": "candidate_check.json",
+   "cmd": ""
+  },
+  {
+   "id": "E11",
+   "clue": "K5",
+   "candidate": "previous_representative",
+   "lr": 0.7,
+   "why": "All-point residual favors the new position, but dropping the distant landmark prevents robust exclusions.",
+   "file": "candidate_check.json",
+   "cmd": ""
+  },
+  {
+   "id": "E12",
+   "clue": "K5",
+   "candidate": "south_promenade",
+   "lr": 0.8,
+   "why": "All-point residual favors the new position, but dropping the distant landmark prevents robust exclusions.",
+   "file": "candidate_check.json",
+   "cmd": ""
+  }
+ ],
+ "falsify": {},
+ "log": [
+  "09:11 country KR",
+  "09:11 add --from anchor_area.json → +1 area",
+  "09:11 add Sageunjin shore segments (road)",
+  "09:11 add --from camera_candidates.json → +5 point",
+  "09:11 clue K1 [visual/observed] White curved observatory, stair arrangement and colored tetrapods match the public reference.",
+  "09:11 clue K2 [geometry/inferred] Upper structure control points are provisional; the far curved point C has no unique correspondence.",
+  "09:11 clue K3 [geometry/computed] Reprojection solved with A/B/D/E and tentative distant hotel: RMS 7.15px; E is flagged by leave-one-out.; resolves K2",
+  "09:11 clue K4 [geometry/computed] Projected satellite water edge differs from photographed water edge; no same-date shore control.",
+  "09:11 clue K5 [geometry/computed] Camera candidates compared with all points and each point omitted; none exceeds robust delta-chi2 9.",
+  "09:11 clue K6 [hint/inferred] The user supplied 37.81438,128.89691 previously for this byte-identical photo; withheld from fit and used for evaluation.",
+  "09:11 evidence K1 → Sageunjin coastal facility:5",
+  "09:11 evidence K1 → Sageunjin shore segments:5",
+  "09:11 evidence K3 → conditional_solution:3, west_shore:2, central_curve:0.5, previous_representative:0.3, south_promenade:0.5",
+  "09:11 evidence K5 → conditional_solution:1.5, west_shore:1.1, central_curve:0.8, previous_representative:0.7, south_promenade:0.8"
+ ],
+ "updated": "2026-11-04T09:11:41"
+}

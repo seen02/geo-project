@@ -1,0 +1,348 @@
+{
+ "case": "geo_work_20261028_01",
+ "photo": "C:\\Users\\admin\\img2place_project\\geo_slueth_test\\terrain_test_images\\KakaoTalk_20261028_142436521_01.jpg",
+ "created": "2026-10-28T15:21:55",
+ "country": "KR",
+ "candidates": {
+  "Osan": {
+   "level": "city",
+   "parent": null,
+   "bbox": null,
+   "scan_bbox": null,
+   "prior": 1.0,
+   "status": "open",
+   "note": ""
+  },
+  "01 독산성": {
+   "level": "area",
+   "parent": "Osan",
+   "bbox": [
+    37.177845,
+    127.014973,
+    37.186889,
+    127.026249
+   ],
+   "scan_bbox": [
+    37.1828,
+    127.019,
+    37.1852,
+    127.0235
+   ],
+   "center": [
+    37.182367,
+    127.020611
+   ],
+   "prior": 1.0,
+   "status": "open",
+   "note": "",
+   "from": "doksan_pois.json"
+  },
+  "02 독산성": {
+   "level": "area",
+   "parent": "Osan",
+   "bbox": [
+    37.173164,
+    127.020448,
+    37.182208,
+    127.031722
+   ],
+   "scan_bbox": null,
+   "center": [
+    37.177686,
+    127.026085
+   ],
+   "prior": 1.0,
+   "status": "open",
+   "note": "",
+   "from": "doksan_pois.json"
+  },
+  "01 양산봉": {
+   "level": "area",
+   "parent": null,
+   "bbox": [
+    37.185928,
+    127.268452,
+    37.194972,
+    127.279728
+   ],
+   "scan_bbox": null,
+   "center": [
+    37.19045,
+    127.27409
+   ],
+   "prior": 1.0,
+   "status": "open",
+   "note": "",
+   "from": "yangsan_pois.json"
+  },
+  "02 양산봉": {
+   "level": "area",
+   "parent": "Osan",
+   "bbox": [
+    37.184855,
+    127.017543,
+    37.193899,
+    127.028819
+   ],
+   "scan_bbox": null,
+   "center": [
+    37.189377,
+    127.023181
+   ],
+   "prior": 1.0,
+   "status": "open",
+   "note": "",
+   "from": "yangsan_pois.json"
+  },
+  "03 양산봉": {
+   "level": "area",
+   "parent": null,
+   "bbox": [
+    34.673059,
+    125.180166,
+    34.682103,
+    125.19109
+   ],
+   "scan_bbox": null,
+   "center": [
+    34.677581,
+    125.185628
+   ],
+   "prior": 1.0,
+   "status": "open",
+   "note": "",
+   "from": "yangsan_pois.json"
+  },
+  "North bend": {
+   "level": "road",
+   "parent": "01 독산성",
+   "bbox": [
+    37.183897,
+    127.020798,
+    37.185343,
+    127.022602
+   ],
+   "scan_bbox": null,
+   "center": [
+    37.18462,
+    127.0217
+   ],
+   "prior": 1.0,
+   "status": "open",
+   "note": "",
+   "from": "road_segments.json"
+  },
+  "East overlook segment": {
+   "level": "road",
+   "parent": "01 독산성",
+   "bbox": [
+    37.183527,
+    127.021418,
+    37.184973,
+    127.023222
+   ],
+   "scan_bbox": null,
+   "center": [
+    37.18425,
+    127.02232
+   ],
+   "prior": 1.0,
+   "status": "open",
+   "note": "",
+   "from": "road_segments.json"
+  },
+  "Southeast approach": {
+   "level": "road",
+   "parent": "01 독산성",
+   "bbox": [
+    37.183127,
+    127.021438,
+    37.184573,
+    127.023242
+   ],
+   "scan_bbox": null,
+   "center": [
+    37.18385,
+    127.02234
+   ],
+   "prior": 1.0,
+   "status": "open",
+   "note": "",
+   "from": "road_segments.json"
+  }
+ },
+ "clues": {
+  "K1": {
+   "text": "Four narrow towers with projecting roof caps; outer towers taller; center-right forest and green net enclosure",
+   "kind": "skyline",
+   "status": "observed",
+   "file": "skyline.png",
+   "source": "",
+   "used": false
+  },
+  "K2": {
+   "text": "Public Doksanseong views show the same Metapolis roof caps, height order, green net enclosure and right-hand Segyo apartment cluster",
+   "kind": "anchor",
+   "status": "observed",
+   "file": "refs\\14.jpg",
+   "source": "",
+   "used": true
+  },
+  "K3": {
+   "text": "Horizontal geometry: tower plus green-range layout fits northeast Doksanseong corridor about 0.3 px, Yangsan peak about 15 px with implausible 133-degree FOV",
+   "kind": "geometry",
+   "status": "computed",
+   "file": "C:\\Users\\admin\\img2place_project\\geo_work_20261028_01\\horizontal_scan.json",
+   "source": "",
+   "used": true,
+   "resolves": [
+    "K1"
+   ]
+  },
+  "K4": {
+   "text": "Public panorama ranking and visual comparison: Metapolis towers, golf net, apartment block and foreground small roof align at east access-road overlooks. Northern bend has poles and different occlusion; southern approach has different foreground.",
+   "kind": "ground-match",
+   "status": "observed",
+   "file": "evidence.jpg",
+   "source": "",
+   "used": true
+  },
+  "K5": {
+   "text": "At fixed candidate 37.1843,127.0223, terrain ground elevation124m plus eye height1.6m; tower projection RMS0.81px with heading60.5 and HFOV66.7. Consistency test only; nearly collinear towers do not independently fix the camera.",
+   "kind": "projection",
+   "status": "computed",
+   "file": "C:\\Users\\admin\\img2place_project\\geo_work_20261028_01\\final_pose.json",
+   "source": "",
+   "used": true,
+   "resolves": [
+    "K1"
+   ]
+  }
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "clue": "K2",
+   "candidate": "01 독산성",
+   "lr": 5.0,
+   "why": "Same skyline in public views; bus stop is below the forest; other namesakes are outside this documented Osan view",
+   "file": "matches.jpg",
+   "cmd": ""
+  },
+  {
+   "id": "E2",
+   "clue": "K2",
+   "candidate": "02 양산봉",
+   "lr": 2.0,
+   "why": "Same skyline in public views; bus stop is below the forest; other namesakes are outside this documented Osan view",
+   "file": "matches.jpg",
+   "cmd": ""
+  },
+  {
+   "id": "E3",
+   "clue": "K2",
+   "candidate": "02 독산성",
+   "lr": 0.2,
+   "why": "Same skyline in public views; bus stop is below the forest; other namesakes are outside this documented Osan view",
+   "file": "matches.jpg",
+   "cmd": ""
+  },
+  {
+   "id": "E4",
+   "clue": "K2",
+   "candidate": "01 양산봉",
+   "lr": 0.2,
+   "why": "Same skyline in public views; bus stop is below the forest; other namesakes are outside this documented Osan view",
+   "file": "matches.jpg",
+   "cmd": ""
+  },
+  {
+   "id": "E5",
+   "clue": "K2",
+   "candidate": "03 양산봉",
+   "lr": 0.2,
+   "why": "Same skyline in public views; bus stop is below the forest; other namesakes are outside this documented Osan view",
+   "file": "matches.jpg",
+   "cmd": ""
+  },
+  {
+   "id": "E6",
+   "clue": "K3",
+   "candidate": "01 독산성",
+   "lr": 10.0,
+   "why": "Mapped tower/range bearing ratios match the northeast Doksanseong corridor; the range is too far right from Yangsan peak",
+   "file": "horizontal_scan.json",
+   "cmd": ""
+  },
+  {
+   "id": "E7",
+   "clue": "K3",
+   "candidate": "02 양산봉",
+   "lr": 0.1,
+   "why": "Mapped tower/range bearing ratios match the northeast Doksanseong corridor; the range is too far right from Yangsan peak",
+   "file": "horizontal_scan.json",
+   "cmd": ""
+  },
+  {
+   "id": "E8",
+   "clue": "K4",
+   "candidate": "East overlook segment",
+   "lr": 5.0,
+   "why": "Four persistent structures have the matching left-to-right order, with the foreground roof corresponding. Top panoramas fall on the east overlook segment; exact tree location is unresolved.",
+   "file": "evidence.jpg",
+   "cmd": ""
+  },
+  {
+   "id": "E9",
+   "clue": "K4",
+   "candidate": "North bend",
+   "lr": 0.3,
+   "why": "Four persistent structures have the matching left-to-right order, with the foreground roof corresponding. Top panoramas fall on the east overlook segment; exact tree location is unresolved.",
+   "file": "evidence.jpg",
+   "cmd": ""
+  },
+  {
+   "id": "E10",
+   "clue": "K4",
+   "candidate": "Southeast approach",
+   "lr": 0.3,
+   "why": "Four persistent structures have the matching left-to-right order, with the foreground roof corresponding. Top panoramas fall on the east overlook segment; exact tree location is unresolved.",
+   "file": "evidence.jpg",
+   "cmd": ""
+  },
+  {
+   "id": "E11",
+   "clue": "K5",
+   "candidate": "East overlook segment",
+   "lr": 2.0,
+   "why": "Fixed-location projection agrees with measured tower caps; modest weight because it is a consistency check, not independent localization.",
+   "file": "pose_selfcheck.jpg",
+   "cmd": ""
+  }
+ ],
+ "falsify": {
+  "01 독산성": [
+   "Reject the proposed northeast road segment if Metapolis, golf net, and right apartment cluster cannot share the measured alignment or if foreground ridge blocks the view."
+  ]
+ },
+ "log": [
+  "15:24 country KR",
+  "15:24 clue K1 [skyline/observed] Four narrow towers with projecting roof caps; outer towers taller; center-right forest and green net enclosure",
+  "15:32 add Osan (city)",
+  "15:32 add --from doksan_pois.json → +2 area",
+  "15:32 add --from yangsan_pois.json → +3 area",
+  "15:32 clue K2 [anchor/observed] Public Doksanseong views show the same Metapolis roof caps, height order, green net enclosure and right-hand Segyo apartment cluster",
+  "15:33 evidence K2 → 01 독산성:5, 02 양산봉:2, 02 독산성:0.2, 01 양산봉:0.2, 03 양산봉:0.2",
+  "15:33 move 02 양산봉: None → Osan",
+  "15:35 clue K3 [geometry/computed] Horizontal geometry: tower plus green-range layout fits northeast Doksanseong corridor about 0.3 px, Yangsan peak about 15 px with implausible 133-degree FOV; resolves K1",
+  "15:35 evidence K3 → 01 독산성:10, 02 양산봉:0.1",
+  "15:38 scan-bbox 01 독산성 37.1828,127.019,37.1852,127.0235",
+  "15:38 falsify 01 독산성: Reject the proposed northeast road segment if Metapolis, golf net, and right apartment cluster cannot share the measured alignment or if foreground ridge blocks the view.",
+  "15:43 add --from road_segments.json → +3 road",
+  "15:43 clue K4 [ground-match/observed] Public panorama ranking and visual comparison: Metapolis towers, golf net, apartment block and foreground small roof align at east access-road overlooks. Northern bend has poles and different occlusion; southern approach has different foreground.",
+  "15:43 evidence K4 → East overlook segment:5, North bend:0.3, Southeast approach:0.3",
+  "15:43 clue K5 [projection/computed] At fixed candidate 37.1843,127.0223, terrain ground elevation124m plus eye height1.6m; tower projection RMS0.81px with heading60.5 and HFOV66.7. Consistency test only; nearly collinear towers do not independently fix the camera.; resolves K1",
+  "15:43 evidence K5 → East overlook segment:2"
+ ],
+ "updated": "2026-10-28T15:43:34"
+}

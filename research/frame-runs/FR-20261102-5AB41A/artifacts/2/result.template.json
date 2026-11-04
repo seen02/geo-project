@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "request_id": "FR-20261102-5AB41A",
+  "title": "로컬 실행 검증 · 호수 사진",
+  "place_name": "",
+  "region": "",
+  "summary": "",
+  "lat": null,
+  "lon": null,
+  "radius_m": null,
+  "heading": null,
+  "confidence": "unrated",
+  "composition": "",
+  "best_time": "",
+  "access": "",
+  "lens": "",
+  "clues": [],
+  "evidence": [
+    {
+      "name": "조사 근거 이미지",
+      "file": "evidence.jpg",
+      "description": ""
+    }
+  ],
+  "alternatives": [],
+  "caveats": [],
+  "sources": []
+}

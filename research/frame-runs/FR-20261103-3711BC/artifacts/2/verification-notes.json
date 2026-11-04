@@ -1,0 +1,34 @@
+{
+  "camera_estimate": [
+    37.58332635447713,
+    126.9833964451579
+  ],
+  "radius_m": 25,
+  "heading_estimate": 155,
+  "hfov_reported": null,
+  "heading_basis": "Panorama orientation renders 150-165 degrees and downward alley axis 164.1-166.2 degrees; original is aimed left of the alley axis. Approximate heading, not a measured optical axis.",
+  "radius_basis": "Top and adjacent panorama are 14.8 m apart; north historical panorama is approximately 10 m away. Gable timber frame, stepped tiled eaves, wall frieze and end gate support this short segment. 25 m includes along-street, sidewalk and panorama geotag uncertainty; not a statistical confidence interval.",
+  "elevation_m": {
+    "upper_ground": 71,
+    "upper_eye_assumed": 72.6,
+    "mid_ground": 70,
+    "lower_ground": 64
+  },
+  "projection_limit": "30 degree hfov and -3 degree pitch are test hypotheses only; no reliable sea/flat horizon or surveyed roof controls. Fixed-position projection is not independent localization.",
+  "streetview_no_data": "A 5 m radius near query returned normal NO_DATA; successful neighboring panorama lookups/renders prove this is not evidence of absent local imagery.",
+  "recovery": "Reused current-job intake search images after opening and decoding; previous satellite failed_tiles=25 invalidated. New Google mosaic failed_tiles=0.",
+  "sources": [
+    {
+      "title": "Google panorama upper",
+      "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=iji2OHIKbyYu1lSo0NIzdA&heading=155"
+    },
+    {
+      "title": "Google panorama adjacent",
+      "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=LRbVXEQiWAQQhqXko-1Svw&heading=165"
+    },
+    {
+      "title": "Google satellite tiles",
+      "url": "https://mt1.google.com/vt/lyrs=s&x=447076&y=203002&z=19"
+    }
+  ]
+}

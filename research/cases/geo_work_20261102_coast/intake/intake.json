@@ -1,0 +1,42 @@
+{
+ "photo": "C:\\Users\\admin\\img2place_project\\geo_work_20261102_coast\\query.jpg",
+ "input": null,
+ "result": "ok",
+ "exif": {
+  "file": "C:\\Users\\admin\\img2place_project\\geo_work_20261102_coast\\query.jpg",
+  "size": [
+   1440,
+   810
+  ]
+ },
+ "ocr": [
+  {
+   "text": "mihl",
+   "conf": 0.578,
+   "box": [
+    449,
+    227,
+    555,
+    260
+   ],
+   "pass": "tile"
+  }
+ ],
+ "rev": [],
+ "votes": {
+  "city": {},
+  "place": {}
+ },
+ "status": {
+  "exif": "ok",
+  "variants": "ok",
+  "edges": "ok",
+  "ocr": "ok"
+ },
+ "timings": {
+  "exif": 0.2,
+  "variants": 0.3,
+  "edges": 0.7,
+  "ocr": 7.5
+ }
+}

@@ -1,0 +1,55 @@
+{
+ "candidate_levels": {
+  "area": [
+   {
+    "name": "Lago di Braies",
+    "share": 1.0,
+    "evidence": 4,
+    "verified": 2,
+    "excluded": false
+   }
+  ]
+ },
+ "main": {
+  "level": "area",
+  "name": "Lago di Braies",
+  "share": 1.0,
+  "evidence": [
+   {
+    "clue": "Wooden boat foreground, left rock spur, central pale scree chute and stepped summit; no legible signs",
+    "status": "observed",
+    "lr": 2.0,
+    "why": "Scene observation is consistent; not a unique location constraint alone",
+    "file": "edges-sheet.jpg"
+   },
+   {
+    "clue": "Luca Bravo original is titled On a boat on Lago di Braies, Italy; source Unsplash O453M2Liufs",
+    "status": "read",
+    "lr": 20.0,
+    "why": "Source identifies the exact original photograph and lake; not an exact camera coordinate",
+    "file": "commons.html"
+   },
+   {
+    "clue": "Downloaded Unsplash original and reference full-frame RGB mean absolute difference is 1.829 of 255 after resize to 800x533",
+    "status": "computed",
+    "lr": 3.0,
+    "why": "Pixel comparison corroborates same-photo provenance; dependent on K2, not an independent camera constraint",
+    "file": "source-comparison.json"
+   },
+   {
+    "clue": "Independent official landscape agrees on left cliff outline, central scree chute and stepped mountain summit",
+    "status": "observed",
+    "lr": 5.0,
+    "why": "Independent official photograph matches three stable terrain features at lake level",
+    "file": "evidence.jpg"
+   }
+  ]
+ },
+ "alternatives": [],
+ "excluded": [],
+ "unused_clues": [],
+ "downweighted_not_excluded": [],
+ "falsify": {},
+ "unexamined": [],
+ "level_gaps": []
+}

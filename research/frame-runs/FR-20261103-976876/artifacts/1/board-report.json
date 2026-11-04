@@ -1,0 +1,139 @@
+{
+ "board": {
+  "candidate_levels": {
+   "area": [
+    {
+     "name": "05 Hanshin University",
+     "share": 0.984,
+     "evidence": 5,
+     "verified": 3,
+     "excluded": false
+    },
+    {
+     "name": "02 한신대학교",
+     "share": 0.016,
+     "evidence": 3,
+     "verified": 2,
+     "excluded": false
+    },
+    {
+     "name": "04 Hanshin University",
+     "share": 0.0,
+     "evidence": 3,
+     "verified": 2,
+     "excluded": false
+    },
+    {
+     "name": "01 Hanshin University",
+     "share": 0.0,
+     "evidence": 3,
+     "verified": 2,
+     "excluded": false
+    },
+    {
+     "name": "03 Hansin University",
+     "share": 0.0,
+     "evidence": 3,
+     "verified": 2,
+     "excluded": false
+    }
+   ],
+   "road": [
+    {
+     "name": "18 장준하통일관",
+     "share": 0.999,
+     "evidence": 3,
+     "verified": 2,
+     "excluded": false
+    },
+    {
+     "name": "6 경삼관(중앙도서관)",
+     "share": 0.0,
+     "evidence": 1,
+     "verified": 0,
+     "excluded": false
+    },
+    {
+     "name": "7 송암관",
+     "share": 0.0,
+     "evidence": 1,
+     "verified": 0,
+     "excluded": false
+    },
+    {
+     "name": "9 산학관",
+     "share": 0.0,
+     "evidence": 1,
+     "verified": 0,
+     "excluded": false
+    }
+   ],
+   "point": [
+    {
+     "name": "SE frontage window",
+     "share": 0.885,
+     "evidence": 1,
+     "verified": 1,
+     "excluded": false
+    },
+    {
+     "name": "Entrance axis window",
+     "share": 0.071,
+     "evidence": 1,
+     "verified": 1,
+     "excluded": false
+    },
+    {
+     "name": "NW frontage window",
+     "share": 0.044,
+     "evidence": 1,
+     "verified": 1,
+     "excluded": false
+    }
+   ]
+  },
+  "main": {
+   "level": "point",
+   "name": "SE frontage window",
+   "share": 0.885,
+   "evidence": [
+    {
+     "clue": "Bearing check from EXIF position with T marking anchor gives heading 41.2-42.0 deg; approximate anchor measurements; full pose RMS 122 px and unstable height, rejected for floor determination",
+     "status": "computed",
+     "lr": 5.0,
+     "why": "SE curved planter and right crossing define southeast frontage; GPS and bearing check consistent. Pose height rejected; precise window unverified.",
+     "file": "bearing-check.json"
+    }
+   ]
+  },
+  "alternatives": [
+   {
+    "name": "Entrance axis window",
+    "share": 0.071,
+    "how_to_separate": "run one cheap test on both together (terrain/livery/municipal fixtures/water template), or scan the first 3 pages of each built-up area"
+   }
+  ],
+  "excluded": [],
+  "unused_clues": [],
+  "downweighted_not_excluded": [
+   "01 Hanshin University",
+   "03 Hansin University",
+   "04 Hanshin University",
+   "6 경삼관(중앙도서관)",
+   "7 송암관",
+   "9 산학관"
+  ],
+  "falsify": {
+   "SE frontage window": [
+    "Reject exact window/floor if verified ground controls cannot reproduce sky and foreground simultaneously; retain only frontage estimate when pose unstable"
+   ]
+  },
+  "unexamined": [],
+  "level_gaps": []
+ },
+ "alternatives": [
+  "Entrance axis window (share 7%): run one cheap test on both together (terrain/livery/municipal fixtures/water template), or scan the first 3 pages of each built-up area"
+ ],
+ "excluded": [],
+ "unused_clues": []
+}

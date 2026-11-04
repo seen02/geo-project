@@ -1,0 +1,6107 @@
+[
+  {
+    "id": "sl/y90nupkv",
+    "index": 0,
+    "elements": [
+      {
+        "id": "sh/ts7md4r2",
+        "kind": "textbox",
+        "text": "geo-slueth 소개",
+        "position": {
+          "left": 72,
+          "top": 235,
+          "width": 1120,
+          "height": 80
+        }
+      },
+      {
+        "id": "sh/547294r6",
+        "kind": "textbox",
+        "text": "테스트 과정 정리 및 활용 가능성 파악",
+        "position": {
+          "left": 74,
+          "top": 338,
+          "width": 1110,
+          "height": 57
+        }
+      },
+      {
+        "id": "sh/k3yl0zql",
+        "kind": "textbox",
+        "text": "사진의 단서를 실제 장소와 연결하고,\n조사 단계별 입력과 산출물을 확인합니다",
+        "position": {
+          "left": 76,
+          "top": 435,
+          "width": 1060,
+          "height": 82
+        }
+      },
+      {
+        "id": "sh/7qp4be9c",
+        "kind": "textbox",
+        "text": "조사 2026.11.02    정리 2026.11.02",
+        "position": {
+          "left": 76,
+          "top": 640,
+          "width": 1050,
+          "height": 30
+        }
+      },
+      {
+        "id": "sh/65g3298r",
+        "kind": "textbox",
+        "text": "1",
+        "position": {
+          "left": 1182,
+          "top": 682,
+          "width": 34,
+          "height": 22
+        }
+      }
+    ]
+  },
+  {
+    "id": "sl/hwbqtkby",
+    "index": 1,
+    "elements": [
+      {
+        "id": "sh/t8byxkn2",
+        "kind": "textbox",
+        "text": "발표 구성",
+        "position": {
+          "left": 64,
+          "top": 72,
+          "width": 1152,
+          "height": 63
+        }
+      },
+      {
+        "id": "sh/9072xkry",
+        "kind": "textbox",
+        "text": "2",
+        "position": {
+          "left": 1182,
+          "top": 682,
+          "width": 34,
+          "height": 22
+        }
+      },
+      {
+        "id": "sh/ozy1ofad",
+        "kind": "textbox",
+        "text": "01",
+        "position": {
+          "left": 490,
+          "top": 205,
+          "width": 65,
+          "height": 40
+        }
+      },
+      {
+        "id": "sh/b29kza94",
+        "kind": "textbox",
+        "text": "필요한 이유",
+        "position": {
+          "left": 568,
+          "top": 205,
+          "width": 520,
+          "height": 41
+        }
+      },
+      {
+        "id": "sh/a10jqpsj",
+        "kind": "textbox",
+        "text": "위치를 모르는 사진을 조사할 때 생기는 문제",
+        "position": {
+          "left": 568,
+          "top": 251,
+          "width": 590,
+          "height": 36
+        }
+      },
+      {
+        "id": "sh/x4r21kru",
+        "kind": "textbox",
+        "text": "03–04",
+        "position": {
+          "left": 1110,
+          "top": 210,
+          "width": 106,
+          "height": 27
+        }
+      },
+      {
+        "id": "sh/w3i1sfa9",
+        "kind": "textbox",
+        "text": "02",
+        "position": {
+          "left": 490,
+          "top": 303,
+          "width": 65,
+          "height": 40
+        }
+      },
+      {
+        "id": "sh/r65knqtk",
+        "kind": "textbox",
+        "text": "geo-sleuth 소개",
+        "position": {
+          "left": 568,
+          "top": 303,
+          "width": 520,
+          "height": 41
+        }
+      },
+      {
+        "id": "sh/q5wjelsz",
+        "kind": "textbox",
+        "text": "스킬의 역할과 AI·프로그램·데이터의 관계",
+        "position": {
+          "left": 568,
+          "top": 349,
+          "width": 590,
+          "height": 36
+        }
+      },
+      {
+        "id": "sh/ove9o7yd",
+        "kind": "textbox",
+        "text": "05–07",
+        "position": {
+          "left": 1110,
+          "top": 308,
+          "width": 106,
+          "height": 27
+        }
+      },
+      {
+        "id": "sh/9wnqhczy",
+        "kind": "textbox",
+        "text": "03",
+        "position": {
+          "left": 490,
+          "top": 401,
+          "width": 65,
+          "height": 40
+        }
+      },
+      {
+        "id": "sh/mtwrmxg7",
+        "kind": "textbox",
+        "text": "테스트 소개",
+        "position": {
+          "left": 568,
+          "top": 401,
+          "width": 520,
+          "height": 41
+        }
+      },
+      {
+        "id": "sh/nu58f2hs",
+        "kind": "textbox",
+        "text": "사진 한 장으로 시작한 사근진 해안 위치 조사",
+        "position": {
+          "left": 568,
+          "top": 447,
+          "width": 590,
+          "height": 36
+        }
+      },
+      {
+        "id": "sh/wjy9sry9",
+        "kind": "textbox",
+        "text": "08–09",
+        "position": {
+          "left": 1110,
+          "top": 406,
+          "width": 106,
+          "height": 27
+        }
+      },
+      {
+        "id": "sh/xk7qlczu",
+        "kind": "textbox",
+        "text": "04",
+        "position": {
+          "left": 490,
+          "top": 499,
+          "width": 65,
+          "height": 40
+        }
+      },
+      {
+        "id": "sh/ahwrqhgj",
+        "kind": "textbox",
+        "text": "테스트 과정과 산출물",
+        "position": {
+          "left": 568,
+          "top": 499,
+          "width": 520,
+          "height": 41
+        }
+      },
+      {
+        "id": "sh/bip8jmho",
+        "kind": "textbox",
+        "text": "8단계의 실제 자료와 활용 가능성",
+        "position": {
+          "left": 568,
+          "top": 545,
+          "width": 590,
+          "height": 36
+        }
+      },
+      {
+        "id": "sh/cnupgny5",
+        "kind": "textbox",
+        "text": "10–28",
+        "position": {
+          "left": 1110,
+          "top": 504,
+          "width": 106,
+          "height": 27
+        }
+      },
+      {
+        "id": "sh/do3q9szq",
+        "kind": "textbox",
+        "text": "부록  29–32   작업·소스·결과·수행 대상·명령 대상·기타",
+        "position": {
+          "left": 64,
+          "top": 657,
+          "width": 1100,
+          "height": 30
+        }
+      }
+    ]
+  },
+  {
+    "id": "sl/ofy9wn61",
+    "index": 2,
+    "elements": [
+      {
+        "id": "sh/obq90bml",
+        "kind": "textbox",
+        "text": "01  필요한 이유",
+        "position": {
+          "left": 72,
+          "top": 60,
+          "width": 1100,
+          "height": 30
+        }
+      },
+      {
+        "id": "sh/cza94vmx",
+        "kind": "textbox",
+        "text": "위치를 모르는 사진의 조사",
+        "position": {
+          "left": 72,
+          "top": 268,
+          "width": 1130,
+          "height": 75
+        }
+      },
+      {
+        "id": "sh/d0jax03i",
+        "kind": "textbox",
+        "text": "사진 속 단서와 실제 장소를 연결할 근거가 필요합니다",
+        "position": {
+          "left": 74,
+          "top": 369,
+          "width": 1120,
+          "height": 53
+        }
+      },
+      {
+        "id": "sh/298ryl4v",
+        "kind": "textbox",
+        "text": "GPS와 간판이 없으면 지도와 참고사진을 반복해서 확인해야 합니다.\n어디를 확인했고 왜 그 장소로 판단했는지도 함께 남겨야 합니다.",
+        "position": {
+          "left": 76,
+          "top": 518,
+          "width": 1110,
+          "height": 92
+        }
+      },
+      {
+        "id": "sh/3ah8rqlg",
+        "kind": "textbox",
+        "text": "3",
+        "position": {
+          "left": 1182,
+          "top": 682,
+          "width": 34,
+          "height": 22
+        }
+      }
+    ]
+  },
+  {
+    "id": "sl/jyx0ra1s",
+    "index": 3,
+    "elements": [
+      {
+        "id": "sh/g36tgryd",
+        "kind": "textbox",
+        "text": "기존 문제와 해결 방식",
+        "position": {
+          "left": 64,
+          "top": 29,
+          "width": 1100,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/1cj2d8b6",
+        "kind": "textbox",
+        "text": "사진 위치 조사에서 필요한 기능",
+        "position": {
+          "left": 64,
+          "top": 72,
+          "width": 1152,
+          "height": 63
+        }
+      },
+      {
+        "id": "sh/0ba143al",
+        "kind": "textbox",
+        "text": "4",
+        "position": {
+          "left": 1182,
+          "top": 682,
+          "width": 34,
+          "height": 22
+        }
+      },
+      {
+        "id": "sh/rm1k7yt4",
+        "kind": "textbox",
+        "text": "조사할 때의 어려움",
+        "position": {
+          "left": 64,
+          "top": 185,
+          "width": 500,
+          "height": 40
+        }
+      },
+      {
+        "id": "sh/ql8jytsj",
+        "kind": "textbox",
+        "text": "geo-sleuth로 정리하는 방식",
+        "position": {
+          "left": 687,
+          "top": 185,
+          "width": 529,
+          "height": 40
+        }
+      },
+      {
+        "id": "sh/doj29oba",
+        "kind": "textbox",
+        "text": "GPS·표지판이 없는 사진",
+        "position": {
+          "left": 64,
+          "top": 251,
+          "width": 520,
+          "height": 40
+        }
+      },
+      {
+        "id": "sh/sna103ap",
+        "kind": "textbox",
+        "text": "사진만으로 검색할 지명을 알기 어렵습니다.",
+        "position": {
+          "left": 64,
+          "top": 303,
+          "width": 530,
+          "height": 59
+        }
+      },
+      {
+        "id": "sh/3ihk3et8",
+        "kind": "textbox",
+        "text": "건물·시설·지형에서 단서 추출",
+        "position": {
+          "left": 687,
+          "top": 251,
+          "width": 529,
+          "height": 40
+        }
+      },
+      {
+        "id": "sh/ih8ju9sn",
+        "kind": "textbox",
+        "text": "관찰을 가설로 기록하고 공개 자료와 대조합니다.",
+        "position": {
+          "left": 687,
+          "top": 303,
+          "width": 529,
+          "height": 59
+        }
+      },
+      {
+        "id": "sh/kbm987y5",
+        "kind": "textbox",
+        "text": "여러 지도를 오가는 반복 확인",
+        "position": {
+          "left": 64,
+          "top": 381,
+          "width": 520,
+          "height": 40
+        }
+      },
+      {
+        "id": "sh/5cva1cfq",
+        "kind": "textbox",
+        "text": "후보 위치마다 다른 사진과 방향을 확인합니다.",
+        "position": {
+          "left": 64,
+          "top": 433,
+          "width": 530,
+          "height": 59
+        }
+      },
+      {
+        "id": "sh/i94r6xgz",
+        "kind": "textbox",
+        "text": "후보 사진의 순위와 기하 비교",
+        "position": {
+          "left": 687,
+          "top": 381,
+          "width": 529,
+          "height": 40
+        }
+      },
+      {
+        "id": "sh/jadsz2xk",
+        "kind": "textbox",
+        "text": "비교할 자료를 모으고 다음 확인 대상을 좁힙니다.",
+        "position": {
+          "left": 687,
+          "top": 433,
+          "width": 529,
+          "height": 59
+        }
+      },
+      {
+        "id": "sh/w72947yt",
+        "kind": "textbox",
+        "text": "판단 이유가 남지 않는 결과",
+        "position": {
+          "left": 64,
+          "top": 511,
+          "width": 520,
+          "height": 40
+        }
+      },
+      {
+        "id": "sh/x8vaxsfe",
+        "kind": "textbox",
+        "text": "최종 좌표만 있으면 조사 과정을 검토하기 어렵습니다.",
+        "position": {
+          "left": 64,
+          "top": 563,
+          "width": 530,
+          "height": 59
+        }
+      },
+      {
+        "id": "sh/a5kr2xg3",
+        "kind": "textbox",
+        "text": "중간 파일과 근거를 함께 저장",
+        "position": {
+          "left": 687,
+          "top": 511,
+          "width": 529,
+          "height": 40
+        }
+      },
+      {
+        "id": "sh/v6tsv2xo",
+        "kind": "textbox",
+        "text": "후보·좌표·대조 이미지·미확정 사항을 남깁니다.",
+        "position": {
+          "left": 687,
+          "top": 563,
+          "width": 529,
+          "height": 59
+        }
+      }
+    ]
+  },
+  {
+    "id": "sl/i107q5of",
+    "index": 4,
+    "elements": [
+      {
+        "id": "sh/i54fmlc7",
+        "kind": "textbox",
+        "text": "사진 위치 조사 도구",
+        "position": {
+          "left": 64,
+          "top": 29,
+          "width": 1100,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/dgbulwnm",
+        "kind": "textbox",
+        "text": "geo-sleuth 소개",
+        "position": {
+          "left": 64,
+          "top": 72,
+          "width": 1152,
+          "height": 63
+        }
+      },
+      {
+        "id": "sh/cf2tcr61",
+        "kind": "textbox",
+        "text": "사진의 단서를 지도·공개 사진·기하 계산과 대조하는 위치 조사 스킬",
+        "position": {
+          "left": 64,
+          "top": 143,
+          "width": 1152,
+          "height": 60
+        }
+      },
+      {
+        "id": "sh/z2tcnm5s",
+        "kind": "textbox",
+        "text": "5",
+        "position": {
+          "left": 1182,
+          "top": 682,
+          "width": 34,
+          "height": 22
+        }
+      },
+      {
+        "id": "sh/yhkbe1o7",
+        "kind": "textbox",
+        "text": "사용자가 주는 자료",
+        "position": {
+          "left": 64,
+          "top": 230,
+          "width": 470,
+          "height": 38
+        }
+      },
+      {
+        "id": "sh/l4bupwny",
+        "kind": "textbox",
+        "text": "사진 파일과 선택적인 지역·시각 힌트",
+        "position": {
+          "left": 64,
+          "top": 276,
+          "width": 475,
+          "height": 60
+        }
+      },
+      {
+        "id": "sh/032tgr6d",
+        "kind": "textbox",
+        "text": "AI 에이전트의 역할",
+        "position": {
+          "left": 64,
+          "top": 342,
+          "width": 470,
+          "height": 38
+        }
+      },
+      {
+        "id": "sh/n6dcr65o",
+        "kind": "textbox",
+        "text": "단서 해석, 후보 설정, 도구 호출과 최종 판단",
+        "position": {
+          "left": 64,
+          "top": 388,
+          "width": 475,
+          "height": 60
+        }
+      },
+      {
+        "id": "sh/m5kbi1oj",
+        "kind": "textbox",
+        "text": "스킬이 제공하는 것",
+        "position": {
+          "left": 64,
+          "top": 454,
+          "width": 470,
+          "height": 38
+        }
+      },
+      {
+        "id": "sh/w32dkbuh",
+        "kind": "textbox",
+        "text": "조사 지침과 Python 실행 도구 묶음",
+        "position": {
+          "left": 64,
+          "top": 500,
+          "width": 475,
+          "height": 60
+        }
+      },
+      {
+        "id": "sh/x4vedgvm",
+        "kind": "shape",
+        "position": {
+          "left": 591,
+          "top": 226,
+          "width": 625,
+          "height": 356
+        }
+      },
+      {
+        "id": "sh/ahkvi1cb",
+        "kind": "textbox",
+        "text": "실제 스킬에 포함된 실행 도구",
+        "position": {
+          "left": 611,
+          "top": 242,
+          "width": 585,
+          "height": 30
+        }
+      },
+      {
+        "id": "sh/v2twb6dw",
+        "kind": "textbox",
+        "text": "intake.py      사진·EXIF·OCR 검사\nboard.py      후보와 근거 관리\nmatch.py      이미지 비교·순위화\ngsv.py          거리사진 조회\npose.py         위치·방향 일관성 검사\nevidence.py  증거 이미지 제작",
+        "position": {
+          "left": 611,
+          "top": 286,
+          "width": 585,
+          "height": 284
+        }
+      },
+      {
+        "id": "sh/k7mxovud",
+        "kind": "shape",
+        "position": {
+          "left": 64,
+          "top": 636,
+          "width": 1152,
+          "height": 1
+        }
+      },
+      {
+        "id": "sh/58vehgvy",
+        "kind": "textbox",
+        "text": "AI 에이전트가 스킬의 지침을 읽고, 필요한 프로그램을 선택해 실행합니다",
+        "position": {
+          "left": 64,
+          "top": 651,
+          "width": 1105,
+          "height": 34
+        }
+      }
+    ]
+  },
+  {
+    "id": "sl/x8f69ofe",
+    "index": 5,
+    "elements": [
+      {
+        "id": "sh/svmt4v6t",
+        "kind": "textbox",
+        "text": "geo-sleuth의 입출력",
+        "position": {
+          "left": 64,
+          "top": 29,
+          "width": 1100,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/yhg7epsj",
+        "kind": "textbox",
+        "text": "요청부터 결과까지의 처리 구조",
+        "position": {
+          "left": 64,
+          "top": 72,
+          "width": 1152,
+          "height": 63
+        }
+      },
+      {
+        "id": "sh/zi98nu94",
+        "kind": "textbox",
+        "text": "사진에서 시작해, 검토할 수 있는 위치와 근거 자료를 만듭니다",
+        "position": {
+          "left": 64,
+          "top": 143,
+          "width": 1152,
+          "height": 60
+        }
+      },
+      {
+        "id": "sh/87ipkzal",
+        "kind": "textbox",
+        "text": "6",
+        "position": {
+          "left": 1182,
+          "top": 682,
+          "width": 34,
+          "height": 22
+        }
+      },
+      {
+        "id": "sh/98rqt4r6",
+        "kind": "shape",
+        "position": {
+          "left": 64,
+          "top": 262,
+          "width": 354,
+          "height": 252
+        }
+      },
+      {
+        "id": "sh/ml07i9sv",
+        "kind": "textbox",
+        "text": "사용자 입력",
+        "position": {
+          "left": 88,
+          "top": 291,
+          "width": 306,
+          "height": 43
+        }
+      },
+      {
+        "id": "sh/7m98ru9g",
+        "kind": "textbox",
+        "text": "사진 1장\n선택적인 지역·촬영 힌트",
+        "position": {
+          "left": 88,
+          "top": 370,
+          "width": 306,
+          "height": 107
+        }
+      },
+      {
+        "id": "sh/oryp8fah",
+        "kind": "shape",
+        "position": {
+          "left": 463,
+          "top": 262,
+          "width": 354,
+          "height": 252
+        }
+      },
+      {
+        "id": "sh/pc76hkr2",
+        "kind": "textbox",
+        "text": "조사와 검증",
+        "position": {
+          "left": 487,
+          "top": 291,
+          "width": 306,
+          "height": 43
+        }
+      },
+      {
+        "id": "sh/h4bupgn6",
+        "kind": "textbox",
+        "text": "AI의 해석과 도구 호출\n공개 자료 비교·좌표 계산",
+        "position": {
+          "left": 487,
+          "top": 370,
+          "width": 306,
+          "height": 107
+        }
+      },
+      {
+        "id": "sh/w32twb6l",
+        "kind": "shape",
+        "position": {
+          "left": 862,
+          "top": 262,
+          "width": 354,
+          "height": 252
+        }
+      },
+      {
+        "id": "sh/v2tcn650",
+        "kind": "textbox",
+        "text": "사용자가 받는 결과",
+        "position": {
+          "left": 886,
+          "top": 291,
+          "width": 306,
+          "height": 43
+        }
+      },
+      {
+        "id": "sh/u1kbu1ov",
+        "kind": "textbox",
+        "text": "장소·대표 좌표·보고 범위\n비교 이미지·판단 근거",
+        "position": {
+          "left": 886,
+          "top": 370,
+          "width": 306,
+          "height": 107
+        }
+      },
+      {
+        "id": "sh/5svutgni",
+        "kind": "textbox",
+        "text": "01",
+        "position": {
+          "left": 64,
+          "top": 218,
+          "width": 100,
+          "height": 35
+        }
+      },
+      {
+        "id": "sh/47mt0b6x",
+        "kind": "textbox",
+        "text": "02",
+        "position": {
+          "left": 463,
+          "top": 218,
+          "width": 100,
+          "height": 35
+        }
+      },
+      {
+        "id": "sh/j6dcr65c",
+        "kind": "textbox",
+        "text": "03",
+        "position": {
+          "left": 862,
+          "top": 218,
+          "width": 100,
+          "height": 35
+        }
+      },
+      {
+        "id": "sh/i54bylor",
+        "kind": "shape",
+        "position": {
+          "left": 64,
+          "top": 636,
+          "width": 1152,
+          "height": 1
+        }
+      },
+      {
+        "id": "sh/twfux0ne",
+        "kind": "textbox",
+        "text": "중간 산출물이 남으므로, 결과를 얻은 이유를 단계별로 확인할 수 있습니다",
+        "position": {
+          "left": 64,
+          "top": 651,
+          "width": 1105,
+          "height": 34
+        }
+      }
+    ]
+  },
+  {
+    "id": "sl/gnmp4jqx",
+    "index": 6,
+    "elements": [
+      {
+        "id": "sh/eh0ba1sr",
+        "kind": "textbox",
+        "text": "geo-sleuth를 실행하는 주체",
+        "position": {
+          "left": 64,
+          "top": 29,
+          "width": 1100,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/cb2tkvap",
+        "kind": "textbox",
+        "text": "AI와 프로그램의 역할",
+        "position": {
+          "left": 64,
+          "top": 72,
+          "width": 1152,
+          "height": 63
+        }
+      },
+      {
+        "id": "sh/dcbud0ra",
+        "kind": "textbox",
+        "text": "위치 조사를 수행한 AI 에이전트가 필요한 도구들을 호출했습니다",
+        "position": {
+          "left": 64,
+          "top": 143,
+          "width": 1152,
+          "height": 60
+        }
+      },
+      {
+        "id": "sh/ydkbm5sv",
+        "kind": "textbox",
+        "text": "7",
+        "position": {
+          "left": 1182,
+          "top": 682,
+          "width": 34,
+          "height": 22
+        }
+      },
+      {
+        "id": "tb/uhkrmhcn",
+        "kind": "table",
+        "text": "대상\t받는 정보\t수행하는 일\nAI 에이전트\t원본·후보 이미지와 도구 결과\t단서 해석, 검색 조건 설정\n코드 작성·실행 요청·최종 판단\nPython 프로그램\tAI가 지정한 사진·좌표·조건\t파일 처리, 자료 조회\n수치 계산과 결과 저장\nDINOv2·SIFT\t사용자 사진과 비교 사진\t전체 유사도와 특징점 비교\n먼저 확인할 사진의 순위 산출\n공개 데이터 서비스\t검색어·좌표·파노라마 ID\t지도·건물 좌표·고도\n참고사진과 거리사진 제공",
+        "position": {
+          "left": 64,
+          "top": 218,
+          "width": 1152,
+          "height": 378
+        }
+      },
+      {
+        "id": "sh/kzmdova1",
+        "kind": "shape",
+        "position": {
+          "left": 64,
+          "top": 636,
+          "width": 1152,
+          "height": 1
+        }
+      },
+      {
+        "id": "sh/l0vuh0rm",
+        "kind": "textbox",
+        "text": "DINOv2의 유사도 점수만으로 장소를 확정하지 않고, AI가 실제 구조물을 대조합니다",
+        "position": {
+          "left": 64,
+          "top": 651,
+          "width": 1105,
+          "height": 34
+        }
+      }
+    ]
+  },
+  {
+    "id": "sl/fu1gfa1s",
+    "index": 7,
+    "elements": [
+      {
+        "id": "sh/m5gvmhwn",
+        "kind": "textbox",
+        "text": "02  실제 테스트",
+        "position": {
+          "left": 64,
+          "top": 29,
+          "width": 1100,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/18byd4zy",
+        "kind": "textbox",
+        "text": "테스트 소개",
+        "position": {
+          "left": 64,
+          "top": 72,
+          "width": 1152,
+          "height": 63
+        }
+      },
+      {
+        "id": "sh/g72x4zyd",
+        "kind": "textbox",
+        "text": "2026.11.02  야간 해안 사진 한 장의 촬영 구역과 방향 찾기",
+        "position": {
+          "left": 64,
+          "top": 143,
+          "width": 1152,
+          "height": 60
+        }
+      },
+      {
+        "id": "sh/ri9g7uhw",
+        "kind": "textbox",
+        "text": "8",
+        "position": {
+          "left": 1182,
+          "top": 682,
+          "width": 34,
+          "height": 22
+        }
+      },
+      {
+        "id": "im/z2h036hs",
+        "kind": "image",
+        "position": {
+          "left": 137.11,
+          "top": 227,
+          "width": 657.78,
+          "height": 370
+        }
+      },
+      {
+        "id": "sh/tkby9kzm",
+        "kind": "textbox",
+        "text": "입력 조건",
+        "position": {
+          "left": 914,
+          "top": 230,
+          "width": 302,
+          "height": 29
+        }
+      },
+      {
+        "id": "sh/sjix0zy1",
+        "kind": "textbox",
+        "text": "1440 × 810px JPG\nGPS 정보 없음\n유효한 지명 없음",
+        "position": {
+          "left": 914,
+          "top": 275,
+          "width": 302,
+          "height": 123
+        }
+      },
+      {
+        "id": "sh/je9g3ahk",
+        "kind": "textbox",
+        "text": "확인할 내용",
+        "position": {
+          "left": 914,
+          "top": 435,
+          "width": 302,
+          "height": 29
+        }
+      },
+      {
+        "id": "sh/id0fu50z",
+        "kind": "textbox",
+        "text": "장소와 촬영 방향\n단계별 입출력\n각 판단의 수행 주체",
+        "position": {
+          "left": 914,
+          "top": 481,
+          "width": 302,
+          "height": 116
+        }
+      },
+      {
+        "id": "sh/o7ydoret",
+        "kind": "shape",
+        "position": {
+          "left": 64,
+          "top": 636,
+          "width": 1152,
+          "height": 1
+        }
+      },
+      {
+        "id": "sh/98rehwve",
+        "kind": "textbox",
+        "text": "역 이미지 검색을 끄고, 공개 사진과 지도로 장소와 촬영 구역을 대조했습니다",
+        "position": {
+          "left": 64,
+          "top": 651,
+          "width": 1105,
+          "height": 34
+        }
+      }
+    ]
+  },
+  {
+    "id": "sl/udsvah03",
+    "index": 8,
+    "elements": [
+      {
+        "id": "sh/nmdg3q54",
+        "kind": "textbox",
+        "text": "03  테스트 과정",
+        "position": {
+          "left": 64,
+          "top": 29,
+          "width": 1100,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/1cfmhgne",
+        "kind": "textbox",
+        "text": "테스트 과정과 단계별 산출물",
+        "position": {
+          "left": 64,
+          "top": 72,
+          "width": 1152,
+          "height": 63
+        }
+      },
+      {
+        "id": "sh/0b65obm9",
+        "kind": "textbox",
+        "text": "실제 수행한 24개 작업을 8단계로 묶었습니다",
+        "position": {
+          "left": 64,
+          "top": 143,
+          "width": 1152,
+          "height": 60
+        }
+      },
+      {
+        "id": "sh/nex4jq5k",
+        "kind": "textbox",
+        "text": "9",
+        "position": {
+          "left": 1182,
+          "top": 682,
+          "width": 34,
+          "height": 22
+        }
+      },
+      {
+        "id": "sh/mdonql4z",
+        "kind": "textbox",
+        "text": "01",
+        "position": {
+          "left": 64,
+          "top": 230,
+          "width": 70,
+          "height": 38
+        }
+      },
+      {
+        "id": "sh/9gzml0nq",
+        "kind": "textbox",
+        "text": "초기 검사",
+        "position": {
+          "left": 64,
+          "top": 278,
+          "width": 270,
+          "height": 42
+        }
+      },
+      {
+        "id": "sh/ofq5svm5",
+        "kind": "textbox",
+        "text": "EXIF·OCR·잘라낸 이미지",
+        "position": {
+          "left": 64,
+          "top": 333,
+          "width": 265,
+          "height": 73
+        }
+      },
+      {
+        "id": "sh/bih4na5w",
+        "kind": "textbox",
+        "text": "02",
+        "position": {
+          "left": 358,
+          "top": 230,
+          "width": 70,
+          "height": 38
+        }
+      },
+      {
+        "id": "sh/ah8nu54b",
+        "kind": "textbox",
+        "text": "단서와 후보",
+        "position": {
+          "left": 358,
+          "top": 278,
+          "width": 270,
+          "height": 42
+        }
+      },
+      {
+        "id": "sh/oza1gfyh",
+        "kind": "textbox",
+        "text": "전망대 가설·공개 사진 5장",
+        "position": {
+          "left": 358,
+          "top": 333,
+          "width": 265,
+          "height": 73
+        }
+      },
+      {
+        "id": "sh/p0ji9kf2",
+        "kind": "textbox",
+        "text": "03",
+        "position": {
+          "left": 652,
+          "top": 230,
+          "width": 70,
+          "height": 38
+        }
+      },
+      {
+        "id": "sh/2xsjepgb",
+        "kind": "textbox",
+        "text": "사진 순위",
+        "position": {
+          "left": 652,
+          "top": 278,
+          "width": 270,
+          "height": 42
+        }
+      },
+      {
+        "id": "sh/3y107axw",
+        "kind": "textbox",
+        "text": "유사도·특징점 비교 결과",
+        "position": {
+          "left": 652,
+          "top": 333,
+          "width": 265,
+          "height": 73
+        }
+      },
+      {
+        "id": "sh/cnu1kzyd",
+        "kind": "textbox",
+        "text": "04",
+        "position": {
+          "left": 946,
+          "top": 230,
+          "width": 70,
+          "height": 38
+        }
+      },
+      {
+        "id": "sh/do3id4fy",
+        "kind": "textbox",
+        "text": "지도 대조",
+        "position": {
+          "left": 946,
+          "top": 278,
+          "width": 270,
+          "height": 42
+        }
+      },
+      {
+        "id": "sh/qlcjipgn",
+        "kind": "textbox",
+        "text": "전망대·방파제·곡선 해안",
+        "position": {
+          "left": 946,
+          "top": 333,
+          "width": 265,
+          "height": 73
+        }
+      },
+      {
+        "id": "sh/bml0buxs",
+        "kind": "textbox",
+        "text": "05",
+        "position": {
+          "left": 64,
+          "top": 420,
+          "width": 70,
+          "height": 38
+        }
+      },
+      {
+        "id": "sh/0ru1ozyp",
+        "kind": "textbox",
+        "text": "거리사진 조회",
+        "position": {
+          "left": 64,
+          "top": 468,
+          "width": 270,
+          "height": 42
+        }
+      },
+      {
+        "id": "sh/lsn2h4fa",
+        "kind": "textbox",
+        "text": "반경 100m 조회·자료 미확보",
+        "position": {
+          "left": 64,
+          "top": 523,
+          "width": 265,
+          "height": 73
+        }
+      },
+      {
+        "id": "sh/98ji147e",
+        "kind": "textbox",
+        "text": "06",
+        "position": {
+          "left": 358,
+          "top": 420,
+          "width": 70,
+          "height": 38
+        }
+      },
+      {
+        "id": "sh/87a18zqt",
+        "kind": "textbox",
+        "text": "구조물 대조",
+        "position": {
+          "left": 358,
+          "top": 468,
+          "width": 270,
+          "height": 42
+        }
+      },
+      {
+        "id": "sh/76h0zup8",
+        "kind": "textbox",
+        "text": "전망대 구조·테트라포드",
+        "position": {
+          "left": 358,
+          "top": 523,
+          "width": 265,
+          "height": 73
+        }
+      },
+      {
+        "id": "sh/ml8j6p8n",
+        "kind": "textbox",
+        "text": "07",
+        "position": {
+          "left": 652,
+          "top": 420,
+          "width": 70,
+          "height": 38
+        }
+      },
+      {
+        "id": "sh/hcji5o7a",
+        "kind": "textbox",
+        "text": "투영 검사",
+        "position": {
+          "left": 652,
+          "top": 468,
+          "width": 270,
+          "height": 42
+        }
+      },
+      {
+        "id": "sh/wba1cjqp",
+        "kind": "textbox",
+        "text": "가정 조건·정밀 검증의 한계",
+        "position": {
+          "left": 652,
+          "top": 523,
+          "width": 265,
+          "height": 73
+        }
+      },
+      {
+        "id": "sh/va103ep4",
+        "kind": "textbox",
+        "text": "08",
+        "position": {
+          "left": 946,
+          "top": 420,
+          "width": 70,
+          "height": 38
+        }
+      },
+      {
+        "id": "sh/u9sja98z",
+        "kind": "textbox",
+        "text": "결과 정리",
+        "position": {
+          "left": 946,
+          "top": 468,
+          "width": 270,
+          "height": 42
+        }
+      },
+      {
+        "id": "sh/xgzitk76",
+        "kind": "textbox",
+        "text": "좌표·증거 이미지·보고서",
+        "position": {
+          "left": 946,
+          "top": 523,
+          "width": 265,
+          "height": 73
+        }
+      },
+      {
+        "id": "sh/cf6h0fql",
+        "kind": "shape",
+        "position": {
+          "left": 64,
+          "top": 636,
+          "width": 1152,
+          "height": 1
+        }
+      },
+      {
+        "id": "sh/2l4faloj",
+        "kind": "textbox",
+        "text": "각 단계에서 얻은 산출물이 다음 단계의 입력으로 이어집니다",
+        "position": {
+          "left": 64,
+          "top": 651,
+          "width": 1105,
+          "height": 34
+        }
+      }
+    ]
+  },
+  {
+    "id": "sl/m90b6t0r",
+    "index": 9,
+    "elements": [
+      {
+        "id": "sh/jypcrqd4",
+        "kind": "textbox",
+        "text": "01 초기 검사",
+        "position": {
+          "left": 64,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/xc3mho32",
+        "kind": "shape",
+        "position": {
+          "left": 64,
+          "top": 54,
+          "width": 129,
+          "height": 2
+        }
+      },
+      {
+        "id": "sh/cbu58j2h",
+        "kind": "textbox",
+        "text": "02 단서·후보",
+        "position": {
+          "left": 208,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/zelojyl8",
+        "kind": "textbox",
+        "text": "03 사진 순위",
+        "position": {
+          "left": 352,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/ydcnatkn",
+        "kind": "textbox",
+        "text": "04 지도 대조",
+        "position": {
+          "left": 496,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/l036l83y",
+        "kind": "textbox",
+        "text": "05 거리 조회",
+        "position": {
+          "left": 640,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/kzu5c32t",
+        "kind": "textbox",
+        "text": "06 구조물 비교",
+        "position": {
+          "left": 784,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/725onyl4",
+        "kind": "textbox",
+        "text": "07 투영 검사",
+        "position": {
+          "left": 928,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/m1cnetkj",
+        "kind": "textbox",
+        "text": "08 결과 정리",
+        "position": {
+          "left": 1072,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/s7yt4b21",
+        "kind": "textbox",
+        "text": "파일 정보와 사진 속 글자 확인",
+        "position": {
+          "left": 64,
+          "top": 78,
+          "width": 1152,
+          "height": 56
+        }
+      },
+      {
+        "id": "sh/d87uxg3m",
+        "kind": "textbox",
+        "text": "GPS나 글자로 장소를 바로 좁힐 수 있는지 먼저 확인하기 위한 단계입니다",
+        "position": {
+          "left": 64,
+          "top": 137,
+          "width": 1152,
+          "height": 43
+        }
+      },
+      {
+        "id": "sh/q5gb21kb",
+        "kind": "textbox",
+        "text": "입력",
+        "position": {
+          "left": 64,
+          "top": 198,
+          "width": 80,
+          "height": 29
+        }
+      },
+      {
+        "id": "sh/r6pcv6lw",
+        "kind": "textbox",
+        "text": "동일한 1440 × 810px JPG",
+        "position": {
+          "left": 133,
+          "top": 194,
+          "width": 475,
+          "height": 61
+        }
+      },
+      {
+        "id": "sh/0bit8b2d",
+        "kind": "textbox",
+        "text": "산출물",
+        "position": {
+          "left": 661,
+          "top": 198,
+          "width": 85,
+          "height": 29
+        }
+      },
+      {
+        "id": "sh/1cru1g3y",
+        "kind": "textbox",
+        "text": "GPS 없음·유효한 지명 없음\nintake.md / exif.json / ocr.json",
+        "position": {
+          "left": 754,
+          "top": 194,
+          "width": 462,
+          "height": 61
+        }
+      },
+      {
+        "id": "sh/e9gb61k7",
+        "kind": "textbox",
+        "text": "조사 AI가 검사를 지시. intake.py와 OCR이 파일·문자를 읽고, AI가 검사 결과를 해석.",
+        "position": {
+          "left": 64,
+          "top": 263,
+          "width": 1152,
+          "height": 49
+        }
+      },
+      {
+        "id": "sh/fapcz6ls",
+        "kind": "shape",
+        "position": {
+          "left": 64,
+          "top": 319,
+          "width": 1152,
+          "height": 1
+        }
+      },
+      {
+        "id": "sh/ozitcv29",
+        "kind": "textbox",
+        "text": "10",
+        "position": {
+          "left": 1182,
+          "top": 682,
+          "width": 34,
+          "height": 22
+        }
+      },
+      {
+        "id": "sh/p0ru503u",
+        "kind": "textbox",
+        "text": "실제 가장자리·모서리 확인 자료",
+        "position": {
+          "left": 64,
+          "top": 337,
+          "width": 556,
+          "height": 29
+        }
+      },
+      {
+        "id": "im/mh4bm183",
+        "kind": "image",
+        "position": {
+          "left": 138,
+          "top": 378,
+          "width": 408,
+          "height": 238
+        }
+      },
+      {
+        "id": "sh/wvetgbud",
+        "kind": "shape",
+        "position": {
+          "left": 660,
+          "top": 360,
+          "width": 556,
+          "height": 256
+        }
+      },
+      {
+        "id": "sh/bu5cnqd8",
+        "kind": "textbox",
+        "text": "실제 검사 결과와 해석",
+        "position": {
+          "left": 680,
+          "top": 376,
+          "width": 516,
+          "height": 30
+        }
+      },
+      {
+        "id": "sh/atwbelcn",
+        "kind": "textbox",
+        "text": "size: [1440, 810]\nEXIF: GPS 없음\nOCR: mihl, 신뢰도 0.58\n\n지명으로 쓸 수 없는 잡음으로 판단",
+        "position": {
+          "left": 680,
+          "top": 420,
+          "width": 516,
+          "height": 184
+        }
+      },
+      {
+        "id": "sh/lk7ut0va",
+        "kind": "shape",
+        "position": {
+          "left": 64,
+          "top": 636,
+          "width": 1152,
+          "height": 1
+        }
+      },
+      {
+        "id": "sh/kjytkvup",
+        "kind": "textbox",
+        "text": "다음 입력  GPS·지명으로 좁히기 어려워, 흰 구조물과 해안 시설의 형태를 관찰합니다",
+        "position": {
+          "left": 64,
+          "top": 651,
+          "width": 1105,
+          "height": 34
+        }
+      }
+    ]
+  },
+  {
+    "id": "sl/jetc3ut0",
+    "index": 10,
+    "elements": [
+      {
+        "id": "sh/4zyhofml",
+        "kind": "textbox",
+        "text": "01 초기 검사",
+        "position": {
+          "left": 64,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/xcryxg7y",
+        "kind": "textbox",
+        "text": "02 단서·후보",
+        "position": {
+          "left": 208,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/wbih4b6d",
+        "kind": "shape",
+        "position": {
+          "left": 208,
+          "top": 54,
+          "width": 129,
+          "height": 2
+        }
+      },
+      {
+        "id": "sh/n69grmpw",
+        "kind": "textbox",
+        "text": "03 사진 순위",
+        "position": {
+          "left": 352,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/250zy18b",
+        "kind": "textbox",
+        "text": "04 지도 대조",
+        "position": {
+          "left": 496,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/98rytw72",
+        "kind": "textbox",
+        "text": "05 거리 조회",
+        "position": {
+          "left": 640,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/o7ih0r6h",
+        "kind": "textbox",
+        "text": "06 구조물 비교",
+        "position": {
+          "left": 784,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/72t03qp0",
+        "kind": "textbox",
+        "text": "07 투영 검사",
+        "position": {
+          "left": 928,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/61kzalof",
+        "kind": "textbox",
+        "text": "08 결과 정리",
+        "position": {
+          "left": 1072,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/ofqtgnyt",
+        "kind": "textbox",
+        "text": "AI가 관찰과 장소 가설을 구분",
+        "position": {
+          "left": 64,
+          "top": 78,
+          "width": 1152,
+          "height": 56
+        }
+      },
+      {
+        "id": "sh/9gza9sze",
+        "kind": "textbox",
+        "text": "어떤 특징을 검색하고, 어떤 물체를 지도와 연결할지 정하기 위한 단계입니다",
+        "position": {
+          "left": 64,
+          "top": 137,
+          "width": 1152,
+          "height": 43
+        }
+      },
+      {
+        "id": "sh/mdobedg3",
+        "kind": "textbox",
+        "text": "입력",
+        "position": {
+          "left": 64,
+          "top": 198,
+          "width": 80,
+          "height": 29
+        }
+      },
+      {
+        "id": "sh/nehs7iho",
+        "kind": "textbox",
+        "text": "원본과 확대·분할 이미지",
+        "position": {
+          "left": 133,
+          "top": 194,
+          "width": 475,
+          "height": 61
+        }
+      },
+      {
+        "id": "sh/0b6tc3yx",
+        "kind": "textbox",
+        "text": "산출물",
+        "position": {
+          "left": 661,
+          "top": 198,
+          "width": 85,
+          "height": 29
+        }
+      },
+      {
+        "id": "sh/1cfa58zi",
+        "kind": "textbox",
+        "text": "흰 지지대·가로 판재·색 테트라포드\n사근진해중공원 전망대라는 가설",
+        "position": {
+          "left": 754,
+          "top": 194,
+          "width": 462,
+          "height": 61
+        }
+      },
+      {
+        "id": "sh/epobatgr",
+        "kind": "textbox",
+        "text": "조사 AI가 사진을 확대해 관찰하고 시설 가설을 제안. 프로그램은 확대·분할 자료를 제공.",
+        "position": {
+          "left": 64,
+          "top": 263,
+          "width": 1152,
+          "height": 49
+        }
+      },
+      {
+        "id": "sh/zaxs3yhc",
+        "kind": "shape",
+        "position": {
+          "left": 64,
+          "top": 319,
+          "width": 1152,
+          "height": 1
+        }
+      },
+      {
+        "id": "sh/cn6t83y1",
+        "kind": "textbox",
+        "text": "11",
+        "position": {
+          "left": 1182,
+          "top": 682,
+          "width": 34,
+          "height": 22
+        }
+      },
+      {
+        "id": "sh/dofa18z6",
+        "kind": "textbox",
+        "text": "흰 구조물과 주변 해안의 실제 확대 사진",
+        "position": {
+          "left": 64,
+          "top": 337,
+          "width": 680,
+          "height": 29
+        }
+      },
+      {
+        "id": "im/idkrmp4r",
+        "kind": "image",
+        "position": {
+          "left": 64,
+          "top": 380.59,
+          "width": 680,
+          "height": 136.83
+        }
+      },
+      {
+        "id": "sh/87ehgv6d",
+        "kind": "textbox",
+        "text": "후속 대조에 사용한 파스텔색 테트라포드",
+        "position": {
+          "left": 64,
+          "top": 535,
+          "width": 680,
+          "height": 29
+        }
+      },
+      {
+        "id": "im/kf29ofmx",
+        "kind": "image",
+        "position": {
+          "left": 128.76,
+          "top": 559,
+          "width": 308.47,
+          "height": 57
+        }
+      },
+      {
+        "id": "sh/65wzelo7",
+        "kind": "textbox",
+        "text": "관찰",
+        "position": {
+          "left": 813,
+          "top": 371,
+          "width": 403,
+          "height": 35
+        }
+      },
+      {
+        "id": "sh/l43ilgn2",
+        "kind": "textbox",
+        "text": "비스듬한 지지대와 가로 판재\n상부 난간·계단·색 테트라포드",
+        "position": {
+          "left": 813,
+          "top": 417,
+          "width": 403,
+          "height": 70
+        }
+      },
+      {
+        "id": "sh/k3uhcb6h",
+        "kind": "textbox",
+        "text": "추가 확인이 필요한 가설",
+        "position": {
+          "left": 813,
+          "top": 512,
+          "width": 403,
+          "height": 36
+        }
+      },
+      {
+        "id": "sh/j2lgjq5w",
+        "kind": "textbox",
+        "text": "사근진해중공원 전망대인가?\n곡선 해안의 어느 쪽에서 봤는가?",
+        "position": {
+          "left": 813,
+          "top": 558,
+          "width": 403,
+          "height": 65
+        }
+      },
+      {
+        "id": "sh/y1czalob",
+        "kind": "shape",
+        "position": {
+          "left": 64,
+          "top": 636,
+          "width": 1152,
+          "height": 1
+        }
+      },
+      {
+        "id": "sh/p07ixkn6",
+        "kind": "textbox",
+        "text": "다음 입력  전망대의 형태와 테트라포드 색을 공개 자료 검색의 단서로 사용합니다",
+        "position": {
+          "left": 64,
+          "top": 651,
+          "width": 1105,
+          "height": 34
+        }
+      }
+    ]
+  },
+  {
+    "id": "sl/8f2psfyx",
+    "index": 11,
+    "elements": [
+      {
+        "id": "sh/7u94zmhs",
+        "kind": "textbox",
+        "text": "01 초기 검사",
+        "position": {
+          "left": 64,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/1gbm9s3a",
+        "kind": "textbox",
+        "text": "02 단서·후보",
+        "position": {
+          "left": 208,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/0f2lgnmp",
+        "kind": "shape",
+        "position": {
+          "left": 208,
+          "top": 54,
+          "width": 129,
+          "height": 2
+        }
+      },
+      {
+        "id": "sh/ra943il8",
+        "kind": "textbox",
+        "text": "03 사진 순위",
+        "position": {
+          "left": 352,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/q903ad4n",
+        "kind": "textbox",
+        "text": "04 지도 대조",
+        "position": {
+          "left": 496,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/dcbm583y",
+        "kind": "textbox",
+        "text": "05 거리 조회",
+        "position": {
+          "left": 640,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/sb2lcnmd",
+        "kind": "textbox",
+        "text": "06 구조물 비교",
+        "position": {
+          "left": 784,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/b6d4f2lc",
+        "kind": "textbox",
+        "text": "07 투영 검사",
+        "position": {
+          "left": 928,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/a543mx4r",
+        "kind": "textbox",
+        "text": "08 결과 정리",
+        "position": {
+          "left": 1072,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/wvupgz6t",
+        "kind": "textbox",
+        "text": "검색어로 공개 자료를 찾고 사진 수집",
+        "position": {
+          "left": 64,
+          "top": 78,
+          "width": 1152,
+          "height": 56
+        }
+      },
+      {
+        "id": "sh/xw3q94ne",
+        "kind": "textbox",
+        "text": "특징적인 전망대를 실제 시설과 연결하고, 구조를 대조할 공개 사진을 모읍니다",
+        "position": {
+          "left": 64,
+          "top": 137,
+          "width": 1152,
+          "height": 43
+        }
+      },
+      {
+        "id": "sh/atc7epon",
+        "kind": "textbox",
+        "text": "입력",
+        "position": {
+          "left": 64,
+          "top": 198,
+          "width": 80,
+          "height": 29
+        }
+      },
+      {
+        "id": "sh/bulo7u58",
+        "kind": "textbox",
+        "text": "AI가 만든 시설·형태 관련 검색어\n공개 웹페이지와 이미지 주소",
+        "position": {
+          "left": 133,
+          "top": 194,
+          "width": 475,
+          "height": 61
+        }
+      },
+      {
+        "id": "sh/orapcf6h",
+        "kind": "textbox",
+        "text": "산출물",
+        "position": {
+          "left": 661,
+          "top": 198,
+          "width": 85,
+          "height": 29
+        }
+      },
+      {
+        "id": "sh/9sj65kn2",
+        "kind": "textbox",
+        "text": "사근진해중공원 전망대 가설\n공개 참고사진 5장과 refs.json",
+        "position": {
+          "left": 754,
+          "top": 194,
+          "width": 462,
+          "height": 61
+        }
+      },
+      {
+        "id": "sh/mps7a5or",
+        "kind": "textbox",
+        "text": "조사 AI가 검색어와 자료를 선택. 검색 도구가 결과를 반환하고 get_refs.py가 사진 5장을 저장.",
+        "position": {
+          "left": 64,
+          "top": 263,
+          "width": 1152,
+          "height": 49
+        }
+      },
+      {
+        "id": "sh/nq1o3a5w",
+        "kind": "shape",
+        "position": {
+          "left": 64,
+          "top": 319,
+          "width": 1152,
+          "height": 1
+        }
+      },
+      {
+        "id": "sh/0nap8f6l",
+        "kind": "textbox",
+        "text": "12",
+        "position": {
+          "left": 1182,
+          "top": 682,
+          "width": 34,
+          "height": 22
+        }
+      },
+      {
+        "id": "sh/1oj61kn6",
+        "kind": "textbox",
+        "text": "검색으로 찾은 사근진해중공원 전망대 사진",
+        "position": {
+          "left": 64,
+          "top": 337,
+          "width": 660,
+          "height": 29
+        }
+      },
+      {
+        "id": "im/yt8ry9on",
+        "kind": "image",
+        "position": {
+          "left": 192.44,
+          "top": 378,
+          "width": 423.11,
+          "height": 238
+        }
+      },
+      {
+        "id": "sh/gj25cry9",
+        "kind": "shape",
+        "position": {
+          "left": 789,
+          "top": 360,
+          "width": 427,
+          "height": 256
+        }
+      },
+      {
+        "id": "sh/fit436ho",
+        "kind": "textbox",
+        "text": "외부에 보낸 정보",
+        "position": {
+          "left": 809,
+          "top": 376,
+          "width": 387,
+          "height": 30
+        }
+      },
+      {
+        "id": "sh/uh0na1g3",
+        "kind": "textbox",
+        "text": "텍스트 검색  시설·형태 관련 검색어\n사진 수집     공개 이미지 URL 5개\n\n사용자 사진의 외부 역검색은 미사용",
+        "position": {
+          "left": 809,
+          "top": 420,
+          "width": 387,
+          "height": 184
+        }
+      },
+      {
+        "id": "sh/tgrm1wzy",
+        "kind": "shape",
+        "position": {
+          "left": 64,
+          "top": 636,
+          "width": 1152,
+          "height": 1
+        }
+      },
+      {
+        "id": "sh/sfi58ryd",
+        "kind": "textbox",
+        "text": "다음 입력  저장한 공개 사진 5장을 원본과 비교할 후보 이미지로 넘깁니다",
+        "position": {
+          "left": 64,
+          "top": 651,
+          "width": 1105,
+          "height": 34
+        }
+      }
+    ]
+  },
+  {
+    "id": "sl/hgzapcr6",
+    "index": 12,
+    "elements": [
+      {
+        "id": "sh/p0zyd0b6",
+        "kind": "textbox",
+        "text": "01 초기 검사",
+        "position": {
+          "left": 64,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/q50nydsj",
+        "kind": "textbox",
+        "text": "02 단서·후보",
+        "position": {
+          "left": 208,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/bq9orito",
+        "kind": "textbox",
+        "text": "03 사진 순위",
+        "position": {
+          "left": 352,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/o3i5w3ad",
+        "kind": "shape",
+        "position": {
+          "left": 352,
+          "top": 54,
+          "width": 129,
+          "height": 2
+        }
+      },
+      {
+        "id": "sh/p4r6p8by",
+        "kind": "textbox",
+        "text": "04 지도 대조",
+        "position": {
+          "left": 496,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/21gnuts7",
+        "kind": "textbox",
+        "text": "05 거리 조회",
+        "position": {
+          "left": 640,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/32ponyts",
+        "kind": "textbox",
+        "text": "06 구조물 비교",
+        "position": {
+          "left": 784,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/gzy5s3a1",
+        "kind": "textbox",
+        "text": "07 투영 검사",
+        "position": {
+          "left": 928,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/1076lobm",
+        "kind": "textbox",
+        "text": "08 결과 정리",
+        "position": {
+          "left": 1072,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/hcfy9k3u",
+        "kind": "textbox",
+        "text": "DINOv2가 사진의 전체 유사도 계산",
+        "position": {
+          "left": 64,
+          "top": 78,
+          "width": 1152,
+          "height": 56
+        }
+      },
+      {
+        "id": "sh/gb6x0zm9",
+        "kind": "textbox",
+        "text": "수집한 사진 중 무엇부터 확인할지 순서를 정하기 위해 사용했습니다",
+        "position": {
+          "left": 64,
+          "top": 137,
+          "width": 1152,
+          "height": 43
+        }
+      },
+      {
+        "id": "sh/vaxg7ulo",
+        "kind": "textbox",
+        "text": "입력",
+        "position": {
+          "left": 64,
+          "top": 198,
+          "width": 80,
+          "height": 29
+        }
+      },
+      {
+        "id": "sh/u9ofyp43",
+        "kind": "textbox",
+        "text": "사용자 사진과 공개 참고사진 5장",
+        "position": {
+          "left": 133,
+          "top": 194,
+          "width": 475,
+          "height": 61
+        }
+      },
+      {
+        "id": "sh/t8fy5k3i",
+        "kind": "textbox",
+        "text": "산출물",
+        "position": {
+          "left": 661,
+          "top": 198,
+          "width": 85,
+          "height": 29
+        }
+      },
+      {
+        "id": "sh/876xwfmx",
+        "kind": "textbox",
+        "text": "유사도·순위·파일의 대응 목록\nmatch.json / match.jpg",
+        "position": {
+          "left": 754,
+          "top": 194,
+          "width": 462,
+          "height": 61
+        }
+      },
+      {
+        "id": "sh/7mdg3als",
+        "kind": "textbox",
+        "text": "조사 AI가 비교 실행을 지시. match.py의 DINOv2가 이미지 특징을 만들고 유사도를 계산.",
+        "position": {
+          "left": 64,
+          "top": 263,
+          "width": 1152,
+          "height": 49
+        }
+      },
+      {
+        "id": "sh/6l4fu547",
+        "kind": "shape",
+        "position": {
+          "left": 64,
+          "top": 319,
+          "width": 1152,
+          "height": 1
+        }
+      },
+      {
+        "id": "sh/lkvy103m",
+        "kind": "textbox",
+        "text": "13",
+        "position": {
+          "left": 1182,
+          "top": 682,
+          "width": 34,
+          "height": 22
+        }
+      },
+      {
+        "id": "sh/kjmxsfm1",
+        "kind": "textbox",
+        "text": "실제 프로그램이 정렬한 공개 사진 5장",
+        "position": {
+          "left": 64,
+          "top": 337,
+          "width": 775,
+          "height": 29
+        }
+      },
+      {
+        "id": "im/3adgzm9w",
+        "kind": "image",
+        "position": {
+          "left": 166,
+          "top": 378,
+          "width": 476,
+          "height": 238
+        }
+      },
+      {
+        "id": "sh/xozyhkbi",
+        "kind": "textbox",
+        "text": "사진을 숫자 특징으로 변환",
+        "position": {
+          "left": 894,
+          "top": 371,
+          "width": 322,
+          "height": 72
+        }
+      },
+      {
+        "id": "sh/q18f65cr",
+        "kind": "textbox",
+        "text": "사진을 숫자 특징으로 변환\n원본과 참고사진의 특징을 비교\n유사도가 높은 사진부터 확인",
+        "position": {
+          "left": 894,
+          "top": 462,
+          "width": 322,
+          "height": 111
+        }
+      },
+      {
+        "id": "sh/bmhgfatc",
+        "kind": "shape",
+        "position": {
+          "left": 64,
+          "top": 636,
+          "width": 1152,
+          "height": 1
+        }
+      },
+      {
+        "id": "sh/oz6x4vul",
+        "kind": "textbox",
+        "text": "다음 입력  상위 참고사진을 특징점 검사와 지도 대조의 우선 대상으로 사용합니다",
+        "position": {
+          "left": 64,
+          "top": 651,
+          "width": 1105,
+          "height": 34
+        }
+      }
+    ]
+  },
+  {
+    "id": "sl/6lsnupw7",
+    "index": 13,
+    "elements": [
+      {
+        "id": "sh/pwvy90rq",
+        "kind": "textbox",
+        "text": "01 초기 검사",
+        "position": {
+          "left": 64,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/xc7eds76",
+        "kind": "textbox",
+        "text": "02 단서·후보",
+        "position": {
+          "left": 208,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/wbydknq1",
+        "kind": "textbox",
+        "text": "03 사진 순위",
+        "position": {
+          "left": 352,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/jepwf2pc",
+        "kind": "shape",
+        "position": {
+          "left": 352,
+          "top": 54,
+          "width": 129,
+          "height": 2
+        }
+      },
+      {
+        "id": "sh/idgvmx8r",
+        "kind": "textbox",
+        "text": "04 지도 대조",
+        "position": {
+          "left": 496,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/5grehs7i",
+        "kind": "textbox",
+        "text": "05 거리 조회",
+        "position": {
+          "left": 640,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/kfidonqx",
+        "kind": "textbox",
+        "text": "06 구조물 비교",
+        "position": {
+          "left": 784,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/zi5c3y98",
+        "kind": "textbox",
+        "text": "07 투영 검사",
+        "position": {
+          "left": 928,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/ehwvat8n",
+        "kind": "textbox",
+        "text": "08 결과 정리",
+        "position": {
+          "left": 1072,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/c3e1gjyd",
+        "kind": "textbox",
+        "text": "SIFT와 RANSAC이 세부 대응 검사",
+        "position": {
+          "left": 64,
+          "top": 78,
+          "width": 1152,
+          "height": 56
+        }
+      },
+      {
+        "id": "sh/x4ni9ofy",
+        "kind": "textbox",
+        "text": "전체 분위기가 비슷한 사진에서 실제 모서리·질감도 대응하는지 확인합니다",
+        "position": {
+          "left": 64,
+          "top": 137,
+          "width": 1152,
+          "height": 43
+        }
+      },
+      {
+        "id": "sh/a1wze9g7",
+        "kind": "textbox",
+        "text": "입력",
+        "position": {
+          "left": 64,
+          "top": 198,
+          "width": 80,
+          "height": 29
+        }
+      },
+      {
+        "id": "sh/b2507exs",
+        "kind": "textbox",
+        "text": "사용자 사진과 각 공개 참고사진",
+        "position": {
+          "left": 133,
+          "top": 194,
+          "width": 475,
+          "height": 61
+        }
+      },
+      {
+        "id": "sh/kre1k3y9",
+        "kind": "textbox",
+        "text": "산출물",
+        "position": {
+          "left": 661,
+          "top": 198,
+          "width": 85,
+          "height": 29
+        }
+      },
+      {
+        "id": "sh/ls7idofu",
+        "kind": "textbox",
+        "text": "초기 대응 후보와 기하 검사 통과 수\nmatch.json의 matches / inliers",
+        "position": {
+          "left": 754,
+          "top": 194,
+          "width": 462,
+          "height": 61
+        }
+      },
+      {
+        "id": "sh/y5wjitgj",
+        "kind": "textbox",
+        "text": "AI가 비교를 지시. OpenCV의 SIFT가 특징점을 찾고 RANSAC이 기하 관계를 검사. ",
+        "position": {
+          "left": 64,
+          "top": 263,
+          "width": 1152,
+          "height": 49
+        }
+      },
+      {
+        "id": "sh/z650byxo",
+        "kind": "shape",
+        "position": {
+          "left": 64,
+          "top": 319,
+          "width": 1152,
+          "height": 1
+        }
+      },
+      {
+        "id": "sh/0buh8zy5",
+        "kind": "textbox",
+        "text": "14",
+        "position": {
+          "left": 1182,
+          "top": 682,
+          "width": 34,
+          "height": 22
+        }
+      },
+      {
+        "id": "sh/1w3i14fq",
+        "kind": "textbox",
+        "text": "전체 유사도 1위의 실제 공개 참고사진",
+        "position": {
+          "left": 64,
+          "top": 337,
+          "width": 556,
+          "height": 29
+        }
+      },
+      {
+        "id": "im/mhgf6t4n",
+        "kind": "image",
+        "position": {
+          "left": 163.5,
+          "top": 378,
+          "width": 357,
+          "height": 238
+        }
+      },
+      {
+        "id": "tb/fq1snyhc",
+        "kind": "table",
+        "text": "검사 항목\t이번 사진의 결과\n1위 전체 유사도\t0.5465\n1위 초기 대응 / 인라이어\t11개 / 0개\n강한 자동 일치 기준\t인라이어 15개 이상",
+        "position": {
+          "left": 660,
+          "top": 365,
+          "width": 556,
+          "height": 251
+        }
+      },
+      {
+        "id": "sh/fqdg3q98",
+        "kind": "shape",
+        "position": {
+          "left": 64,
+          "top": 636,
+          "width": 1152,
+          "height": 1
+        }
+      },
+      {
+        "id": "sh/up4fal83",
+        "kind": "textbox",
+        "text": "다음 입력  모든 사진의 인라이어가 6개 이하이므로, 지도와 구조물 형태를 추가로 대조합니다",
+        "position": {
+          "left": 64,
+          "top": 651,
+          "width": 1105,
+          "height": 34
+        }
+      }
+    ]
+  },
+  {
+    "id": "sl/vaxsvy10",
+    "index": 14,
+    "elements": [
+      {
+        "id": "sh/o7ah4nm5",
+        "kind": "textbox",
+        "text": "01 초기 검사",
+        "position": {
+          "left": 64,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/547mhg3m",
+        "kind": "textbox",
+        "text": "02 단서·후보",
+        "position": {
+          "left": 208,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/k3y5ov21",
+        "kind": "textbox",
+        "text": "03 사진 순위",
+        "position": {
+          "left": 352,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/76p4jqls",
+        "kind": "textbox",
+        "text": "04 지도 대조",
+        "position": {
+          "left": 496,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/65gnqlk7",
+        "kind": "shape",
+        "position": {
+          "left": 496,
+          "top": 54,
+          "width": 129,
+          "height": 2
+        }
+      },
+      {
+        "id": "sh/t87ml0ji",
+        "kind": "textbox",
+        "text": "05 거리 조회",
+        "position": {
+          "left": 640,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/s7y5sv2x",
+        "kind": "textbox",
+        "text": "06 구조물 비교",
+        "position": {
+          "left": 784,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/na5476l8",
+        "kind": "textbox",
+        "text": "07 투영 검사",
+        "position": {
+          "left": 928,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/m9c3e1kn",
+        "kind": "textbox",
+        "text": "08 결과 정리",
+        "position": {
+          "left": 1072,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/wrm9kvep",
+        "kind": "textbox",
+        "text": "지도 자료로 물체의 실제 위치 확보",
+        "position": {
+          "left": 64,
+          "top": 78,
+          "width": 1152,
+          "height": 56
+        }
+      },
+      {
+        "id": "sh/hsvat0fa",
+        "kind": "textbox",
+        "text": "전망대 가설을 지도에서 확인하고, 주변 해안과 방파제의 배치를 연결합니다",
+        "position": {
+          "left": 64,
+          "top": 137,
+          "width": 1152,
+          "height": 43
+        }
+      },
+      {
+        "id": "sh/upkrilwj",
+        "kind": "textbox",
+        "text": "입력",
+        "position": {
+          "left": 64,
+          "top": 198,
+          "width": 80,
+          "height": 29
+        }
+      },
+      {
+        "id": "sh/vqdsrqx4",
+        "kind": "textbox",
+        "text": "사근진해중공원 전망대 가설\nGoogle 위성영상과 시설 배치",
+        "position": {
+          "left": 133,
+          "top": 194,
+          "width": 475,
+          "height": 61
+        }
+      },
+      {
+        "id": "sh/4vm9ovel",
+        "kind": "textbox",
+        "text": "산출물",
+        "position": {
+          "left": 661,
+          "top": 198,
+          "width": 85,
+          "height": 29
+        }
+      },
+      {
+        "id": "sh/5wvax0f6",
+        "kind": "textbox",
+        "text": "전망대의 지도상 위치·해안 배치\nmap.jpg / map.json",
+        "position": {
+          "left": 754,
+          "top": 194,
+          "width": 462,
+          "height": 61
+        }
+      },
+      {
+        "id": "sh/it4rm5wv",
+        "kind": "textbox",
+        "text": "조사 AI가 지도에서 시설을 대조. 지도 도구가 확대 위성영상과 지리 기준 정보를 제공.",
+        "position": {
+          "left": 64,
+          "top": 263,
+          "width": 1152,
+          "height": 49
+        }
+      },
+      {
+        "id": "sh/judsvqxg",
+        "kind": "shape",
+        "position": {
+          "left": 64,
+          "top": 319,
+          "width": 1152,
+          "height": 1
+        }
+      },
+      {
+        "id": "sh/0z29cbyh",
+        "kind": "textbox",
+        "text": "15",
+        "position": {
+          "left": 1182,
+          "top": 682,
+          "width": 34,
+          "height": 22
+        }
+      },
+      {
+        "id": "sh/l0bqlgf2",
+        "kind": "textbox",
+        "text": "전망대와 해안의 확대 위성영상",
+        "position": {
+          "left": 64,
+          "top": 337,
+          "width": 556,
+          "height": 29
+        }
+      },
+      {
+        "id": "im/2xwnehsr",
+        "kind": "image",
+        "position": {
+          "left": 223,
+          "top": 378,
+          "width": 238,
+          "height": 238
+        }
+      },
+      {
+        "id": "sh/gjax03m9",
+        "kind": "textbox",
+        "text": "전망대·방파제·곡선 해안의 상대 배치",
+        "position": {
+          "left": 660,
+          "top": 337,
+          "width": 556,
+          "height": 29
+        }
+      },
+      {
+        "id": "im/ozypgrah",
+        "kind": "image",
+        "position": {
+          "left": 795.2,
+          "top": 378,
+          "width": 285.6,
+          "height": 238
+        }
+      },
+      {
+        "id": "sh/ehsfyt43",
+        "kind": "shape",
+        "position": {
+          "left": 64,
+          "top": 636,
+          "width": 1152,
+          "height": 1
+        }
+      },
+      {
+        "id": "sh/p8jyx83q",
+        "kind": "textbox",
+        "text": "다음 입력  지도에서 확인한 전망대 위치를 기준으로, 사진이 보일 수 있는 해안 쪽을 비교합니다",
+        "position": {
+          "left": 64,
+          "top": 651,
+          "width": 1105,
+          "height": 34
+        }
+      }
+    ]
+  },
+  {
+    "id": "sl/gny5sjyp",
+    "index": 15,
+    "elements": [
+      {
+        "id": "sh/zm50veps",
+        "kind": "textbox",
+        "text": "01 초기 검사",
+        "position": {
+          "left": 64,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/8z2h8bq1",
+        "kind": "textbox",
+        "text": "02 단서·후보",
+        "position": {
+          "left": 208,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/9kby1g7m",
+        "kind": "textbox",
+        "text": "03 사진 순위",
+        "position": {
+          "left": 352,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/ytkf2h8j",
+        "kind": "textbox",
+        "text": "04 지도 대조",
+        "position": {
+          "left": 496,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/zutgvm94",
+        "kind": "shape",
+        "position": {
+          "left": 496,
+          "top": 54,
+          "width": 129,
+          "height": 2
+        }
+      },
+      {
+        "id": "sh/kv2h4rqp",
+        "kind": "textbox",
+        "text": "05 거리 조회",
+        "position": {
+          "left": 640,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/lwbyxwra",
+        "kind": "textbox",
+        "text": "06 구조물 비교",
+        "position": {
+          "left": 784,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/ip4zel83",
+        "kind": "textbox",
+        "text": "07 투영 검사",
+        "position": {
+          "left": 928,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/3qdg7qpo",
+        "kind": "textbox",
+        "text": "08 결과 정리",
+        "position": {
+          "left": 1072,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/fm1gzq5o",
+        "kind": "textbox",
+        "text": "전망대와 곡선 해안의 상대 배치 비교",
+        "position": {
+          "left": 64,
+          "top": 78,
+          "width": 1152,
+          "height": 56
+        }
+      },
+      {
+        "id": "sh/e1sf65o3",
+        "kind": "textbox",
+        "text": "전망대가 사진의 왼쪽에 보이는 배치와 곡선 해안의 방향이 맞는지 확인합니다",
+        "position": {
+          "left": 64,
+          "top": 137,
+          "width": 1152,
+          "height": 43
+        }
+      },
+      {
+        "id": "sh/1ojy10ne",
+        "kind": "textbox",
+        "text": "입력",
+        "position": {
+          "left": 64,
+          "top": 198,
+          "width": 80,
+          "height": 29
+        }
+      },
+      {
+        "id": "sh/gnax8v6t",
+        "kind": "textbox",
+        "text": "확대 위성영상과 사용자 사진\n전망대·방파제·해안선의 상대 위치",
+        "position": {
+          "left": 133,
+          "top": 194,
+          "width": 475,
+          "height": 61
+        }
+      },
+      {
+        "id": "sh/nqlg3a5k",
+        "kind": "textbox",
+        "text": "산출물",
+        "position": {
+          "left": 661,
+          "top": 198,
+          "width": 85,
+          "height": 29
+        }
+      },
+      {
+        "id": "sh/2pcfa5oz",
+        "kind": "textbox",
+        "text": "전망대 북서쪽 해안이라는 가설\n정확한 돌 경사면 위치는 미확정",
+        "position": {
+          "left": 754,
+          "top": 194,
+          "width": 462,
+          "height": 61
+        }
+      },
+      {
+        "id": "sh/ps3y5knq",
+        "kind": "textbox",
+        "text": "조사 AI가 위성영상과 사진을 직접 대조. 지도 도구는 지리 좌표가 있는 영상을 제공.",
+        "position": {
+          "left": 64,
+          "top": 263,
+          "width": 1152,
+          "height": 49
+        }
+      },
+      {
+        "id": "sh/oruhcf65",
+        "kind": "shape",
+        "position": {
+          "left": 64,
+          "top": 319,
+          "width": 1152,
+          "height": 1
+        }
+      },
+      {
+        "id": "sh/bulg7u5g",
+        "kind": "textbox",
+        "text": "16",
+        "position": {
+          "left": 1182,
+          "top": 682,
+          "width": 34,
+          "height": 22
+        }
+      },
+      {
+        "id": "sh/atczepob",
+        "kind": "textbox",
+        "text": "후보가 되는 전망대 주변의 해안 배치",
+        "position": {
+          "left": 64,
+          "top": 337,
+          "width": 670,
+          "height": 29
+        }
+      },
+      {
+        "id": "im/dcrap4jy",
+        "kind": "image",
+        "position": {
+          "left": 285,
+          "top": 378,
+          "width": 238,
+          "height": 238
+        }
+      },
+      {
+        "id": "tb/sn2lsbu9",
+        "kind": "table",
+        "text": "확인 대상\t지도 대조 결과\n전망대 위치\t시설 배치 대응\n북서쪽 곡선 해안\t촬영 구역 가설\n사진 속 돌 경사면\t지점 미확정",
+        "position": {
+          "left": 788,
+          "top": 365,
+          "width": 428,
+          "height": 211
+        }
+      },
+      {
+        "id": "sh/8by18jq9",
+        "kind": "textbox",
+        "text": "북서쪽 해안이 유력하지만\n정확한 촬영 지점은 추가 확인 필요",
+        "position": {
+          "left": 788,
+          "top": 584,
+          "width": 428,
+          "height": 41
+        }
+      },
+      {
+        "id": "sh/9c7i1o7u",
+        "kind": "shape",
+        "position": {
+          "left": 64,
+          "top": 636,
+          "width": 1152,
+          "height": 1
+        }
+      },
+      {
+        "id": "sh/ylwj2987",
+        "kind": "textbox",
+        "text": "다음 입력  전망대 북서쪽의 후보 지점과 반경을 거리사진 조회 조건으로 사용합니다",
+        "position": {
+          "left": 64,
+          "top": 651,
+          "width": 1105,
+          "height": 34
+        }
+      }
+    ]
+  },
+  {
+    "id": "sl/14bup87q",
+    "index": 16,
+    "elements": [
+      {
+        "id": "sh/zul836xg",
+        "kind": "textbox",
+        "text": "01 초기 검사",
+        "position": {
+          "left": 64,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/1c7e50ni",
+        "kind": "textbox",
+        "text": "02 단서·후보",
+        "position": {
+          "left": 208,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/gbedwfmx",
+        "kind": "textbox",
+        "text": "03 사진 순위",
+        "position": {
+          "left": 352,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/rm5czq50",
+        "kind": "textbox",
+        "text": "04 지도 대조",
+        "position": {
+          "left": 496,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/6lwvql4v",
+        "kind": "textbox",
+        "text": "05 거리 조회",
+        "position": {
+          "left": 640,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/t8ne10n6",
+        "kind": "shape",
+        "position": {
+          "left": 640,
+          "top": 54,
+          "width": 129,
+          "height": 2
+        }
+      },
+      {
+        "id": "sh/snedsvml",
+        "kind": "textbox",
+        "text": "06 구조물 비교",
+        "position": {
+          "left": 784,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/jilcvq54",
+        "kind": "textbox",
+        "text": "07 투영 검사",
+        "position": {
+          "left": 928,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/ihcvml4j",
+        "kind": "textbox",
+        "text": "08 결과 정리",
+        "position": {
+          "left": 1072,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/4by9or6l",
+        "kind": "textbox",
+        "text": "후보 지점의 거리사진 조회와 대체 자료",
+        "position": {
+          "left": 64,
+          "top": 78,
+          "width": 1152,
+          "height": 56
+        }
+      },
+      {
+        "id": "sh/pc7qhwn6",
+        "kind": "textbox",
+        "text": "좌표와 연결된 거리사진으로 촬영 지점을 좁힐 수 있는지 확인했습니다",
+        "position": {
+          "left": 64,
+          "top": 137,
+          "width": 1152,
+          "height": 43
+        }
+      },
+      {
+        "id": "sh/29grm1of",
+        "kind": "textbox",
+        "text": "입력",
+        "position": {
+          "left": 64,
+          "top": 198,
+          "width": 80,
+          "height": 29
+        }
+      },
+      {
+        "id": "sh/3ap8fm50",
+        "kind": "textbox",
+        "text": "전망대 북서쪽 후보 좌표\nGoogle 거리사진 조회 반경 100m",
+        "position": {
+          "left": 133,
+          "top": 194,
+          "width": 475,
+          "height": 61
+        }
+      },
+      {
+        "id": "sh/gnepkr69",
+        "kind": "textbox",
+        "text": "산출물",
+        "position": {
+          "left": 661,
+          "top": 198,
+          "width": 85,
+          "height": 29
+        }
+      },
+      {
+        "id": "sh/honqdwnu",
+        "kind": "textbox",
+        "text": "반경 안에서 파노라마 미확보\npano.json에 조회 결과 기록",
+        "position": {
+          "left": 754,
+          "top": 194,
+          "width": 462,
+          "height": 61
+        }
+      },
+      {
+        "id": "sh/ulw7ihoj",
+        "kind": "textbox",
+        "text": "조사 AI가 조회 좌표와 반경을 지정. gsv.py가 서비스에 조회했으나 비교 화면을 얻지 못함.",
+        "position": {
+          "left": 64,
+          "top": 263,
+          "width": 1152,
+          "height": 49
+        }
+      },
+      {
+        "id": "sh/fm58bm54",
+        "kind": "shape",
+        "position": {
+          "left": 64,
+          "top": 319,
+          "width": 1152,
+          "height": 1
+        }
+      },
+      {
+        "id": "sh/0ji9wb6t",
+        "kind": "textbox",
+        "text": "17",
+        "position": {
+          "left": 1182,
+          "top": 682,
+          "width": 34,
+          "height": 22
+        }
+      },
+      {
+        "id": "sh/14rqpgne",
+        "kind": "shape",
+        "position": {
+          "left": 64,
+          "top": 360,
+          "width": 556,
+          "height": 256
+        }
+      },
+      {
+        "id": "sh/90nq9gfi",
+        "kind": "textbox",
+        "text": "실제 조회 결과와 다음 판단",
+        "position": {
+          "left": 84,
+          "top": 376,
+          "width": 516,
+          "height": 30
+        }
+      },
+      {
+        "id": "sh/8ze9gbyx",
+        "kind": "textbox",
+        "text": "조회 반경   후보 좌표 주변 100m\n결과           파노라마를 찾지 못함\n\n거리사진 비교 자료가 없어\n이미 확보한 공개 사진으로 형태 대조",
+        "position": {
+          "left": 84,
+          "top": 420,
+          "width": 516,
+          "height": 184
+        }
+      },
+      {
+        "id": "sh/ny5876xc",
+        "kind": "textbox",
+        "text": "대체 대조에 사용한 실제 공개 참고사진",
+        "position": {
+          "left": 660,
+          "top": 337,
+          "width": 556,
+          "height": 29
+        }
+      },
+      {
+        "id": "im/10ju18nq",
+        "kind": "image",
+        "position": {
+          "left": 759.02,
+          "top": 378,
+          "width": 357.95,
+          "height": 238
+        }
+      },
+      {
+        "id": "sh/lwnq5gf6",
+        "kind": "shape",
+        "position": {
+          "left": 64,
+          "top": 636,
+          "width": 1152,
+          "height": 1
+        }
+      },
+      {
+        "id": "sh/0vepcbyl",
+        "kind": "textbox",
+        "text": "다음 입력  거리사진을 확보하지 못한 제약을 남기고, 공개 사진 5장과 위성영상을 사용합니다",
+        "position": {
+          "left": 64,
+          "top": 651,
+          "width": 1105,
+          "height": 34
+        }
+      }
+    ]
+  },
+  {
+    "id": "sl/y5wne50z",
+    "index": 17,
+    "elements": [
+      {
+        "id": "sh/x4f6x4re",
+        "kind": "textbox",
+        "text": "01 초기 검사",
+        "position": {
+          "left": 64,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/wrelszu9",
+        "kind": "textbox",
+        "text": "02 단서·후보",
+        "position": {
+          "left": 208,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/hsn2l4bu",
+        "kind": "textbox",
+        "text": "03 사진 순위",
+        "position": {
+          "left": 352,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/itw3upcf",
+        "kind": "textbox",
+        "text": "04 지도 대조",
+        "position": {
+          "left": 496,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/je5knut0",
+        "kind": "textbox",
+        "text": "05 거리 조회",
+        "position": {
+          "left": 640,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/4felwzu5",
+        "kind": "textbox",
+        "text": "06 구조물 비교",
+        "position": {
+          "left": 784,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/5gnmp4bq",
+        "kind": "shape",
+        "position": {
+          "left": 784,
+          "top": 54,
+          "width": 129,
+          "height": 2
+        }
+      },
+      {
+        "id": "sh/6hw3y9sb",
+        "kind": "textbox",
+        "text": "07 투영 검사",
+        "position": {
+          "left": 928,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/rip4retw",
+        "kind": "textbox",
+        "text": "08 결과 정리",
+        "position": {
+          "left": 1072,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/fapkr6pw",
+        "kind": "textbox",
+        "text": "공개 사진의 비교 순위와 한계 해석",
+        "position": {
+          "left": 64,
+          "top": 78,
+          "width": 1152,
+          "height": 56
+        }
+      },
+      {
+        "id": "sh/upg3i18r",
+        "kind": "textbox",
+        "text": "낮과 밤의 차이가 있는 자료에서, 자동 점수와 실제 구조를 함께 확인합니다",
+        "position": {
+          "left": 64,
+          "top": 137,
+          "width": 1152,
+          "height": 43
+        }
+      },
+      {
+        "id": "sh/1cr2tg72",
+        "kind": "textbox",
+        "text": "입력",
+        "position": {
+          "left": 64,
+          "top": 198,
+          "width": 80,
+          "height": 29
+        }
+      },
+      {
+        "id": "sh/gbylkbqh",
+        "kind": "textbox",
+        "text": "사용자 야간 사진과 공개 사진 5장\nmatch.json의 순위·특징점 결과",
+        "position": {
+          "left": 133,
+          "top": 194,
+          "width": 475,
+          "height": 61
+        }
+      },
+      {
+        "id": "sh/7mpknmp0",
+        "kind": "textbox",
+        "text": "산출물",
+        "position": {
+          "left": 661,
+          "top": 198,
+          "width": 85,
+          "height": 29
+        }
+      },
+      {
+        "id": "sh/6lg3e18f",
+        "kind": "textbox",
+        "text": "1위 유사도 0.5465·인라이어 0개\n5장 전체의 구조를 AI가 확인",
+        "position": {
+          "left": 754,
+          "top": 194,
+          "width": 462,
+          "height": 61
+        }
+      },
+      {
+        "id": "sh/to72pw76",
+        "kind": "textbox",
+        "text": "DINOv2·SIFT가 수치를 계산. 조사 AI는 공개 사진 5장을 열어 형태와 촬영 방향 차이를 확인.",
+        "position": {
+          "left": 64,
+          "top": 263,
+          "width": 1152,
+          "height": 49
+        }
+      },
+      {
+        "id": "sh/snylgrql",
+        "kind": "shape",
+        "position": {
+          "left": 64,
+          "top": 319,
+          "width": 1152,
+          "height": 1
+        }
+      },
+      {
+        "id": "sh/bi94zqp4",
+        "kind": "textbox",
+        "text": "18",
+        "position": {
+          "left": 1182,
+          "top": 682,
+          "width": 34,
+          "height": 22
+        }
+      },
+      {
+        "id": "sh/qh03ql8j",
+        "kind": "textbox",
+        "text": "거리사진 대신 대조한 공개 사진 5장",
+        "position": {
+          "left": 64,
+          "top": 337,
+          "width": 790,
+          "height": 29
+        }
+      },
+      {
+        "id": "im/1wz21o7m",
+        "kind": "image",
+        "position": {
+          "left": 166,
+          "top": 378,
+          "width": 476,
+          "height": 238
+        }
+      },
+      {
+        "id": "sh/nedoru9c",
+        "kind": "textbox",
+        "text": "0.5465",
+        "position": {
+          "left": 900,
+          "top": 368,
+          "width": 316,
+          "height": 62
+        }
+      },
+      {
+        "id": "sh/8zm5kzax",
+        "kind": "textbox",
+        "text": "1위 전체 유사도",
+        "position": {
+          "left": 900,
+          "top": 437,
+          "width": 316,
+          "height": 32
+        }
+      },
+      {
+        "id": "sh/90v6t4ri",
+        "kind": "textbox",
+        "text": "1위 초기 대응 11개",
+        "position": {
+          "left": 900,
+          "top": 493,
+          "width": 316,
+          "height": 36
+        }
+      },
+      {
+        "id": "sh/a14nm9s3",
+        "kind": "textbox",
+        "text": "1위의 기하 일치점은 0개\n5장 중 최대 인라이어도 6개",
+        "position": {
+          "left": 900,
+          "top": 543,
+          "width": 316,
+          "height": 73
+        }
+      },
+      {
+        "id": "sh/v2xovu9o",
+        "kind": "shape",
+        "position": {
+          "left": 64,
+          "top": 636,
+          "width": 1152,
+          "height": 1
+        }
+      },
+      {
+        "id": "sh/w36poza9",
+        "kind": "textbox",
+        "text": "다음 입력  자동 점수는 확인 순서에 사용하고, 전망대의 고정 구조를 직접 대조합니다",
+        "position": {
+          "left": 64,
+          "top": 651,
+          "width": 1105,
+          "height": 34
+        }
+      }
+    ]
+  },
+  {
+    "id": "sl/nid43ytk",
+    "index": 18,
+    "elements": [
+      {
+        "id": "sh/k3y1wri9",
+        "kind": "textbox",
+        "text": "01 초기 검사",
+        "position": {
+          "left": 64,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/9gb6xgbi",
+        "kind": "textbox",
+        "text": "02 단서·후보",
+        "position": {
+          "left": 208,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/8v2pobax",
+        "kind": "textbox",
+        "text": "03 사진 순위",
+        "position": {
+          "left": 352,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/vitozqt8",
+        "kind": "textbox",
+        "text": "04 지도 대조",
+        "position": {
+          "left": 496,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/ahk7qls3",
+        "kind": "textbox",
+        "text": "05 거리 조회",
+        "position": {
+          "left": 640,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/xkbq10be",
+        "kind": "textbox",
+        "text": "06 구조물 비교",
+        "position": {
+          "left": 784,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/wj2psvat",
+        "kind": "shape",
+        "position": {
+          "left": 784,
+          "top": 54,
+          "width": 129,
+          "height": 2
+        }
+      },
+      {
+        "id": "sh/jmd83atk",
+        "kind": "textbox",
+        "text": "07 투영 검사",
+        "position": {
+          "left": 928,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/il47u5sz",
+        "kind": "textbox",
+        "text": "08 결과 정리",
+        "position": {
+          "left": 1072,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/cri1gnql",
+        "kind": "textbox",
+        "text": "AI가 같은 장소인지 구조물을 대조",
+        "position": {
+          "left": 64,
+          "top": 78,
+          "width": 1152,
+          "height": 56
+        }
+      },
+      {
+        "id": "sh/dsri9sr6",
+        "kind": "textbox",
+        "text": "여러 고정 요소의 형태와 좌우 순서가 함께 맞는지 확인하기 위한 단계입니다",
+        "position": {
+          "left": 64,
+          "top": 137,
+          "width": 1152,
+          "height": 43
+        }
+      },
+      {
+        "id": "sh/qpgjex8f",
+        "kind": "textbox",
+        "text": "입력",
+        "position": {
+          "left": 64,
+          "top": 198,
+          "width": 80,
+          "height": 29
+        }
+      },
+      {
+        "id": "sh/rqp07290",
+        "kind": "textbox",
+        "text": "사용자 사진·공개 참고사진 5장\n확대 위성영상",
+        "position": {
+          "left": 133,
+          "top": 194,
+          "width": 475,
+          "height": 61
+        }
+      },
+      {
+        "id": "sh/0vi1k7qx",
+        "kind": "textbox",
+        "text": "산출물",
+        "position": {
+          "left": 661,
+          "top": 198,
+          "width": 85,
+          "height": 29
+        }
+      },
+      {
+        "id": "sh/1gridcr2",
+        "kind": "textbox",
+        "text": "지지대·판재·난간·계단 형태 대응\n파스텔색 테트라포드도 함께 대응",
+        "position": {
+          "left": 754,
+          "top": 194,
+          "width": 462,
+          "height": 61
+        }
+      },
+      {
+        "id": "sh/et0jix8r",
+        "kind": "textbox",
+        "text": "조사 AI가 고정 구조물의 형태와 주변 시설을 비교. 프로그램은 참고사진과 확대 화면을 제공.",
+        "position": {
+          "left": 64,
+          "top": 263,
+          "width": 1152,
+          "height": 49
+        }
+      },
+      {
+        "id": "sh/zu90b29c",
+        "kind": "shape",
+        "position": {
+          "left": 64,
+          "top": 319,
+          "width": 1152,
+          "height": 1
+        }
+      },
+      {
+        "id": "sh/oj21o7qt",
+        "kind": "textbox",
+        "text": "19",
+        "position": {
+          "left": 1182,
+          "top": 682,
+          "width": 34,
+          "height": 22
+        }
+      },
+      {
+        "id": "sh/9kb2hcre",
+        "kind": "textbox",
+        "text": "사용자 야간 사진의 전망대·테트라포드",
+        "position": {
+          "left": 64,
+          "top": 337,
+          "width": 556,
+          "height": 29
+        }
+      },
+      {
+        "id": "im/mhc72h43",
+        "kind": "image",
+        "position": {
+          "left": 64,
+          "top": 396.22,
+          "width": 556,
+          "height": 201.55
+        }
+      },
+      {
+        "id": "sh/wfy1s7ix",
+        "kind": "textbox",
+        "text": "공개 주간 사진의 같은 시설 형태",
+        "position": {
+          "left": 660,
+          "top": 337,
+          "width": 556,
+          "height": 29
+        }
+      },
+      {
+        "id": "im/8jup4rm9",
+        "kind": "image",
+        "position": {
+          "left": 726.44,
+          "top": 378,
+          "width": 423.11,
+          "height": 238
+        }
+      },
+      {
+        "id": "sh/adgjqx0r",
+        "kind": "shape",
+        "position": {
+          "left": 64,
+          "top": 636,
+          "width": 1152,
+          "height": 1
+        }
+      },
+      {
+        "id": "sh/54ri5wje",
+        "kind": "textbox",
+        "text": "다음 입력  전망대 주변 해안을 유력 구역으로 두고, 투영 계산으로 정밀 검증할 수 있는지 점검합니다",
+        "position": {
+          "left": 64,
+          "top": 651,
+          "width": 1105,
+          "height": 34
+        }
+      }
+    ]
+  },
+  {
+    "id": "sl/zyxsni5k",
+    "index": 19,
+    "elements": [
+      {
+        "id": "sh/k7650f6p",
+        "kind": "textbox",
+        "text": "01 초기 검사",
+        "position": {
+          "left": 64,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/qpwjmh8n",
+        "kind": "textbox",
+        "text": "02 단서·후보",
+        "position": {
+          "left": 208,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/rq50vmp8",
+        "kind": "textbox",
+        "text": "03 사진 순위",
+        "position": {
+          "left": 352,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/4nu1krqh",
+        "kind": "textbox",
+        "text": "04 지도 대조",
+        "position": {
+          "left": 496,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/po3itc72",
+        "kind": "textbox",
+        "text": "05 거리 조회",
+        "position": {
+          "left": 640,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/2lczih8r",
+        "kind": "textbox",
+        "text": "06 구조물 비교",
+        "position": {
+          "left": 784,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/3ml0rmpw",
+        "kind": "textbox",
+        "text": "07 투영 검사",
+        "position": {
+          "left": 928,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/gjuhg7ql",
+        "kind": "shape",
+        "position": {
+          "left": 928,
+          "top": 54,
+          "width": 129,
+          "height": 2
+        }
+      },
+      {
+        "id": "sh/hk3ipcr6",
+        "kind": "textbox",
+        "text": "08 결과 정리",
+        "position": {
+          "left": 1072,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/dkfmp4zy",
+        "kind": "textbox",
+        "text": "가정한 카메라 조건의 투영 한계 점검",
+        "position": {
+          "left": 64,
+          "top": 78,
+          "width": 1152,
+          "height": 56
+        }
+      },
+      {
+        "id": "sh/cj65wzyd",
+        "kind": "textbox",
+        "text": "가정값을 넣어 표시했지만, 실제 픽셀 대응이 없어 정확도를 검증하지 못했습니다",
+        "position": {
+          "left": 64,
+          "top": 137,
+          "width": 1152,
+          "height": 43
+        }
+      },
+      {
+        "id": "sh/rid4nuhs",
+        "kind": "textbox",
+        "text": "입력",
+        "position": {
+          "left": 64,
+          "top": 198,
+          "width": 80,
+          "height": 29
+        }
+      },
+      {
+        "id": "sh/qh4nupg7",
+        "kind": "textbox",
+        "text": "대표 좌표·전망대 기준 좌표\n높이 5m·방향 115°·화각 85° 가정",
+        "position": {
+          "left": 133,
+          "top": 194,
+          "width": 475,
+          "height": 61
+        }
+      },
+      {
+        "id": "sh/pwvmlkzm",
+        "kind": "textbox",
+        "text": "산출물",
+        "position": {
+          "left": 661,
+          "top": 198,
+          "width": 85,
+          "height": 29
+        }
+      },
+      {
+        "id": "sh/4vm5sfy1",
+        "kind": "textbox",
+        "text": "진단용 기준점 표시와 한계 기록\nprojection.jpg / pose_limits.txt",
+        "position": {
+          "left": 754,
+          "top": 194,
+          "width": 462,
+          "height": 61
+        }
+      },
+      {
+        "id": "sh/3ud4juhg",
+        "kind": "textbox",
+        "text": "조사 AI가 카메라 조건을 가정. pose.py가 전망대 기준점을 투영했으며 정밀 위치를 풀지는 못함.",
+        "position": {
+          "left": 64,
+          "top": 263,
+          "width": 1152,
+          "height": 49
+        }
+      },
+      {
+        "id": "sh/2t4nqpgb",
+        "kind": "shape",
+        "position": {
+          "left": 64,
+          "top": 319,
+          "width": 1152,
+          "height": 1
+        }
+      },
+      {
+        "id": "sh/hsvmhkzq",
+        "kind": "textbox",
+        "text": "20",
+        "position": {
+          "left": 1182,
+          "top": 682,
+          "width": 34,
+          "height": 22
+        }
+      },
+      {
+        "id": "sh/grm5ofy5",
+        "kind": "textbox",
+        "text": "가정 조건으로 투영한 기준점의 실제 표시",
+        "position": {
+          "left": 64,
+          "top": 337,
+          "width": 556,
+          "height": 29
+        }
+      },
+      {
+        "id": "im/fip4jid8",
+        "kind": "image",
+        "position": {
+          "left": 74.25,
+          "top": 378,
+          "width": 535.5,
+          "height": 238
+        }
+      },
+      {
+        "id": "tb/qtwvyh8v",
+        "kind": "table",
+        "text": "항목\t값과 해석\n카메라 높이 5m\t해발 높이의 가정\n상하각 −8° / 화각 85°\t측정 없이 넣은 가정\n사진 속 대응 픽셀\t미지정·정밀 검증 불가",
+        "position": {
+          "left": 660,
+          "top": 365,
+          "width": 556,
+          "height": 251
+        }
+      },
+      {
+        "id": "sh/69on25ov",
+        "kind": "shape",
+        "position": {
+          "left": 64,
+          "top": 636,
+          "width": 1152,
+          "height": 1
+        }
+      },
+      {
+        "id": "sh/7ax4bapg",
+        "kind": "textbox",
+        "text": "다음 입력  실측 대응점과 수평선이 없어 정밀 검증이 성립하지 않았다는 제약을 결론에 반영합니다",
+        "position": {
+          "left": 64,
+          "top": 651,
+          "width": 1105,
+          "height": 34
+        }
+      }
+    ]
+  },
+  {
+    "id": "sl/m1wvqtk3",
+    "index": 20,
+    "elements": [
+      {
+        "id": "sh/fi9c3a1c",
+        "kind": "textbox",
+        "text": "01 초기 검사",
+        "position": {
+          "left": 64,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/1gbmxs7a",
+        "kind": "textbox",
+        "text": "02 단서·후보",
+        "position": {
+          "left": 208,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/0f2lon6p",
+        "kind": "textbox",
+        "text": "03 사진 순위",
+        "position": {
+          "left": 352,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/ra9kryp8",
+        "kind": "textbox",
+        "text": "04 지도 대조",
+        "position": {
+          "left": 496,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/qp03yt8n",
+        "kind": "textbox",
+        "text": "05 거리 조회",
+        "position": {
+          "left": 640,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/dcb2t87y",
+        "kind": "textbox",
+        "text": "06 구조물 비교",
+        "position": {
+          "left": 784,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/sb2lk36t",
+        "kind": "textbox",
+        "text": "07 투영 검사",
+        "position": {
+          "left": 928,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/b6d432pc",
+        "kind": "textbox",
+        "text": "08 결과 정리",
+        "position": {
+          "left": 1072,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/al43uxor",
+        "kind": "shape",
+        "position": {
+          "left": 1072,
+          "top": 54,
+          "width": 129,
+          "height": 2
+        }
+      },
+      {
+        "id": "sh/4jax4nqd",
+        "kind": "textbox",
+        "text": "후보 장부에 근거를 연결하고 점검",
+        "position": {
+          "left": 64,
+          "top": 78,
+          "width": 1152,
+          "height": 56
+        }
+      },
+      {
+        "id": "sh/5kjydsri",
+        "kind": "textbox",
+        "text": "어떤 후보를 왜 지지했는지 남기고, 근거 파일과 미확인 사항의 누락을 확인합니다",
+        "position": {
+          "left": 64,
+          "top": 137,
+          "width": 1152,
+          "height": 43
+        }
+      },
+      {
+        "id": "sh/ixsf2d87",
+        "kind": "textbox",
+        "text": "입력",
+        "position": {
+          "left": 64,
+          "top": 198,
+          "width": 80,
+          "height": 29
+        }
+      },
+      {
+        "id": "sh/jy1gbi9s",
+        "kind": "textbox",
+        "text": "전망대 주변 해안·해안 구간 가설\n공개 사진·지도·제약 기록",
+        "position": {
+          "left": 133,
+          "top": 194,
+          "width": 475,
+          "height": 61
+        }
+      },
+      {
+        "id": "sh/wvax03q1",
+        "kind": "textbox",
+        "text": "산출물",
+        "position": {
+          "left": 661,
+          "top": 198,
+          "width": 85,
+          "height": 29
+        }
+      },
+      {
+        "id": "sh/hwjy98rm",
+        "kind": "textbox",
+        "text": "지역 수준의 근거·미확정 구간 기록\nboard.json / board_area.json",
+        "position": {
+          "left": 754,
+          "top": 194,
+          "width": 462,
+          "height": 61
+        }
+      },
+      {
+        "id": "sh/utsfyt8v",
+        "kind": "textbox",
+        "text": "조사 AI가 후보·근거·가중치를 입력. board.py가 상대 순위를 계산하며, 세부 해안 구간은 미확정.",
+        "position": {
+          "left": 64,
+          "top": 263,
+          "width": 1152,
+          "height": 49
+        }
+      },
+      {
+        "id": "sh/vu1w7y9g",
+        "kind": "shape",
+        "position": {
+          "left": 64,
+          "top": 319,
+          "width": 1152,
+          "height": 1
+        }
+      },
+      {
+        "id": "sh/8rqxw3q5",
+        "kind": "textbox",
+        "text": "21",
+        "position": {
+          "left": 1182,
+          "top": 682,
+          "width": 34,
+          "height": 22
+        }
+      },
+      {
+        "id": "sh/9sze58rq",
+        "kind": "shape",
+        "position": {
+          "left": 64,
+          "top": 360,
+          "width": 556,
+          "height": 256
+        }
+      },
+      {
+        "id": "sh/porutkje",
+        "kind": "textbox",
+        "text": "실제 장부에 기록한 종류",
+        "position": {
+          "left": 84,
+          "top": 376,
+          "width": 516,
+          "height": 30
+        }
+      },
+      {
+        "id": "sh/onid0f2t",
+        "kind": "textbox",
+        "text": "candidates   강릉·전망대 해안·세부 구간\nclues          K1–K3 관찰과 추론\nevidence     공개 사진·지도 근거\narea 장부   미확정 세부 구간은 보고 제외",
+        "position": {
+          "left": 84,
+          "top": 420,
+          "width": 516,
+          "height": 184
+        }
+      },
+      {
+        "id": "sh/nm9cru18",
+        "kind": "textbox",
+        "text": "장부에 연결한 전망대 구조 비교 근거",
+        "position": {
+          "left": 660,
+          "top": 337,
+          "width": 556,
+          "height": 29
+        }
+      },
+      {
+        "id": "im/x8f6lsje",
+        "kind": "image",
+        "position": {
+          "left": 848.63,
+          "top": 378,
+          "width": 178.75,
+          "height": 238
+        }
+      },
+      {
+        "id": "sh/1kru5kj2",
+        "kind": "shape",
+        "position": {
+          "left": 64,
+          "top": 636,
+          "width": 1152,
+          "height": 1
+        }
+      },
+      {
+        "id": "sh/0jidwf2x",
+        "kind": "textbox",
+        "text": "다음 입력  장소 수준의 근거와 미확정 촬영 지점을 구분해, 보고할 위치와 범위를 결정합니다",
+        "position": {
+          "left": 64,
+          "top": 651,
+          "width": 1105,
+          "height": 34
+        }
+      }
+    ]
+  },
+  {
+    "id": "sl/5onypobq",
+    "index": 21,
+    "elements": [
+      {
+        "id": "sh/wnihgf2h",
+        "kind": "textbox",
+        "text": "01 초기 검사",
+        "position": {
+          "left": 64,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/6987itcr",
+        "kind": "textbox",
+        "text": "02 단서·후보",
+        "position": {
+          "left": 208,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/7a18rydc",
+        "kind": "textbox",
+        "text": "03 사진 순위",
+        "position": {
+          "left": 352,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/k7qpgjul",
+        "kind": "textbox",
+        "text": "04 지도 대조",
+        "position": {
+          "left": 496,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/58zqpov6",
+        "kind": "textbox",
+        "text": "05 거리 조회",
+        "position": {
+          "left": 640,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/il87etcv",
+        "kind": "textbox",
+        "text": "06 구조물 비교",
+        "position": {
+          "left": 784,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/jmh8nyd0",
+        "kind": "textbox",
+        "text": "07 투영 검사",
+        "position": {
+          "left": 928,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/43u9snu5",
+        "kind": "textbox",
+        "text": "08 결과 정리",
+        "position": {
+          "left": 1072,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/p43q1sva",
+        "kind": "shape",
+        "position": {
+          "left": 1072,
+          "top": 54,
+          "width": 129,
+          "height": 2
+        }
+      },
+      {
+        "id": "sh/p4z6tcri",
+        "kind": "textbox",
+        "text": "AI가 대표 좌표와 보고 범위를 결정",
+        "position": {
+          "left": 64,
+          "top": 78,
+          "width": 1152,
+          "height": 56
+        }
+      },
+      {
+        "id": "sh/436507qx",
+        "kind": "textbox",
+        "text": "장소 수준의 확신과 정확한 촬영점의 확신을 구분해 전달하기 위한 단계입니다",
+        "position": {
+          "left": 64,
+          "top": 137,
+          "width": 1152,
+          "height": 43
+        }
+      },
+      {
+        "id": "sh/3ixor29c",
+        "kind": "textbox",
+        "text": "입력",
+        "position": {
+          "left": 64,
+          "top": 198,
+          "width": 80,
+          "height": 29
+        }
+      },
+      {
+        "id": "sh/2honyx8r",
+        "kind": "textbox",
+        "text": "공개 사진·지도와 구조물 대응\n거리사진·정밀 투영 검증의 제약",
+        "position": {
+          "left": 133,
+          "top": 194,
+          "width": 475,
+          "height": 61
+        }
+      },
+      {
+        "id": "sh/hgf6pcr6",
+        "kind": "textbox",
+        "text": "산출물",
+        "position": {
+          "left": 661,
+          "top": 198,
+          "width": 85,
+          "height": 29
+        }
+      },
+      {
+        "id": "sh/gf65w7ql",
+        "kind": "textbox",
+        "text": "강릉 사근진해중공원 전망대 옆 해안\n37.81425, 128.89760 / 반경 약 150m",
+        "position": {
+          "left": 754,
+          "top": 194,
+          "width": 462,
+          "height": 61
+        }
+      },
+      {
+        "id": "sh/fexon290",
+        "kind": "textbox",
+        "text": "조사 AI가 해안 구역을 표시할 대표점과 범위를 판단. result.json이 결론과 남은 제약을 저장.",
+        "position": {
+          "left": 64,
+          "top": 263,
+          "width": 1152,
+          "height": 49
+        }
+      },
+      {
+        "id": "sh/udonux8v",
+        "kind": "shape",
+        "position": {
+          "left": 64,
+          "top": 319,
+          "width": 1152,
+          "height": 1
+        }
+      },
+      {
+        "id": "sh/1cj61w7q",
+        "kind": "textbox",
+        "text": "22",
+        "position": {
+          "left": 1182,
+          "top": 682,
+          "width": 34,
+          "height": 22
+        }
+      },
+      {
+        "id": "sh/0bap8rq5",
+        "kind": "textbox",
+        "text": "전망대 북서쪽 해안의 대표 좌표 표시",
+        "position": {
+          "left": 64,
+          "top": 337,
+          "width": 556,
+          "height": 29
+        }
+      },
+      {
+        "id": "im/relg7e10",
+        "kind": "image",
+        "position": {
+          "left": 198.98,
+          "top": 378,
+          "width": 286.05,
+          "height": 238
+        }
+      },
+      {
+        "id": "tb/mtg3q9sj",
+        "kind": "table",
+        "text": "보고 항목\t의미\n동쪽~동남동쪽 조망\t북서쪽 해안에서 추정\n대표점 주변 약 150m\t촬영 구역을 표시한 범위\n해안 높음 / 촬영점 낮음\t위치 확신도를 구분",
+        "position": {
+          "left": 660,
+          "top": 365,
+          "width": 556,
+          "height": 251
+        }
+      },
+      {
+        "id": "sh/yp0zipk7",
+        "kind": "shape",
+        "position": {
+          "left": 64,
+          "top": 636,
+          "width": 1152,
+          "height": 1
+        }
+      },
+      {
+        "id": "sh/jq90ru1s",
+        "kind": "textbox",
+        "text": "다음 입력  대표점·추정 방향·보고 범위를 표시 설정에 전달하며, 정확한 촬영점 미확정을 명시합니다",
+        "position": {
+          "left": 64,
+          "top": 651,
+          "width": 1105,
+          "height": 34
+        }
+      }
+    ]
+  },
+  {
+    "id": "sl/c7uhcr6t",
+    "index": 22,
+    "elements": [
+      {
+        "id": "sh/l47ap8vu",
+        "kind": "textbox",
+        "text": "01 초기 검사",
+        "position": {
+          "left": 64,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/90vqdczq",
+        "kind": "textbox",
+        "text": "02 단서·후보",
+        "position": {
+          "left": 208,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/8zm9k7y5",
+        "kind": "textbox",
+        "text": "03 사진 순위",
+        "position": {
+          "left": 352,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/v2d8fmhw",
+        "kind": "textbox",
+        "text": "04 지도 대조",
+        "position": {
+          "left": 496,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/a14rmhgb",
+        "kind": "textbox",
+        "text": "05 거리 조회",
+        "position": {
+          "left": 640,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/xovqhcz2",
+        "kind": "textbox",
+        "text": "06 구조물 비교",
+        "position": {
+          "left": 784,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/w3m9o7yh",
+        "kind": "textbox",
+        "text": "07 투영 검사",
+        "position": {
+          "left": 928,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/jqd8jmhs",
+        "kind": "textbox",
+        "text": "08 결과 정리",
+        "position": {
+          "left": 1072,
+          "top": 23,
+          "width": 142,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/ip4rqhgn",
+        "kind": "shape",
+        "position": {
+          "left": 1072,
+          "top": 54,
+          "width": 129,
+          "height": 2
+        }
+      },
+      {
+        "id": "sh/sby90zm1",
+        "kind": "textbox",
+        "text": "설정값으로 증거 그림과 보고서 제작",
+        "position": {
+          "left": 64,
+          "top": 78,
+          "width": 1152,
+          "height": 56
+        }
+      },
+      {
+        "id": "sh/tc7at436",
+        "kind": "textbox",
+        "text": "결론을 얻은 이유와 표시의 의미를 다른 사람이 다시 검토할 수 있게 만듭니다",
+        "position": {
+          "left": 64,
+          "top": 137,
+          "width": 1152,
+          "height": 43
+        }
+      },
+      {
+        "id": "sh/69gry94v",
+        "kind": "textbox",
+        "text": "입력",
+        "position": {
+          "left": 64,
+          "top": 198,
+          "width": 80,
+          "height": 29
+        }
+      },
+      {
+        "id": "sh/rapsrelg",
+        "kind": "textbox",
+        "text": "실제 위성영상·원본·공개 사진\nAI가 정한 대표점·방향 표시 설정",
+        "position": {
+          "left": 133,
+          "top": 194,
+          "width": 475,
+          "height": 61
+        }
+      },
+      {
+        "id": "sh/0fi94jmx",
+        "kind": "textbox",
+        "text": "산출물",
+        "position": {
+          "left": 661,
+          "top": 198,
+          "width": 85,
+          "height": 29
+        }
+      },
+      {
+        "id": "sh/1graxo3i",
+        "kind": "textbox",
+        "text": "evidence.jpg / evidence_spec.json\nresult.json / conclusion.md",
+        "position": {
+          "left": 754,
+          "top": 194,
+          "width": 462,
+          "height": 61
+        }
+      },
+      {
+        "id": "sh/edgr294r",
+        "kind": "textbox",
+        "text": "조사 AI가 대표점·방향·비교 영역을 지정. evidence.py가 지도와 사진을 배치하고 결론을 문서화.",
+        "position": {
+          "left": 64,
+          "top": 263,
+          "width": 1152,
+          "height": 49
+        }
+      },
+      {
+        "id": "sh/fepsvelc",
+        "kind": "shape",
+        "position": {
+          "left": 64,
+          "top": 319,
+          "width": 1152,
+          "height": 1
+        }
+      },
+      {
+        "id": "sh/oji9832t",
+        "kind": "textbox",
+        "text": "23",
+        "position": {
+          "left": 1182,
+          "top": 682,
+          "width": 34,
+          "height": 22
+        }
+      },
+      {
+        "id": "sh/p4ra1o3e",
+        "kind": "textbox",
+        "text": "실제 증거 이미지의 사용자·공개 사진 비교",
+        "position": {
+          "left": 64,
+          "top": 337,
+          "width": 556,
+          "height": 29
+        }
+      },
+      {
+        "id": "im/mxczetc3",
+        "kind": "image",
+        "position": {
+          "left": 64,
+          "top": 404.26,
+          "width": 556,
+          "height": 185.48
+        }
+      },
+      {
+        "id": "tb/rulczqtg",
+        "kind": "table",
+        "text": "그림 표시\t지정한 주체와 의미\n지도 대표점\tAI가 해안 구역 표시용 지정\n방향 부채꼴\t115°·85°·길이 150m 가정\n부채꼴의 의미\t조망 예시·오차 원 아님",
+        "position": {
+          "left": 660,
+          "top": 365,
+          "width": 556,
+          "height": 251
+        }
+      },
+      {
+        "id": "sh/by58jeds",
+        "kind": "shape",
+        "position": {
+          "left": 64,
+          "top": 636,
+          "width": 1152,
+          "height": 1
+        }
+      },
+      {
+        "id": "sh/axwratc7",
+        "kind": "textbox",
+        "text": "완료 산출물  비교 이미지·결론 문서·구조화된 JSON에 판단 근거와 미확정 사항을 함께 저장합니다",
+        "position": {
+          "left": 64,
+          "top": 651,
+          "width": 1105,
+          "height": 34
+        }
+      }
+    ]
+  },
+  {
+    "id": "sl/7qto7e10",
+    "index": 23,
+    "elements": [
+      {
+        "id": "sh/3ydonyd8",
+        "kind": "textbox",
+        "text": "04  산출물 정리",
+        "position": {
+          "left": 64,
+          "top": 29,
+          "width": 1100,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/1sfqxsv6",
+        "kind": "textbox",
+        "text": "테스트에서 남은 산출물",
+        "position": {
+          "left": 64,
+          "top": 72,
+          "width": 1152,
+          "height": 63
+        }
+      },
+      {
+        "id": "sh/0r6p4nul",
+        "kind": "textbox",
+        "text": "각 파일은 조사 단계와 판단 근거를 다음 처리에 전달합니다",
+        "position": {
+          "left": 64,
+          "top": 143,
+          "width": 1152,
+          "height": 60
+        }
+      },
+      {
+        "id": "sh/nux8zidc",
+        "kind": "textbox",
+        "text": "24",
+        "position": {
+          "left": 1182,
+          "top": 682,
+          "width": 34,
+          "height": 22
+        }
+      },
+      {
+        "id": "tb/36d0b2d4",
+        "kind": "table",
+        "text": "단계\t주요 파일\t담긴 내용\n초기 검사\tintake.md, exif.json, ocr.json\tGPS 없음·유효한 지명 없음\n단서·사진 순위\trefs.json, match.json, match.jpg\t공개 사진 5장·비교 수치와 순위\n지도 대조\tmap.jpg, map.json\t위성영상·지도 기준과 해안 배치\n거리사진 조회\tpano.json\t반경 100m 조회·파노라마 미확보\n투영 검사\tpose_assumed.json, projection.jpg\npose_limits.txt\t가정 조건·기준점 표시·검증 한계\n최종 결과\tresult.json, evidence.jpg\nconclusion.md, board.json\t대표점·범위·근거·미확정 사항",
+        "position": {
+          "left": 64,
+          "top": 211,
+          "width": 1152,
+          "height": 400
+        }
+      },
+      {
+        "id": "sh/9wzq1svi",
+        "kind": "shape",
+        "position": {
+          "left": 64,
+          "top": 636,
+          "width": 1152,
+          "height": 1
+        }
+      },
+      {
+        "id": "sh/ov6p8nux",
+        "kind": "textbox",
+        "text": "이미지로 비교하고, JSON으로 값을 전달하며, 보고서로 판단 이유를 설명합니다",
+        "position": {
+          "left": 64,
+          "top": 651,
+          "width": 1105,
+          "height": 34
+        }
+      }
+    ]
+  },
+  {
+    "id": "sl/69wfm9o7",
+    "index": 24,
+    "elements": [
+      {
+        "id": "sh/uxsra18j",
+        "kind": "textbox",
+        "text": "05  테스트 평가",
+        "position": {
+          "left": 64,
+          "top": 29,
+          "width": 1100,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/xg7axgf2",
+        "kind": "textbox",
+        "text": "대표 좌표와 촬영 구역의 보고 범위",
+        "position": {
+          "left": 64,
+          "top": 72,
+          "width": 1152,
+          "height": 63
+        }
+      },
+      {
+        "id": "sh/cfyt4beh",
+        "kind": "textbox",
+        "text": "정답 좌표가 없어 오차를 평가하지 못했으며, 장소와 촬영 지점의 확신을 나눠 보고했습니다",
+        "position": {
+          "left": 64,
+          "top": 143,
+          "width": 1152,
+          "height": 60
+        }
+      },
+      {
+        "id": "sh/napsr6x0",
+        "kind": "textbox",
+        "text": "25",
+        "position": {
+          "left": 1182,
+          "top": 682,
+          "width": 34,
+          "height": 22
+        }
+      },
+      {
+        "id": "sh/29wby1wf",
+        "kind": "textbox",
+        "text": "150",
+        "position": {
+          "left": 64,
+          "top": 267,
+          "width": 425,
+          "height": 126
+        }
+      },
+      {
+        "id": "sh/pc7atgf6",
+        "kind": "textbox",
+        "text": "m",
+        "position": {
+          "left": 272,
+          "top": 325,
+          "width": 90,
+          "height": 55
+        }
+      },
+      {
+        "id": "sh/obyt0bel",
+        "kind": "textbox",
+        "text": "대표 좌표 주변의 촬영 구역 보고 범위",
+        "position": {
+          "left": 67,
+          "top": 414,
+          "width": 500,
+          "height": 77
+        }
+      },
+      {
+        "id": "tb/6t0jyh4n",
+        "kind": "table",
+        "text": "평가 구분\t확신도\t확인 상태\n전망대 주변 해안\t높음\t공개 사진·지도 대응\n정확한 촬영 지점\t낮음\t돌 경사면 미확정",
+        "position": {
+          "left": 600,
+          "top": 263,
+          "width": 616,
+          "height": 216
+        }
+      },
+      {
+        "id": "sh/elwbu1wj",
+        "kind": "textbox",
+        "text": "대표점  37.81425, 128.89760\n정확한 촬영 위치를 계산한 좌표는 아님",
+        "position": {
+          "left": 600,
+          "top": 520,
+          "width": 616,
+          "height": 81
+        }
+      },
+      {
+        "id": "sh/wza9cbqp",
+        "kind": "shape",
+        "position": {
+          "left": 64,
+          "top": 636,
+          "width": 1152,
+          "height": 1
+        }
+      },
+      {
+        "id": "sh/h0jalgra",
+        "kind": "textbox",
+        "text": "시설 주소  강릉시 해안로604번길 16  /  보고 범위 150m는 정답과의 거리 오차가 아닙니다",
+        "position": {
+          "left": 64,
+          "top": 651,
+          "width": 1105,
+          "height": 34
+        }
+      }
+    ]
+  },
+  {
+    "id": "sl/l0bepsfm",
+    "index": 25,
+    "elements": [
+      {
+        "id": "sh/a18r2pkv",
+        "kind": "textbox",
+        "text": "테스트에서 확인한 점",
+        "position": {
+          "left": 64,
+          "top": 29,
+          "width": 1100,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/uhk36lk7",
+        "kind": "textbox",
+        "text": "확인한 범위와 남은 한계",
+        "position": {
+          "left": 64,
+          "top": 72,
+          "width": 1152,
+          "height": 63
+        }
+      },
+      {
+        "id": "sh/vitkzqlc",
+        "kind": "textbox",
+        "text": "장소를 좁힌 근거와, 정확한 촬영점을 확정하기 어려운 이유를 함께 봅니다",
+        "position": {
+          "left": 64,
+          "top": 143,
+          "width": 1152,
+          "height": 60
+        }
+      },
+      {
+        "id": "sh/8fil4b21",
+        "kind": "textbox",
+        "text": "26",
+        "position": {
+          "left": 1182,
+          "top": 682,
+          "width": 34,
+          "height": 22
+        }
+      },
+      {
+        "id": "sh/tgr2xg3m",
+        "kind": "textbox",
+        "text": "확인한 범위",
+        "position": {
+          "left": 64,
+          "top": 220,
+          "width": 530,
+          "height": 29
+        }
+      },
+      {
+        "id": "sh/md0321kv",
+        "kind": "textbox",
+        "text": "사근진 전망대 주변 해안",
+        "position": {
+          "left": 64,
+          "top": 269,
+          "width": 530,
+          "height": 43
+        }
+      },
+      {
+        "id": "sh/7e9kv6lg",
+        "kind": "textbox",
+        "text": "비스듬한 지지대·가로 판재·난간과 계단\n색 테트라포드가 공개 사진과 함께 대응",
+        "position": {
+          "left": 64,
+          "top": 326,
+          "width": 530,
+          "height": 91
+        }
+      },
+      {
+        "id": "sh/kbil0r2p",
+        "kind": "textbox",
+        "text": "북서쪽 해안에서의 조망 추정",
+        "position": {
+          "left": 64,
+          "top": 456,
+          "width": 530,
+          "height": 43
+        }
+      },
+      {
+        "id": "sh/lcr2tw3a",
+        "kind": "textbox",
+        "text": "동쪽~동남동쪽 방향이 유력\n돌 경사면의 정확한 위치는 미확정",
+        "position": {
+          "left": 64,
+          "top": 513,
+          "width": 530,
+          "height": 94
+        }
+      },
+      {
+        "id": "sh/lsja143i",
+        "kind": "textbox",
+        "text": "남은 제약",
+        "position": {
+          "left": 687,
+          "top": 220,
+          "width": 529,
+          "height": 29
+        }
+      },
+      {
+        "id": "sh/krat8z2x",
+        "kind": "textbox",
+        "text": "약한 자동 특징점 대응",
+        "position": {
+          "left": 687,
+          "top": 269,
+          "width": 529,
+          "height": 43
+        }
+      },
+      {
+        "id": "sh/z61szulc",
+        "kind": "textbox",
+        "text": "1위 인라이어 0개·전체 최대 6개\n낮과 밤의 차이를 고려해 형태를 대조",
+        "position": {
+          "left": 687,
+          "top": 326,
+          "width": 529,
+          "height": 91
+        }
+      },
+      {
+        "id": "sh/y5sr69kr",
+        "kind": "textbox",
+        "text": "거리사진·투영 검증 자료 부족",
+        "position": {
+          "left": 687,
+          "top": 456,
+          "width": 529,
+          "height": 43
+        }
+      },
+      {
+        "id": "sh/x4jax436",
+        "kind": "textbox",
+        "text": "반경 100m 거리사진 미확보\n수평선·실측 픽셀 대응 없이 가정값 사용",
+        "position": {
+          "left": 687,
+          "top": 513,
+          "width": 529,
+          "height": 94
+        }
+      },
+      {
+        "id": "sh/c3a94z21",
+        "kind": "shape",
+        "position": {
+          "left": 64,
+          "top": 636,
+          "width": 1152,
+          "height": 1
+        }
+      },
+      {
+        "id": "sh/b21svulg",
+        "kind": "textbox",
+        "text": "전망대 주변 해안은 높게 판단했으나, 촬영 지점의 정밀도와 일반 성능은 평가하지 못했습니다",
+        "position": {
+          "left": 64,
+          "top": 651,
+          "width": 1105,
+          "height": 34
+        }
+      }
+    ]
+  },
+  {
+    "id": "sl/4vyxknqp",
+    "index": 26,
+    "elements": [
+      {
+        "id": "sh/utobax4f",
+        "kind": "textbox",
+        "text": "06  활용 가능성",
+        "position": {
+          "left": 64,
+          "top": 29,
+          "width": 1100,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/kn694nmx",
+        "kind": "textbox",
+        "text": "사진의 위치를 검토하는 업무에 활용",
+        "position": {
+          "left": 64,
+          "top": 72,
+          "width": 1152,
+          "height": 63
+        }
+      },
+      {
+        "id": "sh/lofadsni",
+        "kind": "textbox",
+        "text": "이번 테스트가 보여 준 기능을 바탕으로 한 활용 제안입니다",
+        "position": {
+          "left": 64,
+          "top": 143,
+          "width": 1152,
+          "height": 60
+        }
+      },
+      {
+        "id": "sh/mpor6x43",
+        "kind": "textbox",
+        "text": "27",
+        "position": {
+          "left": 1182,
+          "top": 682,
+          "width": 34,
+          "height": 22
+        }
+      },
+      {
+        "id": "tb/q9cz6pgv",
+        "kind": "table",
+        "text": "활용 장면\t주요 입력\t활용할 산출물\n사진 정리와 위치 태깅\t위치 정보가 없는 사진\n대상 지역·시설 목록\t후보 장소·좌표·근거 이미지\n태그를 붙일지 검토\n현장·시설 사진 확인\t제출 사진과 신고 장소\n시설 지도·과거 사진\t일치·불일치 구조물\n추가 사진 필요 여부\n공개 사진의 장소 검증\t이용 가능한 사진\n기사·시설명·지역 정보\t대조 기록과 자료 출처\n공개 전 확인할 미확정 사항",
+        "position": {
+          "left": 64,
+          "top": 227,
+          "width": 1152,
+          "height": 351
+        }
+      },
+      {
+        "id": "sh/8r698nm9",
+        "kind": "shape",
+        "position": {
+          "left": 64,
+          "top": 636,
+          "width": 1152,
+          "height": 1
+        }
+      },
+      {
+        "id": "sh/9sfahsnu",
+        "kind": "textbox",
+        "text": "위치 후보와 증거를 제공하고, 이용자가 검토하는 사용 방식부터 적용할 수 있습니다",
+        "position": {
+          "left": 64,
+          "top": 651,
+          "width": 1105,
+          "height": 34
+        }
+      }
+    ]
+  },
+  {
+    "id": "sl/3mdove10",
+    "index": 27,
+    "elements": [
+      {
+        "id": "sh/o3ehgr29",
+        "kind": "textbox",
+        "text": "활용 전 확인할 과제",
+        "position": {
+          "left": 64,
+          "top": 29,
+          "width": 1100,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/q9cz6xkv",
+        "kind": "textbox",
+        "text": "다음 테스트와 개선 방향",
+        "position": {
+          "left": 64,
+          "top": 72,
+          "width": 1152,
+          "height": 63
+        }
+      },
+      {
+        "id": "sh/ralgf21g",
+        "kind": "textbox",
+        "text": "실제 실패 지점과 남은 불확실성을 후속 개발의 입력으로 사용합니다",
+        "position": {
+          "left": 64,
+          "top": 143,
+          "width": 1152,
+          "height": 60
+        }
+      },
+      {
+        "id": "sh/0zehcr2x",
+        "kind": "textbox",
+        "text": "28",
+        "position": {
+          "left": 1182,
+          "top": 682,
+          "width": 34,
+          "height": 22
+        }
+      },
+      {
+        "id": "tb/8zydcj2l",
+        "kind": "table",
+        "text": "확인한 문제\t개선할 처리\t다음 평가에서 확인할 결과\n정확한 촬영 지점 미확정\t돌 경사면의 현장·추가 사진 확인\n별도 확보한 정답 좌표와 대조\t구역 판단과 촬영점 오차를 분리\n낮·밤의 자동 대응 부족\t시점·조명이 가까운 참고사진 확보\n직접 대조한 구조와 근거 기록\t자동 대응과 육안 근거의 재현성\n거리사진 자료 미확보\t대체 공개 사진·현장 자료 활용\n조회 조건과 확보 실패를 저장\t대체 경로로 근거를 보완하는지\n가정값만 사용한 투영\t실측 픽셀 대응·수평선 확보\n조건이 부족하면 정밀 판단 유보\t새 사진에서 검증 가능한 정밀도",
+        "position": {
+          "left": 64,
+          "top": 218,
+          "width": 1152,
+          "height": 381
+        }
+      },
+      {
+        "id": "sh/exwzahkr",
+        "kind": "shape",
+        "position": {
+          "left": 64,
+          "top": 636,
+          "width": 1152,
+          "height": 1
+        }
+      },
+      {
+        "id": "sh/zy5gjm1c",
+        "kind": "textbox",
+        "text": "입출력과 실행 이력을 고정하고, 새로운 사진의 평가 결과를 보고 적용 범위를 넓힙니다",
+        "position": {
+          "left": 64,
+          "top": 651,
+          "width": 1105,
+          "height": 34
+        }
+      }
+    ]
+  },
+  {
+    "id": "sl/i5o3q10v",
+    "index": 28,
+    "elements": [
+      {
+        "id": "sh/bq1o72tk",
+        "kind": "textbox",
+        "text": "부록",
+        "position": {
+          "left": 64,
+          "top": 29,
+          "width": 1100,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/tk36hwby",
+        "kind": "textbox",
+        "text": "세부 작업과 수행 주체 1 / 4",
+        "position": {
+          "left": 64,
+          "top": 72,
+          "width": 1152,
+          "height": 63
+        }
+      },
+      {
+        "id": "sh/8jup8rad",
+        "kind": "textbox",
+        "text": "실제 작업 1–6. ‘AI’는 위치 조사를 수행한 에이전트입니다",
+        "position": {
+          "left": 64,
+          "top": 143,
+          "width": 1152,
+          "height": 60
+        }
+      },
+      {
+        "id": "sh/vmlojmto",
+        "kind": "textbox",
+        "text": "29",
+        "position": {
+          "left": 1182,
+          "top": 682,
+          "width": 34,
+          "height": 22
+        }
+      },
+      {
+        "id": "tb/b6xk3ytk",
+        "kind": "table",
+        "text": "작업\t소스\t결과\t수행 대상\t명령\t기타\n1  위치 조사 요청\t사용자 사진·요청\t조사 범위\t조사 AI\t사용자\t야간 해안 사진\n2  초기 검사 설정\t스킬·실행 옵션\t역검색 끔\t조사 AI\tAI\t--no-rev\n3  메타데이터 검사\tJPG 파일\tGPS 없음\tintake.py\tAI\t날짜도 미확정\n4  문자 검사\t사진 픽셀\tmihl 잡음\tOCR + AI\tAI\t유효 지명 없음\n5  분할 자료 생성\t원본 사진\t타일 8개 등\tintake.py\tAI\t확대 관찰용\n6  시설 형태 관찰\t원본·확대 사진\t흰 구조물·색 블록\t조사 AI\tAI\t관찰과 가설 구분",
+        "position": {
+          "left": 64,
+          "top": 217,
+          "width": 1152,
+          "height": 389
+        }
+      },
+      {
+        "id": "sh/h8n6lwbu",
+        "kind": "shape",
+        "position": {
+          "left": 64,
+          "top": 636,
+          "width": 1152,
+          "height": 1
+        }
+      },
+      {
+        "id": "sh/g7upcra9",
+        "kind": "textbox",
+        "text": "사용자가 조사 목적을 요청하고, AI가 각 프로그램의 실행 조건과 다음 행동을 정했습니다",
+        "position": {
+          "left": 64,
+          "top": 651,
+          "width": 1105,
+          "height": 34
+        }
+      }
+    ]
+  },
+  {
+    "id": "sl/wnqh07ex",
+    "index": 29,
+    "elements": [
+      {
+        "id": "sh/ru5k3ep8",
+        "kind": "textbox",
+        "text": "부록",
+        "position": {
+          "left": 64,
+          "top": 29,
+          "width": 1100,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/po72d8nm",
+        "kind": "textbox",
+        "text": "세부 작업과 수행 주체 2 / 4",
+        "position": {
+          "left": 64,
+          "top": 72,
+          "width": 1152,
+          "height": 63
+        }
+      },
+      {
+        "id": "sh/o3yl4361",
+        "kind": "textbox",
+        "text": "실제 작업 7–12. ‘AI’는 위치 조사를 수행한 에이전트입니다",
+        "position": {
+          "left": 64,
+          "top": 143,
+          "width": 1152,
+          "height": 60
+        }
+      },
+      {
+        "id": "sh/bqpkfy5s",
+        "kind": "textbox",
+        "text": "30",
+        "position": {
+          "left": 1182,
+          "top": 682,
+          "width": 34,
+          "height": 22
+        }
+      },
+      {
+        "id": "tb/batsbqtg",
+        "kind": "table",
+        "text": "작업\t소스\t결과\t수행 대상\t명령\t기타\n7  장소 가설 설정\t구조물·테트라포드\t사근진 전망대 가설\t조사 AI\tAI\t단계적 가설\n8  키워드 검색\t시설·형태 검색어\t공개 사진 URL\t검색 도구 + AI\tAI\t역검색 미사용\n9  참고사진 수집\t공개 URL 5개\trefs.json·사진 5장\tget_refs.py\tAI\t웹 공개 사진\n10  전체 유사도 비교\t원본·참고사진 5장\t1위 0.5465\tDINOv2\tAI\t정답 확률 아님\n11  특징점 검사\t같은 비교 사진\t최대 인라이어 6개\tSIFT·RANSAC\tAI\t강한 일치 없음\n12  공개 사진 확인\t순위·사진 5장\t시설 형태 대응\t조사 AI\tAI\t낮·밤 차이 고려",
+        "position": {
+          "left": 64,
+          "top": 217,
+          "width": 1152,
+          "height": 389
+        }
+      },
+      {
+        "id": "sh/xsr2h8ni",
+        "kind": "shape",
+        "position": {
+          "left": 64,
+          "top": 636,
+          "width": 1152,
+          "height": 1
+        }
+      },
+      {
+        "id": "sh/cril836d",
+        "kind": "textbox",
+        "text": "실행 주체와 판단 주체를 함께 기록하면, 어떤 데이터로 결론을 냈는지 추적할 수 있습니다",
+        "position": {
+          "left": 64,
+          "top": 651,
+          "width": 1105,
+          "height": 34
+        }
+      }
+    ]
+  },
+  {
+    "id": "sl/lcn6tkb6",
+    "index": 30,
+    "elements": [
+      {
+        "id": "sh/fmhszex0",
+        "kind": "textbox",
+        "text": "부록",
+        "position": {
+          "left": 64,
+          "top": 29,
+          "width": 1100,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/dgja98fe",
+        "kind": "textbox",
+        "text": "세부 작업과 수행 주체 3 / 4",
+        "position": {
+          "left": 64,
+          "top": 72,
+          "width": 1152,
+          "height": 63
+        }
+      },
+      {
+        "id": "sh/cfa903yt",
+        "kind": "textbox",
+        "text": "실제 작업 13–18. ‘AI’는 위치 조사를 수행한 에이전트입니다",
+        "position": {
+          "left": 64,
+          "top": 143,
+          "width": 1152,
+          "height": 60
+        }
+      },
+      {
+        "id": "sh/zilsbyx4",
+        "kind": "textbox",
+        "text": "31",
+        "position": {
+          "left": 1182,
+          "top": 682,
+          "width": 34,
+          "height": 22
+        }
+      },
+      {
+        "id": "tb/729c3610",
+        "kind": "table",
+        "text": "작업\t소스\t결과\t수행 대상\t명령\t기타\n13  위성영상 확보\t사근진 좌표·줌\tmap.jpg·기준 정보\t지도 도구\tAI\t확대 영상 사용\n14  전망대 지도 대조\t위성영상·공개 사진\t지도상 시설 위치\t조사 AI\tAI\t촬영점과 구분\n15  촬영 해안 추정\t시설·곡선 해안 배치\t북서쪽 해안 유력\t조사 AI\tAI\t돌 경사면 미확정\n16  거리사진 조회\t후보 좌표·반경 100m\t파노라마 미확보\tgsv.py\tAI\tpano.json 기록\n17  대체 자료 선택\t공개 참고사진 5장\t직접 대조 자료\t조사 AI\tAI\t거리사진 아님\n18  고정 구조 대조\t지지대·판재·난간 등\t전망대 형태 대응\t조사 AI\tAI\t색 블록도 대응",
+        "position": {
+          "left": 64,
+          "top": 217,
+          "width": 1152,
+          "height": 389
+        }
+      },
+      {
+        "id": "sh/1k3ad8fa",
+        "kind": "shape",
+        "position": {
+          "left": 64,
+          "top": 636,
+          "width": 1152,
+          "height": 1
+        }
+      },
+      {
+        "id": "sh/0jut43yp",
+        "kind": "textbox",
+        "text": "실행 주체와 판단 주체를 함께 기록하면, 어떤 데이터로 결론을 냈는지 추적할 수 있습니다",
+        "position": {
+          "left": 64,
+          "top": 651,
+          "width": 1105,
+          "height": 34
+        }
+      }
+    ]
+  },
+  {
+    "id": "sl/6l0j294r",
+    "index": 31,
+    "elements": [
+      {
+        "id": "sh/mx4zilg3",
+        "kind": "textbox",
+        "text": "부록",
+        "position": {
+          "left": 64,
+          "top": 29,
+          "width": 1100,
+          "height": 25
+        }
+      },
+      {
+        "id": "sh/kr61sfy1",
+        "kind": "textbox",
+        "text": "세부 작업과 수행 주체 4 / 4",
+        "position": {
+          "left": 64,
+          "top": 72,
+          "width": 1152,
+          "height": 63
+        }
+      },
+      {
+        "id": "sh/lszilkfm",
+        "kind": "textbox",
+        "text": "실제 작업 19–24. ‘AI’는 위치 조사를 수행한 에이전트입니다",
+        "position": {
+          "left": 64,
+          "top": 143,
+          "width": 1152,
+          "height": 60
+        }
+      },
+      {
+        "id": "sh/6t8jupg7",
+        "kind": "textbox",
+        "text": "32",
+        "position": {
+          "left": 1182,
+          "top": 682,
+          "width": 34,
+          "height": 22
+        }
+      },
+      {
+        "id": "tb/mh4jylwj",
+        "kind": "table",
+        "text": "작업\t소스\t결과\t수행 대상\t명령\t기타\n19  해안 배치 검토\t지도·원본 사진\t방향 추정·지점 유보\t조사 AI\tAI\t동쪽~동남동쪽\n20  카메라 조건 가정\t대표점·투영 조건\t5m·−8°·85° 등\t조사 AI\tAI\t측정값 아님\n21  진단용 투영\t가정값·전망대 좌표\t표시·정밀 검증 불가\tpose.py + AI\tAI\t대응 픽셀 없음\n22  후보 장부 정리\tK1–K3·자료·제약\t지역·세부 가설 분리\tboard.py + AI\tAI\t세부 구간 미확정\n23  보고 구역 결정\t사진·지도·남은 제약\t대표점·약 150m\t조사 AI\tAI\t오차 측정 아님\n24  근거·결론 제작\t대표점·그림 설정\tevidence·결론 문서\t프로그램 + AI\tAI\t정확한 촬영점 유보",
+        "position": {
+          "left": 64,
+          "top": 217,
+          "width": 1152,
+          "height": 389
+        }
+      },
+      {
+        "id": "sh/8vq1wzyd",
+        "kind": "shape",
+        "position": {
+          "left": 64,
+          "top": 636,
+          "width": 1152,
+          "height": 1
+        }
+      },
+      {
+        "id": "sh/twzipkfy",
+        "kind": "textbox",
+        "text": "실행 주체와 판단 주체를 함께 기록하면, 어떤 데이터로 결론을 냈는지 추적할 수 있습니다",
+        "position": {
+          "left": 64,
+          "top": 651,
+          "width": 1105,
+          "height": 34
+        }
+      }
+    ]
+  }
+]

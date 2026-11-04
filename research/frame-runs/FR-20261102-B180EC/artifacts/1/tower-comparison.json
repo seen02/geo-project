@@ -1,0 +1,25 @@
+{
+  "method": "Manual tower center columns, followed by normalization; approximate pixel readings only",
+  "reference_columns": [
+    716,
+    735,
+    762,
+    781
+  ],
+  "published_columns": [
+    621,
+    679,
+    770,
+    829
+  ],
+  "reference_normalized_gaps": [
+    0.292,
+    0.415,
+    0.292
+  ],
+  "published_normalized_gaps": [
+    0.279,
+    0.438,
+    0.284
+  ]
+}

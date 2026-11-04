@@ -1,0 +1,49 @@
+{
+  "ssl": "OpenSSL 3.0.16 11 Feb 2025",
+  "results": [
+    {
+      "service": "satellite",
+      "python": {
+        "ok": true,
+        "status": 200,
+        "bytes": 10341
+      },
+      "curl": {
+        "ok": false,
+        "code": 35,
+        "status": "000",
+        "error": "curl: (35) schannel: AcquireCredentialsHandle failed: SEC_E_NO_CREDENTIALS (0x8009030E) - ���� ��Ű���� ����� �� �ִ� �������� �����ϴ�.\r\n"
+      }
+    },
+    {
+      "service": "overpass",
+      "python": {
+        "ok": false,
+        "error": "The read operation timed out"
+      },
+      "curl": {
+        "ok": false,
+        "code": 35,
+        "status": "000",
+        "error": "curl: (35) schannel: AcquireCredentialsHandle failed: SEC_E_NO_CREDENTIALS (0x8009030E) - ���� ��Ű���� ����� �� �ִ� �������� �����ϴ�.\r\n"
+      }
+    },
+    {
+      "service": "models",
+      "python": {
+        "ok": true,
+        "status": 200,
+        "bytes": 100000
+      },
+      "curl": {
+        "ok": false,
+        "code": 35,
+        "status": "000",
+        "error": "curl: (35) schannel: AcquireCredentialsHandle failed: SEC_E_NO_CREDENTIALS (0x8009030E) - ���� ��Ű���� ����� �� �ִ� �������� �����ϴ�.\r\n"
+      }
+    }
+  ],
+  "checkedAt": "2026-11-03T04:46:47.565Z",
+  "transport": "Python HTTPS",
+  "ready": true
+}

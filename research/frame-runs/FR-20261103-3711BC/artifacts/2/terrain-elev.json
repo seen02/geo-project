@@ -1,0 +1,2 @@
+71 m
+FRAME_TOOL_RESULT {"tool": "terrain.py", "args": ["elev", "--at", "37.5833,126.9827"], "ok": true, "exit_code": 0, "started_at": 1793681413.2897437, "finished_at": 1793681415.7460272}

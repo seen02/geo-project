@@ -1,0 +1,73 @@
+{
+  "map": "google20.jpg",
+  "crop": [
+    0,
+    240,
+    1280,
+    1000
+  ],
+  "width": 1280,
+  "camera": [
+    37.8143935,
+    128.8968599
+  ],
+  "heading": 110.74,
+  "hfov": 63.25,
+  "range_m": 130,
+  "labels": [
+    {
+      "at": [
+        37.8143935,
+        128.8968599
+      ],
+      "text": "Conditional estimate",
+      "color": "#ff6666",
+      "dx": 0,
+      "dy": -95
+    },
+    {
+      "at": [
+        37.81438,
+        128.89691
+      ],
+      "text": "User-supplied actual",
+      "color": "#66ff66",
+      "dx": 5,
+      "dy": 65
+    },
+    {
+      "at": [
+        37.81425,
+        128.8976
+      ],
+      "text": "Previous representative",
+      "color": "#ffaa55",
+      "dx": -5,
+      "dy": 100
+    },
+    {
+      "at": [
+        37.81419,
+        128.89829
+      ],
+      "text": "Observatory",
+      "color": "#66ccff",
+      "dx": -70,
+      "dy": 130
+    }
+  ],
+  "panels": [
+    {
+      "image": "observed_projected_zoom.jpg",
+      "caption": "Green: observed. Red: projected. E does not align. RMS: 7.15 px."
+    },
+    {
+      "image": "../geo_work_20261102_coast/refs/0.jpg",
+      "caption": "Public reference: same observatory, stairs and tetrapods. Ardent News."
+    },
+    {
+      "image": "shore_comparison.jpg",
+      "caption": "Green: photo shore. Red: satellite shore. They do not fully align."
+    }
+  ]
+}

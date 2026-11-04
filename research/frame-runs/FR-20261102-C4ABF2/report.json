@@ -1,0 +1,217 @@
+{
+  "schema_version": 1,
+  "title": "야간 해변 촬영",
+  "place_name": "사근진 해중공원 전망대 북서쪽 곡선 석축",
+  "region": "강원특별자치도 강릉시 안현동 사근진해변",
+  "summary": "사근진 해중공원 전망대의 북서쪽 안쪽 해안에서 촬영한 사진으로 판단됩니다. 전망대에서 서쪽 약 70m 지점을 촬영 후보로 제시하며, 정확한 발판은 미확인입니다.",
+  "lat": 37.81419,
+  "lon": 128.89747,
+  "radius_m": 50,
+  "heading": 103,
+  "coordinate_type": "camera_estimate",
+  "hfov": null,
+  "radius_basis": "전망대의 측면 살, 상부 이중 곡선 보, 파스텔 방파블록, 아치형 시설을 공개 지상 사진과 대조하고 위성사진의 북서쪽 곡선 해안에 배치했습니다. 반경 50m는 해당 해안 구간과 발판 불확실성을 포함한 탐색 범위이며 통계적 오차가 아닙니다.",
+  "heading_basis": "후보점에서 전망대와 사진 오른쪽의 스카이베이로 추정되는 건물의 화면상 위치를 조건부 계산하면 약 103.5°입니다. 동남동 방향의 대략값이며 독립적으로 측정한 방위가 아닙니다. 실제 화각은 확정하지 않았습니다.",
+  "confidence_levels": {
+    "city": {
+      "level": "high",
+      "reason": "사근진의 독특한 전망대와 컬러 방파블록 조합이 공개 사진과 일치합니다."
+    },
+    "area": {
+      "level": "high",
+      "reason": "전망대의 형태, 방파블록, 아치형 시설과 보호된 수역 배치가 일치합니다."
+    },
+    "road": {
+      "level": "medium",
+      "reason": "전망대 북서쪽 곡선 해안에서 구조물 좌우 순서와 방향이 부합합니다. 동일 석축의 근접 외부 사진은 확보하지 못했습니다."
+    },
+    "camera": {
+      "level": "low",
+      "reason": "좌표는 유력 해안 구간의 추정점입니다. 발판 일치나 독립적인 다중 시선 교차로 확정하지 못했습니다."
+    }
+  },
+  "verification": {
+    "street_view": {
+      "status": "attempted",
+      "summary": "2018년 도로 파노라마 15개 방향과 북쪽 도로 5개 방향을 확인했습니다. 당시 해변 건물에 가려 석축 촬영 위치를 검증하지 못했습니다.",
+      "files": [
+        "gsv-near.json",
+        "gsv-north.json",
+        "street-sheet.jpg",
+        "street-sheet_2.jpg",
+        "street-north.jpg"
+      ]
+    },
+    "image_match": {
+      "status": "attempted",
+      "summary": "DINOv2와 SIFT로 공개 이미지 28개 및 도로 렌더 15개를 순위화하고 상위 결과를 확인했습니다. 자동 기하 일치 기준 15개 인라이어에 도달하지 못했습니다. 육안으로 전망대 고정 구조는 일치하나 동일 촬영점은 미확인입니다.",
+      "files": [
+        "match-all.json",
+        "match-all.jpg",
+        "match-street.json",
+        "match-street.jpg"
+      ]
+    },
+    "geometry": {
+      "status": "attempted",
+      "summary": "geo.py 화면 방위 검사와 조건부 수평 투영을 수행했습니다. DEM은 약 2m입니다. pose.py 투영은 구조물 높이와 수평선 가정에 의존하고 수평선 진단의 부호 불일치도 있어 정확한 자세 검증으로 채택하지 않았습니다.",
+      "files": [
+        "geometry-frame.json",
+        "conditional-horizontal.json",
+        "terrain-elevation.txt",
+        "pose-project.jpg",
+        "pose-check.txt",
+        "research-notes.md"
+      ]
+    }
+  },
+  "evidence_spec": "evidence-spec.json",
+  "map_image": {
+    "file": "evidence/satellite-north.jpg",
+    "zoom": 19,
+    "origin_tile": [
+      449862,
+      202573
+    ],
+    "size": [
+      1792,
+      1792
+    ]
+  },
+  "quality": {
+    "checks": {
+      "street_view": {
+        "status": "attempted",
+        "summary": "2018년 도로 파노라마 15개 방향과 북쪽 도로 5개 방향을 확인했습니다. 당시 해변 건물에 가려 석축 촬영 위치를 검증하지 못했습니다.",
+        "files": [
+          "gsv-near.json",
+          "gsv-north.json",
+          "street-sheet.jpg",
+          "street-sheet_2.jpg",
+          "street-north.jpg"
+        ],
+        "validated": false
+      },
+      "image_match": {
+        "status": "attempted",
+        "summary": "DINOv2와 SIFT로 공개 이미지 28개 및 도로 렌더 15개를 순위화하고 상위 결과를 확인했습니다. 자동 기하 일치 기준 15개 인라이어에 도달하지 못했습니다. 육안으로 전망대 고정 구조는 일치하나 동일 촬영점은 미확인입니다.",
+        "files": [
+          "match-all.json",
+          "match-all.jpg",
+          "match-street.json",
+          "match-street.jpg"
+        ],
+        "validated": false
+      },
+      "geometry": {
+        "status": "attempted",
+        "summary": "geo.py 화면 방위 검사와 조건부 수평 투영을 수행했습니다. DEM은 약 2m입니다. pose.py 투영은 구조물 높이와 수평선 가정에 의존하고 수평선 진단의 부호 불일치도 있어 정확한 자세 검증으로 채택하지 않았습니다.",
+        "files": [
+          "geometry-frame.json",
+          "conditional-horizontal.json",
+          "terrain-elevation.txt",
+          "pose-project.jpg",
+          "pose-check.txt",
+          "research-notes.md"
+        ],
+        "validated": false
+      }
+    },
+    "warnings": [
+      "거리사진 대조의 실행·산출물 확인이 완료되지 않았습니다. 2018년 도로 파노라마 15개 방향과 북쪽 도로 5개 방향을 확인했습니다. 당시 해변 건물에 가려 석축 촬영 위치를 검증하지 못했습니다.",
+      "후보 이미지 순위화의 실행·산출물 확인이 완료되지 않았습니다. DINOv2와 SIFT로 공개 이미지 28개 및 도로 렌더 15개를 순위화하고 상위 결과를 확인했습니다. 자동 기하 일치 기준 15개 인라이어에 도달하지 못했습니다. 육안으로 전망대 고정 구조는 일치하나 동일 촬영점은 미확인입니다.",
+      "촬영 위치·방향 기하 검증의 실행·산출물 확인이 완료되지 않았습니다. geo.py 화면 방위 검사와 조건부 수평 투영을 수행했습니다. DEM은 약 2m입니다. pose.py 투영은 구조물 높이와 수평선 가정에 의존하고 수평선 진단의 부호 불일치도 있어 정확한 자세 검증으로 채택하지 않았습니다.",
+      "근거 이미지 설정의 촬영 방향이 결과와 일치하는지 확인하지 못했습니다."
+    ],
+    "map": {
+      "file": "satellite-north.jpg",
+      "zoom": 19,
+      "origin_tile": [
+        449862,
+        202573
+      ],
+      "size": [
+        1792,
+        1792
+      ]
+    },
+    "ready": false
+  },
+  "confidence": "medium",
+  "composition": "물과 컬러 방파제를 왼쪽에, 흰 전망대를 중앙 왼쪽에 두고 곡선 석축을 전경에 담는 구도입니다.",
+  "best_time": "원본과 같은 분위기는 야간입니다. 촬영 날짜와 정확한 시각은 확인되지 않았습니다.",
+  "access": "해안로604번길의 사근진해변에서 전망대 북서쪽 안쪽 해안을 확인하세요. 현장 통제와 파도 상태에 따라 접근 가능 범위가 달라질 수 있습니다.",
+  "lens": "EXIF가 없어 렌즈와 초점거리는 확인할 수 없습니다.",
+  "clues": [
+    {
+      "title": "흰색 전망대",
+      "description": "날개형 상부 보와 층층이 돌출된 측면 살이 공개 사진과 일치합니다.",
+      "kind": "근거"
+    },
+    {
+      "title": "컬러 방파블록과 아치",
+      "description": "파스텔색 방파블록 및 전망대 옆 아치형 시설이 일치합니다.",
+      "kind": "근거"
+    },
+    {
+      "title": "안쪽 곡선 해안",
+      "description": "왼쪽 보호 수역과 오른쪽으로 올라가는 석축 구도가 전망대 북서쪽 해안과 부합합니다.",
+      "kind": "근거"
+    }
+  ],
+  "caveats": [
+    "장소 식별 신뢰도와 촬영 좌표 신뢰도는 다릅니다. 표기 좌표는 검증된 카메라 위치가 아닙니다.",
+    "공개 사진 및 위성사진과 원본 사이에 모래 피복·해안 시설 차이가 있어 석축의 정확한 발판은 확인하지 못했습니다.",
+    "방향은 후보점에 의존하는 추정값이며 화각은 미상입니다. 근거 이미지에는 화각 부채꼴 대신 방향선만 표시했습니다.",
+    "요청 날짜 2026-11-08은 원본 촬영일의 근거로 사용하지 않았습니다.",
+    "거리사진 대조의 실행·산출물 확인이 완료되지 않았습니다. 2018년 도로 파노라마 15개 방향과 북쪽 도로 5개 방향을 확인했습니다. 당시 해변 건물에 가려 석축 촬영 위치를 검증하지 못했습니다.",
+    "후보 이미지 순위화의 실행·산출물 확인이 완료되지 않았습니다. DINOv2와 SIFT로 공개 이미지 28개 및 도로 렌더 15개를 순위화하고 상위 결과를 확인했습니다. 자동 기하 일치 기준 15개 인라이어에 도달하지 못했습니다. 육안으로 전망대 고정 구조는 일치하나 동일 촬영점은 미확인입니다.",
+    "촬영 위치·방향 기하 검증의 실행·산출물 확인이 완료되지 않았습니다. geo.py 화면 방위 검사와 조건부 수평 투영을 수행했습니다. DEM은 약 2m입니다. pose.py 투영은 구조물 높이와 수평선 가정에 의존하고 수평선 진단의 부호 불일치도 있어 정확한 자세 검증으로 채택하지 않았습니다.",
+    "근거 이미지 설정의 촬영 방향이 결과와 일치하는지 확인하지 못했습니다.",
+    "Codex가 자동 생성한 조사 결과입니다. 촬영지 방문·허가·최신 현장 상태는 별도로 확인해 주세요."
+  ],
+  "alternatives": [
+    {
+      "name": "전망대 북쪽 해변의 더 먼 지점",
+      "reason": "같은 구조물을 볼 수 있으나 원본의 석축 곡선과 크기 관계에는 지지가 약합니다. 같은 방향의 근접 지상 사진이 필요합니다."
+    },
+    {
+      "name": "전망대 남쪽 해변",
+      "reason": "공개 반대편 사진에서는 방파블록과 아치 시설의 좌우 순서가 원본과 달라 낮게 평가했습니다. 공식적으로 배제하지는 않았습니다."
+    }
+  ],
+  "sources": [
+    {
+      "title": "바다온 사근진해중공원 전망대 안내",
+      "url": "https://www.badaon.or.kr/seantour_map/travel/destination/detail.do?destId=DEST025127"
+    },
+    {
+      "title": "전망대 북쪽 측면 비교 사진",
+      "url": "https://cdn.ardentnews.co.kr/news/photo/202505/6215_29265_1831.jpg"
+    },
+    {
+      "title": "중앙일보·강릉시 제공 컬러 방파제 사진",
+      "url": "https://v.daum.net/v/20210702060042825"
+    },
+    {
+      "title": "한국관광공사 전망대 정면 사진",
+      "url": "https://tong.visitkorea.or.kr/cms/resource/41/2921941_image2_1.jpg"
+    },
+    {
+      "title": "Google 위성영상·지도",
+      "url": "https://www.google.com/maps/@37.81419,128.89747,19z/data=!3m1!1e3"
+    }
+  ],
+  "evidence": [
+    {
+      "name": "위치·구조물 비교",
+      "description": "실제 Google 위성영상 위 추정점·방향선과 원본 및 외부 지상 사진의 고정 구조물 비교입니다.",
+      "file": "evidence/evidence.jpg"
+    },
+    {
+      "name": "원본 위성 모자이크",
+      "description": "북쪽이 위인 WGS84, 줌 19 실제 위성영상입니다. 동일 이름의 satellite-north.json에 타일 원점과 크기를 보존했습니다.",
+      "file": "evidence/satellite-north.jpg"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "map": "lake-map.jpg",
+  "crop": [80, 0, 600, 550],
+  "width": 1280,
+  "labels": [
+    {"at": [46.69472, 12.08444], "text": "Lake reference; NOT camera", "color": "#ffdd55", "dx": 15, "dy": -25}
+  ],
+  "panels": [
+    {"image": "source-unsplash.jpg", "caption": "Downloaded original: Luca Bravo / Unsplash O453M2Liufs. Same photograph; provenance evidence only."},
+    {"image": "official-landscape.jpg", "caption": "Independent view: IDM South Tyrol / Harald Wisthaler. Compare cliff, central scree chute and stepped summit."}
+  ]
+}

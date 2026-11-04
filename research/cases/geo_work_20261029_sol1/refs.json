@@ -1,0 +1,47 @@
+[
+  {
+    "label": "Sagye official south view",
+    "url": "https://api.cdn.visitjeju.net/photomng/imgpath/202111/15/98292dc5-c8b9-4ca5-891f-cd095a5431ec.webp",
+    "file": "refs\\00.jpg"
+  },
+  {
+    "label": "Sagye official coast",
+    "url": "https://api.cdn.visitjeju.net/photomng/imgpath/202111/15/2ead4897-42a3-4769-8959-f7fd77990078.webp",
+    "file": "refs\\01.jpg"
+  },
+  {
+    "label": "Sagye beach KTO",
+    "url": "https://tong.visitkorea.or.kr/cms/resource/67/2800667_image2_1.jpg",
+    "file": "refs\\02.jpg"
+  },
+  {
+    "label": "Sagye rocks",
+    "url": "https://media.triple.guide/triple-cms/c_limit%2Cf_auto%2Ch_1024%2Cw_1024/843fcbc8-6b8a-46ad-992b-82ebd8802d17.jpeg",
+    "file": "refs\\03.jpg"
+  },
+  {
+    "label": "Sagye trip south",
+    "url": "https://ak-d.tripcdn.com/images/1mi5t224x8v7uy7bkFC91.jpg?proc=source%2Ftrip",
+    "file": "refs\\04.jpg"
+  },
+  {
+    "label": "Sagye layered rocks",
+    "url": "https://t1.daumcdn.net/brunch/service/user/17Gb/image/ay6cSRycPh0YmuZxUu04Rr8MmoQ",
+    "file": "refs\\05.jpg"
+  },
+  {
+    "label": "Sagye beach south",
+    "url": "https://t1.daumcdn.net/brunch/service/user/17Gb/image/KrnuHkXvm78Y5yPlm_RZZKjqrr8",
+    "file": "refs\\06.jpg"
+  },
+  {
+    "label": "Seopjikoji",
+    "url": "https://cdn.imweb.me/upload/S201802145a83a6028d5cf/d3d2c38b16cde.jpg",
+    "file": "refs\\07.jpg"
+  },
+  {
+    "label": "Sagye news",
+    "url": "https://www.jejunews.com/news/photo/202408/2213152_240458_1811.jpg",
+    "file": "refs\\08.jpg"
+  }
+]

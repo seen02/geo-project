@@ -1,0 +1,7 @@
+Pre-conclusion check:
+  ok   main answer CameraUpper: 1 pieces of evidence, 1 verified
+  WARN alternatives with share ≥15% remain: CameraMid → write them into alternatives with a discriminating test; no midpoint
+  FAIL evidence image evidence.jpg doesn't exist: supporting evidence reaches area/road/point level (Bukchon, Bukchon11ga, CameraUpper) → make it with evidence.py (camera + heading wedge on satellite, comparison panels), or pass --evidence <path>
+  ok   Bukchon falsification condition: Reject the road hypothesis if consecutive left gables, right eaves and skyline cannot coexist in any local ground-level view
+Result: has FAIL, fix those first
+FRAME_TOOL_RESULT {"tool": "board.py", "args": ["check"], "ok": true, "exit_code": 0, "started_at": 1793681646.7546492, "finished_at": 1793681646.939253}

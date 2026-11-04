@@ -1,0 +1,112 @@
+{
+ "candidate_levels": {
+  "city": [
+   {
+    "name": "Seoul",
+    "share": 1.0,
+    "evidence": 4,
+    "verified": 2,
+    "excluded": false
+   }
+  ],
+  "area": [
+   {
+    "name": "Bukchon",
+    "share": 1.0,
+    "evidence": 4,
+    "verified": 2,
+    "excluded": false
+   }
+  ],
+  "road": [
+   {
+    "name": "Bukchon11ga",
+    "share": 0.984,
+    "evidence": 3,
+    "verified": 2,
+    "excluded": false
+   },
+   {
+    "name": "Bukchon11da",
+    "share": 0.008,
+    "evidence": 1,
+    "verified": 1,
+    "excluded": false
+   },
+   {
+    "name": "Bukchon11",
+    "share": 0.008,
+    "evidence": 1,
+    "verified": 1,
+    "excluded": false
+   }
+  ],
+  "point": [
+   {
+    "name": "CameraUpper",
+    "share": 0.931,
+    "evidence": 2,
+    "verified": 1,
+    "excluded": false
+   },
+   {
+    "name": "CameraMid",
+    "share": 0.037,
+    "evidence": 2,
+    "verified": 1,
+    "excluded": false
+   },
+   {
+    "name": "CameraNorth",
+    "share": 0.019,
+    "evidence": 1,
+    "verified": 0,
+    "excluded": false
+   },
+   {
+    "name": "CameraLower",
+    "share": 0.013,
+    "evidence": 2,
+    "verified": 1,
+    "excluded": false
+   }
+  ]
+ },
+ "main": {
+  "level": "point",
+  "name": "CameraUpper",
+  "share": 0.931,
+  "evidence": [
+   {
+    "clue": "DINOv2 ranks the 37.583326,126.983396 panorama first among 160 southward views; SIFT 0 inliers at top result, insufficient alone for confirmation",
+    "status": "computed",
+    "lr": 5.0,
+    "why": "160 public panorama renders ranked; top10 cluster along one north-south alley; inspect top-ranked fixed structures",
+    "file": "match-initial.jpg"
+   },
+   {
+    "clue": "Visual comparison finds same left gable timber frame, repeated stepped tiled eaves, red white wall frieze and end-of-lane gate; reverse panorama confirms short segment near cross alley",
+    "status": "observed",
+    "lr": 5.0,
+    "why": "Foreground left gable remains visible near upper camera; farther-down viewpoints lose it or reverse facade order. Sidewalk displacement and adjacent upper positions remain possible.",
+    "file": "comparison-panel-roofs.jpg"
+   }
+  ]
+ },
+ "alternatives": [],
+ "excluded": [],
+ "unused_clues": [],
+ "downweighted_not_excluded": [
+  "CameraLower",
+  "CameraMid",
+  "CameraNorth"
+ ],
+ "falsify": {
+  "Bukchon": [
+   "Reject the road hypothesis if consecutive left gables, right eaves and skyline cannot coexist in any local ground-level view"
+  ]
+ },
+ "unexamined": [],
+ "level_gaps": []
+}
+FRAME_TOOL_RESULT {"tool": "board.py", "args": ["report"], "ok": true, "exit_code": 0, "started_at": 1793681866.6079202, "finished_at": 1793681866.780712}

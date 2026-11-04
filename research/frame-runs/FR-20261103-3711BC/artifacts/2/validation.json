@@ -1,0 +1,7 @@
+{
+  "schema": "pass",
+  "image_decode": "pass",
+  "evidence_files": "pass",
+  "satellite_failed_tiles": 0,
+  "view_cone": "omitted because hfov unknown"
+}

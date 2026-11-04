@@ -1,0 +1,11 @@
+import json,math
+from pathlib import Path
+p=Path(__file__).parent
+def save(n,v): (p/n).write_text(json.dumps(v,indent=2),encoding='utf-8')
+save('candidates.json',{'Statue waterfront walk':[35.6280,139.7711],'Marine House waterfront':[35.63016,139.77533],'Daiba Park waterfront':[35.6341,139.77141]})
+spec={'map':'map.jpg','crop':[0,500,2304,2304],'width':1280,'camera':[35.6280,139.7711],'heading':330,'hfov':69,'range_m':700,'labels':[{'at':[35.6280,139.7711],'text':'Approx. camera / 150m radius','dx':-600,'dy':30,'color':'#ffdd55'},{'at':[35.6312,139.7694],'text':'Old breakwater','dx':-350,'dy':20},{'at':[35.6332,139.7669],'text':'No.6 Daiba','dx':0,'dy':0},{'at':[35.6340,139.7720],'text':'Daiba Park / No.3','dx':100,'dy':80}], 'panels':[{'image':'query.jpg','caption':'User photo: bridge, old breakwater and skyline'},{'image':'comparison.jpg','caption':'Nearby street view (camera offset about 30m)'}]}
+save('evidence_spec.json',spec)
+pose=json.loads((p/'pose.json').read_text()); f=pose['_params'][6]; pitch=pose['_params'][4]
+save('pose_validation.json',{'actual_projection_horizon_row':405+f*math.tan(math.radians(pitch)),'observed_approx_flat_water_row':490,'ground_elevation_m':0,'solved_camera_elevation_m':pose['height'],'note':'pose.py sanity horizon text uses the opposite pitch sign to its own projection function. Correct horizon uses H/2+f*tan(pitch). Four control points only; leave-one-out unavailable. Image-point and satellite landmark interpretation errors are not fully represented by the fit radius. Final reporting extent deliberately enlarged to150m. Foreground is old breakwater, not No.3/No.6 island; earlier island-only template was rejected by high horizontal residual.'})
+save('result.json',{'place':'Odaiba Seaside Park waterfront promenade / Skywalk near Statue of Liberty','wgs84':[35.6280,139.7711],'radius_m':150,'heading_deg_approx':330,'city_confidence':'high','area_confidence':'high','walkway_confidence':'medium','exact_point_confidence':'medium','reverse_image_search':False,'pose':pose,'limits':['No EXIF GPS/time','No exact date','Four control points; satellite point positions approximate','Nearby panorama offset about30m','No building floor claimed']})
+print('Final inputs prepared')

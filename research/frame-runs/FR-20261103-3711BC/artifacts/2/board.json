@@ -1,0 +1,303 @@
+{
+ "case": "1",
+ "photo": "reference.jpg",
+ "created": "2026-11-03T11:44:36",
+ "country": "KR",
+ "candidates": {
+  "Seoul": {
+   "level": "city",
+   "parent": null,
+   "bbox": [
+    37.41,
+    126.73,
+    37.71,
+    127.2
+   ],
+   "scan_bbox": null,
+   "prior": 1.0,
+   "status": "open",
+   "note": ""
+  },
+  "Bukchon": {
+   "level": "area",
+   "parent": "Seoul",
+   "bbox": [
+    37.5795,
+    126.9805,
+    37.585,
+    126.987
+   ],
+   "scan_bbox": null,
+   "prior": 1.0,
+   "status": "open",
+   "note": ""
+  },
+  "Bukchon11ga": {
+   "level": "road",
+   "parent": "Bukchon",
+   "bbox": null,
+   "scan_bbox": null,
+   "prior": 1.0,
+   "status": "open",
+   "note": ""
+  },
+  "Bukchon11da": {
+   "level": "road",
+   "parent": "Bukchon",
+   "bbox": null,
+   "scan_bbox": null,
+   "prior": 1.0,
+   "status": "open",
+   "note": ""
+  },
+  "Bukchon11": {
+   "level": "road",
+   "parent": "Bukchon",
+   "bbox": null,
+   "scan_bbox": null,
+   "prior": 1.0,
+   "status": "open",
+   "note": ""
+  },
+  "CameraUpper": {
+   "level": "point",
+   "parent": "Bukchon11ga",
+   "bbox": null,
+   "scan_bbox": null,
+   "prior": 1.0,
+   "status": "open",
+   "note": ""
+  },
+  "CameraMid": {
+   "level": "point",
+   "parent": "Bukchon11ga",
+   "bbox": null,
+   "scan_bbox": null,
+   "prior": 1.0,
+   "status": "open",
+   "note": ""
+  },
+  "CameraLower": {
+   "level": "point",
+   "parent": "Bukchon11ga",
+   "bbox": null,
+   "scan_bbox": null,
+   "prior": 1.0,
+   "status": "open",
+   "note": ""
+  },
+  "CameraNorth": {
+   "level": "point",
+   "parent": "Bukchon11ga",
+   "bbox": [
+    37.583178,
+    126.983062,
+    37.58363,
+    126.983629
+   ],
+   "scan_bbox": null,
+   "center": [
+    37.58340361580242,
+    126.98334587482722
+   ],
+   "prior": 1.0,
+   "status": "open",
+   "note": "Actual GSV coordinates; original footing may differ along sidewalk",
+   "from": "camera-candidates.json"
+  }
+ },
+ "clues": {
+  "K1": {
+   "text": "Descending paved alley; left consecutive gable roofs and red white geometric brick walls; right continuous wall and eaves; skyline tower left and paired antenna tower right",
+   "kind": "architecture",
+   "status": "observed",
+   "file": "reference.jpg",
+   "source": "",
+   "used": true
+  },
+  "K2": {
+   "text": "DINOv2 ranks the 37.583326,126.983396 panorama first among 160 southward views; SIFT 0 inliers at top result, insufficient alone for confirmation",
+   "kind": "image-match",
+   "status": "computed",
+   "file": "C:\\Users\\admin\\Documents\\ChatGPT\\새로운 프로젝트 선정\\frame-location\\.local-data\\requests\\FR-20261103-3711BC\\runs\\2\\match-initial.json",
+   "source": "",
+   "used": true,
+   "resolves": [
+    "K1"
+   ]
+  },
+  "K3": {
+   "text": "Visual comparison finds same left gable timber frame, repeated stepped tiled eaves, red white wall frieze and end-of-lane gate; reverse panorama confirms short segment near cross alley",
+   "kind": "architecture",
+   "status": "observed",
+   "file": "comparison-panel-roofs.jpg",
+   "source": "",
+   "used": true
+  },
+  "K4": {
+   "text": "Road bearings 164.1-166.2 degrees and terrain 71 to 64 m agree with downhill SSE scene; fixed-position pose projection does not uniquely recover camera pitch or focal length",
+   "kind": "geometry",
+   "status": "computed",
+   "file": "pose-projection.txt",
+   "source": "",
+   "used": true
+  }
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "clue": "K1",
+   "candidate": "Bukchon",
+   "lr": 5.0,
+   "why": "Reverse image search same-scene references identify Bukchon; area pending panorama match",
+   "file": "intake/rev/reference_yandex.png",
+   "cmd": ""
+  },
+  {
+   "id": "E2",
+   "clue": "K1",
+   "candidate": "Seoul",
+   "lr": 5.0,
+   "why": "Reverse image search same-scene references identify Bukchon; area pending panorama match",
+   "file": "intake/rev/reference_yandex.png",
+   "cmd": ""
+  },
+  {
+   "id": "E3",
+   "clue": "K2",
+   "candidate": "Bukchon11ga",
+   "lr": 5.0,
+   "why": "160 public panorama renders ranked; top10 cluster along one north-south alley; inspect top-ranked fixed structures",
+   "file": "match-initial.jpg",
+   "cmd": ""
+  },
+  {
+   "id": "E4",
+   "clue": "K2",
+   "candidate": "CameraUpper",
+   "lr": 5.0,
+   "why": "160 public panorama renders ranked; top10 cluster along one north-south alley; inspect top-ranked fixed structures",
+   "file": "match-initial.jpg",
+   "cmd": ""
+  },
+  {
+   "id": "E5",
+   "clue": "K2",
+   "candidate": "CameraMid",
+   "lr": 2.0,
+   "why": "160 public panorama renders ranked; top10 cluster along one north-south alley; inspect top-ranked fixed structures",
+   "file": "match-initial.jpg",
+   "cmd": ""
+  },
+  {
+   "id": "E6",
+   "clue": "K2",
+   "candidate": "CameraLower",
+   "lr": 1.2,
+   "why": "160 public panorama renders ranked; top10 cluster along one north-south alley; inspect top-ranked fixed structures",
+   "file": "match-initial.jpg",
+   "cmd": ""
+  },
+  {
+   "id": "E7",
+   "clue": "K2",
+   "candidate": "Bukchon11da",
+   "lr": 0.4,
+   "why": "Nearby cross and approach streets render different bends and facade sequences; down-weighted, not excluded",
+   "file": "match-initial.jpg",
+   "cmd": ""
+  },
+  {
+   "id": "E8",
+   "clue": "K2",
+   "candidate": "Bukchon11",
+   "lr": 0.4,
+   "why": "Nearby cross and approach streets render different bends and facade sequences; down-weighted, not excluded",
+   "file": "match-initial.jpg",
+   "cmd": ""
+  },
+  {
+   "id": "E9",
+   "clue": "K3",
+   "candidate": "CameraUpper",
+   "lr": 5.0,
+   "why": "Foreground left gable remains visible near upper camera; farther-down viewpoints lose it or reverse facade order. Sidewalk displacement and adjacent upper positions remain possible.",
+   "file": "comparison-panel-roofs.jpg",
+   "cmd": ""
+  },
+  {
+   "id": "E10",
+   "clue": "K3",
+   "candidate": "Bukchon11ga",
+   "lr": 5.0,
+   "why": "Foreground left gable remains visible near upper camera; farther-down viewpoints lose it or reverse facade order. Sidewalk displacement and adjacent upper positions remain possible.",
+   "file": "comparison-panel-roofs.jpg",
+   "cmd": ""
+  },
+  {
+   "id": "E11",
+   "clue": "K3",
+   "candidate": "CameraMid",
+   "lr": 0.5,
+   "why": "Foreground left gable remains visible near upper camera; farther-down viewpoints lose it or reverse facade order. Sidewalk displacement and adjacent upper positions remain possible.",
+   "file": "comparison-panel-roofs.jpg",
+   "cmd": ""
+  },
+  {
+   "id": "E12",
+   "clue": "K3",
+   "candidate": "CameraLower",
+   "lr": 0.3,
+   "why": "Foreground left gable remains visible near upper camera; farther-down viewpoints lose it or reverse facade order. Sidewalk displacement and adjacent upper positions remain possible.",
+   "file": "comparison-panel-roofs.jpg",
+   "cmd": ""
+  },
+  {
+   "id": "E13",
+   "clue": "K3",
+   "candidate": "CameraNorth",
+   "lr": 0.5,
+   "why": "Northern historical view has extra foreground wall and roof; still plausible with different lens and sidewalk stance, retained as local alternative",
+   "file": "sv-north2015.jpg",
+   "cmd": ""
+  },
+  {
+   "id": "E14",
+   "clue": "K4",
+   "candidate": "Bukchon11ga",
+   "lr": 2.0,
+   "why": "Computed road bearings and DEM agree only at road-orientation level; pose projection is a hypothesis consistency test, not independent camera localization",
+   "file": "pose-projection.jpg",
+   "cmd": ""
+  }
+ ],
+ "falsify": {
+  "Bukchon": [
+   "Reject the road hypothesis if consecutive left gables, right eaves and skyline cannot coexist in any local ground-level view"
+  ]
+ },
+ "log": [
+  "11:45 country KR",
+  "13:48 add Seoul (city)",
+  "13:48 add Bukchon (area)",
+  "13:48 add Bukchon11ga (road)",
+  "13:48 add Bukchon11da (road)",
+  "13:48 add Bukchon11 (road)",
+  "13:48 clue K1 [architecture/observed] Descending paved alley; left consecutive gable roofs and red white geometric brick walls; right continuous wall and eaves; skyline tower left and paired antenna tower right",
+  "13:49 evidence K1 → Bukchon:5, Seoul:5",
+  "13:49 falsify Bukchon: Reject the road hypothesis if consecutive left gables, right eaves and skyline cannot coexist in any local ground-level view",
+  "13:51 clue K2 [image-match/computed] DINOv2 ranks the 37.583326,126.983396 panorama first among 160 southward views; SIFT 0 inliers at top result, insufficient alone for confirmation; resolves K1",
+  "13:53 add CameraUpper (point)",
+  "13:53 add CameraMid (point)",
+  "13:53 add CameraLower (point)",
+  "13:53 evidence K2 → Bukchon11ga:5, CameraUpper:5, CameraMid:2, CameraLower:1.2",
+  "13:53 evidence K2 → Bukchon11da:0.4, Bukchon11:0.4",
+  "13:56 clue K3 [architecture/observed] Visual comparison finds same left gable timber frame, repeated stepped tiled eaves, red white wall frieze and end-of-lane gate; reverse panorama confirms short segment near cross alley",
+  "13:56 evidence K3 → CameraUpper:5, Bukchon11ga:5, CameraMid:0.5, CameraLower:0.3",
+  "13:57 add --from camera-candidates.json → +1 point",
+  "13:57 evidence K3 → CameraNorth:0.5",
+  "13:57 clue K4 [geometry/computed] Road bearings 164.1-166.2 degrees and terrain 71 to 64 m agree with downhill SSE scene; fixed-position pose projection does not uniquely recover camera pitch or focal length",
+  "13:57 evidence K4 → Bukchon11ga:2"
+ ],
+ "updated": "2026-11-03T13:57:42"
+}

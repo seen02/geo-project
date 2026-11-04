@@ -1,0 +1,101 @@
+{
+  "evidence-spec.json": {
+    "ok": true
+  },
+  "evidence.jpg": {
+    "ok": true,
+    "width": 1280,
+    "height": 1796
+  },
+  "satellite.jpg": {
+    "ok": true,
+    "width": 1280,
+    "height": 1280
+  },
+  "gsv-upper25.json": {
+    "ok": false,
+    "error": "Extra data: line 283 column 1 (char 4280)"
+  },
+  "panorama-candidates.json": {
+    "ok": true
+  },
+  "match-initial.jpg": {
+    "ok": true,
+    "width": 1440,
+    "height": 1440
+  },
+  "sv-top.jpg": {
+    "ok": true,
+    "width": 512,
+    "height": 768
+  },
+  "sv-south.jpg": {
+    "ok": true,
+    "width": 512,
+    "height": 768
+  },
+  "sv-reverse.jpg": {
+    "ok": true,
+    "width": 960,
+    "height": 768
+  },
+  "comparison-panel-roofs.jpg": {
+    "ok": true,
+    "width": 1200,
+    "height": 810
+  },
+  "comparison-panel-depth.jpg": {
+    "ok": true,
+    "width": 1200,
+    "height": 810
+  },
+  "match-initial.json": {
+    "ok": true
+  },
+  "match-fine.json": {
+    "ok": true
+  },
+  "match-fine.jpg": {
+    "ok": true,
+    "width": 1440,
+    "height": 1440
+  },
+  "geometry-road-bearing.txt": {
+    "ok": false,
+    "error": "unsupported verification file format"
+  },
+  "geometry-long-bearing.txt": {
+    "ok": false,
+    "error": "unsupported verification file format"
+  },
+  "terrain-camera.txt": {
+    "ok": false,
+    "error": "unsupported verification file format"
+  },
+  "terrain-mid.txt": {
+    "ok": false,
+    "error": "unsupported verification file format"
+  },
+  "terrain-lower.txt": {
+    "ok": false,
+    "error": "unsupported verification file format"
+  },
+  "pose-consistency.json": {
+    "ok": true
+  },
+  "projection-points.json": {
+    "ok": true
+  },
+  "pose-projection.txt": {
+    "ok": false,
+    "error": "unsupported verification file format"
+  },
+  "pose-projection.jpg": {
+    "ok": true,
+    "width": 2866,
+    "height": 5095
+  },
+  "satellite.json": {
+    "ok": true
+  }
+}

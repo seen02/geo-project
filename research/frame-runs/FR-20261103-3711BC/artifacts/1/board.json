@@ -1,0 +1,14 @@
+{
+ "case": "1",
+ "photo": "reference.jpg",
+ "created": "2026-11-03T11:44:36",
+ "country": "KR",
+ "candidates": {},
+ "clues": {},
+ "evidence": [],
+ "falsify": {},
+ "log": [
+  "11:45 country KR"
+ ],
+ "updated": "2026-11-03T11:45:40"
+}

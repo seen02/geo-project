@@ -1,0 +1,91 @@
+{
+ "case": "geo_work_20261102_house",
+ "photo": "query.jpg",
+ "created": "2026-11-02T10:36:28",
+ "country": "KR",
+ "candidates": {
+  "South Korea": {
+   "level": "country",
+   "parent": null,
+   "bbox": null,
+   "scan_bbox": null,
+   "prior": 1.0,
+   "status": "open",
+   "note": ""
+  }
+ },
+ "clues": {
+  "K1": {
+   "text": "Korean-style passenger registration plate with Hangul, Kia Seltos and Korean-style power utility installation; no location text. Modern brown standing-seam roofs, dark timber cabin, landscaped pines, broadleaf fruit trees with white protective bags, gravel court between wooded slopes.",
+   "kind": "scene",
+   "status": "observed",
+   "file": "query.jpg",
+   "source": "",
+   "used": true
+  },
+  "K2": {
+   "text": "No GPS, capture date, camera or lens EXIF in supplied1440x1080 JPEG. OCR yields vehicle-number digits only; a wall address plate is largely occluded and the right-side strip is illegible.",
+   "kind": "metadata",
+   "status": "computed",
+   "file": "intake/intake.json",
+   "source": "",
+   "used": false
+  },
+  "K3": {
+   "text": "Long leathery leaves and bagged fruit might be loquat; species is unverified and planting can occur outside its main crop regions. This clue cannot establish a province.",
+   "kind": "vegetation",
+   "status": "inferred",
+   "file": "vegetation.jpg",
+   "source": "",
+   "used": false
+  },
+  "K4": {
+   "text": "Eight keyword-discovered Korean exterior references were locally ranked by DINOv2/SIFT, then all eight visually checked. None reproduces the standing-seam roof geometry, dark facade, window/deck placement and sculpted multi-stem pine. No matching anchor. Earlier13 downloaded items were five mostly night-scene photos and eight site icons, not13 independent property candidates.",
+   "kind": "comparison",
+   "status": "computed",
+   "file": "exterior_match.json",
+   "source": "",
+   "used": false
+  },
+  "K5": {
+   "text": "Visible registration text contains Hangul 어 between a three-digit and four-digit number group, consistent with a South Korean passenger plate. This is a reading of the plate, not a regional registration identifier.",
+   "kind": "plate",
+   "status": "read",
+   "file": "intake/edges/query_corner_bl.jpg",
+   "source": "",
+   "used": true
+  }
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "clue": "K1",
+   "candidate": "South Korea",
+   "lr": 5.0,
+   "why": "Plate script and format together with surrounding infrastructure support Korea; plate is not a regional code.",
+   "file": "query.jpg",
+   "cmd": ""
+  },
+  {
+   "id": "E2",
+   "clue": "K5",
+   "candidate": "South Korea",
+   "lr": 5.0,
+   "why": "Read Hangul character and digit grouping support South Korea only; no local region is encoded.",
+   "file": "intake/edges/query_corner_bl.jpg",
+   "cmd": ""
+  }
+ ],
+ "falsify": {},
+ "log": [
+  "10:36 add South Korea (country)",
+  "10:36 clue K1 [scene/observed] Korean-style passenger registration plate with Hangul, Kia Seltos and Korean-style power utility installation; no location text. Modern brown standing-seam roofs, dark timber cabin, landscaped pines, broadleaf fruit trees with white protective bags, gravel court between wooded slopes.",
+  "10:36 evidence K1 → South Korea:5",
+  "10:40 clue K2 [metadata/computed] No GPS, capture date, camera or lens EXIF in supplied1440x1080 JPEG. OCR yields vehicle-number digits only; a wall address plate is largely occluded and the right-side strip is illegible.",
+  "10:40 clue K3 [vegetation/inferred] Long leathery leaves and bagged fruit might be loquat; species is unverified and planting can occur outside its main crop regions. This clue cannot establish a province.",
+  "10:40 clue K4 [comparison/computed] Eight keyword-discovered Korean exterior references were locally ranked by DINOv2/SIFT, then all eight visually checked. None reproduces the standing-seam roof geometry, dark facade, window/deck placement and sculpted multi-stem pine. No matching anchor. Earlier13 downloaded items were five mostly night-scene photos and eight site icons, not13 independent property candidates.",
+  "10:40 clue K5 [plate/read] Visible registration text contains Hangul 어 between a three-digit and four-digit number group, consistent with a South Korean passenger plate. This is a reading of the plate, not a regional registration identifier.",
+  "10:40 evidence K5 → South Korea:5"
+ ],
+ "updated": "2026-11-02T10:40:52"
+}

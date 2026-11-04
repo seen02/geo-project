@@ -1,0 +1,919 @@
+{
+ "P1": {
+  "ll": [
+   37.1926194,
+   127.0277161
+  ],
+  "frames": [
+   {
+    "hfov": 44.0,
+    "heading": 42.01,
+    "points": [
+     {
+      "name": "Crossing",
+      "dist_m": 33,
+      "rel_deg": 12.02,
+      "half_width_deg": 0.0,
+      "px": 1719,
+      "in_frame": "full"
+     },
+     {
+      "name": "T",
+      "dist_m": 26,
+      "rel_deg": 7.95,
+      "half_width_deg": 0.0,
+      "px": 1515,
+      "in_frame": "full"
+     }
+    ]
+   },
+   {
+    "hfov": 44.1,
+    "heading": 41.99,
+    "points": [
+     {
+      "name": "Crossing",
+      "dist_m": 33,
+      "rel_deg": 12.04,
+      "half_width_deg": 0.0,
+      "px": 1719,
+      "in_frame": "full"
+     },
+     {
+      "name": "T",
+      "dist_m": 26,
+      "rel_deg": 7.96,
+      "half_width_deg": 0.0,
+      "px": 1515,
+      "in_frame": "full"
+     }
+    ]
+   },
+   {
+    "hfov": 44.19,
+    "heading": 41.97,
+    "points": [
+     {
+      "name": "Crossing",
+      "dist_m": 33,
+      "rel_deg": 12.06,
+      "half_width_deg": 0.0,
+      "px": 1718,
+      "in_frame": "full"
+     },
+     {
+      "name": "T",
+      "dist_m": 26,
+      "rel_deg": 7.98,
+      "half_width_deg": 0.0,
+      "px": 1515,
+      "in_frame": "full"
+     }
+    ]
+   },
+   {
+    "hfov": 44.29,
+    "heading": 41.95,
+    "points": [
+     {
+      "name": "Crossing",
+      "dist_m": 33,
+      "rel_deg": 12.08,
+      "half_width_deg": 0.0,
+      "px": 1718,
+      "in_frame": "full"
+     },
+     {
+      "name": "T",
+      "dist_m": 26,
+      "rel_deg": 8.0,
+      "half_width_deg": 0.0,
+      "px": 1515,
+      "in_frame": "full"
+     }
+    ]
+   },
+   {
+    "hfov": 44.38,
+    "heading": 41.93,
+    "points": [
+     {
+      "name": "Crossing",
+      "dist_m": 33,
+      "rel_deg": 12.1,
+      "half_width_deg": 0.0,
+      "px": 1718,
+      "in_frame": "full"
+     },
+     {
+      "name": "T",
+      "dist_m": 26,
+      "rel_deg": 8.02,
+      "half_width_deg": 0.0,
+      "px": 1515,
+      "in_frame": "full"
+     }
+    ]
+   },
+   {
+    "hfov": 44.48,
+    "heading": 41.92,
+    "points": [
+     {
+      "name": "Crossing",
+      "dist_m": 33,
+      "rel_deg": 12.11,
+      "half_width_deg": 0.0,
+      "px": 1717,
+      "in_frame": "full"
+     },
+     {
+      "name": "T",
+      "dist_m": 26,
+      "rel_deg": 8.04,
+      "half_width_deg": 0.0,
+      "px": 1515,
+      "in_frame": "full"
+     }
+    ]
+   },
+   {
+    "hfov": 44.58,
+    "heading": 41.9,
+    "points": [
+     {
+      "name": "Crossing",
+      "dist_m": 33,
+      "rel_deg": 12.13,
+      "half_width_deg": 0.0,
+      "px": 1717,
+      "in_frame": "full"
+     },
+     {
+      "name": "T",
+      "dist_m": 26,
+      "rel_deg": 8.06,
+      "half_width_deg": 0.0,
+      "px": 1515,
+      "in_frame": "full"
+     }
+    ]
+   },
+   {
+    "hfov": 44.68,
+    "heading": 41.88,
+    "points": [
+     {
+      "name": "Crossing",
+      "dist_m": 33,
+      "rel_deg": 12.15,
+      "half_width_deg": 0.0,
+      "px": 1716,
+      "in_frame": "full"
+     },
+     {
+      "name": "T",
+      "dist_m": 26,
+      "rel_deg": 8.08,
+      "half_width_deg": 0.0,
+      "px": 1515,
+      "in_frame": "full"
+     }
+    ]
+   },
+   {
+    "hfov": 44.77,
+    "heading": 41.86,
+    "points": [
+     {
+      "name": "Crossing",
+      "dist_m": 33,
+      "rel_deg": 12.17,
+      "half_width_deg": 0.0,
+      "px": 1716,
+      "in_frame": "full"
+     },
+     {
+      "name": "T",
+      "dist_m": 26,
+      "rel_deg": 8.1,
+      "half_width_deg": 0.0,
+      "px": 1515,
+      "in_frame": "full"
+     }
+    ]
+   },
+   {
+    "hfov": 44.87,
+    "heading": 41.84,
+    "points": [
+     {
+      "name": "Crossing",
+      "dist_m": 33,
+      "rel_deg": 12.19,
+      "half_width_deg": 0.0,
+      "px": 1715,
+      "in_frame": "full"
+     },
+     {
+      "name": "T",
+      "dist_m": 26,
+      "rel_deg": 8.12,
+      "half_width_deg": 0.0,
+      "px": 1515,
+      "in_frame": "full"
+     }
+    ]
+   },
+   {
+    "hfov": 44.97,
+    "heading": 41.82,
+    "points": [
+     {
+      "name": "Crossing",
+      "dist_m": 33,
+      "rel_deg": 12.21,
+      "half_width_deg": 0.0,
+      "px": 1715,
+      "in_frame": "full"
+     },
+     {
+      "name": "T",
+      "dist_m": 26,
+      "rel_deg": 8.14,
+      "half_width_deg": 0.0,
+      "px": 1515,
+      "in_frame": "full"
+     }
+    ]
+   },
+   {
+    "hfov": 45.07,
+    "heading": 41.8,
+    "points": [
+     {
+      "name": "Crossing",
+      "dist_m": 33,
+      "rel_deg": 12.23,
+      "half_width_deg": 0.0,
+      "px": 1714,
+      "in_frame": "full"
+     },
+     {
+      "name": "T",
+      "dist_m": 26,
+      "rel_deg": 8.16,
+      "half_width_deg": 0.0,
+      "px": 1515,
+      "in_frame": "full"
+     }
+    ]
+   },
+   {
+    "hfov": 45.16,
+    "heading": 41.78,
+    "points": [
+     {
+      "name": "Crossing",
+      "dist_m": 33,
+      "rel_deg": 12.25,
+      "half_width_deg": 0.0,
+      "px": 1714,
+      "in_frame": "full"
+     },
+     {
+      "name": "T",
+      "dist_m": 26,
+      "rel_deg": 8.18,
+      "half_width_deg": 0.0,
+      "px": 1515,
+      "in_frame": "full"
+     }
+    ]
+   },
+   {
+    "hfov": 45.26,
+    "heading": 41.76,
+    "points": [
+     {
+      "name": "Crossing",
+      "dist_m": 33,
+      "rel_deg": 12.27,
+      "half_width_deg": 0.0,
+      "px": 1713,
+      "in_frame": "full"
+     },
+     {
+      "name": "T",
+      "dist_m": 26,
+      "rel_deg": 8.2,
+      "half_width_deg": 0.0,
+      "px": 1515,
+      "in_frame": "full"
+     }
+    ]
+   },
+   {
+    "hfov": 45.36,
+    "heading": 41.74,
+    "points": [
+     {
+      "name": "Crossing",
+      "dist_m": 33,
+      "rel_deg": 12.29,
+      "half_width_deg": 0.0,
+      "px": 1713,
+      "in_frame": "full"
+     },
+     {
+      "name": "T",
+      "dist_m": 26,
+      "rel_deg": 8.22,
+      "half_width_deg": 0.0,
+      "px": 1515,
+      "in_frame": "full"
+     }
+    ]
+   },
+   {
+    "hfov": 45.46,
+    "heading": 41.72,
+    "points": [
+     {
+      "name": "Crossing",
+      "dist_m": 33,
+      "rel_deg": 12.31,
+      "half_width_deg": 0.0,
+      "px": 1712,
+      "in_frame": "full"
+     },
+     {
+      "name": "T",
+      "dist_m": 26,
+      "rel_deg": 8.23,
+      "half_width_deg": 0.0,
+      "px": 1515,
+      "in_frame": "full"
+     }
+    ]
+   },
+   {
+    "hfov": 45.56,
+    "heading": 41.7,
+    "points": [
+     {
+      "name": "Crossing",
+      "dist_m": 33,
+      "rel_deg": 12.33,
+      "half_width_deg": 0.0,
+      "px": 1712,
+      "in_frame": "full"
+     },
+     {
+      "name": "T",
+      "dist_m": 26,
+      "rel_deg": 8.25,
+      "half_width_deg": 0.0,
+      "px": 1515,
+      "in_frame": "full"
+     }
+    ]
+   },
+   {
+    "hfov": 45.66,
+    "heading": 41.68,
+    "points": [
+     {
+      "name": "Crossing",
+      "dist_m": 33,
+      "rel_deg": 12.35,
+      "half_width_deg": 0.0,
+      "px": 1712,
+      "in_frame": "full"
+     },
+     {
+      "name": "T",
+      "dist_m": 26,
+      "rel_deg": 8.27,
+      "half_width_deg": 0.0,
+      "px": 1515,
+      "in_frame": "full"
+     }
+    ]
+   },
+   {
+    "hfov": 45.76,
+    "heading": 41.66,
+    "points": [
+     {
+      "name": "Crossing",
+      "dist_m": 33,
+      "rel_deg": 12.37,
+      "half_width_deg": 0.0,
+      "px": 1711,
+      "in_frame": "full"
+     },
+     {
+      "name": "T",
+      "dist_m": 26,
+      "rel_deg": 8.29,
+      "half_width_deg": 0.0,
+      "px": 1515,
+      "in_frame": "full"
+     }
+    ]
+   },
+   {
+    "hfov": 45.86,
+    "heading": 41.64,
+    "points": [
+     {
+      "name": "Crossing",
+      "dist_m": 33,
+      "rel_deg": 12.39,
+      "half_width_deg": 0.0,
+      "px": 1711,
+      "in_frame": "full"
+     },
+     {
+      "name": "T",
+      "dist_m": 26,
+      "rel_deg": 8.31,
+      "half_width_deg": 0.0,
+      "px": 1515,
+      "in_frame": "full"
+     }
+    ]
+   },
+   {
+    "hfov": 45.96,
+    "heading": 41.62,
+    "points": [
+     {
+      "name": "Crossing",
+      "dist_m": 33,
+      "rel_deg": 12.41,
+      "half_width_deg": 0.0,
+      "px": 1710,
+      "in_frame": "full"
+     },
+     {
+      "name": "T",
+      "dist_m": 26,
+      "rel_deg": 8.33,
+      "half_width_deg": 0.0,
+      "px": 1515,
+      "in_frame": "full"
+     }
+    ]
+   },
+   {
+    "hfov": 46.06,
+    "heading": 41.6,
+    "points": [
+     {
+      "name": "Crossing",
+      "dist_m": 33,
+      "rel_deg": 12.43,
+      "half_width_deg": 0.0,
+      "px": 1710,
+      "in_frame": "full"
+     },
+     {
+      "name": "T",
+      "dist_m": 26,
+      "rel_deg": 8.35,
+      "half_width_deg": 0.0,
+      "px": 1515,
+      "in_frame": "full"
+     }
+    ]
+   },
+   {
+    "hfov": 46.16,
+    "heading": 41.58,
+    "points": [
+     {
+      "name": "Crossing",
+      "dist_m": 33,
+      "rel_deg": 12.45,
+      "half_width_deg": 0.0,
+      "px": 1709,
+      "in_frame": "full"
+     },
+     {
+      "name": "T",
+      "dist_m": 26,
+      "rel_deg": 8.37,
+      "half_width_deg": 0.0,
+      "px": 1515,
+      "in_frame": "full"
+     }
+    ]
+   },
+   {
+    "hfov": 46.26,
+    "heading": 41.56,
+    "points": [
+     {
+      "name": "Crossing",
+      "dist_m": 33,
+      "rel_deg": 12.47,
+      "half_width_deg": 0.0,
+      "px": 1709,
+      "in_frame": "full"
+     },
+     {
+      "name": "T",
+      "dist_m": 26,
+      "rel_deg": 8.39,
+      "half_width_deg": 0.0,
+      "px": 1515,
+      "in_frame": "full"
+     }
+    ]
+   },
+   {
+    "hfov": 46.36,
+    "heading": 41.54,
+    "points": [
+     {
+      "name": "Crossing",
+      "dist_m": 33,
+      "rel_deg": 12.49,
+      "half_width_deg": 0.0,
+      "px": 1708,
+      "in_frame": "full"
+     },
+     {
+      "name": "T",
+      "dist_m": 26,
+      "rel_deg": 8.41,
+      "half_width_deg": 0.0,
+      "px": 1515,
+      "in_frame": "full"
+     }
+    ]
+   },
+   {
+    "hfov": 46.46,
+    "heading": 41.52,
+    "points": [
+     {
+      "name": "Crossing",
+      "dist_m": 33,
+      "rel_deg": 12.51,
+      "half_width_deg": 0.0,
+      "px": 1708,
+      "in_frame": "full"
+     },
+     {
+      "name": "T",
+      "dist_m": 26,
+      "rel_deg": 8.43,
+      "half_width_deg": 0.0,
+      "px": 1515,
+      "in_frame": "full"
+     }
+    ]
+   },
+   {
+    "hfov": 46.56,
+    "heading": 41.5,
+    "points": [
+     {
+      "name": "Crossing",
+      "dist_m": 33,
+      "rel_deg": 12.53,
+      "half_width_deg": 0.0,
+      "px": 1708,
+      "in_frame": "full"
+     },
+     {
+      "name": "T",
+      "dist_m": 26,
+      "rel_deg": 8.45,
+      "half_width_deg": 0.0,
+      "px": 1515,
+      "in_frame": "full"
+     }
+    ]
+   },
+   {
+    "hfov": 46.66,
+    "heading": 41.48,
+    "points": [
+     {
+      "name": "Crossing",
+      "dist_m": 33,
+      "rel_deg": 12.55,
+      "half_width_deg": 0.0,
+      "px": 1707,
+      "in_frame": "full"
+     },
+     {
+      "name": "T",
+      "dist_m": 26,
+      "rel_deg": 8.47,
+      "half_width_deg": 0.0,
+      "px": 1515,
+      "in_frame": "full"
+     }
+    ]
+   },
+   {
+    "hfov": 46.76,
+    "heading": 41.46,
+    "points": [
+     {
+      "name": "Crossing",
+      "dist_m": 33,
+      "rel_deg": 12.57,
+      "half_width_deg": 0.0,
+      "px": 1707,
+      "in_frame": "full"
+     },
+     {
+      "name": "T",
+      "dist_m": 26,
+      "rel_deg": 8.5,
+      "half_width_deg": 0.0,
+      "px": 1515,
+      "in_frame": "full"
+     }
+    ]
+   },
+   {
+    "hfov": 46.87,
+    "heading": 41.44,
+    "points": [
+     {
+      "name": "Crossing",
+      "dist_m": 33,
+      "rel_deg": 12.59,
+      "half_width_deg": 0.0,
+      "px": 1706,
+      "in_frame": "full"
+     },
+     {
+      "name": "T",
+      "dist_m": 26,
+      "rel_deg": 8.52,
+      "half_width_deg": 0.0,
+      "px": 1515,
+      "in_frame": "full"
+     }
+    ]
+   },
+   {
+    "hfov": 46.97,
+    "heading": 41.42,
+    "points": [
+     {
+      "name": "Crossing",
+      "dist_m": 33,
+      "rel_deg": 12.61,
+      "half_width_deg": 0.0,
+      "px": 1706,
+      "in_frame": "full"
+     },
+     {
+      "name": "T",
+      "dist_m": 26,
+      "rel_deg": 8.54,
+      "half_width_deg": 0.0,
+      "px": 1515,
+      "in_frame": "full"
+     }
+    ]
+   },
+   {
+    "hfov": 47.07,
+    "heading": 41.4,
+    "points": [
+     {
+      "name": "Crossing",
+      "dist_m": 33,
+      "rel_deg": 12.63,
+      "half_width_deg": 0.0,
+      "px": 1705,
+      "in_frame": "full"
+     },
+     {
+      "name": "T",
+      "dist_m": 26,
+      "rel_deg": 8.56,
+      "half_width_deg": 0.0,
+      "px": 1515,
+      "in_frame": "full"
+     }
+    ]
+   },
+   {
+    "hfov": 47.17,
+    "heading": 41.38,
+    "points": [
+     {
+      "name": "Crossing",
+      "dist_m": 33,
+      "rel_deg": 12.65,
+      "half_width_deg": 0.0,
+      "px": 1705,
+      "in_frame": "full"
+     },
+     {
+      "name": "T",
+      "dist_m": 26,
+      "rel_deg": 8.58,
+      "half_width_deg": 0.0,
+      "px": 1515,
+      "in_frame": "full"
+     }
+    ]
+   },
+   {
+    "hfov": 47.27,
+    "heading": 41.36,
+    "points": [
+     {
+      "name": "Crossing",
+      "dist_m": 33,
+      "rel_deg": 12.67,
+      "half_width_deg": 0.0,
+      "px": 1704,
+      "in_frame": "full"
+     },
+     {
+      "name": "T",
+      "dist_m": 26,
+      "rel_deg": 8.6,
+      "half_width_deg": 0.0,
+      "px": 1515,
+      "in_frame": "full"
+     }
+    ]
+   },
+   {
+    "hfov": 47.38,
+    "heading": 41.34,
+    "points": [
+     {
+      "name": "Crossing",
+      "dist_m": 33,
+      "rel_deg": 12.69,
+      "half_width_deg": 0.0,
+      "px": 1704,
+      "in_frame": "full"
+     },
+     {
+      "name": "T",
+      "dist_m": 26,
+      "rel_deg": 8.62,
+      "half_width_deg": 0.0,
+      "px": 1515,
+      "in_frame": "full"
+     }
+    ]
+   },
+   {
+    "hfov": 47.48,
+    "heading": 41.32,
+    "points": [
+     {
+      "name": "Crossing",
+      "dist_m": 33,
+      "rel_deg": 12.71,
+      "half_width_deg": 0.0,
+      "px": 1704,
+      "in_frame": "full"
+     },
+     {
+      "name": "T",
+      "dist_m": 26,
+      "rel_deg": 8.64,
+      "half_width_deg": 0.0,
+      "px": 1515,
+      "in_frame": "full"
+     }
+    ]
+   },
+   {
+    "hfov": 47.58,
+    "heading": 41.3,
+    "points": [
+     {
+      "name": "Crossing",
+      "dist_m": 33,
+      "rel_deg": 12.73,
+      "half_width_deg": 0.0,
+      "px": 1703,
+      "in_frame": "full"
+     },
+     {
+      "name": "T",
+      "dist_m": 26,
+      "rel_deg": 8.66,
+      "half_width_deg": 0.0,
+      "px": 1515,
+      "in_frame": "full"
+     }
+    ]
+   },
+   {
+    "hfov": 47.69,
+    "heading": 41.28,
+    "points": [
+     {
+      "name": "Crossing",
+      "dist_m": 33,
+      "rel_deg": 12.75,
+      "half_width_deg": 0.0,
+      "px": 1703,
+      "in_frame": "full"
+     },
+     {
+      "name": "T",
+      "dist_m": 26,
+      "rel_deg": 8.68,
+      "half_width_deg": 0.0,
+      "px": 1515,
+      "in_frame": "full"
+     }
+    ]
+   },
+   {
+    "hfov": 47.79,
+    "heading": 41.25,
+    "points": [
+     {
+      "name": "Crossing",
+      "dist_m": 33,
+      "rel_deg": 12.78,
+      "half_width_deg": 0.0,
+      "px": 1702,
+      "in_frame": "full"
+     },
+     {
+      "name": "T",
+      "dist_m": 26,
+      "rel_deg": 8.7,
+      "half_width_deg": 0.0,
+      "px": 1515,
+      "in_frame": "full"
+     }
+    ]
+   },
+   {
+    "hfov": 47.9,
+    "heading": 41.23,
+    "points": [
+     {
+      "name": "Crossing",
+      "dist_m": 33,
+      "rel_deg": 12.8,
+      "half_width_deg": 0.0,
+      "px": 1702,
+      "in_frame": "full"
+     },
+     {
+      "name": "T",
+      "dist_m": 26,
+      "rel_deg": 8.72,
+      "half_width_deg": 0.0,
+      "px": 1515,
+      "in_frame": "full"
+     }
+    ]
+   },
+   {
+    "hfov": 48.0,
+    "heading": 41.21,
+    "points": [
+     {
+      "name": "Crossing",
+      "dist_m": 33,
+      "rel_deg": 12.82,
+      "half_width_deg": 0.0,
+      "px": 1701,
+      "in_frame": "full"
+     },
+     {
+      "name": "T",
+      "dist_m": 26,
+      "rel_deg": 8.74,
+      "half_width_deg": 0.0,
+      "px": 1515,
+      "in_frame": "full"
+     }
+    ]
+   }
+  ],
+  "occlusion": [],
+  "verdict": {
+   "Crossing": {
+    "verdict": "in frame over the whole field-of-view range; no height h given, not checked whether it is big enough or shows above the foreground",
+    "absence_excludes": false
+   }
+  }
+ }
+}

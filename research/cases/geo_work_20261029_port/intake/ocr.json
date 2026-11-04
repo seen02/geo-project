@@ -1,0 +1,21 @@
+{
+ "image": "C:\\Users\\admin\\img2place_project\\geo_work_20261029_port\\query.jpg",
+ "size": [
+  1081,
+  1440
+ ],
+ "backend": "rapidocr",
+ "items": [
+  {
+   "text": "640",
+   "conf": 0.993,
+   "box": [
+    511,
+    886,
+    530,
+    904
+   ],
+   "pass": "full"
+  }
+ ]
+}

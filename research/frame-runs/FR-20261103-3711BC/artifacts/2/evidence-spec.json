@@ -1,0 +1,63 @@
+{
+  "map": "satellite.jpg",
+  "width": 1280,
+  "camera": [
+    37.58332635447713,
+    126.9833964451579
+  ],
+  "range_m": 100,
+  "labels": [
+    {
+      "at": [
+        37.58332635447713,
+        126.9833964451579
+      ],
+      "text": "Camera estimate | radius ~25 m",
+      "color": "#ffee00",
+      "dx": -360,
+      "dy": -50
+    },
+    {
+      "at": [
+        37.58319694449171,
+        126.983436524374
+      ],
+      "text": "Adjacent panorama (14.8 m)",
+      "color": "#00ffff",
+      "dx": -330,
+      "dy": 35
+    }
+  ],
+  "lines": [
+    {
+      "from": [
+        37.58332635447713,
+        126.9833964451579
+      ],
+      "bearing": 155,
+      "length_m": 100,
+      "color": "#ff5577"
+    },
+    {
+      "from": [
+        37.58332635447713,
+        126.9833964451579
+      ],
+      "bearing": 164.1,
+      "length_m": 73.1,
+      "color": "#00ffff"
+    }
+  ],
+  "panels": [
+    {
+      "image": "comparison-panel-roofs.jpg",
+      "caption": "Ground-level comparison A | Google Street View / reference"
+    },
+    {
+      "image": "comparison-panel-depth.jpg",
+      "caption": "Ground-level comparison B | adjacent panorama / reference"
+    }
+  ],
+  "attribution": "Satellite and panoramas: Google Maps; reference supplied by user. Source links in verification-notes.json.",
+  "heading_note": "Pink line: approximate camera heading 155 degrees. Cyan: road axis. No view cone: hfov unknown."
+}

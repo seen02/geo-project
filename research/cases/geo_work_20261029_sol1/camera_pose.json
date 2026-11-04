@@ -1,0 +1,21 @@
+{
+  "_frame": {
+    "lat0": 33.2273,
+    "lon0": 126.303,
+    "image_size": [
+      1440,
+      810
+    ],
+    "frame": "upright"
+  },
+  "_params": [
+    0,
+    0,
+    2.6,
+    220,
+    0.18318520048194478,
+    0,
+    938.3222684456681
+  ],
+  "caution": "Representative shoreline position, not a solved camera fix. Ground DEM1m, assumed eye1.6m. Pitch calibrated from sea horizon row408 using project sign convention. pose.sanity horizon text has a known opposite-sign formula; target projection and actual overlay are used. Terrain shape fits broadly, cliff edge is smoothed and does not coincide exactly."
+}

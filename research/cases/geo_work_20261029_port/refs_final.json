@@ -1,0 +1,48 @@
+[
+  {
+    "name": "Tokyo sunset",
+    "url": "https://assets.st-note.com/production/uploads/images/134966852/picture_pc_b71a0d32dbdd2f164ce1d71e8938c919.jpg",
+    "file": "refs\\00.jpg"
+  },
+  {
+    "name": "Kobe approach",
+    "url": "https://blog-imgs-166-origin.fc2.com/o/p/e/opentp2/20240212150123100.jpg",
+    "file": "refs\\01.jpg"
+  },
+  {
+    "name": "Kobe bridge",
+    "url": "https://blog-imgs-166-origin.fc2.com/o/p/e/opentp2/20240212150132ccc.jpg",
+    "file": "refs\\02.jpg"
+  },
+  {
+    "name": "Osaka front",
+    "url": "https://cdn.4travel.jp/img/thumbnails/imk/travelogue_pict/69/02/17/650x_69021733.jpg?updated_at=1615812412",
+    "file": "refs\\03.jpg"
+  },
+  {
+    "name": "Tokyo factory",
+    "url": "https://www.japan-photo.de/ZEMENTWERK-TOKYO.jpg",
+    "file": "refs\\04.jpg"
+  },
+  {
+    "name": "Tokyo factory2",
+    "url": "https://stat.ameba.jp/user_images/20250125/22/hideki-megumi/35/9c/j/o2241149415537078414.jpg",
+    "file": "refs\\05.jpg"
+  },
+  {
+    "name": "Kobe industry",
+    "url": "https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/798126/ad7270774caa9b1a49b18c5a9b536901_aceb32d66fb07c57dd4ae63e6b4ea83b.jpg?width=640",
+    "file": "refs\\06.jpg"
+  },
+  {
+    "name": "Tokyo guideway",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "Matching Yurikamome loop scene",
+    "file": "refs/07.jpg",
+    "page": "https://jnsforum.com/community/topic/20751-ed75s-random-japanese-trip-photos/page/3/",
+    "url": "https://jnsforum.s3.amazonaws.com/monthly_2025_01/IMG_7612.JPG.f19f617f95e39c4cc2bece9620dee164.JPG",
+    "discovery": "Text/keyword search; no image uploaded"
+  }
+]

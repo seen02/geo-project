@@ -1,0 +1,30 @@
+{
+ "photo": "C:\\Users\\admin\\img2place_project\\geo_slueth_test\\terrain_test_images\\KakaoTalk_20261028_142436521.jpg",
+ "input": null,
+ "result": "ok",
+ "exif": {
+  "file": "C:\\Users\\admin\\img2place_project\\geo_slueth_test\\terrain_test_images\\KakaoTalk_20261028_142436521.jpg",
+  "size": [
+   1440,
+   810
+  ]
+ },
+ "ocr": [],
+ "rev": [],
+ "votes": {
+  "city": {},
+  "place": {}
+ },
+ "status": {
+  "exif": "ok",
+  "variants": "ok",
+  "edges": "ok",
+  "ocr": "ok"
+ },
+ "timings": {
+  "exif": 0.8,
+  "variants": 2.1,
+  "edges": 2.5,
+  "ocr": 10.3
+ }
+}

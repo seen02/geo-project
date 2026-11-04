@@ -1,0 +1,164 @@
+{
+ "place": "Odaiba Seaside Park waterfront promenade / Skywalk near Statue of Liberty",
+ "wgs84": [
+  35.628,
+  139.7711
+ ],
+ "radius_m": 150,
+ "heading_deg_approx": 330,
+ "city_confidence": "high",
+ "area_confidence": "high",
+ "walkway_confidence": "medium",
+ "exact_point_confidence": "medium",
+ "reverse_image_search": false,
+ "pose": {
+  "camera_ll": [
+   35.6279995,
+   139.7710925
+  ],
+  "height": 9.9,
+  "heading": 329.71,
+  "pitch": 4.67,
+  "roll": 0.0,
+  "hfov": 69.07,
+  "rms_px": 1.33,
+  "points": 4,
+  "unknowns": 6,
+  "dof": 2,
+  "residuals_px": {
+   "near_tower": [
+    0.0,
+    -1.3
+   ],
+   "far_tower": [
+    -0.0,
+    1.5
+   ],
+   "breakwater_SW": [
+    0.0,
+    1.2
+   ],
+   "breakwater_NE": [
+    -0.1,
+    -1.3
+   ]
+  },
+  "sigma": {
+   "east_m": 4.9,
+   "north_m": 5.5,
+   "height_m": 1.1,
+   "heading_deg": 0.19
+  },
+  "radius_px_only_m": 22.1,
+  "_params": [
+   8.36882325601976,
+   -11.10497998291552,
+   9.873439865613367,
+   329.71361328261474,
+   4.667649433456118,
+   0.0,
+   1046.2468830204546
+  ],
+  "_frame": {
+   "lat0": 35.6281,
+   "lon0": 139.771,
+   "image_size": [
+    1440,
+    810
+   ],
+   "frame": "upright"
+  },
+  "radius_m": 97.9,
+  "radius_note": "95% radius, Monte Carlo 60 trials: control-point coordinates perturbed by 짹10 m (--pt-sigma), pixels by 짹1.3 px. Median offset 40.3 m. The old pixel-noise-only measure is in radius_px_only_m; it doesn't cover the ground truth.",
+  "pt_sigma_m": 10.0,
+  "leave_one_out": {
+   "note": "with 4 points, dropping one leaves no more equations than unknowns, so the per-point check can't be done; add another point, or fix height/roll"
+  }
+ },
+ "limits": [
+  "No EXIF GPS/time",
+  "No exact date",
+  "Four control points; satellite point positions approximate",
+  "Nearby panorama offset about30m",
+  "No building floor claimed"
+ ],
+ "board": {
+  "candidate_levels": {
+   "city": [
+    {
+     "name": "Tokyo",
+     "share": 1.0,
+     "evidence": 1,
+     "verified": 1,
+     "excluded": false
+    }
+   ],
+   "area": [
+    {
+     "name": "Odaiba waterfront",
+     "share": 1.0,
+     "evidence": 1,
+     "verified": 1,
+     "excluded": false
+    }
+   ],
+   "road": [
+    {
+     "name": "Statue waterfront walk",
+     "share": 0.98,
+     "evidence": 1,
+     "verified": 1,
+     "excluded": false
+    },
+    {
+     "name": "Marine House waterfront",
+     "share": 0.01,
+     "evidence": 1,
+     "verified": 0,
+     "excluded": false
+    },
+    {
+     "name": "Daiba Park waterfront",
+     "share": 0.01,
+     "evidence": 1,
+     "verified": 0,
+     "excluded": false
+    }
+   ]
+  },
+  "main": {
+   "level": "road",
+   "name": "Statue waterfront walk",
+   "share": 0.98,
+   "evidence": [
+    {
+     "clue": "Four manually identified controls: two tower tops at official126m elevation and two breakwater waterline endpoints. Full projection fit at35.6279995,139.7710925, heading329.71, height9.9m, RMS1.33px, MonteCarlo radius97.9m. Four controls do not permit leave-one-out; final extent enlarged150m.",
+     "status": "computed",
+     "lr": 20.0,
+     "why": "Bridge and breakwater bearings plus vertical projection agree near Statue of Liberty skywalk. Nearby road panoramas corroborate waterfront boulders, revetment and skyline.",
+     "file": "pose_overlay.jpg"
+    }
+   ]
+  },
+  "alternatives": [],
+  "excluded": [],
+  "unused_clues": [
+   "Suspension bridge with two white towers; a long low breakwater in front; left urban towers; foreground boulders and curved rock revetment. No EXIF or readable text."
+  ],
+  "downweighted_not_excluded": [
+   "Daiba Park waterfront",
+   "Marine House waterfront"
+  ],
+  "falsify": {
+   "Odaiba waterfront": [
+    "Both tower tops and old breakwater endpoints must fit the same camera model, and nearby waterfront must contain the visible rocks and revetment."
+   ]
+  },
+  "unexamined": [],
+  "level_gaps": []
+ },
+ "excluded": [],
+ "unused_clues": [
+  "Suspension bridge with two white towers; a long low breakwater in front; left urban towers; foreground boulders and curved rock revetment. No EXIF or readable text."
+ ]
+}

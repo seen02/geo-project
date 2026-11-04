@@ -1,0 +1,342 @@
+{
+ "photo": "C:\\Users\\admin\\Documents\\ChatGPT\\새로운 프로젝트 선정\\frame-location\\.local-data\\requests\\FR-20261102-C4ABF2\\runs\\1\\reference.jpg",
+ "input": null,
+ "result": "ok",
+ "exif": {
+  "file": "C:\\Users\\admin\\Documents\\ChatGPT\\새로운 프로젝트 선정\\frame-location\\.local-data\\requests\\FR-20261102-C4ABF2\\runs\\1\\reference.jpg",
+  "size": [
+   1440,
+   810
+  ]
+ },
+ "ocr": [
+  {
+   "text": "mihl",
+   "conf": 0.578,
+   "box": [
+    449,
+    227,
+    555,
+    260
+   ],
+   "pass": "tile"
+  }
+ ],
+ "rev": [
+  {
+   "variant": "full_flip",
+   "engine": "baidu",
+   "guess": [
+    "图中可能是沙滩夜跑"
+   ],
+   "links": [
+    {
+     "title": "沙滩不是只有蓝天白云大海\\\\n还有夜晚的 大众点评",
+     "url": "http://m.dianping.com/ugcdetail/123162016?sceneType=0&bizType=29&msource=baiduappugc",
+     "site": "m.dianping.com"
+    }
+   ],
+   "error": null,
+   "refused": false,
+   "shot": "full_flip_baidu.png",
+   "json": "full_flip_baidu.json",
+   "similar_n": 90,
+   "similar_sites": [
+    [
+     "douyin.com",
+     41
+    ],
+    [
+     "meipian.cn",
+     16
+    ],
+    [
+     "xiaohongshu.com",
+     7
+    ],
+    [
+     "h5.weishi.qq.com",
+     5
+    ],
+    [
+     "mbd.baidu.com",
+     3
+    ],
+    [
+     "club.autohome.com.cn",
+     3
+    ],
+    [
+     "quanmin.baidu.com",
+     2
+    ],
+    [
+     "dianping.com",
+     2
+    ],
+    [
+     "mafengwo.cn",
+     2
+    ],
+    [
+     "baijiahao.baidu.com",
+     2
+    ],
+    [
+     "h5.qzone.qq.com",
+     1
+    ],
+    [
+     "post.m.smzdm.com",
+     1
+    ],
+    [
+     "bilibili.com",
+     1
+    ],
+    [
+     "mt.sohu.com",
+     1
+    ],
+    [
+     "gongyi.sohu.com",
+     1
+    ],
+    [
+     "jianshu.com",
+     1
+    ],
+    [
+     "baa.m.yiche.com",
+     1
+    ]
+   ],
+   "similar_sheet": "full_flip_baidu_similar.jpg",
+   "similar_note": null
+  },
+  {
+   "variant": "full_flip",
+   "engine": "yandex",
+   "guess": [
+    "Image appears to contain: the beach at night / пляж ночь / ночной пляж / пляжные фотографии / beach night / Similar images / Show more similar images"
+   ],
+   "links": [
+    {
+     "title": "736×1308",
+     "url": "https://i.pinimg.com/736x/cb/db/f0/cbdbf0e4592c69e34a074942a081c451.jpg",
+     "site": "i.pinimg.com"
+    },
+    {
+     "title": "Pin de Luana Matsui em praia Foto de computador, Fotos de jacaré, Fotos de treinamento",
+     "url": "https://fi.pinterest.com/pin/ghim-ca-rivohtrill4-trn-minhas-fotos--736971926541772472/?utm_medium=organic&utm_source=yandexsmartcamera",
+     "site": "fi.pinterest.com"
+    },
+    {
+     "title": "1134×2016",
+     "url": "https://i.pinimg.com/originals/cb/db/f0/cbdbf0e4592c69e34a074942a081c451.jpg",
+     "site": "i.pinimg.com"
+    },
+    {
+     "title": "Nighttime Beach Scene with Lights in the Sky Foto de computador, Parede de futebol, Fotos de treinamento",
+     "url": "https://id.pinterest.com/pin/ghim-ca-rivohtrill4-trn-minhas-fotos--736971926541772472/?utm_medium=organic&utm_source=yandexsmartcamera",
+     "site": "id.pinterest.com"
+    },
+    {
+     "title": "Nighttime Beach Scene with Lights in the Sky Parede de futebol, Foto de computador, Fotos de jacaré",
+     "url": "https://br.pinterest.com/pin/644296290463809771/?utm_medium=organic&utm_source=yandexsmartcamera",
+     "site": "br.pinterest.com"
+    },
+    {
+     "title": "640×1136",
+     "url": "https://www.scenacriminis.com/wp-content/uploads/sb-instagram-feed-images/739895050_1003749509216491_8274499231947468530_nfull.webp",
+     "site": "www.scenacriminis.com"
+    },
+    {
+     "title": "Bullying may have long-term Health Consequences - Scena Criminis",
+     "url": "https://www.scenacriminis.com/forensic-sciences/bullying-may-have-long-term-health-consequences/?noamp=mobile&utm_medium=organic&utm_source=yandexsmartcamera",
+     "site": "www.scenacriminis.com"
+    }
+   ],
+   "error": null,
+   "refused": false,
+   "shot": "full_flip_yandex.png",
+   "json": "full_flip_yandex.json",
+   "similar_n": 0,
+   "similar_sites": [],
+   "similar_sheet": null,
+   "similar_note": null
+  },
+  {
+   "variant": "reference",
+   "engine": "baidu",
+   "guess": [
+    "图中可能是沙滩夜跑"
+   ],
+   "links": [
+    {
+     "title": "沙滩不是只有蓝天白云大海\\\\n还有夜晚的 大众点评",
+     "url": "http://m.dianping.com/ugcdetail/123162016?sceneType=0&bizType=29&msource=baiduappugc",
+     "site": "m.dianping.com"
+    },
+    {
+     "title": "海景房里的难忘体验 大众点评",
+     "url": "http://m.dianping.com/ugcdetail/262660358?sceneType=0&bizType=29&msource=baiduappugc",
+     "site": "m.dianping.com"
+    }
+   ],
+   "error": null,
+   "refused": false,
+   "shot": "reference_baidu.png",
+   "json": "reference_baidu.json",
+   "similar_n": 90,
+   "similar_sites": [
+    [
+     "douyin.com",
+     36
+    ],
+    [
+     "meipian.cn",
+     12
+    ],
+    [
+     "xiaohongshu.com",
+     11
+    ],
+    [
+     "h5.weishi.qq.com",
+     6
+    ],
+    [
+     "club.autohome.com.cn",
+     5
+    ],
+    [
+     "mbd.baidu.com",
+     3
+    ],
+    [
+     "bilibili.com",
+     3
+    ],
+    [
+     "quanmin.baidu.com",
+     2
+    ],
+    [
+     "baijiahao.baidu.com",
+     2
+    ],
+    [
+     "mafengwo.cn",
+     2
+    ],
+    [
+     "h5.qzone.qq.com",
+     1
+    ],
+    [
+     "post.m.smzdm.com",
+     1
+    ],
+    [
+     "weibo.com",
+     1
+    ],
+    [
+     "tuchong.com",
+     1
+    ],
+    [
+     "nipic.com",
+     1
+    ],
+    [
+     "touch.travel.qunar.com",
+     1
+    ],
+    [
+     "gongyi.sohu.com",
+     1
+    ],
+    [
+     "mt.sohu.com",
+     1
+    ]
+   ],
+   "similar_sheet": "reference_baidu_similar.jpg",
+   "similar_note": null
+  },
+  {
+   "variant": "reference",
+   "engine": "yandex",
+   "guess": [
+    "Image appears to contain: the beach at night / пляж ночь / ночной пляж / пляж / copacabana beach / Similar images / Show more similar images"
+   ],
+   "links": [
+    {
+     "title": "736×1308",
+     "url": "https://i.pinimg.com/736x/cb/db/f0/cbdbf0e4592c69e34a074942a081c451.jpg",
+     "site": "i.pinimg.com"
+    },
+    {
+     "title": "Pin de Luana Matsui em praia Foto de computador, Fotos de jacaré, Fotos de treinamento",
+     "url": "https://fi.pinterest.com/pin/ghim-ca-rivohtrill4-trn-minhas-fotos--736971926541772472/?utm_medium=organic&utm_source=yandexsmartcamera",
+     "site": "fi.pinterest.com"
+    },
+    {
+     "title": "1134×2016",
+     "url": "https://i.pinimg.com/originals/cb/db/f0/cbdbf0e4592c69e34a074942a081c451.jpg",
+     "site": "i.pinimg.com"
+    },
+    {
+     "title": "Nighttime Beach Scene with Lights in the Sky Foto de computador, Parede de futebol, Fotos de treinamento",
+     "url": "https://id.pinterest.com/pin/ghim-ca-rivohtrill4-trn-minhas-fotos--736971926541772472/?utm_medium=organic&utm_source=yandexsmartcamera",
+     "site": "id.pinterest.com"
+    },
+    {
+     "title": "Nighttime Beach Scene with Lights in the Sky Parede de futebol, Foto de computador, Fotos de jacaré",
+     "url": "https://br.pinterest.com/pin/644296290463809771/?utm_medium=organic&utm_source=yandexsmartcamera",
+     "site": "br.pinterest.com"
+    },
+    {
+     "title": "800×527",
+     "url": "https://cdn4.cdn-telegram.org/file/m4AbzJDzOl7nRxaTyWKkFPsFQ_N8kGG4djtiWSUCx8iFx5F96OTPMlLBCdWTEAjAQboVipTDTT73lNZUaQDf39Gb1wlXWxHXl_ucwlbpJSQDsbP1vfBM1mJaQgqzwExQQgz0EWH49DbX0YaNquPoGHd80Vu5K8Z1ah5ljno94XXsEnEf818Fzse08BWKBG3GVevBYE_fuVOi-AAxbvYsTAPcrD57SOSXfZ_lT9jM_AGEZ7RWAigWbsjouOVNj75PyaNyG7836GwfiUye5stI8NgdpksNZuXpsN5w9xGm6uW58d0zFXh4TDFmkEnkWSvwhy961P6lc8yjvgy3IVNHWw.jpg",
+     "site": "cdn4.cdn-telegram.org"
+    },
+    {
+     "title": "YIGAL LEVIN 🇮 🇱 🇺 🇦 - Telegram",
+     "url": "https://t.me/s/yigal_levin/69264?utm_medium=organic&utm_source=yandexsmartcamera",
+     "site": "t.me"
+    }
+   ],
+   "error": null,
+   "refused": false,
+   "shot": "reference_yandex.png",
+   "json": "reference_yandex.json",
+   "similar_n": 0,
+   "similar_sites": [],
+   "similar_sheet": null,
+   "similar_note": null
+  }
+ ],
+ "votes": {
+  "city": {},
+  "place": {}
+ },
+ "status": {
+  "variants": "ok",
+  "exif": "ok",
+  "edges": "ok",
+  "ocr": "ok",
+  "rev-yandex": "ok",
+  "rev-baidu": "ok"
+ },
+ "timings": {
+  "variants": 0.4,
+  "exif": 0.4,
+  "edges": 0.7,
+  "ocr": 7.5,
+  "rev-yandex": 25.6,
+  "rev-baidu": 26.1
+ }
+}

@@ -1,0 +1,64 @@
+{
+ "camera_ll": [
+  35.6279995,
+  139.7710925
+ ],
+ "height": 9.9,
+ "heading": 329.71,
+ "pitch": 4.67,
+ "roll": 0.0,
+ "hfov": 69.07,
+ "rms_px": 1.33,
+ "points": 4,
+ "unknowns": 6,
+ "dof": 2,
+ "residuals_px": {
+  "near_tower": [
+   0.0,
+   -1.3
+  ],
+  "far_tower": [
+   -0.0,
+   1.5
+  ],
+  "breakwater_SW": [
+   0.0,
+   1.2
+  ],
+  "breakwater_NE": [
+   -0.1,
+   -1.3
+  ]
+ },
+ "sigma": {
+  "east_m": 4.9,
+  "north_m": 5.5,
+  "height_m": 1.1,
+  "heading_deg": 0.19
+ },
+ "radius_px_only_m": 22.1,
+ "_params": [
+  8.36882325601976,
+  -11.10497998291552,
+  9.873439865613367,
+  329.71361328261474,
+  4.667649433456118,
+  0.0,
+  1046.2468830204546
+ ],
+ "_frame": {
+  "lat0": 35.6281,
+  "lon0": 139.771,
+  "image_size": [
+   1440,
+   810
+  ],
+  "frame": "upright"
+ },
+ "radius_m": 97.9,
+ "radius_note": "95% radius, Monte Carlo 60 trials: control-point coordinates perturbed by ±10 m (--pt-sigma), pixels by ±1.3 px. Median offset 40.3 m. The old pixel-noise-only measure is in radius_px_only_m; it doesn't cover the ground truth.",
+ "pt_sigma_m": 10.0,
+ "leave_one_out": {
+  "note": "with 4 points, dropping one leaves no more equations than unknowns, so the per-point check can't be done; add another point, or fix height/roll"
+ }
+}

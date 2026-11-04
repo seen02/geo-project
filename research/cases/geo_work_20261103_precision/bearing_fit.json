@@ -1,0 +1,127 @@
+{
+  "model": "horizontal-only pinhole, ignores roll/pitch",
+  "camera_ll": [
+    37.81431368461291,
+    128.8969182254139
+  ],
+  "heading_deg": 108.22253420138684,
+  "hfov_deg": 67.98066826194768,
+  "rms_px": 1.7177343913484504,
+  "residuals_px": {
+    "A_NW_beam_open_end": -1.02,
+    "B_NW_bow": 1.21,
+    "D_SE_beam_open_end": -2.58,
+    "E_stair_foot": 2.37,
+    "F_distant_hotel_north_roof": -0.0
+  },
+  "points": [
+    {
+      "name": "A_NW_beam_open_end",
+      "px": [
+        505,
+        229
+      ],
+      "map_px": [
+        1095,
+        705
+      ],
+      "ll": [
+        37.81419044867545,
+        128.89821991324425
+      ],
+      "h": 8.5,
+      "status": "tentative",
+      "note": "tentative roof beam end; height assumed",
+      "pixel_uncertainty_px": 3,
+      "map_uncertainty_m": 5
+    },
+    {
+      "name": "B_NW_bow",
+      "px": [
+        447,
+        234
+      ],
+      "map_px": [
+        1152,
+        660
+      ],
+      "ll": [
+        37.81423812511777,
+        128.89829635620117
+      ],
+      "h": 8.5,
+      "status": "tentative",
+      "note": "tentative curved rail transition; height assumed",
+      "pixel_uncertainty_px": 3,
+      "map_uncertainty_m": 5
+    },
+    {
+      "name": "D_SE_beam_open_end",
+      "px": [
+        562,
+        232
+      ],
+      "map_px": [
+        1146,
+        764
+      ],
+      "ll": [
+        37.81412793951553,
+        128.89828830957413
+      ],
+      "h": 8.5,
+      "status": "tentative",
+      "note": "tentative far beam end; height assumed",
+      "pixel_uncertainty_px": 3,
+      "map_uncertainty_m": 5
+    },
+    {
+      "name": "E_stair_foot",
+      "px": [
+        589,
+        307
+      ],
+      "map_px": [
+        1115,
+        789
+      ],
+      "ll": [
+        37.81410145256739,
+        128.8982467353344
+      ],
+      "h": 2.0,
+      "status": "tentative",
+      "note": "stair foot; map ground/top ambiguity",
+      "pixel_uncertainty_px": 3,
+      "map_uncertainty_m": 5
+    },
+    {
+      "name": "F_distant_hotel_north_roof",
+      "px": [
+        1401,
+        185
+      ],
+      "ll": [
+        37.80415970013524,
+        128.90734612941742
+      ],
+      "map_px": [
+        238,
+        350
+      ],
+      "status": "tentative identification",
+      "note": "Satellite roof center, 10m uncertainty; image x center \u00b18px. y not used."
+    }
+  ],
+  "exclusion": "C removed: no unique match for the far curved rail",
+  "note": "Candidate region and 500..2500px focal are constraints, not measurements; camera truth not used.",
+  "sensitivity": {
+    "trials": 180,
+    "control_sigma_m": 2,
+    "hotel_sigma_m": 10,
+    "pixel_sigma_px": 3,
+    "offset_p50_m": 51.84874869091071,
+    "offset_p95_m": 145.93958819589741,
+    "warning": "Does not include feature-identity ambiguity, coherent satellite georegistration error or camera model error. Not a confidence radius."
+  }
+}

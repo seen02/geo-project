@@ -1,0 +1,300 @@
+{
+  "title": "geo-slueth 소개 - 테스트 과정 정리 및 활용 가능성 파악",
+  "slideCount": 32,
+  "slides": [
+    {
+      "slide": 1,
+      "title": "geo-slueth 소개 - 테스트 과정 정리 및 활용 가능성 파악"
+    },
+    {
+      "slide": 2,
+      "title": "발표 구성",
+      "section": "",
+      "sources": [
+        "C:/Users/admin/Desktop/발표 자료/통합_업무_비서_소개_기술설명_부록추가_최종.pptx"
+      ]
+    },
+    {
+      "slide": 3,
+      "title": "위치를 모르는 사진의 조사"
+    },
+    {
+      "slide": 4,
+      "title": "사진 위치 조사에서 필요한 기능",
+      "section": "기존 문제와 해결 방식",
+      "sources": [
+        "C:/Users/admin/Desktop/발표 자료/통합_업무_비서_소개_기술설명_부록추가_최종.pptx",
+        "C:\\Users\\admin\\img2place_project\\geo_work_20261028_01\\report.md"
+      ]
+    },
+    {
+      "slide": 5,
+      "title": "geo-sleuth 소개",
+      "section": "사진 위치 조사 도구",
+      "sources": [
+        "C:/Users/admin/.codex/skills/geo-sleuth/SKILL.md",
+        "https://github.com/Oldcircle/geo-sleuth"
+      ]
+    },
+    {
+      "slide": 6,
+      "title": "요청부터 결과까지의 처리 구조",
+      "section": "geo-sleuth의 입출력",
+      "sources": [
+        "C:/Users/admin/.codex/skills/geo-sleuth/SKILL.md",
+        "C:\\Users\\admin\\img2place_project\\geo_work_20261028_01\\result.json"
+      ]
+    },
+    {
+      "slide": 7,
+      "title": "AI와 프로그램의 역할",
+      "section": "geo-sleuth를 실행하는 주체",
+      "sources": [
+        "C:\\Users\\admin\\img2place_project\\geo_work_20261028_01\\report.md",
+        "C:/Users/admin/.codex/skills/geo-sleuth/SKILL.md"
+      ]
+    },
+    {
+      "slide": 8,
+      "title": "테스트 소개",
+      "section": "02  실제 테스트",
+      "sources": [
+        "C:\\Users\\admin\\img2place_project\\geo_slueth_test\\terrain_test_images\\test_astra_1.jpg",
+        "C:\\Users\\admin\\img2place_project\\geo_work_20261028_01\\intake\\intake.md",
+        "C:\\Users\\admin\\img2place_project\\output\\geo_sleuth_처리과정_입출력_테스트_발전방향_최종.pptx"
+      ]
+    },
+    {
+      "slide": 9,
+      "title": "테스트 과정과 단계별 산출물",
+      "section": "03  테스트 과정",
+      "sources": [
+        "C:\\Users\\admin\\img2place_project\\geo_work_20261028_01\\board.json",
+        "C:\\Users\\admin\\img2place_project\\geo_work_20261028_01\\report.md"
+      ]
+    },
+    {
+      "slide": 10,
+      "title": "파일 정보와 사진 속 글자 확인",
+      "phase": 1,
+      "sources": [
+        "C:\\Users\\admin\\img2place_project\\geo_slueth_test\\terrain_test_images\\test_astra_1.jpg",
+        "C:\\Users\\admin\\img2place_project\\geo_work_20261028_01\\intake\\intake.md",
+        "C:\\Users\\admin\\img2place_project\\geo_work_20261028_01\\intake\\ocr.json"
+      ]
+    },
+    {
+      "slide": 11,
+      "title": "AI가 관찰과 장소 가설을 구분",
+      "phase": 2,
+      "sources": [
+        "C:\\Users\\admin\\img2place_project\\geo_slueth_test\\terrain_test_images\\test_astra_1.jpg",
+        "C:\\Users\\admin\\img2place_project\\geo_work_20261028_01\\skyline.png",
+        "C:\\Users\\admin\\img2place_project\\geo_work_20261028_01\\board.json"
+      ]
+    },
+    {
+      "slide": 12,
+      "title": "검색어로 공개 자료를 찾고 사진 수집",
+      "phase": 2,
+      "sources": [
+        "https://taijung.tistory.com/159",
+        "https://ggc.ggcf.kr/p/654ad78777e5f81f54e4a703",
+        "C:\\Users\\admin\\img2place_project\\geo_work_20261028_01\\refs.json",
+        "C:\\Users\\admin\\img2place_project\\geo_work_20261028_01\\public_refs.py"
+      ]
+    },
+    {
+      "slide": 13,
+      "title": "DINOv2가 사진의 전체 유사도 계산",
+      "phase": 3,
+      "sources": [
+        "C:\\Users\\admin\\img2place_project\\geo_work_20261028_01\\matches.json",
+        "C:\\Users\\admin\\img2place_project\\geo_work_20261028_01\\matches.jpg",
+        "C:/Users/admin/.codex/skills/geo-sleuth/scripts/match.py"
+      ]
+    },
+    {
+      "slide": 14,
+      "title": "SIFT와 RANSAC이 세부 대응 검사",
+      "phase": 3,
+      "sources": [
+        "C:\\Users\\admin\\img2place_project\\geo_work_20261028_01\\matches.json",
+        "C:\\Users\\admin\\img2place_project\\geo_work_20261028_01\\refs\\00.jpg",
+        "C:/Users/admin/.codex/skills/geo-sleuth/scripts/match.py"
+      ]
+    },
+    {
+      "slide": 15,
+      "title": "지도 자료로 물체의 실제 위치 확보",
+      "phase": 4,
+      "sources": [
+        "C:\\Users\\admin\\img2place_project\\geo_work_20261028_01\\metapolis.geojson",
+        "C:\\Users\\admin\\img2place_project\\geo_work_20261028_01\\metapolis_map.jpg",
+        "C:\\Users\\admin\\img2place_project\\geo_work_20261028_01\\sema_area.jpg",
+        "C:\\Users\\admin\\img2place_project\\geo_work_20261028_01\\doksan_detail.json"
+      ]
+    },
+    {
+      "slide": 16,
+      "title": "물체의 좌우 간격으로 촬영 구역 비교",
+      "phase": 4,
+      "sources": [
+        "C:\\Users\\admin\\img2place_project\\geo_work_20261028_01\\geometry_scan.py",
+        "C:\\Users\\admin\\img2place_project\\geo_work_20261028_01\\horizontal_scan.json",
+        "C:\\Users\\admin\\img2place_project\\geo_work_20261028_01\\fixed_tower_results.json"
+      ]
+    },
+    {
+      "slide": 17,
+      "title": "후보 좌표로 거리사진 화면 확보",
+      "phase": 5,
+      "sources": [
+        "C:\\Users\\admin\\img2place_project\\geo_work_20261028_01\\road.index.json",
+        "C:\\Users\\admin\\img2place_project\\geo_work_20261028_01\\road_north.json",
+        "C:\\Users\\admin\\img2place_project\\geo_work_20261028_01\\street_reverse.jpg"
+      ]
+    },
+    {
+      "slide": 18,
+      "title": "거리사진의 비교 순위와 대응점 확인",
+      "phase": 6,
+      "sources": [
+        "C:\\Users\\admin\\img2place_project\\geo_work_20261028_01\\road_matches.json",
+        "C:\\Users\\admin\\img2place_project\\geo_work_20261028_01\\road_matches.jpg"
+      ]
+    },
+    {
+      "slide": 19,
+      "title": "AI가 같은 장소인지 구조물을 대조",
+      "phase": 6,
+      "sources": [
+        "C:\\Users\\admin\\img2place_project\\geo_work_20261028_01\\photo_annotated.jpg",
+        "C:\\Users\\admin\\img2place_project\\geo_work_20261028_01\\street_annotated.jpg",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=JLn8Mh9EZ02Qha_FQYGYdg&heading=61&pitch=8&fov=67"
+      ]
+    },
+    {
+      "slide": 20,
+      "title": "후보 위치의 카메라 조건으로 재투영",
+      "phase": 7,
+      "sources": [
+        "C:\\Users\\admin\\img2place_project\\geo_work_20261028_01\\final_pose.json",
+        "C:\\Users\\admin\\img2place_project\\geo_work_20261028_01\\final_points.json",
+        "C:\\Users\\admin\\img2place_project\\geo_work_20261028_01\\pose_selfcheck.jpg"
+      ]
+    },
+    {
+      "slide": 21,
+      "title": "후보 장부에 근거를 연결하고 점검",
+      "phase": 8,
+      "sources": [
+        "C:\\Users\\admin\\img2place_project\\geo_work_20261028_01\\board.json",
+        "C:\\Users\\admin\\img2place_project\\geo_work_20261028_01\\result.json"
+      ]
+    },
+    {
+      "slide": 22,
+      "title": "AI가 대표 좌표와 보고 범위를 결정",
+      "phase": 8,
+      "sources": [
+        "C:\\Users\\admin\\img2place_project\\geo_work_20261028_01\\result.json",
+        "C:\\Users\\admin\\img2place_project\\geo_work_20261028_01\\report.md"
+      ]
+    },
+    {
+      "slide": 23,
+      "title": "설정값으로 증거 그림과 보고서 제작",
+      "phase": 8,
+      "sources": [
+        "C:\\Users\\admin\\img2place_project\\geo_work_20261028_01\\evidence_spec.json",
+        "C:\\Users\\admin\\img2place_project\\geo_work_20261028_01\\finalize_geometry.py",
+        "C:\\Users\\admin\\img2place_project\\geo_work_20261028_01\\finish_outputs.py",
+        "C:\\Users\\admin\\img2place_project\\geo_work_20261028_01\\evidence.jpg",
+        "C:\\Users\\admin\\img2place_project\\geo_work_20261028_01\\report.md"
+      ]
+    },
+    {
+      "slide": 24,
+      "title": "테스트에서 남은 산출물",
+      "section": "04  산출물 정리",
+      "sources": [
+        "C:\\Users\\admin\\img2place_project\\geo_work_20261028_01\\report.md",
+        "C:\\Users\\admin\\img2place_project\\geo_work_20261028_01\\result.json"
+      ]
+    },
+    {
+      "slide": 25,
+      "title": "대표 좌표와 제공된 정답의 사후 비교",
+      "section": "05  테스트 평가",
+      "sources": [
+        "C:\\Users\\admin\\img2place_project\\output\\geo_sleuth_처리과정_입출력_테스트_발전방향_최종.pptx",
+        "C:\\Users\\admin\\img2place_project\\ppt_build_20261029\\test_metrics.json",
+        "C:\\Users\\admin\\img2place_project\\geo_work_20261028_01\\result.json"
+      ]
+    },
+    {
+      "slide": 26,
+      "title": "확인한 범위와 남은 한계",
+      "section": "테스트에서 확인한 점",
+      "sources": [
+        "C:\\Users\\admin\\img2place_project\\geo_work_20261028_01\\report.md",
+        "C:\\Users\\admin\\img2place_project\\geo_work_20261028_01\\final_pose.json"
+      ]
+    },
+    {
+      "slide": 27,
+      "title": "사진의 위치를 검토하는 업무에 활용",
+      "section": "06  활용 가능성",
+      "sources": [
+        "C:\\Users\\admin\\img2place_project\\output\\geo_sleuth_처리과정_입출력_테스트_발전방향_최종.pptx",
+        "C:\\Users\\admin\\img2place_project\\geo_work_20261028_01\\report.md"
+      ]
+    },
+    {
+      "slide": 28,
+      "title": "다음 테스트와 개선 방향",
+      "section": "활용 전 확인할 과제",
+      "sources": [
+        "C:\\Users\\admin\\img2place_project\\output\\geo_sleuth_처리과정_입출력_테스트_발전방향_최종.pptx",
+        "C:\\Users\\admin\\img2place_project\\geo_work_20261028_01\\report.md"
+      ]
+    },
+    {
+      "slide": 29,
+      "title": "세부 작업과 수행 주체 1 / 4",
+      "section": "부록",
+      "sources": [
+        "C:\\Users\\admin\\img2place_project\\geo_work_20261028_01\\report.md",
+        "C:\\Users\\admin\\img2place_project\\geo_work_20261028_01\\board.json"
+      ]
+    },
+    {
+      "slide": 30,
+      "title": "세부 작업과 수행 주체 2 / 4",
+      "section": "부록",
+      "sources": [
+        "C:\\Users\\admin\\img2place_project\\geo_work_20261028_01\\report.md",
+        "C:\\Users\\admin\\img2place_project\\geo_work_20261028_01\\board.json"
+      ]
+    },
+    {
+      "slide": 31,
+      "title": "세부 작업과 수행 주체 3 / 4",
+      "section": "부록",
+      "sources": [
+        "C:\\Users\\admin\\img2place_project\\geo_work_20261028_01\\report.md",
+        "C:\\Users\\admin\\img2place_project\\geo_work_20261028_01\\board.json"
+      ]
+    },
+    {
+      "slide": 32,
+      "title": "세부 작업과 수행 주체 4 / 4",
+      "section": "부록",
+      "sources": [
+        "C:\\Users\\admin\\img2place_project\\geo_work_20261028_01\\report.md",
+        "C:\\Users\\admin\\img2place_project\\geo_work_20261028_01\\board.json"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "map": "loop_detail.jpg",
+  "width": 1280,
+  "crop": [
+    0,
+    100,
+    1280,
+    1000
+  ],
+  "camera": [
+    35.6366,
+    139.7574
+  ],
+  "heading": 185,
+  "hfov": 80,
+  "range_m": 280,
+  "labels": [
+    {
+      "at": [
+        35.6366,
+        139.7574
+      ],
+      "text": "Approx. loop section; radius 300m",
+      "dx": -690,
+      "dy": -65,
+      "color": "#ffcc33"
+    },
+    {
+      "at": [
+        35.6372,
+        139.7563
+      ],
+      "text": "Shibaura loop",
+      "dx": -250,
+      "dy": -40
+    },
+    {
+      "at": [
+        35.6361,
+        139.7579
+      ],
+      "text": "Southward view (approx.)",
+      "dx": -400,
+      "dy": 100
+    }
+  ],
+  "panels": [
+    {
+      "image": "comparison_0.jpg",
+      "caption": "User photo: 1 factory/conveyors; 2 white waterfront structure"
+    },
+    {
+      "image": "comparison_1.jpg",
+      "caption": "Public reference: matching structures and guideway curve"
+    }
+  ]
+}

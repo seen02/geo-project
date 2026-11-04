@@ -1,0 +1,12 @@
+from pathlib import Path
+import json,math
+p=Path(__file__).parent
+def save(n,v): (p/n).write_text(json.dumps(v,indent=2),encoding='utf-8')
+cam=[37.81425,128.8976];obs=[37.81419,128.89829]
+save('segments.json',{'Northwest curved shoreline':[37.81425,128.8976],'South beach approach':[37.8139,128.8981]})
+save('evidence_spec.json',{'map':'map.jpg','crop':[0,0,1200,1000],'width':1280,'camera':cam,'heading':115,'hfov':85,'range_m':150,'labels':[{'at':cam,'text':'Approx. shore section / radius150m','dx':-250,'dy':150,'color':'#ffdd55'},{'at':obs,'text':'Sageunjin Marine Park Observatory','dx':30,'dy':50}], 'panels':[{'image':'anchor_crop.jpg','caption':'User photo: white observatory and pastel tetrapods'},{'image':'refs/0.jpg','caption':'Public comparison: same structural outline and wavebreakers'}]})
+save('pose_assumed.json',{'_frame':{'frame':'upright','image_size':[1440,810],'lat0':cam[0],'lon0':cam[1]},'_params':[0,0,5,115,-8,0,720/math.tan(math.radians(42.5))]})
+save('projection_points.json',[{'name':'observatory_base','ll':obs,'h':1}])
+save('result.json',{'place':'Sageunjin Marine Park Observatory coast, Gangneung, South Korea','representative_wgs84':cam,'radius_m':150,'extent_type':'Conservative area extent; not statistical error or solved camera position','direction_approx':'East to east-southeast','city_confidence':'high','area_confidence':'high','shore_segment_confidence':'medium','exact_camera_confidence':'low','reverse_image_search':False,'sources':['https://korean.visitkorea.or.kr/detail/ms_detail.do?cotid=18985b56-92b8-41db-ac6d-c71b62449f99','https://tong.visitkorea.or.kr/cms/resource/41/2921941_image2_1.jpg'],'limits':['Camera pose not solved','No identifiable true sea horizon in night photograph','Foreground stone slope not independently matched in ground-level reference; satellite shows sand cover','Google Streetview had no panorama within100m','No EXIF location or capture time']})
+(p/'pose_limits.txt').write_text('Projection uses assumed height5m above sea level, pitch-8deg and HFOV85deg. DEM at nearby map center is2m. The night image has no measurable sea horizon. No control-point pixel correspondence is assigned; this calculation is a diagnostic, not precision evidence. Geometry does not fix exact camera point. Original crop includes railing/white slat shapes and colored tetrapods used for anchor verification. Public references differ in tide, illumination and sand cover. Final claim is area only; radius150m.',encoding='utf-8')
+print('Prepared limited area result and evidence spec')

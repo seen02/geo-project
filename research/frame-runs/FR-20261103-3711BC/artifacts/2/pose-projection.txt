@@ -1,0 +1,6 @@
+Self-check pitch=-3.0°: the true horizon (sea horizon / distant flat horizon) should fall on row 2828 of the frame (5095 rows, frame center 2547). If the sea horizon in the photo is not near this row, pitch was filled in wrong: the target's depression angle ≠ the camera's pitch.
+Self-check camera height 72.6 (same datum as each point's h); the "expected row" in the table below must match the actual row of that feature in the photo:
+  Road_mid_DEM   horizontal     15 m  height diff    2.6 m  geometric depression  10.0°  expected row   3205
+  Road_lower_DEM horizontal     73 m  height diff    8.6 m  geometric depression   6.7°  expected row   2898
+pose-projection.jpg
+FRAME_TOOL_RESULT {"tool": "pose.py", "args": ["project", "--pose", "pose-consistency.json", "--points", "projection-points.json", "--photo", "reference.jpg", "--out", "pose-projection.jpg"], "ok": true, "exit_code": 0, "started_at": 1793681777.5927765, "finished_at": 1793681778.1327226}

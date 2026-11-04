@@ -1,0 +1,12 @@
+# Verification limits
+- Windows curl Schannel failed (SEC_E_NO_CREDENTIALS) for doctor and POI. Python HTTPS requests succeeded. Job-local sitecustomize.py routes the skill scripts' curl subprocess through Python OpenSSL; no service response was fabricated. tiles.py fetched all 49 Google z19 tiles successfully, original mosaic and metadata retained.
+- Intake reverse searches completed but did not identify the place. All edge crops and search screenshots inspected in intake-overview.jpg, plus Baidu contact sheet.
+- Tourism POI coordinate 37.8127616594,128.8988285332 points south of the actual structure. Camera estimate uses the actual z19 structure, not that POI marker.
+- Ground materials match lookout fins, upper beams, blocks and arched shelters. Stone footing itself lacks a matching same-view external photograph; sand cover differs among images. Current coast and promenade differ from 2018 road views.
+- 15 street renders plus north-road views obtained. DINOv2/SIFT street ranking found no >=15-inlier match (maximum 5). 28 public image candidates likewise lacked >=15 inliers. Visual invariant matches identify the landmark, not an exact camera position.
+- Conditional horizontal fit at the proposed bank point uses lookout x520 and presumed Skybay roof x1403; heading103.5 and hfov77.2 are model-dependent. It is not an independent position solve. Final hfov is withheld.
+- DEM at tested bank point is2m. Pose projection uses assumed eye elevation3.6m and assumed structure heights; horizon290 is tentative because the sea horizon is not clear. pose.py sanity's printed horizon/pitch formula uses the opposite sign from its projection routine (drawn features and row table are retained). Do not treat this as verified elevation or an exact pose.
+- Radius50m is a conservative bank-segment search extent around the best camera candidate, not a statistical95% bound. North and south beaches remain alternatives with lower support; none formally excluded.
+- Extra tourism download first matched https only and yielded0; corrected to accept http source links and fetch via https. Image links were extracted from the same named tourism page; its unrelated nearby-POI images were retained as low-scoring controls.
+- Daum image links failed through web fetch cache; original t1.daumcdn.net image URLs downloaded successfully with Python HTTPS.
+- Evidence direction line is approximate; view cone is omitted because actual hfov is unverified. Satellite attribution: Google, as embedded in original imagery.

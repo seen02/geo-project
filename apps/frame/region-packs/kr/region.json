@@ -1,0 +1,20 @@
+{
+  "code": "KR",
+  "name": "South Korea",
+  "names": ["South Korea", "Republic of Korea", "Korea, Republic of", "대한민국", "한국", "남한", "KR"],
+  "status": "stub",
+  "maintainers": [],
+  "docs": ["clues.md", "services.md"],
+  "osm_name_keys": ["name:ko", "name:en"],
+  "lookups": {},
+  "services": {
+    "poi": {"sources": "osm", "country": "kr"},
+    "street_view": "gsv.py",
+    "browser_reference": "Kakao Map / Roadview public links; see services.md. No Kakao or Naver automation adapter is installed by this pack."
+  },
+  "tips": {
+    "municipal": "Read Korean road-name/building-number plates and municipal issuing authorities, then verify the full address on juso.go.kr. Keep all same-name candidates; a business address is not the camera position.",
+    "livery": "A bus operator, route number or livery is a hypothesis only; routes cross administrative boundaries. Verify the route and a visible stop name before narrowing.",
+    "street_view": "For a justified KR candidate, compare nearby public ground-level images and Kakao Roadview if accessible. gsv.py covers Google only; a Google lookup failure does not imply no Korean street imagery. Record unavailable browser/API access instead of inventing a match."
+  }
+}

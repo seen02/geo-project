@@ -1,0 +1,7 @@
+{
+  "actual_projection_horizon_row": 490.42245024598503,
+  "observed_approx_flat_water_row": 490,
+  "ground_elevation_m": 0,
+  "solved_camera_elevation_m": 9.9,
+  "note": "pose.py sanity horizon text uses the opposite pitch sign to its own projection function. Correct horizon uses H/2+f*tan(pitch). Four control points only; leave-one-out unavailable. Image-point and satellite landmark interpretation errors are not fully represented by the fit radius. Final reporting extent deliberately enlarged to150m. Foreground is old breakwater, not No.3/No.6 island; earlier island-only template was rejected by high horizontal residual."
+}

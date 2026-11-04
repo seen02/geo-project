@@ -1,0 +1,47 @@
+[
+  {
+    "file": ".geo-cache\\tiles\\esri_18_223563_101865.jpg",
+    "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/101865/223563",
+    "bytes": 12092
+  },
+  {
+    "file": ".geo-cache\\tiles\\esri_18_223563_101866.jpg",
+    "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/101866/223563",
+    "bytes": 11988
+  },
+  {
+    "file": ".geo-cache\\tiles\\esri_18_223563_101867.jpg",
+    "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/101867/223563",
+    "bytes": 16826
+  },
+  {
+    "file": ".geo-cache\\tiles\\esri_18_223564_101865.jpg",
+    "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/101865/223564",
+    "bytes": 11841
+  },
+  {
+    "file": ".geo-cache\\tiles\\esri_18_223564_101866.jpg",
+    "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/101866/223564",
+    "bytes": 16131
+  },
+  {
+    "file": ".geo-cache\\tiles\\esri_18_223564_101867.jpg",
+    "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/101867/223564",
+    "bytes": 17227
+  },
+  {
+    "file": ".geo-cache\\tiles\\esri_18_223565_101865.jpg",
+    "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/101865/223565",
+    "bytes": 16549
+  },
+  {
+    "file": ".geo-cache\\tiles\\esri_18_223565_101866.jpg",
+    "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/101866/223565",
+    "bytes": 15711
+  },
+  {
+    "file": ".geo-cache\\tiles\\esri_18_223565_101867.jpg",
+    "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/101867/223565",
+    "bytes": 17958
+  }
+]

@@ -1,0 +1,919 @@
+{
+ "P1": {
+  "ll": [
+   37.814194,
+   128.897465
+  ],
+  "frames": [
+   {
+    "hfov": 60.0,
+    "heading": 100.1,
+    "points": [
+     {
+      "name": "Skybay",
+      "dist_m": 1429,
+      "rel_deg": 40.54,
+      "half_width_deg": 0.0,
+      "px": 1786,
+      "in_frame": "out"
+     },
+     {
+      "name": "Lookout",
+      "dist_m": 71,
+      "rel_deg": -9.11,
+      "half_width_deg": 0.0,
+      "px": 520,
+      "in_frame": "full"
+     }
+    ]
+   },
+   {
+    "hfov": 60.61,
+    "heading": 100.21,
+    "points": [
+     {
+      "name": "Skybay",
+      "dist_m": 1429,
+      "rel_deg": 40.43,
+      "half_width_deg": 0.0,
+      "px": 1769,
+      "in_frame": "out"
+     },
+     {
+      "name": "Lookout",
+      "dist_m": 71,
+      "rel_deg": -9.22,
+      "half_width_deg": 0.0,
+      "px": 520,
+      "in_frame": "full"
+     }
+    ]
+   },
+   {
+    "hfov": 61.23,
+    "heading": 100.33,
+    "points": [
+     {
+      "name": "Skybay",
+      "dist_m": 1429,
+      "rel_deg": 40.31,
+      "half_width_deg": 0.0,
+      "px": 1752,
+      "in_frame": "out"
+     },
+     {
+      "name": "Lookout",
+      "dist_m": 71,
+      "rel_deg": -9.33,
+      "half_width_deg": 0.0,
+      "px": 520,
+      "in_frame": "full"
+     }
+    ]
+   },
+   {
+    "hfov": 61.85,
+    "heading": 100.44,
+    "points": [
+     {
+      "name": "Skybay",
+      "dist_m": 1429,
+      "rel_deg": 40.2,
+      "half_width_deg": 0.0,
+      "px": 1736,
+      "in_frame": "out"
+     },
+     {
+      "name": "Lookout",
+      "dist_m": 71,
+      "rel_deg": -9.45,
+      "half_width_deg": 0.0,
+      "px": 520,
+      "in_frame": "full"
+     }
+    ]
+   },
+   {
+    "hfov": 62.48,
+    "heading": 100.56,
+    "points": [
+     {
+      "name": "Skybay",
+      "dist_m": 1429,
+      "rel_deg": 40.08,
+      "half_width_deg": 0.0,
+      "px": 1719,
+      "in_frame": "out"
+     },
+     {
+      "name": "Lookout",
+      "dist_m": 71,
+      "rel_deg": -9.56,
+      "half_width_deg": 0.0,
+      "px": 520,
+      "in_frame": "full"
+     }
+    ]
+   },
+   {
+    "hfov": 63.12,
+    "heading": 100.67,
+    "points": [
+     {
+      "name": "Skybay",
+      "dist_m": 1429,
+      "rel_deg": 39.97,
+      "half_width_deg": 0.0,
+      "px": 1702,
+      "in_frame": "out"
+     },
+     {
+      "name": "Lookout",
+      "dist_m": 71,
+      "rel_deg": -9.68,
+      "half_width_deg": 0.0,
+      "px": 520,
+      "in_frame": "full"
+     }
+    ]
+   },
+   {
+    "hfov": 63.76,
+    "heading": 100.79,
+    "points": [
+     {
+      "name": "Skybay",
+      "dist_m": 1429,
+      "rel_deg": 39.85,
+      "half_width_deg": 0.0,
+      "px": 1686,
+      "in_frame": "out"
+     },
+     {
+      "name": "Lookout",
+      "dist_m": 71,
+      "rel_deg": -9.8,
+      "half_width_deg": 0.0,
+      "px": 520,
+      "in_frame": "full"
+     }
+    ]
+   },
+   {
+    "hfov": 64.41,
+    "heading": 100.92,
+    "points": [
+     {
+      "name": "Skybay",
+      "dist_m": 1429,
+      "rel_deg": 39.72,
+      "half_width_deg": 0.0,
+      "px": 1670,
+      "in_frame": "out"
+     },
+     {
+      "name": "Lookout",
+      "dist_m": 71,
+      "rel_deg": -9.92,
+      "half_width_deg": 0.0,
+      "px": 520,
+      "in_frame": "full"
+     }
+    ]
+   },
+   {
+    "hfov": 65.07,
+    "heading": 101.04,
+    "points": [
+     {
+      "name": "Skybay",
+      "dist_m": 1429,
+      "rel_deg": 39.6,
+      "half_width_deg": 0.0,
+      "px": 1654,
+      "in_frame": "out"
+     },
+     {
+      "name": "Lookout",
+      "dist_m": 71,
+      "rel_deg": -10.05,
+      "half_width_deg": 0.0,
+      "px": 520,
+      "in_frame": "full"
+     }
+    ]
+   },
+   {
+    "hfov": 65.73,
+    "heading": 101.17,
+    "points": [
+     {
+      "name": "Skybay",
+      "dist_m": 1429,
+      "rel_deg": 39.47,
+      "half_width_deg": 0.0,
+      "px": 1638,
+      "in_frame": "out"
+     },
+     {
+      "name": "Lookout",
+      "dist_m": 71,
+      "rel_deg": -10.17,
+      "half_width_deg": 0.0,
+      "px": 520,
+      "in_frame": "full"
+     }
+    ]
+   },
+   {
+    "hfov": 66.4,
+    "heading": 101.29,
+    "points": [
+     {
+      "name": "Skybay",
+      "dist_m": 1429,
+      "rel_deg": 39.35,
+      "half_width_deg": 0.0,
+      "px": 1622,
+      "in_frame": "out"
+     },
+     {
+      "name": "Lookout",
+      "dist_m": 71,
+      "rel_deg": -10.3,
+      "half_width_deg": 0.0,
+      "px": 520,
+      "in_frame": "full"
+     }
+    ]
+   },
+   {
+    "hfov": 67.08,
+    "heading": 101.42,
+    "points": [
+     {
+      "name": "Skybay",
+      "dist_m": 1429,
+      "rel_deg": 39.21,
+      "half_width_deg": 0.0,
+      "px": 1606,
+      "in_frame": "out"
+     },
+     {
+      "name": "Lookout",
+      "dist_m": 71,
+      "rel_deg": -10.43,
+      "half_width_deg": 0.0,
+      "px": 520,
+      "in_frame": "full"
+     }
+    ]
+   },
+   {
+    "hfov": 67.76,
+    "heading": 101.56,
+    "points": [
+     {
+      "name": "Skybay",
+      "dist_m": 1429,
+      "rel_deg": 39.08,
+      "half_width_deg": 0.0,
+      "px": 1591,
+      "in_frame": "out"
+     },
+     {
+      "name": "Lookout",
+      "dist_m": 71,
+      "rel_deg": -10.57,
+      "half_width_deg": 0.0,
+      "px": 520,
+      "in_frame": "full"
+     }
+    ]
+   },
+   {
+    "hfov": 68.45,
+    "heading": 101.69,
+    "points": [
+     {
+      "name": "Skybay",
+      "dist_m": 1429,
+      "rel_deg": 38.95,
+      "half_width_deg": 0.0,
+      "px": 1575,
+      "in_frame": "out"
+     },
+     {
+      "name": "Lookout",
+      "dist_m": 71,
+      "rel_deg": -10.7,
+      "half_width_deg": 0.0,
+      "px": 520,
+      "in_frame": "full"
+     }
+    ]
+   },
+   {
+    "hfov": 69.15,
+    "heading": 101.83,
+    "points": [
+     {
+      "name": "Skybay",
+      "dist_m": 1429,
+      "rel_deg": 38.81,
+      "half_width_deg": 0.0,
+      "px": 1560,
+      "in_frame": "out"
+     },
+     {
+      "name": "Lookout",
+      "dist_m": 71,
+      "rel_deg": -10.84,
+      "half_width_deg": 0.0,
+      "px": 520,
+      "in_frame": "full"
+     }
+    ]
+   },
+   {
+    "hfov": 69.85,
+    "heading": 101.97,
+    "points": [
+     {
+      "name": "Skybay",
+      "dist_m": 1429,
+      "rel_deg": 38.67,
+      "half_width_deg": 0.0,
+      "px": 1545,
+      "in_frame": "out"
+     },
+     {
+      "name": "Lookout",
+      "dist_m": 71,
+      "rel_deg": -10.98,
+      "half_width_deg": 0.0,
+      "px": 520,
+      "in_frame": "full"
+     }
+    ]
+   },
+   {
+    "hfov": 70.56,
+    "heading": 102.11,
+    "points": [
+     {
+      "name": "Skybay",
+      "dist_m": 1429,
+      "rel_deg": 38.53,
+      "half_width_deg": 0.0,
+      "px": 1530,
+      "in_frame": "out"
+     },
+     {
+      "name": "Lookout",
+      "dist_m": 71,
+      "rel_deg": -11.12,
+      "half_width_deg": 0.0,
+      "px": 520,
+      "in_frame": "full"
+     }
+    ]
+   },
+   {
+    "hfov": 71.28,
+    "heading": 102.26,
+    "points": [
+     {
+      "name": "Skybay",
+      "dist_m": 1429,
+      "rel_deg": 38.38,
+      "half_width_deg": 0.0,
+      "px": 1515,
+      "in_frame": "out"
+     },
+     {
+      "name": "Lookout",
+      "dist_m": 71,
+      "rel_deg": -11.26,
+      "half_width_deg": 0.0,
+      "px": 520,
+      "in_frame": "full"
+     }
+    ]
+   },
+   {
+    "hfov": 72.01,
+    "heading": 102.4,
+    "points": [
+     {
+      "name": "Skybay",
+      "dist_m": 1429,
+      "rel_deg": 38.24,
+      "half_width_deg": 0.0,
+      "px": 1501,
+      "in_frame": "out"
+     },
+     {
+      "name": "Lookout",
+      "dist_m": 71,
+      "rel_deg": -11.41,
+      "half_width_deg": 0.0,
+      "px": 520,
+      "in_frame": "full"
+     }
+    ]
+   },
+   {
+    "hfov": 72.74,
+    "heading": 102.55,
+    "points": [
+     {
+      "name": "Skybay",
+      "dist_m": 1429,
+      "rel_deg": 38.09,
+      "half_width_deg": 0.0,
+      "px": 1486,
+      "in_frame": "out"
+     },
+     {
+      "name": "Lookout",
+      "dist_m": 71,
+      "rel_deg": -11.56,
+      "half_width_deg": 0.0,
+      "px": 520,
+      "in_frame": "full"
+     }
+    ]
+   },
+   {
+    "hfov": 73.48,
+    "heading": 102.71,
+    "points": [
+     {
+      "name": "Skybay",
+      "dist_m": 1429,
+      "rel_deg": 37.93,
+      "half_width_deg": 0.0,
+      "px": 1472,
+      "in_frame": "out"
+     },
+     {
+      "name": "Lookout",
+      "dist_m": 71,
+      "rel_deg": -11.72,
+      "half_width_deg": 0.0,
+      "px": 520,
+      "in_frame": "full"
+     }
+    ]
+   },
+   {
+    "hfov": 74.23,
+    "heading": 102.86,
+    "points": [
+     {
+      "name": "Skybay",
+      "dist_m": 1429,
+      "rel_deg": 37.78,
+      "half_width_deg": 0.0,
+      "px": 1457,
+      "in_frame": "out"
+     },
+     {
+      "name": "Lookout",
+      "dist_m": 71,
+      "rel_deg": -11.87,
+      "half_width_deg": 0.0,
+      "px": 520,
+      "in_frame": "full"
+     }
+    ]
+   },
+   {
+    "hfov": 74.99,
+    "heading": 103.02,
+    "points": [
+     {
+      "name": "Skybay",
+      "dist_m": 1429,
+      "rel_deg": 37.62,
+      "half_width_deg": 0.0,
+      "px": 1443,
+      "in_frame": "out"
+     },
+     {
+      "name": "Lookout",
+      "dist_m": 71,
+      "rel_deg": -12.03,
+      "half_width_deg": 0.0,
+      "px": 520,
+      "in_frame": "full"
+     }
+    ]
+   },
+   {
+    "hfov": 75.75,
+    "heading": 103.18,
+    "points": [
+     {
+      "name": "Skybay",
+      "dist_m": 1429,
+      "rel_deg": 37.46,
+      "half_width_deg": 0.0,
+      "px": 1429,
+      "in_frame": "full"
+     },
+     {
+      "name": "Lookout",
+      "dist_m": 71,
+      "rel_deg": -12.19,
+      "half_width_deg": 0.0,
+      "px": 520,
+      "in_frame": "full"
+     }
+    ]
+   },
+   {
+    "hfov": 76.53,
+    "heading": 103.35,
+    "points": [
+     {
+      "name": "Skybay",
+      "dist_m": 1429,
+      "rel_deg": 37.29,
+      "half_width_deg": 0.0,
+      "px": 1415,
+      "in_frame": "full"
+     },
+     {
+      "name": "Lookout",
+      "dist_m": 71,
+      "rel_deg": -12.36,
+      "half_width_deg": 0.0,
+      "px": 520,
+      "in_frame": "full"
+     }
+    ]
+   },
+   {
+    "hfov": 77.31,
+    "heading": 103.52,
+    "points": [
+     {
+      "name": "Skybay",
+      "dist_m": 1429,
+      "rel_deg": 37.12,
+      "half_width_deg": 0.0,
+      "px": 1401,
+      "in_frame": "full"
+     },
+     {
+      "name": "Lookout",
+      "dist_m": 71,
+      "rel_deg": -12.53,
+      "half_width_deg": 0.0,
+      "px": 520,
+      "in_frame": "full"
+     }
+    ]
+   },
+   {
+    "hfov": 78.09,
+    "heading": 103.69,
+    "points": [
+     {
+      "name": "Skybay",
+      "dist_m": 1429,
+      "rel_deg": 36.95,
+      "half_width_deg": 0.0,
+      "px": 1388,
+      "in_frame": "full"
+     },
+     {
+      "name": "Lookout",
+      "dist_m": 71,
+      "rel_deg": -12.7,
+      "half_width_deg": 0.0,
+      "px": 520,
+      "in_frame": "full"
+     }
+    ]
+   },
+   {
+    "hfov": 78.89,
+    "heading": 103.86,
+    "points": [
+     {
+      "name": "Skybay",
+      "dist_m": 1429,
+      "rel_deg": 36.78,
+      "half_width_deg": 0.0,
+      "px": 1374,
+      "in_frame": "full"
+     },
+     {
+      "name": "Lookout",
+      "dist_m": 71,
+      "rel_deg": -12.87,
+      "half_width_deg": 0.0,
+      "px": 520,
+      "in_frame": "full"
+     }
+    ]
+   },
+   {
+    "hfov": 79.69,
+    "heading": 104.04,
+    "points": [
+     {
+      "name": "Skybay",
+      "dist_m": 1429,
+      "rel_deg": 36.6,
+      "half_width_deg": 0.0,
+      "px": 1361,
+      "in_frame": "full"
+     },
+     {
+      "name": "Lookout",
+      "dist_m": 71,
+      "rel_deg": -13.05,
+      "half_width_deg": 0.0,
+      "px": 520,
+      "in_frame": "full"
+     }
+    ]
+   },
+   {
+    "hfov": 80.5,
+    "heading": 104.22,
+    "points": [
+     {
+      "name": "Skybay",
+      "dist_m": 1429,
+      "rel_deg": 36.41,
+      "half_width_deg": 0.0,
+      "px": 1347,
+      "in_frame": "full"
+     },
+     {
+      "name": "Lookout",
+      "dist_m": 71,
+      "rel_deg": -13.23,
+      "half_width_deg": 0.0,
+      "px": 520,
+      "in_frame": "full"
+     }
+    ]
+   },
+   {
+    "hfov": 81.32,
+    "heading": 104.41,
+    "points": [
+     {
+      "name": "Skybay",
+      "dist_m": 1429,
+      "rel_deg": 36.23,
+      "half_width_deg": 0.0,
+      "px": 1334,
+      "in_frame": "full"
+     },
+     {
+      "name": "Lookout",
+      "dist_m": 71,
+      "rel_deg": -13.42,
+      "half_width_deg": 0.0,
+      "px": 520,
+      "in_frame": "full"
+     }
+    ]
+   },
+   {
+    "hfov": 82.15,
+    "heading": 104.6,
+    "points": [
+     {
+      "name": "Skybay",
+      "dist_m": 1429,
+      "rel_deg": 36.04,
+      "half_width_deg": 0.0,
+      "px": 1321,
+      "in_frame": "full"
+     },
+     {
+      "name": "Lookout",
+      "dist_m": 71,
+      "rel_deg": -13.61,
+      "half_width_deg": 0.0,
+      "px": 520,
+      "in_frame": "full"
+     }
+    ]
+   },
+   {
+    "hfov": 82.99,
+    "heading": 104.8,
+    "points": [
+     {
+      "name": "Skybay",
+      "dist_m": 1429,
+      "rel_deg": 35.84,
+      "half_width_deg": 0.0,
+      "px": 1308,
+      "in_frame": "full"
+     },
+     {
+      "name": "Lookout",
+      "dist_m": 71,
+      "rel_deg": -13.8,
+      "half_width_deg": 0.0,
+      "px": 520,
+      "in_frame": "full"
+     }
+    ]
+   },
+   {
+    "hfov": 83.84,
+    "heading": 104.99,
+    "points": [
+     {
+      "name": "Skybay",
+      "dist_m": 1429,
+      "rel_deg": 35.64,
+      "half_width_deg": 0.0,
+      "px": 1295,
+      "in_frame": "full"
+     },
+     {
+      "name": "Lookout",
+      "dist_m": 71,
+      "rel_deg": -14.0,
+      "half_width_deg": 0.0,
+      "px": 520,
+      "in_frame": "full"
+     }
+    ]
+   },
+   {
+    "hfov": 84.69,
+    "heading": 105.2,
+    "points": [
+     {
+      "name": "Skybay",
+      "dist_m": 1429,
+      "rel_deg": 35.44,
+      "half_width_deg": 0.0,
+      "px": 1282,
+      "in_frame": "full"
+     },
+     {
+      "name": "Lookout",
+      "dist_m": 71,
+      "rel_deg": -14.21,
+      "half_width_deg": 0.0,
+      "px": 520,
+      "in_frame": "full"
+     }
+    ]
+   },
+   {
+    "hfov": 85.55,
+    "heading": 105.4,
+    "points": [
+     {
+      "name": "Skybay",
+      "dist_m": 1429,
+      "rel_deg": 35.23,
+      "half_width_deg": 0.0,
+      "px": 1270,
+      "in_frame": "full"
+     },
+     {
+      "name": "Lookout",
+      "dist_m": 71,
+      "rel_deg": -14.41,
+      "half_width_deg": 0.0,
+      "px": 520,
+      "in_frame": "full"
+     }
+    ]
+   },
+   {
+    "hfov": 86.42,
+    "heading": 105.62,
+    "points": [
+     {
+      "name": "Skybay",
+      "dist_m": 1429,
+      "rel_deg": 35.02,
+      "half_width_deg": 0.0,
+      "px": 1257,
+      "in_frame": "full"
+     },
+     {
+      "name": "Lookout",
+      "dist_m": 71,
+      "rel_deg": -14.63,
+      "half_width_deg": 0.0,
+      "px": 520,
+      "in_frame": "full"
+     }
+    ]
+   },
+   {
+    "hfov": 87.3,
+    "heading": 105.83,
+    "points": [
+     {
+      "name": "Skybay",
+      "dist_m": 1429,
+      "rel_deg": 34.81,
+      "half_width_deg": 0.0,
+      "px": 1245,
+      "in_frame": "full"
+     },
+     {
+      "name": "Lookout",
+      "dist_m": 71,
+      "rel_deg": -14.84,
+      "half_width_deg": 0.0,
+      "px": 520,
+      "in_frame": "full"
+     }
+    ]
+   },
+   {
+    "hfov": 88.19,
+    "heading": 106.06,
+    "points": [
+     {
+      "name": "Skybay",
+      "dist_m": 1429,
+      "rel_deg": 34.58,
+      "half_width_deg": 0.0,
+      "px": 1232,
+      "in_frame": "full"
+     },
+     {
+      "name": "Lookout",
+      "dist_m": 71,
+      "rel_deg": -15.06,
+      "half_width_deg": 0.0,
+      "px": 520,
+      "in_frame": "full"
+     }
+    ]
+   },
+   {
+    "hfov": 89.09,
+    "heading": 106.28,
+    "points": [
+     {
+      "name": "Skybay",
+      "dist_m": 1429,
+      "rel_deg": 34.36,
+      "half_width_deg": 0.0,
+      "px": 1220,
+      "in_frame": "full"
+     },
+     {
+      "name": "Lookout",
+      "dist_m": 71,
+      "rel_deg": -15.29,
+      "half_width_deg": 0.0,
+      "px": 520,
+      "in_frame": "full"
+     }
+    ]
+   },
+   {
+    "hfov": 90.0,
+    "heading": 106.51,
+    "points": [
+     {
+      "name": "Skybay",
+      "dist_m": 1429,
+      "rel_deg": 34.12,
+      "half_width_deg": 0.0,
+      "px": 1208,
+      "in_frame": "full"
+     },
+     {
+      "name": "Lookout",
+      "dist_m": 71,
+      "rel_deg": -15.52,
+      "half_width_deg": 0.0,
+      "px": 520,
+      "in_frame": "full"
+     }
+    ]
+   }
+  ],
+  "occlusion": [],
+  "verdict": {
+   "Skybay": {
+    "verdict": "in frame at field of view 76–90°, out of frame otherwise; no height h given, not checked whether it is big enough or shows above the foreground",
+    "absence_excludes": false
+   }
+  }
+ }
+}

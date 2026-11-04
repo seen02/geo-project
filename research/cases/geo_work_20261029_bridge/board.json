@@ -1,0 +1,181 @@
+{
+ "case": "geo_work_20261029_bridge",
+ "photo": "query.jpg",
+ "created": "2026-10-29T15:07:57",
+ "country": "JP",
+ "candidates": {
+  "Tokyo": {
+   "level": "city",
+   "parent": null,
+   "bbox": null,
+   "scan_bbox": null,
+   "prior": 1.0,
+   "status": "open",
+   "note": ""
+  },
+  "Odaiba waterfront": {
+   "level": "area",
+   "parent": "Tokyo",
+   "bbox": [
+    35.626,
+    139.768,
+    35.636,
+    139.779
+   ],
+   "scan_bbox": null,
+   "prior": 1.0,
+   "status": "open",
+   "note": ""
+  },
+  "Statue waterfront walk": {
+   "level": "road",
+   "parent": "Odaiba waterfront",
+   "bbox": [
+    35.627096,
+    139.769995,
+    35.628904,
+    139.772205
+   ],
+   "scan_bbox": null,
+   "center": [
+    35.628,
+    139.7711
+   ],
+   "prior": 1.0,
+   "status": "open",
+   "note": "",
+   "from": "candidates.json"
+  },
+  "Marine House waterfront": {
+   "level": "road",
+   "parent": "Odaiba waterfront",
+   "bbox": [
+    35.629256,
+    139.774225,
+    35.631064,
+    139.776435
+   ],
+   "scan_bbox": null,
+   "center": [
+    35.63016,
+    139.77533
+   ],
+   "prior": 1.0,
+   "status": "open",
+   "note": "",
+   "from": "candidates.json"
+  },
+  "Daiba Park waterfront": {
+   "level": "road",
+   "parent": "Odaiba waterfront",
+   "bbox": [
+    35.633196,
+    139.770305,
+    35.635004,
+    139.772515
+   ],
+   "scan_bbox": null,
+   "center": [
+    35.6341,
+    139.77141
+   ],
+   "prior": 1.0,
+   "status": "open",
+   "note": "",
+   "from": "candidates.json"
+  }
+ },
+ "clues": {
+  "K1": {
+   "text": "Suspension bridge with two white towers; a long low breakwater in front; left urban towers; foreground boulders and curved rock revetment. No EXIF or readable text.",
+   "kind": "infra",
+   "status": "observed",
+   "file": "query.jpg",
+   "source": "",
+   "used": false
+  },
+  "K2": {
+   "text": "Four manually identified controls: two tower tops at official126m elevation and two breakwater waterline endpoints. Full projection fit at35.6279995,139.7710925, heading329.71, height9.9m, RMS1.33px, MonteCarlo radius97.9m. Four controls do not permit leave-one-out; final extent enlarged150m.",
+   "kind": "geometry",
+   "status": "computed",
+   "file": "C:\\Users\\admin\\img2place_project\\geo_work_20261029_bridge\\pose.json",
+   "source": "",
+   "used": true,
+   "resolves": [
+    "K1"
+   ]
+  },
+  "K3": {
+   "text": "Marine House panoramas and Daiba Park map do not reproduce the full observed ordering; initial island-only templates had high horizontal residual. Long foreground feature must be old breakwater. West promenade streetviews show corresponding rock groups and bridge/breakwater.",
+   "kind": "scene",
+   "status": "observed",
+   "file": "west_matches.jpg",
+   "source": "",
+   "used": true
+  }
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "clue": "K2",
+   "candidate": "Tokyo",
+   "lr": 20.0,
+   "why": "Bridge and breakwater bearings plus vertical projection agree near Statue of Liberty skywalk. Nearby road panoramas corroborate waterfront boulders, revetment and skyline.",
+   "file": "pose_overlay.jpg",
+   "cmd": "pose.py solve pose_spec.json --photo query.jpg --out pose_overlay.jpg --save pose.json --search-radius 200 --restarts 15 --pt-sigma 10"
+  },
+  {
+   "id": "E2",
+   "clue": "K2",
+   "candidate": "Odaiba waterfront",
+   "lr": 20.0,
+   "why": "Bridge and breakwater bearings plus vertical projection agree near Statue of Liberty skywalk. Nearby road panoramas corroborate waterfront boulders, revetment and skyline.",
+   "file": "pose_overlay.jpg",
+   "cmd": "pose.py solve pose_spec.json --photo query.jpg --out pose_overlay.jpg --save pose.json --search-radius 200 --restarts 15 --pt-sigma 10"
+  },
+  {
+   "id": "E3",
+   "clue": "K2",
+   "candidate": "Statue waterfront walk",
+   "lr": 20.0,
+   "why": "Bridge and breakwater bearings plus vertical projection agree near Statue of Liberty skywalk. Nearby road panoramas corroborate waterfront boulders, revetment and skyline.",
+   "file": "pose_overlay.jpg",
+   "cmd": "pose.py solve pose_spec.json --photo query.jpg --out pose_overlay.jpg --save pose.json --search-radius 200 --restarts 15 --pt-sigma 10"
+  },
+  {
+   "id": "E4",
+   "clue": "K3",
+   "candidate": "Marine House waterfront",
+   "lr": 0.2,
+   "why": "Other waterfront samples differ in foreground geometry. Down-weighted only, no exhaustive exclusion.",
+   "file": "matches.jpg",
+   "cmd": ""
+  },
+  {
+   "id": "E5",
+   "clue": "K3",
+   "candidate": "Daiba Park waterfront",
+   "lr": 0.2,
+   "why": "Other waterfront samples differ in foreground geometry. Down-weighted only, no exhaustive exclusion.",
+   "file": "matches.jpg",
+   "cmd": ""
+  }
+ ],
+ "falsify": {
+  "Odaiba waterfront": [
+   "Both tower tops and old breakwater endpoints must fit the same camera model, and nearby waterfront must contain the visible rocks and revetment."
+  ]
+ },
+ "log": [
+  "15:07 add Tokyo (city)",
+  "15:07 add Odaiba waterfront (area)",
+  "15:07 add --from candidates.json → +3 road",
+  "15:08 clue K1 [infra/observed] Suspension bridge with two white towers; a long low breakwater in front; left urban towers; foreground boulders and curved rock revetment. No EXIF or readable text.",
+  "15:08 clue K2 [geometry/computed] Four manually identified controls: two tower tops at official126m elevation and two breakwater waterline endpoints. Full projection fit at35.6279995,139.7710925, heading329.71, height9.9m, RMS1.33px, MonteCarlo radius97.9m. Four controls do not permit leave-one-out; final extent enlarged150m.; resolves K1",
+  "15:08 evidence K2 → Tokyo:20, Odaiba waterfront:20, Statue waterfront walk:20",
+  "15:08 clue K3 [scene/observed] Marine House panoramas and Daiba Park map do not reproduce the full observed ordering; initial island-only templates had high horizontal residual. Long foreground feature must be old breakwater. West promenade streetviews show corresponding rock groups and bridge/breakwater.",
+  "15:08 evidence K3 → Marine House waterfront:0.2, Daiba Park waterfront:0.2",
+  "15:08 falsify Odaiba waterfront: Both tower tops and old breakwater endpoints must fit the same camera model, and nearby waterfront must contain the visible rocks and revetment."
+ ],
+ "updated": "2026-10-29T15:08:27"
+}

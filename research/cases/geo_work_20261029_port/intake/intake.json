@@ -1,0 +1,42 @@
+{
+ "photo": "C:\\Users\\admin\\img2place_project\\geo_work_20261029_port\\query.jpg",
+ "input": null,
+ "result": "ok",
+ "exif": {
+  "file": "C:\\Users\\admin\\img2place_project\\geo_work_20261029_port\\query.jpg",
+  "size": [
+   1081,
+   1440
+  ]
+ },
+ "ocr": [
+  {
+   "text": "640",
+   "conf": 0.993,
+   "box": [
+    511,
+    886,
+    530,
+    904
+   ],
+   "pass": "full"
+  }
+ ],
+ "rev": [],
+ "votes": {
+  "city": {},
+  "place": {}
+ },
+ "status": {
+  "exif": "ok",
+  "variants": "ok",
+  "edges": "ok",
+  "ocr": "ok"
+ },
+ "timings": {
+  "exif": 0.2,
+  "variants": 0.3,
+  "edges": 0.7,
+  "ocr": 8.4
+ }
+}

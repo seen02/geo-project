@@ -1,0 +1,142 @@
+{
+ "case": "geo_work_20261029_port",
+ "photo": "query.jpg",
+ "created": "2026-10-29T13:07:05",
+ "country": "JP",
+ "candidates": {
+  "Kobe": {
+   "level": "city",
+   "parent": null,
+   "bbox": null,
+   "scan_bbox": null,
+   "prior": 1.0,
+   "status": "open",
+   "note": ""
+  },
+  "Osaka": {
+   "level": "city",
+   "parent": null,
+   "bbox": null,
+   "scan_bbox": null,
+   "prior": 1.0,
+   "status": "open",
+   "note": ""
+  },
+  "Tokyo": {
+   "level": "city",
+   "parent": null,
+   "bbox": null,
+   "scan_bbox": null,
+   "prior": 1.0,
+   "status": "open",
+   "note": ""
+  },
+  "Shibaura loop": {
+   "level": "area",
+   "parent": "Tokyo",
+   "bbox": [
+    35.6353,
+    139.7542,
+    35.6385,
+    139.7589
+   ],
+   "scan_bbox": [
+    35.6355,
+    139.755,
+    35.6375,
+    139.7585
+   ],
+   "prior": 1.0,
+   "status": "open",
+   "note": ""
+  }
+ },
+ "clues": {
+  "K1": {
+   "text": "Rubber-tired double-track automated guideway curving right over port water. Cement silos and moored ships ahead, cranes behind, paired sloping white structure far left. Cabin reflections; only OCR text640. No metadata.",
+   "kind": "infra",
+   "status": "observed",
+   "file": "port_crop.jpg",
+   "source": "",
+   "used": false
+  },
+  "K2": {
+   "text": "At Tokyo Rainbow Bridge Shibaura loop, street panoramas show same cement silo grouping, diagonal pale-green conveyors, tall box factory and neighboring shoreline warehouses. View from adjacent road is offset from rail.",
+   "kind": "anchor",
+   "status": "observed",
+   "file": "loop_view.jpg",
+   "source": "",
+   "used": true
+  },
+  "K3": {
+   "text": "Among eight keyword-discovered public reference images, the matching Yurikamome scene ranked first: DINOv2 global similarity0.7767 and22 SIFT geometric inliers. Visual inspection confirms the same factory/conveyor arrangement, white waterfront structure and guideway curve. The match tests the scene hypothesis but does not solve exact camera pose.",
+   "kind": "anchor",
+   "status": "computed",
+   "file": "C:\\Users\\admin\\img2place_project\\geo_work_20261029_port\\reference_final.json",
+   "source": "https://jnsforum.com/community/topic/20751-ed75s-random-japanese-trip-photos/page/3/",
+   "used": true,
+   "resolves": [
+    "K1"
+   ]
+  }
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "clue": "K2",
+   "candidate": "Tokyo",
+   "lr": 5.0,
+   "why": "Factory and waterfront structures correspond at Shibaura loop; other initial harbor samples lack the same arrangement. This is visual evidence, not an exclusion.",
+   "file": "actual_loop_match.jpg",
+   "cmd": ""
+  },
+  {
+   "id": "E2",
+   "clue": "K2",
+   "candidate": "Kobe",
+   "lr": 0.2,
+   "why": "Factory and waterfront structures correspond at Shibaura loop; other initial harbor samples lack the same arrangement. This is visual evidence, not an exclusion.",
+   "file": "actual_loop_match.jpg",
+   "cmd": ""
+  },
+  {
+   "id": "E3",
+   "clue": "K2",
+   "candidate": "Osaka",
+   "lr": 0.2,
+   "why": "Factory and waterfront structures correspond at Shibaura loop; other initial harbor samples lack the same arrangement. This is visual evidence, not an exclusion.",
+   "file": "actual_loop_match.jpg",
+   "cmd": ""
+  },
+  {
+   "id": "E4",
+   "clue": "K3",
+   "candidate": "Shibaura loop",
+   "lr": 5.0,
+   "why": "Local reference-image matching and manual permanent-feature comparison support the loop area; exact camera pose remains unsolved.",
+   "file": "evidence.jpg",
+   "cmd": "evidence.py evidence_spec.json --out evidence.jpg"
+  }
+ ],
+ "falsify": {
+  "Shibaura loop": [
+   "Rail camera must view the identified silos and conveyors beyond harbor water, the west bank to the right and port cranes left. If bearings and projected building order conflict, abandon this segment."
+  ]
+ },
+ "log": [
+  "13:10 country JP",
+  "13:10 add Kobe (city)",
+  "13:10 add Osaka (city)",
+  "13:10 add Tokyo (city)",
+  "13:10 clue K1 [infra/observed] Rubber-tired double-track automated guideway curving right over port water. Cement silos and moored ships ahead, cranes behind, paired sloping white structure far left. Cabin reflections; only OCR text640. No metadata.",
+  "14:19 clue K2 [anchor/observed] At Tokyo Rainbow Bridge Shibaura loop, street panoramas show same cement silo grouping, diagonal pale-green conveyors, tall box factory and neighboring shoreline warehouses. View from adjacent road is offset from rail.",
+  "14:19 evidence K2 → Tokyo:5, Kobe:0.2, Osaka:0.2",
+  "14:19 add Shibaura loop (area)",
+  "14:19 scan-bbox Shibaura loop 35.6355,139.755,35.6375,139.7585",
+  "14:19 falsify Shibaura loop: Rail camera must view the identified silos and conveyors beyond harbor water, the west bank to the right and port cranes left. If bearings and projected building order conflict, abandon this segment.",
+  "14:25 clue K3 [anchor/computed] Among eight keyword-discovered public reference images, the matching Yurikamome scene ranked first: DINOv2 global similarity0.7767 and22 SIFT geometric inliers. Visual inspection confirms the same factory/conveyor arrangement, white waterfront structure and guideway curve. The match tests the scene hypothesis but does not solve exact camera pose.; resolves K1",
+  "14:25 evidence K3 → Shibaura loop:5",
+  "14:26 evidence K3 → Shibaura loop:5"
+ ],
+ "updated": "2026-10-29T14:26:33"
+}

@@ -1,0 +1,342 @@
+[
+ {
+  "rank": 1,
+  "id": "JLn8Mh9EZ02Qha_FQYGYdg",
+  "file": null,
+  "score_global": 0.5864,
+  "inliers": 0,
+  "matches": 4,
+  "refined": true,
+  "heading": 61,
+  "wgs": [
+   37.184275749804016,
+   127.02231954193272
+  ],
+  "road": "",
+  "date": "2018-11",
+  "label": ""
+ },
+ {
+  "rank": 2,
+  "id": "nXc_bN7MAbBFAcBN9bW3RQ",
+  "file": null,
+  "score_global": 0.5356,
+  "inliers": 0,
+  "matches": 7,
+  "refined": true,
+  "heading": 61,
+  "wgs": [
+   37.18407975978343,
+   127.02232347398976
+  ],
+  "road": "",
+  "date": "2018-11",
+  "label": ""
+ },
+ {
+  "rank": 3,
+  "id": "D-df6EgnvzQz-P1yj-5_pw",
+  "file": null,
+  "score_global": 0.4904,
+  "inliers": 0,
+  "matches": 14,
+  "refined": true,
+  "heading": 61,
+  "wgs": [
+   37.18435830774402,
+   127.02225507255092
+  ],
+  "road": "",
+  "date": "2018-11",
+  "label": ""
+ },
+ {
+  "rank": 4,
+  "id": "Lmt5PSUCu6onTVjNf3-gTA",
+  "file": null,
+  "score_global": 0.4863,
+  "inliers": 5,
+  "matches": 10,
+  "refined": true,
+  "heading": 61,
+  "wgs": [
+   37.18450833947629,
+   127.02206928245015
+  ],
+  "road": "",
+  "date": "2018-11",
+  "label": ""
+ },
+ {
+  "rank": 5,
+  "id": "WOwQ8dZUQZCAEmDnSUzeQg",
+  "file": null,
+  "score_global": 0.4621,
+  "inliers": 0,
+  "matches": 10,
+  "refined": true,
+  "heading": 61,
+  "wgs": [
+   37.184420307216605,
+   127.02219052119398
+  ],
+  "road": "",
+  "date": "2018-11",
+  "label": ""
+ },
+ {
+  "rank": 6,
+  "id": "WOwQ8dZUQZCAEmDnSUzeQg",
+  "file": null,
+  "score_global": 0.4621,
+  "inliers": 0,
+  "matches": 10,
+  "refined": true,
+  "heading": 61,
+  "wgs": [
+   37.184420307216605,
+   127.02219052119398
+  ],
+  "road": "",
+  "date": "2015-04",
+  "label": ""
+ },
+ {
+  "rank": 7,
+  "id": "NxS_CXrGq6AL7_U6nfo5NA",
+  "file": null,
+  "score_global": 0.4599,
+  "inliers": 0,
+  "matches": 7,
+  "refined": true,
+  "heading": 61,
+  "wgs": [
+   37.184543134857506,
+   127.02197073486298
+  ],
+  "road": "",
+  "date": "2018-11",
+  "label": ""
+ },
+ {
+  "rank": 8,
+  "id": "bEjgRuTT3p4hl-n0_1ypuA",
+  "file": null,
+  "score_global": 0.4233,
+  "inliers": 0,
+  "matches": 5,
+  "refined": true,
+  "heading": 61,
+  "wgs": [
+   37.1839916728285,
+   127.02230283068803
+  ],
+  "road": "",
+  "date": "2018-11",
+  "label": ""
+ },
+ {
+  "rank": 9,
+  "id": "JdYM3shcdb80j7cTDDZ0sg",
+  "file": null,
+  "score_global": 0.4219,
+  "inliers": 0,
+  "matches": 3,
+  "refined": true,
+  "heading": 61,
+  "wgs": [
+   37.1841759595261,
+   127.02234223317551
+  ],
+  "road": "",
+  "date": "2018-11",
+  "label": ""
+ },
+ {
+  "rank": 10,
+  "id": "0MTngDwANdRQVWvD9Wqf1g",
+  "file": null,
+  "score_global": 0.4156,
+  "inliers": 0,
+  "matches": 5,
+  "refined": true,
+  "heading": 61,
+  "wgs": [
+   37.18361634144715,
+   127.02240064056576
+  ],
+  "road": "",
+  "date": "2018-11",
+  "label": ""
+ },
+ {
+  "rank": 11,
+  "id": "nA3jETbr2PODRiYiEjMgEg",
+  "file": null,
+  "score_global": 0.3985,
+  "inliers": 0,
+  "matches": 7,
+  "refined": true,
+  "heading": 61,
+  "wgs": [
+   37.1837946007271,
+   127.02232552193601
+  ],
+  "road": "",
+  "date": "2018-11",
+  "label": ""
+ },
+ {
+  "rank": 12,
+  "id": "-RR9EyDWD7_agTdc_CtJ9Q",
+  "file": null,
+  "score_global": 0.3969,
+  "inliers": 0,
+  "matches": 5,
+  "refined": true,
+  "heading": 61,
+  "wgs": [
+   37.18370347282028,
+   127.0223584529043
+  ],
+  "road": "",
+  "date": "2018-11",
+  "label": ""
+ },
+ {
+  "rank": 13,
+  "id": "LeGR2GiXuBrpejcvn_2a8w",
+  "file": null,
+  "score_global": 0.3874,
+  "inliers": 0,
+  "matches": 6,
+  "refined": true,
+  "heading": 61,
+  "wgs": [
+   37.18390424822106,
+   127.02230315835952
+  ],
+  "road": "",
+  "date": "2018-11",
+  "label": ""
+ },
+ {
+  "rank": 14,
+  "id": "o9FWZ9QKwa29K5kprJHnhg",
+  "file": null,
+  "score_global": 0.3861,
+  "inliers": 0,
+  "matches": 4,
+  "refined": true,
+  "heading": 61,
+  "wgs": [
+   37.184805913720226,
+   127.02120733469549
+  ],
+  "road": "",
+  "date": "2018-11",
+  "label": ""
+ },
+ {
+  "rank": 15,
+  "id": "ateJylhVNmqYXtwEcnufrQ",
+  "file": null,
+  "score_global": 0.3818,
+  "inliers": 0,
+  "matches": 7,
+  "refined": true,
+  "heading": 61,
+  "wgs": [
+   37.18442573487492,
+   127.02218044527906
+  ],
+  "road": "",
+  "date": "2018-11",
+  "label": ""
+ },
+ {
+  "rank": 16,
+  "id": "061GpONRx_4sJKwNta--ww",
+  "file": null,
+  "score_global": 0.3791,
+  "inliers": 0,
+  "matches": 7,
+  "refined": true,
+  "heading": 61,
+  "wgs": [
+   37.18473339246062,
+   127.02135249521065
+  ],
+  "road": "",
+  "date": "2018-11",
+  "label": ""
+ },
+ {
+  "rank": 17,
+  "id": "2UB28sj_MNZoqlRnK2lSjQ",
+  "file": null,
+  "score_global": 0.3634,
+  "inliers": 0,
+  "matches": 4,
+  "refined": true,
+  "heading": 61,
+  "wgs": [
+   37.18468828420142,
+   127.02148217278497
+  ],
+  "road": "",
+  "date": "2018-11",
+  "label": ""
+ },
+ {
+  "rank": 18,
+  "id": "2n0gxuIHR2nOwsvRhN_Dlg",
+  "file": null,
+  "score_global": 0.323,
+  "inliers": 0,
+  "matches": 5,
+  "refined": true,
+  "heading": 61,
+  "wgs": [
+   37.18460652193024,
+   127.0217379228263
+  ],
+  "road": "",
+  "date": "2018-11",
+  "label": ""
+ },
+ {
+  "rank": 19,
+  "id": "FbBqp3ZHD5euKHwqSMhedw",
+  "file": null,
+  "score_global": 0.3222,
+  "inliers": 0,
+  "matches": 6,
+  "refined": true,
+  "heading": 61,
+  "wgs": [
+   37.184574238328224,
+   127.02185449277447
+  ],
+  "road": "",
+  "date": "2018-11",
+  "label": ""
+ },
+ {
+  "rank": 20,
+  "id": "VGh7mcNF6smeLqeVvX88xQ",
+  "file": null,
+  "score_global": 0.3106,
+  "inliers": 0,
+  "matches": 8,
+  "refined": true,
+  "heading": 61,
+  "wgs": [
+   37.184649904269946,
+   127.02159702285063
+  ],
+  "road": "",
+  "date": "2018-11",
+  "label": ""
+ }
+]

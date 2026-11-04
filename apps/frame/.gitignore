@@ -1,0 +1,8 @@
+node_modules/
+.local-data/
+.env
+.sites-runtime/
+test-results/
+*.tar.gz
+.DS_Store
+__pycache__/

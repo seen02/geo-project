@@ -1,0 +1,122 @@
+{
+ "GPS-height-69m": {
+  "rms_px": 66.9,
+  "heading": 37.9,
+  "pitch": -33.4,
+  "roll": 2.5,
+  "hfov": 45.8,
+  "residuals_px": {
+   "T-centerline": [
+    58.5,
+    18.4
+   ],
+   "T-curb": [
+    -8.2,
+    -68.5
+   ],
+   "Crosswalk-NW": [
+    -46.4,
+    52.4
+   ]
+  },
+  "delta_chi2": 0.0,
+  "robust_delta_chi2": 0.0,
+  "robust_by": "all_points"
+ },
+ "GPS-height-65m": {
+  "rms_px": 80.1,
+  "heading": 38.8,
+  "pitch": -27.5,
+  "roll": 3.2,
+  "hfov": 45.8,
+  "residuals_px": {
+   "T-centerline": [
+    53.6,
+    15.3
+   ],
+   "T-curb": [
+    2.1,
+    -88.3
+   ],
+   "Crosswalk-NW": [
+    -51.0,
+    75.8
+   ]
+  },
+  "delta_chi2": 1.3,
+  "robust_delta_chi2": 0.7,
+  "robust_by": "drop Crosswalk-NW"
+ },
+ "GPS-height-61m": {
+  "rms_px": 109.4,
+  "heading": 39.6,
+  "pitch": -20.6,
+  "roll": 3.3,
+  "hfov": 45.8,
+  "residuals_px": {
+   "T-centerline": [
+    48.4,
+    14.9
+   ],
+   "T-curb": [
+    17.4,
+    -127.0
+   ],
+   "Crosswalk-NW": [
+    -60.2,
+    115.4
+   ]
+  },
+  "delta_chi2": 5.0,
+  "robust_delta_chi2": 2.7,
+  "robust_by": "drop Crosswalk-NW"
+ },
+ "GPS-height-57m": {
+  "rms_px": 157.7,
+  "heading": 40.4,
+  "pitch": -12.5,
+  "roll": 2.0,
+  "hfov": 45.8,
+  "residuals_px": {
+   "T-centerline": [
+    43.0,
+    20.2
+   ],
+   "T-curb": [
+    37.4,
+    -189.0
+   ],
+   "Crosswalk-NW": [
+    -74.2,
+    172.5
+   ]
+  },
+  "delta_chi2": 13.7,
+  "robust_delta_chi2": 5.7,
+  "robust_by": "drop T-curb"
+ },
+ "GPS-height-53m": {
+  "rms_px": 222.8,
+  "heading": 41.4,
+  "pitch": -2.7,
+  "roll": -3.7,
+  "hfov": 45.8,
+  "residuals_px": {
+   "T-centerline": [
+    38.2,
+    37.3
+   ],
+   "T-curb": [
+    58.4,
+    -275.8
+   ],
+   "Crosswalk-NW": [
+    -91.5,
+    241.3
+   ]
+  },
+  "delta_chi2": 30.3,
+  "robust_delta_chi2": 9.1,
+  "robust_by": "drop T-curb"
+ }
+}

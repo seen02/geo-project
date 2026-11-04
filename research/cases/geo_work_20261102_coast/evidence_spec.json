@@ -1,0 +1,48 @@
+{
+  "map": "map.jpg",
+  "crop": [
+    0,
+    0,
+    1200,
+    1000
+  ],
+  "width": 1280,
+  "camera": [
+    37.81425,
+    128.8976
+  ],
+  "heading": 115,
+  "hfov": 85,
+  "range_m": 150,
+  "labels": [
+    {
+      "at": [
+        37.81425,
+        128.8976
+      ],
+      "text": "Approx. coast / radius150m",
+      "dx": -180,
+      "dy": 150,
+      "color": "#ffdd55"
+    },
+    {
+      "at": [
+        37.81419,
+        128.89829
+      ],
+      "text": "Observatory",
+      "dx": 20,
+      "dy": 50
+    }
+  ],
+  "panels": [
+    {
+      "image": "anchor_crop.jpg",
+      "caption": "User photo: white observatory and pastel tetrapods"
+    },
+    {
+      "image": "refs/0.jpg",
+      "caption": "Public comparison: same structural outline and wavebreakers"
+    }
+  ]
+}

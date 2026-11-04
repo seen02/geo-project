@@ -1,0 +1,485 @@
+{
+ "case": "1",
+ "photo": "reference.jpg",
+ "created": "2026-11-03T14:07:26",
+ "country": "KR",
+ "candidates": {
+  "01 Hanshin University": {
+   "level": "area",
+   "parent": null,
+   "bbox": [
+    37.629864,
+    127.006378,
+    37.638908,
+    127.017722
+   ],
+   "scan_bbox": null,
+   "center": [
+    37.634386,
+    127.01205
+   ],
+   "prior": 1.0,
+   "status": "open",
+   "note": "",
+   "from": "campuses.json"
+  },
+  "02 한신대학교": {
+   "level": "area",
+   "parent": null,
+   "bbox": [
+    37.188941,
+    127.017815,
+    37.197985,
+    127.029091
+   ],
+   "scan_bbox": null,
+   "center": [
+    37.193463,
+    127.023453
+   ],
+   "prior": 1.0,
+   "status": "open",
+   "note": "",
+   "from": "campuses.json"
+  },
+  "03 Hansin University": {
+   "level": "area",
+   "parent": null,
+   "bbox": [
+    37.630921,
+    127.007429,
+    37.639965,
+    127.018773
+   ],
+   "scan_bbox": null,
+   "center": [
+    37.635443,
+    127.013101
+   ],
+   "prior": 1.0,
+   "status": "open",
+   "note": "",
+   "from": "campuses.json"
+  },
+  "04 Hanshin University": {
+   "level": "area",
+   "parent": null,
+   "bbox": [
+    37.191135,
+    127.017635,
+    37.200179,
+    127.028913
+   ],
+   "scan_bbox": null,
+   "center": [
+    37.195657,
+    127.023274
+   ],
+   "prior": 1.0,
+   "status": "open",
+   "note": "",
+   "from": "campuses.json"
+  },
+  "05 Hanshin University": {
+   "level": "area",
+   "parent": null,
+   "bbox": [
+    37.189036,
+    127.018434,
+    37.19808,
+    127.02971
+   ],
+   "scan_bbox": null,
+   "center": [
+    37.193558,
+    127.024072
+   ],
+   "prior": 1.0,
+   "status": "open",
+   "note": "",
+   "from": "campuses.json"
+  },
+  "18 장준하통일관": {
+   "level": "road",
+   "parent": "05 Hanshin University",
+   "bbox": [
+    37.192106,
+    127.02658,
+    37.193372,
+    127.028159
+   ],
+   "scan_bbox": null,
+   "center": [
+    37.1927387,
+    127.0273697
+   ],
+   "prior": 1.0,
+   "status": "open",
+   "note": "",
+   "from": "building-candidates.json"
+  },
+  "6 경삼관(중앙도서관)": {
+   "level": "road",
+   "parent": "05 Hanshin University",
+   "bbox": [
+    37.193477,
+    127.023507,
+    37.194743,
+    127.025085
+   ],
+   "scan_bbox": null,
+   "center": [
+    37.1941104,
+    127.0242959
+   ],
+   "prior": 1.0,
+   "status": "open",
+   "note": "",
+   "from": "building-candidates.json"
+  },
+  "7 송암관": {
+   "level": "road",
+   "parent": "05 Hanshin University",
+   "bbox": [
+    37.193006,
+    127.025312,
+    37.194272,
+    127.02689
+   ],
+   "scan_bbox": null,
+   "center": [
+    37.1936394,
+    127.0261011
+   ],
+   "prior": 1.0,
+   "status": "open",
+   "note": "",
+   "from": "building-candidates.json"
+  },
+  "9 산학관": {
+   "level": "road",
+   "parent": "05 Hanshin University",
+   "bbox": [
+    37.192735,
+    127.026143,
+    37.194001,
+    127.027722
+   ],
+   "scan_bbox": null,
+   "center": [
+    37.193368,
+    127.0269325
+   ],
+   "prior": 1.0,
+   "status": "open",
+   "note": "",
+   "from": "building-candidates.json"
+  },
+  "SE frontage window": {
+   "level": "point",
+   "parent": "18 장준하통일관",
+   "bbox": null,
+   "scan_bbox": null,
+   "prior": 1.0,
+   "status": "open",
+   "note": "Compare foreground planter and crossing geometry; GPS is hypothesis"
+  },
+  "NW frontage window": {
+   "level": "point",
+   "parent": "18 장준하통일관",
+   "bbox": null,
+   "scan_bbox": null,
+   "prior": 1.0,
+   "status": "open",
+   "note": "Compare foreground planter and crossing geometry; GPS is hypothesis"
+  },
+  "Entrance axis window": {
+   "level": "point",
+   "parent": "18 장준하통일관",
+   "bbox": null,
+   "scan_bbox": null,
+   "prior": 1.0,
+   "status": "open",
+   "note": "Compare foreground planter and crossing geometry; GPS is hypothesis"
+  }
+ },
+ "clues": {
+  "K1": {
+   "text": "Banner reads HANSHIN UNIVERSITY; Korean-format plates and campus context",
+   "kind": "text",
+   "status": "read",
+   "file": "reference.jpg",
+   "source": "",
+   "used": true
+  },
+  "K2": {
+   "text": "EXIF GPS 37.1926194,127.0277161; Galaxy S24 23mm; time 2026-11-03 13:49 KST. Treat as hypothesis.",
+   "kind": "hint",
+   "status": "inferred",
+   "file": "intake/exif.json",
+   "source": "",
+   "used": true
+  },
+  "K3": {
+   "text": "NE frontage of Jangjunha Hall has central canopy, two curved planters, road parking and crossing to southeast; reference shows southeast planter and crossing on right",
+   "kind": "infra",
+   "status": "observed",
+   "file": "frontage-zoom.jpg",
+   "source": "",
+   "used": true
+  },
+  "K4": {
+   "text": "Official campus tour identifies building 18 as Jangjunha Hall; image and frontage geometry agree with GPS campus",
+   "kind": "text",
+   "status": "read",
+   "file": "official-sources.json",
+   "source": "",
+   "used": true
+  },
+  "K5": {
+   "text": "Bearing check from EXIF position with T marking anchor gives heading 41.2-42.0 deg; approximate anchor measurements; full pose RMS 122 px and unstable height, rejected for floor determination",
+   "kind": "geometry",
+   "status": "computed",
+   "file": "C:\\Users\\admin\\Documents\\ChatGPT\\새로운 프로젝트 선정\\frame-location\\.local-data\\requests\\FR-20261103-976876\\runs\\1\\bearing-check.json",
+   "source": "",
+   "used": true,
+   "resolves": [
+    "K3"
+   ]
+  }
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "clue": "K2",
+   "candidate": "02 한신대학교",
+   "lr": 3.0,
+   "why": "GPS hypothesis falls in Osan campus, not Seoul; bus stop is north of GPS",
+   "file": "intake/exif.json",
+   "cmd": ""
+  },
+  {
+   "id": "E2",
+   "clue": "K2",
+   "candidate": "05 Hanshin University",
+   "lr": 3.0,
+   "why": "GPS hypothesis falls in Osan campus, not Seoul; bus stop is north of GPS",
+   "file": "intake/exif.json",
+   "cmd": ""
+  },
+  {
+   "id": "E3",
+   "clue": "K2",
+   "candidate": "01 Hanshin University",
+   "lr": 0.34,
+   "why": "GPS hypothesis falls in Osan campus, not Seoul; bus stop is north of GPS",
+   "file": "intake/exif.json",
+   "cmd": ""
+  },
+  {
+   "id": "E4",
+   "clue": "K2",
+   "candidate": "03 Hansin University",
+   "lr": 0.34,
+   "why": "GPS hypothesis falls in Osan campus, not Seoul; bus stop is north of GPS",
+   "file": "intake/exif.json",
+   "cmd": ""
+  },
+  {
+   "id": "E5",
+   "clue": "K2",
+   "candidate": "04 Hanshin University",
+   "lr": 0.6,
+   "why": "GPS hypothesis falls in Osan campus, not Seoul; bus stop is north of GPS",
+   "file": "intake/exif.json",
+   "cmd": ""
+  },
+  {
+   "id": "E6",
+   "clue": "K1",
+   "candidate": "02 한신대학교",
+   "lr": 5.0,
+   "why": "Banner confirms university, but not campus by itself",
+   "file": "reference.jpg",
+   "cmd": ""
+  },
+  {
+   "id": "E7",
+   "clue": "K1",
+   "candidate": "05 Hanshin University",
+   "lr": 5.0,
+   "why": "Banner confirms university, but not campus by itself",
+   "file": "reference.jpg",
+   "cmd": ""
+  },
+  {
+   "id": "E8",
+   "clue": "K1",
+   "candidate": "01 Hanshin University",
+   "lr": 2.0,
+   "why": "Banner confirms university, but not campus by itself",
+   "file": "reference.jpg",
+   "cmd": ""
+  },
+  {
+   "id": "E9",
+   "clue": "K1",
+   "candidate": "03 Hansin University",
+   "lr": 2.0,
+   "why": "Banner confirms university, but not campus by itself",
+   "file": "reference.jpg",
+   "cmd": ""
+  },
+  {
+   "id": "E10",
+   "clue": "K1",
+   "candidate": "04 Hanshin University",
+   "lr": 5.0,
+   "why": "Banner confirms university, but not campus by itself",
+   "file": "reference.jpg",
+   "cmd": ""
+  },
+  {
+   "id": "E11",
+   "clue": "K3",
+   "candidate": "18 장준하통일관",
+   "lr": 5.0,
+   "why": "Compared all four frontages with satellite and official photos; curved entrance landscaping matches Jangjunha Hall",
+   "file": "official-match2.jpg",
+   "cmd": ""
+  },
+  {
+   "id": "E12",
+   "clue": "K3",
+   "candidate": "7 송암관",
+   "lr": 0.2,
+   "why": "Compared all four frontages with satellite and official photos; curved entrance landscaping matches Jangjunha Hall",
+   "file": "official-match2.jpg",
+   "cmd": ""
+  },
+  {
+   "id": "E13",
+   "clue": "K3",
+   "candidate": "9 산학관",
+   "lr": 0.2,
+   "why": "Compared all four frontages with satellite and official photos; curved entrance landscaping matches Jangjunha Hall",
+   "file": "official-match2.jpg",
+   "cmd": ""
+  },
+  {
+   "id": "E14",
+   "clue": "K3",
+   "candidate": "6 경삼관(중앙도서관)",
+   "lr": 0.2,
+   "why": "Compared all four frontages with satellite and official photos; curved entrance landscaping matches Jangjunha Hall",
+   "file": "official-match2.jpg",
+   "cmd": ""
+  },
+  {
+   "id": "E15",
+   "clue": "K4",
+   "candidate": "18 장준하통일관",
+   "lr": 20.0,
+   "why": "Official labels and independent frontage comparison place the scene at Osan campus building 18",
+   "file": "official/news-building.jpg",
+   "cmd": ""
+  },
+  {
+   "id": "E16",
+   "clue": "K4",
+   "candidate": "05 Hanshin University",
+   "lr": 10.0,
+   "why": "Official labels and independent frontage comparison place the scene at Osan campus building 18",
+   "file": "official/news-building.jpg",
+   "cmd": ""
+  },
+  {
+   "id": "E17",
+   "clue": "K4",
+   "candidate": "02 한신대학교",
+   "lr": 4.0,
+   "why": "Official labels and independent frontage comparison place the scene at Osan campus building 18",
+   "file": "official/news-building.jpg",
+   "cmd": ""
+  },
+  {
+   "id": "E18",
+   "clue": "K4",
+   "candidate": "01 Hanshin University",
+   "lr": 0.1,
+   "why": "Official labels and independent frontage comparison place the scene at Osan campus building 18",
+   "file": "official/news-building.jpg",
+   "cmd": ""
+  },
+  {
+   "id": "E19",
+   "clue": "K4",
+   "candidate": "03 Hansin University",
+   "lr": 0.1,
+   "why": "Official labels and independent frontage comparison place the scene at Osan campus building 18",
+   "file": "official/news-building.jpg",
+   "cmd": ""
+  },
+  {
+   "id": "E20",
+   "clue": "K4",
+   "candidate": "04 Hanshin University",
+   "lr": 0.2,
+   "why": "Official labels and independent frontage comparison place the scene at Osan campus building 18",
+   "file": "official/news-building.jpg",
+   "cmd": ""
+  },
+  {
+   "id": "E21",
+   "clue": "K5",
+   "candidate": "SE frontage window",
+   "lr": 5.0,
+   "why": "SE curved planter and right crossing define southeast frontage; GPS and bearing check consistent. Pose height rejected; precise window unverified.",
+   "file": "bearing-check.json",
+   "cmd": ""
+  },
+  {
+   "id": "E22",
+   "clue": "K5",
+   "candidate": "NW frontage window",
+   "lr": 0.25,
+   "why": "SE curved planter and right crossing define southeast frontage; GPS and bearing check consistent. Pose height rejected; precise window unverified.",
+   "file": "bearing-check.json",
+   "cmd": ""
+  },
+  {
+   "id": "E23",
+   "clue": "K5",
+   "candidate": "Entrance axis window",
+   "lr": 0.4,
+   "why": "SE curved planter and right crossing define southeast frontage; GPS and bearing check consistent. Pose height rejected; precise window unverified.",
+   "file": "bearing-check.json",
+   "cmd": ""
+  }
+ ],
+ "falsify": {
+  "SE frontage window": [
+   "Reject exact window/floor if verified ground controls cannot reproduce sky and foreground simultaneously; retain only frontage estimate when pose unstable"
+  ]
+ },
+ "log": [
+  "14:08 add --from campuses.json → +5 area",
+  "14:08 country KR",
+  "14:08 clue K1 [text/read] Banner reads HANSHIN UNIVERSITY; Korean-format plates and campus context",
+  "14:08 clue K2 [hint/inferred] EXIF GPS 37.1926194,127.0277161; Galaxy S24 23mm; time 2026-11-03 13:49 KST. Treat as hypothesis.",
+  "14:09 evidence K2 → 02 한신대학교:3, 05 Hanshin University:3, 01 Hanshin University:0.34, 03 Hansin University:0.34, 04 Hanshin University:0.6",
+  "14:12 evidence K1 → 02 한신대학교:5, 05 Hanshin University:5, 01 Hanshin University:2, 03 Hansin University:2, 04 Hanshin University:5",
+  "14:12 add --from building-candidates.json → +4 road",
+  "14:13 clue K3 [infra/observed] NE frontage of Jangjunha Hall has central canopy, two curved planters, road parking and crossing to southeast; reference shows southeast planter and crossing on right",
+  "14:13 evidence K3 → 18 장준하통일관:5, 7 송암관:0.2, 9 산학관:0.2, 6 경삼관(중앙도서관):0.2",
+  "14:14 add SE frontage window (point)",
+  "14:14 add NW frontage window (point)",
+  "14:14 add Entrance axis window (point)",
+  "14:15 clue K4 [text/read] Official campus tour identifies building 18 as Jangjunha Hall; image and frontage geometry agree with GPS campus",
+  "14:15 evidence K4 → 18 장준하통일관:20, 05 Hanshin University:10, 02 한신대학교:4, 01 Hanshin University:0.1, 03 Hansin University:0.1, 04 Hanshin University:0.2",
+  "14:16 clue K5 [geometry/computed] Bearing check from EXIF position with T marking anchor gives heading 41.2-42.0 deg; approximate anchor measurements; full pose RMS 122 px and unstable height, rejected for floor determination; resolves K3",
+  "14:16 evidence K5 → SE frontage window:5, NW frontage window:0.25, Entrance axis window:0.4",
+  "14:19 falsify SE frontage window: Reject exact window/floor if verified ground controls cannot reproduce sky and foreground simultaneously; retain only frontage estimate when pose unstable"
+ ],
+ "updated": "2026-11-03T14:19:02"
+}

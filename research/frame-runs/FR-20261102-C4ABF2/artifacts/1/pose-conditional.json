@@ -1,0 +1,21 @@
+{
+  "_frame": {
+    "frame": "upright",
+    "image_size": [
+      1440,
+      810
+    ],
+    "lat0": 37.814194,
+    "lon0": 128.897465
+  },
+  "_params": [
+    0,
+    0,
+    3.6,
+    103.49201021453815,
+    -7.26534878118392,
+    -2,
+    902.0435635211095
+  ],
+  "note": "Conditional fit to lookout x520 and assumed Skybay roof x1403, NOT independent camera localization. Heights and sea horizon uncertain."
+}

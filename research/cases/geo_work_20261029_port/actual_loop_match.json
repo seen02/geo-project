@@ -1,0 +1,376 @@
+[
+ {
+  "rank": 1,
+  "id": "jvBC2rHnTRgD4u9c9VIjng",
+  "file": null,
+  "score_global": 0.621,
+  "inliers": 6,
+  "matches": 23,
+  "refined": true,
+  "heading": 195,
+  "wgs": [
+   35.636555679224614,
+   139.7576254793205
+  ],
+  "road": "",
+  "date": "2021-06",
+  "label": ""
+ },
+ {
+  "rank": 2,
+  "id": "c4BD7JAAzFrRNScZNhGCbQ",
+  "file": null,
+  "score_global": 0.6186,
+  "inliers": 5,
+  "matches": 17,
+  "refined": true,
+  "heading": 195,
+  "wgs": [
+   35.63624452308678,
+   139.75724327398856
+  ],
+  "road": "",
+  "date": "",
+  "label": ""
+ },
+ {
+  "rank": 3,
+  "id": "pNJFRluGj7OJ-76S3fuOhw",
+  "file": null,
+  "score_global": 0.6128,
+  "inliers": 0,
+  "matches": 30,
+  "refined": true,
+  "heading": 195,
+  "wgs": [
+   35.63619673014042,
+   139.75716092196834
+  ],
+  "road": "",
+  "date": "",
+  "label": ""
+ },
+ {
+  "rank": 4,
+  "id": "5_uzmxyT16ktaggI1ZgwZA",
+  "file": null,
+  "score_global": 0.608,
+  "inliers": 7,
+  "matches": 23,
+  "refined": true,
+  "heading": 195,
+  "wgs": [
+   35.636296057347955,
+   139.75732219478184
+  ],
+  "road": "",
+  "date": "",
+  "label": ""
+ },
+ {
+  "rank": 5,
+  "id": "HSUdXXgwjkgFN7-SVHlg0Q",
+  "file": null,
+  "score_global": 0.5906,
+  "inliers": 0,
+  "matches": 28,
+  "refined": true,
+  "heading": 195,
+  "wgs": [
+   35.63654565477682,
+   139.75761830466192
+  ],
+  "road": "",
+  "date": "2022-09",
+  "label": ""
+ },
+ {
+  "rank": 6,
+  "id": "SDwU_BywUZh2yH5wD47AVQ",
+  "file": null,
+  "score_global": 0.5636,
+  "inliers": 0,
+  "matches": 28,
+  "refined": true,
+  "heading": 195,
+  "wgs": [
+   35.636552803876285,
+   139.75761830466192
+  ],
+  "road": "",
+  "date": "2020-02",
+  "label": ""
+ },
+ {
+  "rank": 7,
+  "id": "Sy-cNQfAL3qzHiSJI9kTfA",
+  "file": null,
+  "score_global": 0.5407,
+  "inliers": 0,
+  "matches": 31,
+  "refined": true,
+  "heading": 195,
+  "wgs": [
+   35.63653597275612,
+   139.75759327134915
+  ],
+  "road": "",
+  "date": "",
+  "label": ""
+ },
+ {
+  "rank": 8,
+  "id": "mGXK7uo9tarDypsiqCgZKw",
+  "file": null,
+  "score_global": 0.5406,
+  "inliers": 0,
+  "matches": 21,
+  "refined": true,
+  "heading": 195,
+  "wgs": [
+   35.63647035866262,
+   139.75753220882683
+  ],
+  "road": "",
+  "date": "",
+  "label": ""
+ },
+ {
+  "rank": 9,
+  "id": "l5iyVP4S9nfh0F6bBHsYfw",
+  "file": null,
+  "score_global": 0.5375,
+  "inliers": 6,
+  "matches": 23,
+  "refined": true,
+  "heading": 195,
+  "wgs": [
+   35.636604266476255,
+   139.7576489529377
+  ],
+  "road": "",
+  "date": "",
+  "label": ""
+ },
+ {
+  "rank": 10,
+  "id": "TeKpBvYeYPDGP6Wy6WUpBA",
+  "file": null,
+  "score_global": 0.5365,
+  "inliers": 7,
+  "matches": 27,
+  "refined": true,
+  "heading": 195,
+  "wgs": [
+   35.63637977210105,
+   139.757431919814
+  ],
+  "road": "",
+  "date": "",
+  "label": ""
+ },
+ {
+  "rank": 11,
+  "id": "a2ztDedNgCNJ7zx-LPlPDA",
+  "file": null,
+  "score_global": 0.4847,
+  "inliers": 0,
+  "matches": 19,
+  "refined": true,
+  "heading": 195,
+  "wgs": [
+   35.6366750456438,
+   139.75769964350494
+  ],
+  "road": "",
+  "date": "",
+  "label": ""
+ },
+ {
+  "rank": 12,
+  "id": "PrQrzp0iOFcjbeg64-ayMg",
+  "file": null,
+  "score_global": 0.4585,
+  "inliers": 7,
+  "matches": 29,
+  "refined": true,
+  "heading": 195,
+  "wgs": [
+   35.637111503208814,
+   139.75784500869463
+  ],
+  "road": "",
+  "date": "",
+  "label": ""
+ },
+ {
+  "rank": 13,
+  "id": "RnU6EvRgkuK5AwxJS6kOUg",
+  "file": null,
+  "score_global": 0.4451,
+  "inliers": 0,
+  "matches": 17,
+  "refined": true,
+  "heading": 195,
+  "wgs": [
+   35.63703006139515,
+   139.75782262679942
+  ],
+  "road": "",
+  "date": "",
+  "label": ""
+ },
+ {
+  "rank": 14,
+  "id": "B43MLYMPwHglHrJIcyH-Og",
+  "file": null,
+  "score_global": 0.4447,
+  "inliers": 5,
+  "matches": 17,
+  "refined": true,
+  "heading": 195,
+  "wgs": [
+   35.636489520263,
+   139.75717620699373
+  ],
+  "road": "",
+  "date": "",
+  "label": ""
+ },
+ {
+  "rank": 15,
+  "id": "7DA0Mp-XTrFhp8iDTQsPKQ",
+  "file": null,
+  "score_global": 0.4431,
+  "inliers": 6,
+  "matches": 16,
+  "refined": true,
+  "heading": 195,
+  "wgs": [
+   35.63694747871884,
+   139.75755622830448
+  ],
+  "road": "",
+  "date": "",
+  "label": ""
+ },
+ {
+  "rank": 16,
+  "id": "xAVn-jK2YHUFqN9_8eBAXQ",
+  "file": null,
+  "score_global": 0.4276,
+  "inliers": 5,
+  "matches": 21,
+  "refined": true,
+  "heading": 195,
+  "wgs": [
+   35.636781611024674,
+   139.75745749895515
+  ],
+  "road": "",
+  "date": "",
+  "label": ""
+ },
+ {
+  "rank": 17,
+  "id": "sD-LpyWf0YqHa6O-8NOFTw",
+  "file": null,
+  "score_global": 0.4255,
+  "inliers": 0,
+  "matches": 23,
+  "refined": true,
+  "heading": 195,
+  "wgs": [
+   35.63679169218126,
+   139.75772522276142
+  ],
+  "road": "",
+  "date": "",
+  "label": ""
+ },
+ {
+  "rank": 18,
+  "id": "rT8VUB1V5WBoOskADWMRNQ",
+  "file": null,
+  "score_global": 0.4187,
+  "inliers": 8,
+  "matches": 16,
+  "refined": true,
+  "heading": 195,
+  "wgs": [
+   35.636543894331346,
+   139.7572471732348
+  ],
+  "road": "",
+  "date": "",
+  "label": ""
+ },
+ {
+  "rank": 19,
+  "id": "shpZAU6erl-I-cFBSrStnA",
+  "file": null,
+  "score_global": 0.397,
+  "inliers": 0,
+  "matches": 21,
+  "refined": true,
+  "heading": 195,
+  "wgs": [
+   35.636415976004095,
+   139.75706055559814
+  ],
+  "road": "",
+  "date": "",
+  "label": ""
+ },
+ {
+  "rank": 20,
+  "id": "70H3JEiXvVFcs3mN4bM60Q",
+  "file": null,
+  "score_global": 0.3831,
+  "inliers": 7,
+  "matches": 23,
+  "refined": true,
+  "heading": 195,
+  "wgs": [
+   35.636630267502575,
+   139.7573296033597
+  ],
+  "road": "",
+  "date": "",
+  "label": ""
+ },
+ {
+  "rank": 21,
+  "id": "XuRv8GtDzNsaFhPJjaC0hQ",
+  "file": null,
+  "score_global": 0.3829,
+  "inliers": 0,
+  "matches": 20,
+  "refined": true,
+  "heading": 195,
+  "wgs": [
+   35.636704020268695,
+   139.75739698246832
+  ],
+  "road": "",
+  "date": "",
+  "label": ""
+ },
+ {
+  "rank": 22,
+  "id": "z3yCXUhTUm2OsXmR2Lfd8g",
+  "file": null,
+  "score_global": 0.3463,
+  "inliers": 0,
+  "matches": 27,
+  "refined": true,
+  "heading": 195,
+  "wgs": [
+   35.63657150273079,
+   139.75757751830417
+  ],
+  "road": "",
+  "date": "2023-10",
+  "label": ""
+ }
+]

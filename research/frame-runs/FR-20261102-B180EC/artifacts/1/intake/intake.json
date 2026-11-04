@@ -1,0 +1,492 @@
+{
+ "photo": "C:\\Users\\admin\\Documents\\ChatGPT\\새로운 프로젝트 선정\\frame-location\\.local-data\\requests\\FR-20261102-B180EC\\runs\\1\\reference.jpg",
+ "input": null,
+ "result": "ok",
+ "exif": {
+  "file": "C:\\Users\\admin\\Documents\\ChatGPT\\새로운 프로젝트 선정\\frame-location\\.local-data\\requests\\FR-20261102-B180EC\\runs\\1\\reference.jpg",
+  "size": [
+   1440,
+   810
+  ]
+ },
+ "ocr": [],
+ "rev": [
+  {
+   "variant": "full_flip",
+   "engine": "baidu",
+   "guess": [],
+   "links": [],
+   "error": "Page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://graph.baidu.com/pcpage/index?tpl_from=pc\", waiting until \"domcontentloaded\"\n",
+   "refused": false,
+   "shot": "full_flip_baidu.png",
+   "json": "full_flip_baidu.json",
+   "similar_n": 0,
+   "similar_sites": [],
+   "similar_sheet": null,
+   "similar_note": null
+  },
+  {
+   "variant": "full_flip",
+   "engine": "yandex",
+   "guess": [
+    "Image appears to contain: south korea seoul / capital of south korea / in south korea / в сеуле / cherry blossom / Similar images / Show more similar images"
+   ],
+   "links": [
+    {
+     "title": "ru.wikipedia.org",
+     "url": "https://ru.wikipedia.org/wiki/%D0%A1%D0%B5%D1%83%D0%BB?utm_medium=organic&utm_source=yandexsmartcamera",
+     "site": "ru.wikipedia.org"
+    },
+    {
+     "title": "695×391",
+     "url": "https://i.liveinmidwest.com/images/002/image-4337-5-j.webp",
+     "site": "i.liveinmidwest.com"
+    },
+    {
+     "title": "One Week in South Korea: The Ultimate Itinerary - Asia",
+     "url": "https://no.liveinmidwest.com/17617169-one-week-in-south-korea-the-ultimate-itinerary?utm_medium=organic&utm_source=yandexsmartcamera",
+     "site": "no.liveinmidwest.com"
+    },
+    {
+     "title": "612×344",
+     "url": "https://media.gettyimages.com/photos/view-of-tree-with-buildings-in-background-picture-id1189502368?s=612x612",
+     "site": "media.gettyimages.com"
+    },
+    {
+     "title": "Cherry Blossom Korea Photos and Premium High Res Pictures - Getty Images",
+     "url": "https://www.gettyimages.com/photos/cherry-blossom-korea?assettype=image&license=rf&alloweduse=availableforalluses&family=creative&phrase=cherry+blossom+korea&sort=mostpopular&utm_medium=organic&utm_source=yandexsmartcamera",
+     "site": "www.gettyimages.com"
+    },
+    {
+     "title": "Одна неделя в Южной Корее: лучший маршрут - Азия",
+     "url": "https://ru.liveinmidwest.com/17617169-one-week-in-south-korea-the-ultimate-itinerary?utm_medium=organic&utm_source=yandexsmartcamera",
+     "site": "ru.liveinmidwest.com"
+    },
+    {
+     "title": "1600×1092",
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEgEsaOlXszEqNgTPJk-6EO2gP2OgcFiac_erP16ZhTVEjjsclZpkW85FUDO6yTUmWdEHL_17oir-SBOuiHUyqarNH2S6mAJMQFFbusm8uShvtxTQhFeLa_cafWzaut-ob8Fd11Etw0EDs/s1600/IMG_1566-2.jpg",
+     "site": "blogger.googleusercontent.com"
+    },
+    {
+     "title": "Моя корейская авантюра: Цветение вишни в Сеуле",
+     "url": "https://sofyandkorea.blogspot.com/2016/04/blog-post.html?m=1&utm_medium=organic&utm_source=yandexsmartcamera",
+     "site": "sofyandkorea.blogspot.com"
+    }
+   ],
+   "error": null,
+   "refused": false,
+   "shot": "full_flip_yandex.png",
+   "json": "full_flip_yandex.json",
+   "similar_n": 0,
+   "similar_sites": [],
+   "similar_sheet": null,
+   "similar_note": null
+  },
+  {
+   "variant": "full_gray",
+   "engine": "baidu",
+   "guess": [],
+   "links": [],
+   "error": "Page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://graph.baidu.com/pcpage/index?tpl_from=pc\", waiting until \"domcontentloaded\"\n",
+   "refused": false,
+   "shot": "full_gray_baidu.png",
+   "json": "full_gray_baidu.json",
+   "similar_n": 0,
+   "similar_sites": [],
+   "similar_sheet": null,
+   "similar_note": null
+  },
+  {
+   "variant": "full_gray",
+   "engine": "yandex",
+   "guess": [
+    "Image appears to contain: capital of south korea / cherry blossom / парк / цветение вишни / сеул южная корея сакура / Similar images / Show more similar images"
+   ],
+   "links": [
+    {
+     "title": "ru.wikipedia.org",
+     "url": "https://ru.wikipedia.org/wiki/%D0%A1%D0%B5%D1%83%D0%BB?utm_medium=organic&utm_source=yandexsmartcamera",
+     "site": "ru.wikipedia.org"
+    },
+    {
+     "title": "1600×1092",
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEgEsaOlXszEqNgTPJk-6EO2gP2OgcFiac_erP16ZhTVEjjsclZpkW85FUDO6yTUmWdEHL_17oir-SBOuiHUyqarNH2S6mAJMQFFbusm8uShvtxTQhFeLa_cafWzaut-ob8Fd11Etw0EDs/s1600/IMG_1566-2.jpg",
+     "site": "blogger.googleusercontent.com"
+    },
+    {
+     "title": "Моя корейская авантюра: Цветение вишни в Сеуле",
+     "url": "https://sofyandkorea.blogspot.com/2016/04/blog-post.html?m=1&utm_medium=organic&utm_source=yandexsmartcamera",
+     "site": "sofyandkorea.blogspot.com"
+    },
+    {
+     "title": "4627×3085",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Cherry_Blossom_in_Yeouido_Park_-_panoramio_%283%29.jpg",
+     "site": "upload.wikimedia.org"
+    },
+    {
+     "title": "File:Cherry Blossom in Yeouido Park - panoramio (3).jpg - Wikimedia Commons",
+     "url": "https://commons.wikimedia.org/wiki/File:Cherry_Blossom_in_Yeouido_Park_-_panoramio_(3).jpg?utm_medium=organic&utm_source=yandexsmartcamera",
+     "site": "commons.wikimedia.org"
+    },
+    {
+     "title": "639×359",
+     "url": "https://myongjiblog.wordpress.com/wp-content/uploads/2016/05/kakaotalk_20160421_100630474.jpg",
+     "site": "myongjiblog.wordpress.com"
+    },
+    {
+     "title": "Türkçe (Turkish) - What Awaits you at Myongji",
+     "url": "https://myongjiblog.wordpress.com/category/turkce-turkish/?utm_medium=organic&utm_source=yandexsmartcamera",
+     "site": "myongjiblog.wordpress.com"
+    },
+    {
+     "title": "960×540",
+     "url": "https://myongjiblog.wordpress.com/wp-content/uploads/2016/04/kakaotalk_20160421_100630474.jpg",
+     "site": "myongjiblog.wordpress.com"
+    }
+   ],
+   "error": null,
+   "refused": false,
+   "shot": "full_gray_yandex.png",
+   "json": "full_gray_yandex.json",
+   "similar_n": 0,
+   "similar_sites": [],
+   "similar_sheet": null,
+   "similar_note": null
+  },
+  {
+   "variant": "full_wb",
+   "engine": "baidu",
+   "guess": [
+    "图中可能是樱花"
+   ],
+   "links": [
+    {
+     "title": "大孤山，一座孤独的山… - 抖音",
+     "url": "http://www.douyin.com/note/7503169506500807963",
+     "site": "www.douyin.com"
+    }
+   ],
+   "error": null,
+   "refused": false,
+   "shot": "full_wb_baidu.png",
+   "json": "full_wb_baidu.json",
+   "similar_n": 90,
+   "similar_sites": [
+    [
+     "meipian.cn",
+     37
+    ],
+    [
+     "xiaohongshu.com",
+     11
+    ],
+    [
+     "dianping.com",
+     9
+    ],
+    [
+     "douyin.com",
+     9
+    ],
+    [
+     "mafengwo.cn",
+     5
+    ],
+    [
+     "mbd.baidu.com",
+     4
+    ],
+    [
+     "weibo.com",
+     3
+    ],
+    [
+     "tuchong.com",
+     2
+    ],
+    [
+     "baijiahao.baidu.com",
+     1
+    ],
+    [
+     "dazhoushan.com",
+     1
+    ],
+    [
+     "sohu.com",
+     1
+    ],
+    [
+     "haokan.baidu.com",
+     1
+    ],
+    [
+     "cj.sina.com.cn",
+     1
+    ],
+    [
+     "club.autohome.com.cn",
+     1
+    ],
+    [
+     "poco.cn",
+     1
+    ],
+    [
+     "touch.travel.qunar.com",
+     1
+    ],
+    [
+     "jswxw.tuchong.com",
+     1
+    ],
+    [
+     "k.sina.com.cn",
+     1
+    ]
+   ],
+   "similar_sheet": "full_wb_baidu_similar.jpg",
+   "similar_note": null
+  },
+  {
+   "variant": "full_wb",
+   "engine": "yandex",
+   "guess": [
+    "Image appears to contain: seoul south korea / сеул южная корея / в сеуле / парк / сеул южная корея сакура / Similar images / Show more similar images"
+   ],
+   "links": [
+    {
+     "title": "ru.wikipedia.org",
+     "url": "https://ru.wikipedia.org/wiki/%D0%A1%D0%B5%D1%83%D0%BB?utm_medium=organic&utm_source=yandexsmartcamera",
+     "site": "ru.wikipedia.org"
+    },
+    {
+     "title": "695×391",
+     "url": "https://i.liveinmidwest.com/images/002/image-4337-5-j.webp",
+     "site": "i.liveinmidwest.com"
+    },
+    {
+     "title": "One Week in South Korea: The Ultimate Itinerary - Asia",
+     "url": "https://no.liveinmidwest.com/17617169-one-week-in-south-korea-the-ultimate-itinerary?utm_medium=organic&utm_source=yandexsmartcamera",
+     "site": "no.liveinmidwest.com"
+    },
+    {
+     "title": "612×344",
+     "url": "https://media.gettyimages.com/photos/view-of-tree-with-buildings-in-background-picture-id1189502368?s=612x612",
+     "site": "media.gettyimages.com"
+    },
+    {
+     "title": "Cherry Blossom Korea Photos and Premium High Res Pictures - Getty Images",
+     "url": "https://www.gettyimages.com/photos/cherry-blossom-korea?assettype=image&license=rf&alloweduse=availableforalluses&family=creative&phrase=cherry+blossom+korea&sort=mostpopular&utm_medium=organic&utm_source=yandexsmartcamera",
+     "site": "www.gettyimages.com"
+    },
+    {
+     "title": "Одна неделя в Южной Корее: лучший маршрут - Азия",
+     "url": "https://ru.liveinmidwest.com/17617169-one-week-in-south-korea-the-ultimate-itinerary?utm_medium=organic&utm_source=yandexsmartcamera",
+     "site": "ru.liveinmidwest.com"
+    },
+    {
+     "title": "1600×1092",
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEgEsaOlXszEqNgTPJk-6EO2gP2OgcFiac_erP16ZhTVEjjsclZpkW85FUDO6yTUmWdEHL_17oir-SBOuiHUyqarNH2S6mAJMQFFbusm8uShvtxTQhFeLa_cafWzaut-ob8Fd11Etw0EDs/s1600/IMG_1566-2.jpg",
+     "site": "blogger.googleusercontent.com"
+    },
+    {
+     "title": "Моя корейская авантюра: Цветение вишни в Сеуле",
+     "url": "https://sofyandkorea.blogspot.com/2016/04/blog-post.html?m=1&utm_medium=organic&utm_source=yandexsmartcamera",
+     "site": "sofyandkorea.blogspot.com"
+    }
+   ],
+   "error": null,
+   "refused": false,
+   "shot": "full_wb_yandex.png",
+   "json": "full_wb_yandex.json",
+   "similar_n": 0,
+   "similar_sites": [],
+   "similar_sheet": null,
+   "similar_note": null
+  },
+  {
+   "variant": "reference",
+   "engine": "baidu",
+   "guess": [
+    "图中可能是樱花"
+   ],
+   "links": [
+    {
+     "title": "大孤山，一座孤独的山… - 抖音",
+     "url": "http://www.douyin.com/note/7503169506500807963",
+     "site": "www.douyin.com"
+    }
+   ],
+   "error": null,
+   "refused": false,
+   "shot": "reference_baidu.png",
+   "json": "reference_baidu.json",
+   "similar_n": 90,
+   "similar_sites": [
+    [
+     "meipian.cn",
+     34
+    ],
+    [
+     "xiaohongshu.com",
+     15
+    ],
+    [
+     "dianping.com",
+     8
+    ],
+    [
+     "mbd.baidu.com",
+     7
+    ],
+    [
+     "douyin.com",
+     7
+    ],
+    [
+     "mafengwo.cn",
+     3
+    ],
+    [
+     "weibo.com",
+     2
+    ],
+    [
+     "baijiahao.baidu.com",
+     2
+    ],
+    [
+     "k.sina.com.cn",
+     2
+    ],
+    [
+     "club.autohome.com.cn",
+     1
+    ],
+    [
+     "dazhoushan.com",
+     1
+    ],
+    [
+     "new.qq.com",
+     1
+    ],
+    [
+     "haokan.baidu.com",
+     1
+    ],
+    [
+     "touch.travel.qunar.com",
+     1
+    ],
+    [
+     "mt.sohu.com",
+     1
+    ],
+    [
+     "tuchong.com",
+     1
+    ],
+    [
+     "sohu.com",
+     1
+    ],
+    [
+     "xf.dahe.cn",
+     1
+    ],
+    [
+     "cj.sina.com.cn",
+     1
+    ]
+   ],
+   "similar_sheet": "reference_baidu_similar.jpg",
+   "similar_note": null
+  },
+  {
+   "variant": "reference",
+   "engine": "yandex",
+   "guess": [
+    "Image appears to contain: south korea seoul / capital of south korea / парк / cherry blossom / in south korea / Similar images / Show more similar images"
+   ],
+   "links": [
+    {
+     "title": "ru.wikipedia.org",
+     "url": "https://ru.wikipedia.org/wiki/%D0%A1%D0%B5%D1%83%D0%BB?utm_medium=organic&utm_source=yandexsmartcamera",
+     "site": "ru.wikipedia.org"
+    },
+    {
+     "title": "695×391",
+     "url": "https://i.liveinmidwest.com/images/002/image-4337-5-j.webp",
+     "site": "i.liveinmidwest.com"
+    },
+    {
+     "title": "One Week in South Korea: The Ultimate Itinerary - Asia",
+     "url": "https://no.liveinmidwest.com/17617169-one-week-in-south-korea-the-ultimate-itinerary?utm_medium=organic&utm_source=yandexsmartcamera",
+     "site": "no.liveinmidwest.com"
+    },
+    {
+     "title": "612×344",
+     "url": "https://media.gettyimages.com/photos/view-of-tree-with-buildings-in-background-picture-id1189502368?s=612x612",
+     "site": "media.gettyimages.com"
+    },
+    {
+     "title": "Cherry Blossom Korea Photos and Premium High Res Pictures - Getty Images",
+     "url": "https://www.gettyimages.com/photos/cherry-blossom-korea?assettype=image&license=rf&alloweduse=availableforalluses&family=creative&phrase=cherry+blossom+korea&sort=mostpopular&utm_medium=organic&utm_source=yandexsmartcamera",
+     "site": "www.gettyimages.com"
+    },
+    {
+     "title": "Одна неделя в Южной Корее: лучший маршрут - Азия",
+     "url": "https://ru.liveinmidwest.com/17617169-one-week-in-south-korea-the-ultimate-itinerary?utm_medium=organic&utm_source=yandexsmartcamera",
+     "site": "ru.liveinmidwest.com"
+    },
+    {
+     "title": "1600×1092",
+     "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEgEsaOlXszEqNgTPJk-6EO2gP2OgcFiac_erP16ZhTVEjjsclZpkW85FUDO6yTUmWdEHL_17oir-SBOuiHUyqarNH2S6mAJMQFFbusm8uShvtxTQhFeLa_cafWzaut-ob8Fd11Etw0EDs/s1600/IMG_1566-2.jpg",
+     "site": "blogger.googleusercontent.com"
+    },
+    {
+     "title": "Моя корейская авантюра: Цветение вишни в Сеуле",
+     "url": "https://sofyandkorea.blogspot.com/2016/04/blog-post.html?m=1&utm_medium=organic&utm_source=yandexsmartcamera",
+     "site": "sofyandkorea.blogspot.com"
+    }
+   ],
+   "error": null,
+   "refused": false,
+   "shot": "reference_yandex.png",
+   "json": "reference_yandex.json",
+   "similar_n": 0,
+   "similar_sites": [],
+   "similar_sheet": null,
+   "similar_note": null
+  }
+ ],
+ "votes": {
+  "city": {
+   "south korea seoul": [
+    "yandex"
+   ],
+   "seoul south korea": [
+    "yandex"
+   ]
+  },
+  "place": {}
+ },
+ "status": {
+  "exif": "ok",
+  "variants": "ok",
+  "edges": "ok",
+  "ocr": "ok",
+  "rev-yandex": "ok",
+  "rev-baidu": "ok"
+ },
+ "timings": {
+  "exif": 1.0,
+  "variants": 2.4,
+  "edges": 2.8,
+  "ocr": 11.1,
+  "rev-yandex": 51.7,
+  "rev-baidu": 211.5
+ }
+}

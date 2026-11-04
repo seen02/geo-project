@@ -1,0 +1,30 @@
+{
+ "photo": "C:\\Users\\admin\\img2place_project\\geo_work_20261029_bridge\\query.jpg",
+ "input": null,
+ "result": "ok",
+ "exif": {
+  "file": "C:\\Users\\admin\\img2place_project\\geo_work_20261029_bridge\\query.jpg",
+  "size": [
+   1440,
+   810
+  ]
+ },
+ "ocr": [],
+ "rev": [],
+ "votes": {
+  "city": {},
+  "place": {}
+ },
+ "status": {
+  "exif": "ok",
+  "variants": "ok",
+  "edges": "ok",
+  "ocr": "ok"
+ },
+ "timings": {
+  "exif": 0.3,
+  "variants": 0.4,
+  "edges": 0.8,
+  "ocr": 6.6
+ }
+}

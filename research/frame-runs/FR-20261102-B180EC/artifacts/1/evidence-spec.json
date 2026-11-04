@@ -1,0 +1,30 @@
+{
+  "map": "location-map.jpg",
+  "width": 1280,
+  "labels": [
+    {
+      "at": [
+        37.1837772,
+        127.0195036
+      ],
+      "text": "Bojeoksa: landmark point, camera unverified",
+      "color": "#ffdd55",
+      "dx": -450,
+      "dy": -80
+    }
+  ],
+  "panels": [
+    {
+      "image": "skyline.png",
+      "caption": "Supplied photo: skyline crop; camera unverified"
+    },
+    {
+      "image": "duksan-2.jpg",
+      "caption": "Published Doksanseong view: blackforest.tistory.com/421"
+    },
+    {
+      "image": "cultural-comparison.jpeg",
+      "caption": "Independent view: Gyeonggi Cultural Foundation / Yoo Seunghye"
+    }
+  ]
+}

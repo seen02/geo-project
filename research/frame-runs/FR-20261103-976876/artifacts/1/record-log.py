@@ -1,0 +1,3 @@
+import pathlib,json
+x={'street_view':{'google':'gsv.py near 37.19355,127.0240 --radius 150 returned normal no-panorama response; this does not establish absence of Korean Roadview','kakao':'cua.createBrowserTab iab https://map.kakao.com/link/roadview/37.1926194,127.0277161 failed: Local browser use disabled in Work settings'},'network':'Python HTTPS satellite fetch succeeded; all three mosaics failed_tiles=0','custom_script':'download-official.py initially failed missing PIL; corrected via configured uv cache with pillow, successful downloads decoded'}
+pathlib.Path('verification-log.json').write_text(json.dumps(x,ensure_ascii=False,indent=2),encoding='utf-8')
