@@ -117,4 +117,6 @@ npm test
 
 ## License & Attribution
 
-Oldcircle의 geo-sleuth 원본 코드와 스킬은 **MIT**입니다. 일부 조회 데이터는 별도 출처 조건을 따릅니다. FRAME 자체 코드에는 별도 라이선스가 명시되어 있지 않으며, 한국 지역팩의 `services.md`는 작성 텍스트에 **CC0 1.0**을 표시합니다. 글꼴·사진·지도에는 각 출처의 조건이 적용됩니다. [geo-sleuth MIT 원문](vendor/geo-sleuth/LICENSE) · [조회 데이터 출처](vendor/geo-sleuth/skills/geo-sleuth/data/README.md) · [한국 지역팩 출처](apps/frame/region-packs/kr/services.md#provenance) · [제3자 소프트웨어와 자산 고지](THIRD_PARTY_NOTICES.md)
+FRAME과 이 저장소를 위해 직접 작성한 프로그램 코드는 **MIT 라이선스**로 공개합니다. 개인·상업 용도로 사용하고 수정·재배포할 수 있습니다. 사본이나 코드의 실질적인 부분을 배포할 때는 저작권 표시와 라이선스 전문을 함께 포함해야 합니다. [MIT 라이선스](LICENSE)
+
+geo-sleuth 원본에는 Oldcircle의 MIT 라이선스와 저작권 표시가 적용됩니다. 조회 데이터·글꼴·사진·지도와 지역팩의 별도 고지에는 각 자료의 기존 조건이 적용됩니다. [geo-sleuth 라이선스](vendor/geo-sleuth/LICENSE) · [제3자 소프트웨어와 자산 고지](THIRD_PARTY_NOTICES.md)
