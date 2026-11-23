@@ -66,18 +66,7 @@
     }
   },
   "evidence_spec": "evidence-spec.json",
-  "map_image": {
-    "file": "evidence/satellite-north.jpg",
-    "zoom": 19,
-    "origin_tile": [
-      449862,
-      202573
-    ],
-    "size": [
-      1792,
-      1792
-    ]
-  },
+  "map_image": null,
   "quality": {
     "checks": {
       "street_view": {
@@ -205,13 +194,11 @@
   "evidence": [
     {
       "name": "위치·구조물 비교",
-      "description": "실제 Google 위성영상 위 추정점·방향선과 원본 및 외부 지상 사진의 고정 구조물 비교입니다.",
-      "file": "evidence/evidence.jpg"
+      "description": "실제 Google 위성영상 위 추정점·방향선과 원본 및 외부 지상 사진의 고정 구조물 비교입니다."
     },
     {
       "name": "원본 위성 모자이크",
-      "description": "북쪽이 위인 WGS84, 줌 19 실제 위성영상입니다. 동일 이름의 satellite-north.json에 타일 원점과 크기를 보존했습니다.",
-      "file": "evidence/satellite-north.jpg"
+      "description": "북쪽이 위인 WGS84, 줌 19 실제 위성영상입니다. 동일 이름의 satellite-north.json에 타일 원점과 크기를 보존했습니다."
     }
   ]
 }

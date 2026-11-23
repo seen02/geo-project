@@ -89,12 +89,10 @@
   "evidence": [
     {
       "name": "위치·구조물 비교",
-      "file": "evidence.jpg",
       "description": "실제 Google 위성영상 위 추정점·방향선과 원본 및 외부 지상 사진의 고정 구조물 비교입니다."
     },
     {
       "name": "원본 위성 모자이크",
-      "file": "satellite-north.jpg",
       "description": "북쪽이 위인 WGS84, 줌 19 실제 위성영상입니다. 동일 이름의 satellite-north.json에 타일 원점과 크기를 보존했습니다."
     },
     {

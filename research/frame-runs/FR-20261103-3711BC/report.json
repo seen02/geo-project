@@ -72,18 +72,7 @@
     }
   },
   "evidence_spec": "evidence-spec.json",
-  "map_image": {
-    "file": "evidence/satellite.jpg",
-    "zoom": 19,
-    "origin_tile": [
-      447074,
-      203000
-    ],
-    "size": [
-      1280,
-      1280
-    ]
-  },
+  "map_image": null,
   "quality": {
     "checks": {
       "street_view": {
@@ -235,13 +224,11 @@
   "evidence": [
     {
       "name": "지도와 거리 사진 비교",
-      "description": "실제 위성 지도, 약 25m 추정 범위 표기와 두 개의 거리 사진 비교 패널입니다. 분홍 선은 추정 촬영 방향이며 화각 부채꼴은 표시하지 않았습니다.",
-      "file": "evidence/evidence.jpg"
+      "description": "실제 위성 지도, 약 25m 추정 범위 표기와 두 개의 거리 사진 비교 패널입니다. 분홍 선은 추정 촬영 방향이며 화각 부채꼴은 표시하지 않았습니다."
     },
     {
       "name": "원본 위성 모자이크",
-      "description": "북쪽 위 WGS84 Google 위성 지도입니다. z19, 1280×1280, failed_tiles=0이며 satellite.json을 함께 보존했습니다.",
-      "file": "evidence/satellite.jpg"
+      "description": "북쪽 위 WGS84 Google 위성 지도입니다. z19, 1280×1280, failed_tiles=0이며 satellite.json을 함께 보존했습니다."
     }
   ]
 }

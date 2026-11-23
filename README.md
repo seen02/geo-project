@@ -112,7 +112,7 @@ npm test
 | [apps/frame/](apps/frame/) | FRAME 화면, 로컬 서버, 실행기, 테스트, 한국 지역팩 |
 | [docs/](docs/) | 서비스 기획, 기술 구조, 진행 현황, [자료 정리 기준](docs/archive-policy.md) |
 | [research/](research/README.md) | 연구·재검증 작업 7개, 테스트 사진 출처, 실제 FRAME 실행 5건 |
-| [presentations/](presentations/README.md) | 사례 발표 자료와 이전 버전 |
+| [presentations/](presentations/README.md) | 사례 설명 자료의 제작 보조 코드 |
 | [vendor/geo-sleuth/](vendor/geo-sleuth/) | 조사에 사용한 업스트림 원본 스냅샷 |
 
 ## License & Attribution

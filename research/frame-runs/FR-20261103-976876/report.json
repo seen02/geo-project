@@ -62,18 +62,7 @@
     }
   },
   "evidence_spec": "evidence-spec.json",
-  "map_image": {
-    "file": "evidence/camera-satellite.jpg",
-    "zoom": 19,
-    "origin_tile": [
-      447139,
-      203714
-    ],
-    "size": [
-      1280,
-      1280
-    ]
-  },
+  "map_image": null,
   "quality": {
     "checks": {
       "street_view": {
@@ -195,13 +184,11 @@
   "evidence": [
     {
       "name": "위치 및 비교 근거",
-      "description": "추정 촬영 위치·시야와 원본/위성영상, 원본/공식 외관의 두 비교 패널입니다.",
-      "file": "evidence/evidence.jpg"
+      "description": "추정 촬영 위치·시야와 원본/위성영상, 원본/공식 외관의 두 비교 패널입니다."
     },
     {
       "name": "원본 위성 모자이크",
-      "description": "Google 북쪽이 위인 WGS84 z19 영상입니다. camera-satellite.json에 원점 타일·크기가 보존되어 있으며 실패 타일은 0개입니다.",
-      "file": "evidence/camera-satellite.jpg"
+      "description": "Google 북쪽이 위인 WGS84 z19 영상입니다. camera-satellite.json에 원점 타일·크기가 보존되어 있으며 실패 타일은 0개입니다."
     }
   ]
 }

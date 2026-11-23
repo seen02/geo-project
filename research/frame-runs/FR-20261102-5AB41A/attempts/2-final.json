@@ -31,12 +31,10 @@
   "evidence": [
     {
       "name": "위성지도와 원본·독립 사진 대조",
-      "file": "evidence.jpg",
       "description": "위쪽은 Esri 위성영상과 호수 대표점입니다. 아래 왼쪽은 실제 내려받은 Unsplash 동일 원본으로 출처 확인용이며, 오른쪽은 남티롤 공식 관광기관의 독립 현장 사진입니다. 레퍼런스를 독립 증거로 재사용하지 않았습니다."
     },
     {
       "name": "공식 관광기관의 독립 현장 사진",
-      "file": "official-landscape.jpg",
       "description": "남티롤 관광기관 제공, Harald Wisthaler 촬영. 절벽과 능선의 형태를 대조한 원본 파일입니다."
     }
   ],
