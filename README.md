@@ -2,7 +2,7 @@
 
 **레퍼런스 사진 한 장으로 촬영 후보를 찾고, 위치·방향·판단 근거를 리포트에서 검토하는 로컬 웹 프로토타입입니다.**
 
-![FRAME 홈 화면과 촬영지 조사 시작 버튼](docs/assets/frame-home.jpg)
+![FRAME 홈 화면의 공개 조사 사례 연락판과 조사 기록](docs/assets/frame-home.jpg)
 
 ## Service Overview
 
@@ -25,9 +25,9 @@
 
 ### 사진으로 리서치 의뢰
 
-사진을 올리고 원본 촬영지 또는 비슷한 장면의 후보를 요청합니다. 찾을 지역·촬영 목적·확인할 조건을 함께 적을 수 있고, 제출 전에 로컬 실행 환경을 확인합니다. [앱 사용법](apps/frame/README.md)
+사진을 올리고 원본 촬영지 또는 비슷한 장면의 후보를 요청합니다. 업로드 직후 브라우저에서 EXIF(기종·화각·조리개·셔터·ISO·촬영시각·GPS)를 즉시 판독해 안내하며, 찾을 지역·촬영 예정일(골든아워 계산)·보유 렌즈 화각대·희망 광선을 함께 적을 수 있습니다. [앱 사용법](apps/frame/README.md)
 
-![FRAME 로컬 의뢰 화면의 사진 업로드, 실행 환경과 리서치 유형 선택](docs/assets/frame-request-local.png)
+![FRAME 로컬 의뢰 화면의 사진 업로드, 즉시 EXIF 판독, 실행 환경과 촬영 조건 선택](docs/assets/frame-request-local.png)
 
 ### 실시간 진행 기록과 중단된 조사 복구
 
@@ -45,11 +45,11 @@
 
 ### 근거를 검토할 수 있는 촬영지 리포트
 
-장소 대표점과 카메라 추정점을 구분하고, 위치 추정 반경·촬영 방위각·수평 시야각과 그 근거를 항목별로 보여 줍니다. 리포트에서 비교 이미지와 출처를 열어 보고, 스튜디오에서 추가 근거와 판단을 보완할 수 있습니다. 결과 JSON·PDF와 의뢰 백업을 제공합니다. [리포트 구성 코드](apps/frame/dist/lib/research-report.js) · [실제 조사 기록](research/frame-runs/README.md)
+장소 대표점과 카메라 추정점을 구분하고, 위치 추정 반경·촬영 방위각·수평 시야각과 그 근거를 항목별로 보여 줍니다. 사진의 광학 정보(화각·조리개·셔터·ISO), 촬영 시점(POV·고도·피사체 거리), 촬영 시각·태양 방향·골든아워를 출처 배지(`EXIF 확인`·`기하 계산`·`태양 계산`·`시각 참고`·`미확인`)와 함께 구분 표시하며, 위성 오버레이에서 **화각 시뮬레이터(24/35/50/85mm)**와 **태양 광선 슬라이더**, 출사 링크(카카오맵·네이버지도·스트리트뷰·GPX 핀)를 제공합니다. 결과 JSON·PDF와 의뢰 백업을 지원합니다. [리포트 구성 코드](apps/frame/dist/lib/research-report.js) · [실제 조사 기록](research/frame-runs/README.md)
 
-![FRAME 샘플 리포트에 표시된 레퍼런스 사진, 위치 유형, 예시 반경과 촬영 방향](docs/assets/frame-report-preview.jpg)
+![FRAME 리포트에 표시된 레퍼런스 사진, 추정 위치·방향, EXIF 광학·시점·빛 정보와 출사 링크](docs/assets/frame-report-preview.jpg)
 
-*화면 구성용 샘플 리포트입니다. 사진·좌표·방향 수치는 시연용입니다.* [전체 화면](docs/assets/frame-report.jpg) · [샘플 사진 출처](apps/frame/ASSETS.md)
+*공개 조사 사례(한신대학교 경기캠퍼스) 리포트입니다. 확인된 EXIF와 추정 위치·방향·일조 정보를 함께 표시합니다.* [전체 화면 (위성 화각·태양 광선 시뮬레이터 포함)](docs/assets/frame-report.jpg) · [공개 사례 출처](apps/frame/ASSETS.md)
 
 ## System Architecture
 
@@ -103,7 +103,7 @@ npm run check
 npm test
 ```
 
-저장소 정리 시점에 Node 테스트 21개와 Python 테스트 7개를 통과했습니다. 모의 CLI와 로컬 HTTP 응답을 사용해 작업 관리·SSE·결과 파일·전송 처리를 점검했습니다. 위치 판단의 근거와 한계는 사례별 기록에 정리했습니다. [자동 테스트 범위](docs/validation.md)
+저장소 정리 시점에 Node 테스트 25개와 Python 테스트 7개를 통과했습니다. 모의 CLI와 로컬 HTTP 응답을 사용해 작업 관리·SSE·결과 파일·전송 처리·EXIF 판독·NOAA 태양 계산을 점검했습니다. 위치 판단의 근거와 한계는 사례별 기록에 정리했습니다. [자동 테스트 범위](docs/validation.md)
 
 ## Repository Guide
 
