@@ -7,5 +7,5 @@ export function validateModel(value=DEFAULT_MODEL){
 }
 export function modelLabel(value){return MODEL_OPTIONS.find(x=>x.id===value)?.label||value||'모델 정보 미기록';}
 export function modelPicker(selected=DEFAULT_MODEL,name='model'){
- return `<div class="model-picker"><label class="field"><span>분석 모델</span><select name="${name}" aria-label="분석 모델">${MODEL_OPTIONS.map(x=>`<option value="${x.id}" ${x.id===selected?'selected':''}>${x.label}</option>`).join('')}</select></label><div class="model-effort"><span>추론 수준</span><strong>HIGH · 고정</strong></div></div>`;
+ return `<div class="model-picker"><label class="field"><span>분석 모델</span><select name="${name}" aria-label="분석 모델">${MODEL_OPTIONS.map(x=>`<option value="${x.id}" ${x.id===selected?'selected':''}>${x.label}</option>`).join('')}</select></label><div class="model-effort"><span>추론 수준</span><strong>high · 고정</strong></div></div>`;
 }
