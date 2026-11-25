@@ -79,6 +79,7 @@ const string = { type: 'string' };
 const nullableNumber = { type: ['number', 'null'] };
 const object = properties => ({ type: 'object', properties, required: Object.keys(properties), additionalProperties: false });
 const array = items => ({ type: 'array', items });
+const sourceEnum = { type: 'string', enum: ['exif', 'geometry', 'sun_calc', 'visual', 'unknown'] };
 export const REPORT_SCHEMA = object({
   schema_version: { type: 'integer', enum: [1] }, request_id: string,
   title: string, place_name: string, region: string, summary: string,
@@ -89,6 +90,25 @@ export const REPORT_SCHEMA = object({
   verification: object(Object.fromEntries(['street_view','image_match','geometry'].map(k=>[k,object({status:{type:'string',enum:['verified','attempted','blocked','not_applicable','not_attempted']},summary:string,files:array(string)})]))),
   evidence_spec: string,
   confidence: { type: 'string', enum: ['high', 'medium', 'low', 'unrated'] },
+  optics: object({
+    camera: string, lens_model: string, focal_mm: nullableNumber, focal_35mm: nullableNumber, digital_zoom: nullableNumber,
+    f_number: nullableNumber, exposure_time: nullableNumber, shutter: string, iso: nullableNumber, exposure_bias: nullableNumber,
+    aspect_ratio: string, orientation: { type: 'string', enum: ['portrait', 'landscape', 'square', 'unknown'] },
+    image_size: { anyOf: [{ type: 'array', items: { type: 'integer' }, minItems: 2, maxItems: 2 }, { type: 'null' }] },
+    vfov: nullableNumber, source: sourceEnum, note: string,
+  }),
+  camera_pov: object({
+    viewpoint_level: { type: 'string', enum: ['low', 'eye_level', 'elevated', 'aerial', 'unknown'] },
+    viewpoint_label: string, pitch_deg: nullableNumber, roll_deg: nullableNumber,
+    elevation_m: nullableNumber, elevation_source: sourceEnum, height_agl_m: nullableNumber,
+    target_distance_m: nullableNumber, distance_basis: string, slope_note: string, source: sourceEnum,
+  }),
+  lighting: object({
+    captured_at: string, capture_time_source: sourceEnum, sun_azimuth: nullableNumber, sun_elevation: nullableNumber,
+    light_type: string, plan_date: string, tz_offset_min: nullableNumber,
+    sunrise: string, sunset: string, golden_morning: string, golden_evening: string, blue_evening: string,
+    recommended_window: string, source: sourceEnum,
+  }),
   composition: string, best_time: string, access: string, lens: string,
   clues: array(object({ title: string, description: string })),
   evidence: array(object({ name: string, file: string, description: string })),
@@ -122,10 +142,15 @@ export function describeEvent(event) {
     const messages = {
       'doctor.py': '조사 도구와 실행 환경을 점검하고 있습니다.',
       'intake.py': '사진 메타데이터·문자·유사 이미지를 조사하고 있습니다.',
+      'exif.py': '사진의 EXIF 화각·노출·촬영시각 메타데이터를 읽고 있습니다.',
+      'ocr.py': '사진 속 간판·표지판 문자를 판독하고 있습니다.',
       'board.py': '장소 후보와 근거를 정리하고 있습니다.',
       'tiles.py': '지도·위성 자료를 조회하고 있습니다.',
       'poi.py': '장소 후보의 위치를 조회하고 있습니다.',
-      'terrain.py': '지형과 산 능선을 대조하고 있습니다.',
+      'geo.py': '후보점의 방위각과 피사체 거리를 계산하고 있습니다.',
+      'pose.py': '카메라 시점·피치·시야각을 기하학적으로 검증하고 있습니다.',
+      'sun.py': '촬영 시각과 태양 방위·고도를 계산하고 있습니다.',
+      'terrain.py': '지형 고도와 산 능선을 대조하고 있습니다.',
       'gsv.py': '거리 사진과 촬영 위치를 대조하고 있습니다.',
       'match.py': '후보 이미지와 원본 사진의 특징을 비교하고 있습니다.',
       'evidence.py': '확인한 자료로 근거 이미지를 만들고 있습니다.',

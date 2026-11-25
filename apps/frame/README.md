@@ -135,3 +135,12 @@ geo-sleuth 자체 lint kr와 show 대한민국를 실제 worker 환경으로 실
 추가 점검 파일: network-diagnostics.json, tools.json, TOOL_GUIDE.md, checkpoint.json, recovery.json(복구 시), asset-validation.json. 재시도별 원시 로그는 codex.events.jsonl/codex.stderr.log, cli-2.events.jsonl/cli-2.stderr.log 등의 별도 파일로 보존합니다.
 
 회귀 테스트는 실제 모델 대신 테스트 자식 프로세스로 재시도·세션 유실·이어받기·중지·시간 제한을 재현합니다. Python 전송 테스트는 로컬 HTTP 서버만 사용합니다. 실제 사진을 재조사해 결과 품질이 개선됐는지는 별도 검증이 필요합니다.
+
+## 2026-11-25 포토그래퍼 특화 확장
+
+기존 Field Notes 화면 디자인을 유지한 채 포토그래퍼용 광학·시점·빛 정보와 출사 도구를 추가했습니다.
+
+- **EXIF 판독 및 후처리 보강**: 의뢰 화면에서 JPEG EXIF를 브라우저에서 즉시 판독해 안내(`dist/lib/exif-client.js`)하고, 조사 완료 시 `tools/photo_exif.py`와 `lib/enrich.mjs`로 카메라·렌즈·환산 초점거리·조리개·셔터·ISO·노출보정·촬영시각·GPS 고도를 자동 보강합니다.
+- **촬영 시점(POV) 및 태양·골든아워**: 리포트 스키마에 `optics`, `camera_pov`, `lighting`과 출처 배지(`exif`, `geometry`, `sun_calc`, `visual`, `unknown`)를 추가했습니다. `dist/lib/sun-calc.js`의 NOAA 태양 계산으로 촬영 당시 광선 방향(순광/측사광/역광)과 날짜별 일출·일몰·골든아워·블루아워를 산출합니다.
+- **위성 오버레이 시뮬레이터 및 출사 링크**: 기존 위성 `camera-overlay` 아래에 렌즈 화각 시뮬레이터(24/35/50/85mm)와 태양 광선 오버레이 슬라이더를 연결하고, 리포트에 카카오맵·네이버지도·스트리트뷰·GPX 웨이포인트 내보내기 링크를 추가했습니다.
+- **기존 조사 복구**: `node tools/recover_requests.mjs`로 `.local-data/requests/`의 원본 사진 EXIF와 검증된 DEM 고도·거리·태양 일조 정보를 비파괴 복구할 수 있으며, 기각된 자세 계산과 없는 EXIF는 미확인으로 유지합니다.

@@ -141,6 +141,56 @@ export const SHOWCASE = [
         ],
         "url": "./assets/demo-campus-map.jpg",
         "attribution": "Google · 위성영상. 원 출처는 아래 확인 자료와 출처 참고"
+      },
+      "optics": {
+        "camera": "samsung Galaxy S24",
+        "lens_model": "",
+        "focal_mm": 5.4,
+        "focal_35mm": 23,
+        "digital_zoom": 1,
+        "f_number": 1.8,
+        "exposure_time": 0.001712,
+        "shutter": "1/584s",
+        "iso": 25,
+        "exposure_bias": 0,
+        "aspect_ratio": "9:16",
+        "orientation": "portrait",
+        "image_size": [
+          2252,
+          4000
+        ],
+        "vfov": 78.7,
+        "source": "exif",
+        "note": ""
+      },
+      "camera_pov": {
+        "viewpoint_level": "elevated",
+        "viewpoint_label": "실내 전면 창가 추정 (정확한 층·호실 미확정)",
+        "pitch_deg": null,
+        "roll_deg": null,
+        "elevation_m": 78,
+        "elevation_source": "exif",
+        "height_agl_m": null,
+        "target_distance_m": null,
+        "distance_basis": "",
+        "slope_note": "",
+        "source": "visual"
+      },
+      "lighting": {
+        "captured_at": "2026-11-03T13:49:03+09:00",
+        "capture_time_source": "exif",
+        "sun_azimuth": 207.3,
+        "sun_elevation": 33.3,
+        "light_type": "순광",
+        "plan_date": "2026-11-03",
+        "tz_offset_min": 540,
+        "sunrise": "06:58",
+        "sunset": "17:34",
+        "golden_morning": "07:00–07:56",
+        "golden_evening": "16:34–17:30",
+        "blue_evening": "17:32–18:00",
+        "recommended_window": "",
+        "source": "exif"
       }
     }
   },
@@ -296,6 +346,56 @@ export const SHOWCASE = [
         ],
         "url": "./assets/demo-hanok-map.jpg",
         "attribution": "Google · 위성영상. 원 출처는 아래 확인 자료와 출처 참고"
+      },
+      "optics": {
+        "camera": "",
+        "lens_model": "",
+        "focal_mm": null,
+        "focal_35mm": null,
+        "digital_zoom": null,
+        "f_number": null,
+        "exposure_time": null,
+        "shutter": "",
+        "iso": null,
+        "exposure_bias": null,
+        "aspect_ratio": "9:16",
+        "orientation": "portrait",
+        "image_size": [
+          2866,
+          5095
+        ],
+        "vfov": null,
+        "source": "unknown",
+        "note": ""
+      },
+      "camera_pov": {
+        "viewpoint_level": "eye_level",
+        "viewpoint_label": "보행 눈높이 · 상단 내리막 골목",
+        "pitch_deg": null,
+        "roll_deg": null,
+        "elevation_m": 71,
+        "elevation_source": "geometry",
+        "height_agl_m": null,
+        "target_distance_m": 73.1,
+        "distance_basis": "상단 추정점에서 골목 하단 기준점까지 geo.py 계산 거리 73.1m (인접 파노라마 14.8m)",
+        "slope_note": "지형 경사: 상단 71m → 중간 70m(14.8m) → 하단 64m(73.1m)",
+        "source": "geometry"
+      },
+      "lighting": {
+        "captured_at": "",
+        "capture_time_source": "unknown",
+        "sun_azimuth": null,
+        "sun_elevation": null,
+        "light_type": "",
+        "plan_date": "2026-11-15",
+        "tz_offset_min": 540,
+        "sunrise": "07:12",
+        "sunset": "17:22",
+        "golden_morning": "07:14–08:12",
+        "golden_evening": "16:20–17:20",
+        "blue_evening": "17:20–17:48",
+        "recommended_window": "",
+        "source": "sun_calc"
       }
     }
   },
@@ -440,6 +540,56 @@ export const SHOWCASE = [
         ],
         "url": "./assets/demo-beach-map.jpg",
         "attribution": "Google · 위성영상. 원 출처는 아래 확인 자료와 출처 참고"
+      },
+      "optics": {
+        "camera": "",
+        "lens_model": "",
+        "focal_mm": null,
+        "focal_35mm": null,
+        "digital_zoom": null,
+        "f_number": null,
+        "exposure_time": null,
+        "shutter": "",
+        "iso": null,
+        "exposure_bias": null,
+        "aspect_ratio": "16:9",
+        "orientation": "landscape",
+        "image_size": [
+          1440,
+          810
+        ],
+        "vfov": null,
+        "source": "unknown",
+        "note": ""
+      },
+      "camera_pov": {
+        "viewpoint_level": "eye_level",
+        "viewpoint_label": "해안 곡선 석축 눈높이 추정 (높이 가정 민감)",
+        "pitch_deg": null,
+        "roll_deg": null,
+        "elevation_m": 2,
+        "elevation_source": "geometry",
+        "height_agl_m": null,
+        "target_distance_m": 47.2,
+        "distance_basis": "후보점에서 해중공원 전망대까지 geo.py 계산 거리 47.2m (원경 건물 1414.1m)",
+        "slope_note": "",
+        "source": "geometry"
+      },
+      "lighting": {
+        "captured_at": "",
+        "capture_time_source": "unknown",
+        "sun_azimuth": null,
+        "sun_elevation": null,
+        "light_type": "",
+        "plan_date": "2026-11-08",
+        "tz_offset_min": 540,
+        "sunrise": "06:58",
+        "sunset": "17:20",
+        "golden_morning": "06:58–07:56",
+        "golden_evening": "16:20–17:16",
+        "blue_evening": "17:18–17:46",
+        "recommended_window": "",
+        "source": "sun_calc"
       }
     }
   }

@@ -13,6 +13,7 @@ import {prepareCatalog,probeNetwork} from './tooling.mjs';
 import {inventory,carryForward} from './recovery.mjs';
 import {validateAssets} from './assets.mjs';
 import {executeWorker} from './worker.mjs';
+import {readPhotoExif,applyPhotographerEnrichment} from './enrich.mjs';
 
 export const activeState = state => ['queued', 'running'].includes(state);
 const idPattern = /^FR-[A-Z0-9-]{4,70}$/;
@@ -103,7 +104,8 @@ export class JobStore extends EventEmitter {
     const text = (key, max) => String(input[key] || '').trim().slice(0, max);
     if (!text('title', 100) || !text('brief', 5000)) throw Object.assign(new Error('제목과 요청사항을 입력해 주세요.'), { status: 400 });
     const id = `FR-${iso().slice(0,10).replaceAll('-','')}-${randomUUID().slice(0,6).toUpperCase()}`;
-    const r = { id, title: text('title',100), brief: text('brief',5000), region: text('region',120), purpose: text('purpose',100), constraints: text('constraints',500), date: text('date',20), mode: input.mode === 'alternative' ? 'alternative' : 'original', reference: { name: String(input.reference.name || 'reference.'+photo.extension).slice(0,200), type: photo.type, dataUrl: input.reference.dataUrl }, status: 'received', createdAt: iso(), updatedAt: iso(), isSample: false, report: null };
+    const gearLenses = Array.isArray(input.gear_lenses) ? input.gear_lenses.map(x => String(x || '').trim().slice(0, 40)).filter(Boolean).slice(0, 8) : [];
+    const r = { id, title: text('title',100), brief: text('brief',5000), region: text('region',120), purpose: text('purpose',100), constraints: text('constraints',500), date: text('date',20), gear_lenses: gearLenses, light_pref: text('light_pref', 100), mode: input.mode === 'alternative' ? 'alternative' : 'original', reference: { name: String(input.reference.name || 'reference.'+photo.extension).slice(0,200), type: photo.type, dataUrl: input.reference.dataUrl }, status: 'received', createdAt: iso(), updatedAt: iso(), isSample: false, report: null };
     r.model=model;this.records.set(id, r); await this.enqueue(r,model); return r;
   }
   async save(id, input) {
@@ -218,7 +220,9 @@ export class JobStore extends EventEmitter {
     try { raw = JSON.parse(await readFile(final, 'utf8')); }
     catch { throw { publicMessage: 'Codex 작업은 끝났지만 결과 JSON을 읽지 못했습니다. 다시 시작하거나 스튜디오에서 결과를 가져와 주세요.', message: 'invalid result' }; }
     if (raw.request_id !== r.id) throw { publicMessage: '조사 결과의 의뢰 번호가 일치하지 않습니다. 결과 연결을 중단했습니다.', message: 'request mismatch' };
-    const report = normalizeReport(raw);
+    const rawReport = normalizeReport(raw);
+    const exif = await readPhotoExif(reference, this.config);
+    const report = normalizeReport(applyPhotographerEnrichment(rawReport, exif, r));
     if (!report.place_name.trim() || !report.summary.trim()) throw { publicMessage: '조사 결과에 장소 또는 요약이 없습니다. 다시 시작하거나 스튜디오에서 확인해 주세요.', message: 'incomplete result' };
     const evidence = [];
     for (const entry of report.evidence.slice(0,15)) {

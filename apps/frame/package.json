@@ -7,6 +7,6 @@
     "dev": "node server.mjs",
     "start": "node server.mjs",
     "test": "node --test tests/*.test.mjs && python tests/transport_test.py",
-    "check": "node --check server.mjs && node --check lib/jobs.mjs && node --check lib/runtime.mjs && node --check dist/app.js && node --check dist/lib/live.js && node --check dist/lib/domain.js && node --check dist/lib/store.js && node --check lib/quality.mjs && node --check lib/prompt.mjs && node --check dist/lib/research-report.js && node --check dist/lib/models.js && node --check lib/errors.mjs && node --check lib/worker.mjs && node --check lib/recovery.mjs && node --check lib/tooling.mjs && node --check lib/assets.mjs"
+    "check": "node --check server.mjs && node --check lib/jobs.mjs && node --check lib/runtime.mjs && node --check lib/enrich.mjs && node --check dist/app.js && node --check dist/lib/live.js && node --check dist/lib/domain.js && node --check dist/lib/sun-calc.js && node --check dist/lib/exif-client.js && node --check dist/lib/store.js && node --check lib/quality.mjs && node --check lib/prompt.mjs && node --check dist/lib/research-report.js && node --check dist/lib/models.js && node --check lib/errors.mjs && node --check lib/worker.mjs && node --check lib/recovery.mjs && node --check lib/tooling.mjs && node --check lib/assets.mjs && node --check tools/recover_requests.mjs"
   }
 }
