@@ -26,11 +26,11 @@
 .location-desk .desk-case-arrow svg { width: 16px; height: 16px; }
 .location-desk .desk-case:hover h3 { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 5px; }
 .location-desk .desk-case:focus-visible { outline-color: #c5d8c3; outline-offset: 8px; }
-.location-desk .desk-feature-link { color: var(--green); font-size: 13px; }
-.location-desk .desk-case-prompt { display: block; margin-top: 12px; color: #d8dfd4; font-size: 12px; line-height: 1.7; }
-.location-desk .desk-photo-action { position: absolute; bottom: 12px; left: 12px; right: 12px; display: flex; align-items: center; justify-content: space-between; gap: 8px; min-height: 44px; padding: 12px; background: #f6f6f4; color: #23372a; font-size: 13px; line-height: 1.5; }
-.location-desk .desk-photo-action svg { width: 16px; height: 16px; flex-shrink: 0; }
-.location-desk .desk-case:hover .desk-photo-action { background: white; }
+/* Recommendation pattern: one framed card and a small label, inspired by supabase.com/pricing. */
+.location-desk .desk-case--recommended { position: relative; outline: 1px solid #b8c795; outline-offset: 8px; }
+.location-desk .desk-recommendation { position: absolute; top: -20px; left: 4px; z-index: 1; display: inline-block; padding: 4px 8px; border-radius: 2px; background: #dce5c9; color: #23372a; font-size: 11px; font-weight: 500; line-height: 20px; white-space: nowrap; }
+.location-desk .desk-case--recommended:hover { outline-color: #dce5c9; }
+.location-desk .desk-case--recommended:focus-visible { outline-width: 2px; }
 .location-desk .desk-evidence-note { font-size: 12px; line-height: 1.7; color: var(--muted); margin-top: 12px; }
 .location-desk .desk-swipe-hint { display: none; }
 .location-desk .desk-contact-sheet:focus-visible { outline: 2px solid var(--green); outline-offset: 4px; }
@@ -96,7 +96,6 @@
   .location-desk .desk-new { margin-top: 20px; }
   .location-desk .desk-section-heading { padding-bottom: 12px; gap: 12px; }
   .location-desk .desk-section-heading p { display: none; }
-  .location-desk .desk-section-heading > .desk-feature-link { flex-shrink: 1; max-width: 72%; text-align: right; }
   .location-desk .desk-contact-sheet { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; gap: 20px; padding: 16px 16px 20px; scrollbar-width: thin; scrollbar-color: #778578 #202522; }
   .location-desk .desk-contact-sheet .desk-case, .location-desk .desk-contact-sheet .desk-case:last-child { display: block; flex: 0 0 calc(100% - 40px); scroll-snap-align: start; }
   .location-desk .desk-negative { height: 340px; }

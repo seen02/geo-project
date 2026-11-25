@@ -49,11 +49,11 @@ function chrome(path){
 function renderHome(){
   const actual=requests.filter(r=>!r.isSample);
   const destination=r=>r.report?'#/report/'+r.id:r.job?'#/live/'+r.id:'#/report/'+r.id;
-  const picture=(r,index)=>`<a class="desk-case" href="#/example/${h(r.id)}" aria-label="${h(r.title)} 예시 리포트 보기"><figure><div class="desk-negative">${img(referenceURL(r),r.title,'desk-photograph')}${r.id==='FR-DEMO-HANOK'?`<span class="desk-photo-action">위치·방향 보기 ${icon('upRight')}</span>`:''}</div><figcaption><span class="desk-frame-number">${String(index+1).padStart(2,'0')}</span><div><h3>${h(r.title)}</h3><p>${h(r.caption)} · 조사 사례</p>${r.id==='FR-DEMO-HANOK'?`<span class="desk-case-prompt">이 구도는 어디서 찍었을까요?</span>`:''}</div><span class="desk-case-arrow">${icon('upRight')}</span></figcaption></figure></a>`;
+  const picture=(r,index)=>`<a class="desk-case ${r.id==='FR-DEMO-HANOK'?'desk-case--recommended':''}" href="#/example/${h(r.id)}" aria-label="${r.id==='FR-DEMO-HANOK'?'대표 예시 · 확인 추천: ':''}${h(r.title)} 예시 리포트 보기">${r.id==='FR-DEMO-HANOK'?'<span class="desk-recommendation">대표 예시 · 확인 추천</span>':''}<figure><div class="desk-negative">${img(referenceURL(r),r.title,'desk-photograph')}</div><figcaption><span class="desk-frame-number">${String(index+1).padStart(2,'0')}</span><div><h3>${h(r.title)}</h3><p>${h(r.caption)} · 조사 사례</p></div><span class="desk-case-arrow">${icon('upRight')}</span></figcaption></figure></a>`;
   const example=(kind,title,detail,action)=>`<button class="desk-example" data-action="${action}" ${kind==='lake'?'':`data-kind="${kind}"`}>${img('./assets/'+kind+'.jpg','')}<span><strong>${title}</strong><small>${detail}</small></span>${icon('arrow')}</button>`;
   return `<div class="container location-desk">
     <header class="desk-heading"><div><h1>촬영지 리서치</h1><p>사진 속 장소와 촬영 방향을, 확인 가능한 근거와 함께.</p></div><a class="desk-new" href="#/new">${icon('plus')} 새 조사 의뢰</a></header>
-    <section class="desk-scenes" aria-labelledby="desk-scenes-title"><div class="desk-section-heading"><h2 id="desk-scenes-title">조사 사례</h2><a class="desk-feature-link" href="#/example/FR-DEMO-HANOK">한옥마을 촬영 위치·방향 보기 ${icon('arrow')}</a></div>
+    <section class="desk-scenes" aria-labelledby="desk-scenes-title"><div class="desk-section-heading"><h2 id="desk-scenes-title">조사 사례</h2><p>사진을 열면 위치·방향과 확인 근거를 볼 수 있습니다</p></div>
       <div class="desk-contact-sheet" role="region" aria-label="조사 사례 사진 목록" tabindex="0" data-count="3">${SHOWCASE.map(picture).join('')}</div>
       <p class="desk-evidence-note"><span class="desk-swipe-hint">사진은 좌우로 넘겨 볼 수 있습니다. </span>저장된 조사 결과를 공개 예시로 제공합니다. 추정 범위와 미확인 사항은 각 리포트에서 확인하세요.</p>
     </section>
